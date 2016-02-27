@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/ericduran/Sites/drupal/drupal/core/lib/Drupal/Core/Database</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../../../../css/nv.d3.min.css" rel="stylesheet">
+  <link href="../../../../../css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="../../../../../js/html5shiv.min.js"></script>
+  <script src="../../../../../js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../../../../../index.html">/Users/ericduran/Sites/drupal/drupal</a></li>
+        <li><a href="../../../../index.html">core</a></li>
+        <li><a href="../../../index.html">lib</a></li>
+        <li><a href="../../index.html">Drupal</a></li>
+        <li><a href="../index.html">Core</a></li>
+        <li><a href="index.html">Database</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Statement.php.html#21">Statement</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Log.php.html#21">Log</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Delete.php.html#18">Delete</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Install/Tasks.php.html#17">Tasks</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RowCountException.php.html#13">RowCountException</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/TableSortExtender.php.html#15">TableSortExtender</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#15">SelectExtender</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/PagerSelectExtender.php.html#22">PagerSelectExtender</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Upsert.php.html#21">Upsert</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/pgsql/NativeUpsert.php.html#17">NativeUpsert</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Database.php.html#17">Database</a></td><td class="text-right">15%</td></tr>
+       <tr><td><a href="StatementEmpty.php.html#22">StatementEmpty</a></td><td class="text-right">21%</td></tr>
+       <tr><td><a href="Schema.php.html#16">Schema</a></td><td class="text-right">24%</td></tr>
+       <tr><td><a href="Query/QueryConditionTrait.php.html#17">QueryConditionTrait</a></td><td class="text-right">40%</td></tr>
+       <tr><td><a href="Driver/sqlite/Connection.php.html#17">Connection</a></td><td class="text-right">41%</td></tr>
+       <tr><td><a href="Query/Query.php.html#19">Query</a></td><td class="text-right">44%</td></tr>
+       <tr><td><a href="Query/InsertTrait.php.html#15">InsertTrait</a></td><td class="text-right">46%</td></tr>
+       <tr><td><a href="Query/Insert.php.html#17">Insert</a></td><td class="text-right">48%</td></tr>
+       <tr><td><a href="Transaction.php.html#29">Transaction</a></td><td class="text-right">53%</td></tr>
+       <tr><td><a href="Query/Merge.php.html#51">Merge</a></td><td class="text-right">53%</td></tr>
+       <tr><td><a href="StatementPrefetch.php.html#16">StatementPrefetch</a></td><td class="text-right">59%</td></tr>
+       <tr><td><a href="Query/Update.php.html#18">Update</a></td><td class="text-right">65%</td></tr>
+       <tr><td><a href="Query/Select.php.html#19">Select</a></td><td class="text-right">74%</td></tr>
+       <tr><td><a href="Query/Condition.php.html#16">Condition</a></td><td class="text-right">76%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Query/SelectExtender.php.html#15">SelectExtender</a></td><td class="text-right">4422</td></tr>
+       <tr><td><a href="Database.php.html#17">Database</a></td><td class="text-right">2054</td></tr>
+       <tr><td><a href="Install/Tasks.php.html#17">Tasks</a></td><td class="text-right">1056</td></tr>
+       <tr><td><a href="Statement.php.html#21">Statement</a></td><td class="text-right">812</td></tr>
+       <tr><td><a href="Schema.php.html#16">Schema</a></td><td class="text-right">807</td></tr>
+       <tr><td><a href="Driver/sqlite/Connection.php.html#17">Connection</a></td><td class="text-right">593</td></tr>
+       <tr><td><a href="Query/Select.php.html#19">Select</a></td><td class="text-right">417</td></tr>
+       <tr><td><a href="StatementPrefetch.php.html#16">StatementPrefetch</a></td><td class="text-right">372</td></tr>
+       <tr><td><a href="Log.php.html#21">Log</a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="Driver/pgsql/NativeUpsert.php.html#17">NativeUpsert</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="StatementEmpty.php.html#22">StatementEmpty</a></td><td class="text-right">177</td></tr>
+       <tr><td><a href="Query/PagerSelectExtender.php.html#22">PagerSelectExtender</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Query/Upsert.php.html#21">Upsert</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Query/Merge.php.html#51">Merge</a></td><td class="text-right">106</td></tr>
+       <tr><td><a href="Query/Condition.php.html#16">Condition</a></td><td class="text-right">65</td></tr>
+       <tr><td><a href="Query/TableSortExtender.php.html#15">TableSortExtender</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Query/Insert.php.html#17">Insert</a></td><td class="text-right">55</td></tr>
+       <tr><td><a href="Query/InsertTrait.php.html#15">InsertTrait</a></td><td class="text-right">43</td></tr>
+       <tr><td><a href="Query/Delete.php.html#18">Delete</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Query/Update.php.html#18">Update</a></td><td class="text-right">21</td></tr>
+       <tr><td><a href="Transaction.php.html#29">Transaction</a></td><td class="text-right">11</td></tr>
+       <tr><td><a href="RowCountException.php.html#13">RowCountException</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Query/QueryConditionTrait.php.html#100"><abbr title="QueryConditionTrait::compiled">compiled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#174"><abbr title="SelectExtender::having">having</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#86"><abbr title="SelectExtender::hasAnyTag">hasAnyTag</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#93"><abbr title="SelectExtender::addMetaData">addMetaData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#101"><abbr title="SelectExtender::getMetaData">getMetaData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#108"><abbr title="SelectExtender::condition">condition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#116"><abbr title="SelectExtender::conditions">conditions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#123"><abbr title="SelectExtender::arguments">arguments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#130"><abbr title="SelectExtender::where">where</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#138"><abbr title="SelectExtender::compile">compile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#145"><abbr title="SelectExtender::compiled">compiled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#152"><abbr title="SelectExtender::havingCondition">havingCondition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#160"><abbr title="SelectExtender::havingConditions">havingConditions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#167"><abbr title="SelectExtender::havingArguments">havingArguments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#182"><abbr title="SelectExtender::havingCompile">havingCompile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#72"><abbr title="SelectExtender::hasTag">hasTag</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#189"><abbr title="SelectExtender::havingIsNull">havingIsNull</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#197"><abbr title="SelectExtender::havingIsNotNull">havingIsNotNull</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#205"><abbr title="SelectExtender::havingExists">havingExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#213"><abbr title="SelectExtender::havingNotExists">havingNotExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#221"><abbr title="SelectExtender::extend">extend</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#231"><abbr title="SelectExtender::getFields">getFields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#238"><abbr title="SelectExtender::getExpressions">getExpressions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#245"><abbr title="SelectExtender::getOrderBy">getOrderBy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#252"><abbr title="SelectExtender::getGroupBy">getGroupBy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#259"><abbr title="SelectExtender::getTables">getTables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#266"><abbr title="SelectExtender::getUnion">getUnion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#273"><abbr title="SelectExtender::escapeLike">escapeLike</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#280"><abbr title="SelectExtender::escapeField">escapeField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#79"><abbr title="SelectExtender::hasAllTags">hasAllTags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#64"><abbr title="SelectExtender::addTag">addTag</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#295"><abbr title="SelectExtender::isPrepared">isPrepared</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Condition.php.html#356"><abbr title="Condition::orConditionGroup">orConditionGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Log.php.html#66"><abbr title="Log::start">start</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Log.php.html#80"><abbr title="Log::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/sqlite/Connection.php.html#179"><abbr title="Connection::getAttachedDatabases">getAttachedDatabases</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Log.php.html#103"><abbr title="Log::end">end</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Log.php.html#117"><abbr title="Log::log">log</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Log.php.html#147"><abbr title="Log::findCaller">findCaller</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Condition.php.html#93"><abbr title="Condition::where">where</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Condition.php.html#107"><abbr title="Condition::isNull">isNull</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Condition.php.html#121"><abbr title="Condition::exists">exists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Condition.php.html#128"><abbr title="Condition::notExists">notExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Condition.php.html#342"><abbr title="Condition::conditionGroupFactory">conditionGroupFactory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Condition.php.html#349"><abbr title="Condition::andConditionGroup">andConditionGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/PagerSelectExtender.php.html#52"><abbr title="PagerSelectExtender::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#57"><abbr title="SelectExtender::nextPlaceholder">nextPlaceholder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/PagerSelectExtender.php.html#66"><abbr title="PagerSelectExtender::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/PagerSelectExtender.php.html#96"><abbr title="PagerSelectExtender::ensureElement">ensureElement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/PagerSelectExtender.php.html#112"><abbr title="PagerSelectExtender::setCountQuery">setCountQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/PagerSelectExtender.php.html#125"><abbr title="PagerSelectExtender::getCountQuery">getCountQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/PagerSelectExtender.php.html#143"><abbr title="PagerSelectExtender::limit">limit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/PagerSelectExtender.php.html#167"><abbr title="PagerSelectExtender::element">element</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Query.php.html#87"><abbr title="Query::__sleep">__sleep</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Query.php.html#96"><abbr title="Query::__wakeup">__wakeup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Query.php.html#103"><abbr title="Query::__clone">__clone</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Query.php.html#159"><abbr title="Query::comment">comment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Query.php.html#179"><abbr title="Query::getComments">getComments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#41"><abbr title="SelectExtender::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#50"><abbr title="SelectExtender::uniqueIdentifier">uniqueIdentifier</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#288"><abbr title="SelectExtender::getArguments">getArguments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#302"><abbr title="SelectExtender::preExecute">preExecute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Statement.php.html#172"><abbr title="Statement::fetchAll">fetchAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StatementEmpty.php.html#128"><abbr title="StatementEmpty::key">key</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RowCountException.php.html#15"><abbr title="RowCountException::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StatementEmpty.php.html#34"><abbr title="StatementEmpty::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StatementEmpty.php.html#41"><abbr title="StatementEmpty::getQueryString">getQueryString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StatementEmpty.php.html#48"><abbr title="StatementEmpty::rowCount">rowCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StatementEmpty.php.html#58"><abbr title="StatementEmpty::setFetchMode">setFetchMode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StatementEmpty.php.html#65"><abbr title="StatementEmpty::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StatementEmpty.php.html#72"><abbr title="StatementEmpty::fetchField">fetchField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StatementEmpty.php.html#86"><abbr title="StatementEmpty::fetchAssoc">fetchAssoc</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StatementEmpty.php.html#100"><abbr title="StatementEmpty::fetchCol">fetchCol</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StatementEmpty.php.html#107"><abbr title="StatementEmpty::fetchAllKeyed">fetchAllKeyed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StatementEmpty.php.html#114"><abbr title="StatementEmpty::fetchAllAssoc">fetchAllAssoc</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StatementEmpty.php.html#121"><abbr title="StatementEmpty::current">current</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StatementEmpty.php.html#142"><abbr title="StatementEmpty::next">next</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/TableSortExtender.php.html#87"><abbr title="TableSortExtender::getQueryParameters">getQueryParameters</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StatementPrefetch.php.html#206"><abbr title="StatementPrefetch::throwPDOException">throwPDOException</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StatementPrefetch.php.html#227"><abbr title="StatementPrefetch::getStatement">getStatement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StatementPrefetch.php.html#234"><abbr title="StatementPrefetch::getQueryString">getQueryString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StatementPrefetch.php.html#374"><abbr title="StatementPrefetch::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StatementPrefetch.php.html#417"><abbr title="StatementPrefetch::fetchObject">fetchObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/InsertTrait.php.html#140"><abbr title="InsertTrait::useDefaults">useDefaults</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/InsertTrait.php.html#156"><abbr title="InsertTrait::getInsertPlaceholderFragment">getInsertPlaceholderFragment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/QueryConditionTrait.php.html#39"><abbr title="QueryConditionTrait::isNull">isNull</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/QueryConditionTrait.php.html#55"><abbr title="QueryConditionTrait::exists">exists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/QueryConditionTrait.php.html#63"><abbr title="QueryConditionTrait::notExists">notExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/QueryConditionTrait.php.html#78"><abbr title="QueryConditionTrait::arguments">arguments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/QueryConditionTrait.php.html#85"><abbr title="QueryConditionTrait::where">where</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/QueryConditionTrait.php.html#93"><abbr title="QueryConditionTrait::compile">compile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/TableSortExtender.php.html#101"><abbr title="TableSortExtender::order">order</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/TableSortExtender.php.html#74"><abbr title="TableSortExtender::getSort">getSort</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#314"><abbr title="SelectExtender::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#425"><abbr title="SelectExtender::groupBy">groupBy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#328"><abbr title="SelectExtender::distinct">distinct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#336"><abbr title="SelectExtender::addField">addField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#343"><abbr title="SelectExtender::fields">fields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#351"><abbr title="SelectExtender::addExpression">addExpression</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#358"><abbr title="SelectExtender::join">join</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#365"><abbr title="SelectExtender::innerJoin">innerJoin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#372"><abbr title="SelectExtender::leftJoin">leftJoin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#379"><abbr title="SelectExtender::rightJoin">rightJoin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#386"><abbr title="SelectExtender::addJoin">addJoin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#393"><abbr title="SelectExtender::orderBy">orderBy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#401"><abbr title="SelectExtender::orderRandom">orderRandom</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#409"><abbr title="SelectExtender::range">range</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#417"><abbr title="SelectExtender::union">union</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#433"><abbr title="SelectExtender::forUpdate">forUpdate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/TableSortExtender.php.html#59"><abbr title="TableSortExtender::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#441"><abbr title="SelectExtender::countQuery">countQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#448"><abbr title="SelectExtender::isNull">isNull</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#456"><abbr title="SelectExtender::isNotNull">isNotNull</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#464"><abbr title="SelectExtender::exists">exists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#472"><abbr title="SelectExtender::notExists">notExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#480"><abbr title="SelectExtender::__toString">__toString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#487"><abbr title="SelectExtender::__clone">__clone</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#504"><abbr title="SelectExtender::__call">__call</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#523"><abbr title="SelectExtender::conditionGroupFactory">conditionGroupFactory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#530"><abbr title="SelectExtender::andConditionGroup">andConditionGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#537"><abbr title="SelectExtender::orConditionGroup">orConditionGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/TableSortExtender.php.html#22"><abbr title="TableSortExtender::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/TableSortExtender.php.html#42"><abbr title="TableSortExtender::orderByHeader">orderByHeader</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Log.php.html#52"><abbr title="Log::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Log.php.html#93"><abbr title="Log::clear">clear</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Statement.php.html#154"><abbr title="Statement::setFetchMode">setFetchMode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Install/Tasks.php.html#193"><abbr title="Tasks::checkEngineVersion">checkEngineVersion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Delete.php.html#69"><abbr title="Delete::__toString">__toString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Insert.php.html#55"><abbr title="Insert::from">from</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Insert.php.html#118"><abbr title="Insert::__toString">__toString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Install/Tasks.php.html#90"><abbr title="Tasks::hasPdoDriver">hasPdoDriver</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Install/Tasks.php.html#97"><abbr title="Tasks::fail">fail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Install/Tasks.php.html#104"><abbr title="Tasks::pass">pass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Install/Tasks.php.html#111"><abbr title="Tasks::installable">installable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Install/Tasks.php.html#127"><abbr title="Tasks::minimumVersion">minimumVersion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Install/Tasks.php.html#137"><abbr title="Tasks::runTasks">runTasks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Install/Tasks.php.html#161"><abbr title="Tasks::connect">connect</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Install/Tasks.php.html#179"><abbr title="Tasks::runTestQuery">runTestQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Install/Tasks.php.html#209"><abbr title="Tasks::getFormOptions">getFormOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Delete.php.html#39"><abbr title="Delete::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Install/Tasks.php.html#294"><abbr title="Tasks::validateDatabaseSettings">validateDatabaseSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Merge.php.html#157"><abbr title="Merge::conditionTable">conditionTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Merge.php.html#172"><abbr title="Merge::updateFields">updateFields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Merge.php.html#197"><abbr title="Merge::expression">expression</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Merge.php.html#222"><abbr title="Merge::insertFields">insertFields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Merge.php.html#249"><abbr title="Merge::useDefaults">useDefaults</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Statement.php.html#141"><abbr title="Statement::rowCount">rowCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Schema.php.html#54"><abbr title="Schema::__clone">__clone</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Schema.php.html#61"><abbr title="Schema::uniqueIdentifier">uniqueIdentifier</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Schema.php.html#68"><abbr title="Schema::nextPlaceholder">nextPlaceholder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Schema.php.html#113"><abbr title="Schema::prefixNonTable">prefixNonTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Schema.php.html#146"><abbr title="Schema::buildTableNameCondition">buildTableNameCondition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Delete.php.html#53"><abbr title="Delete::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Database.php.html#462"><abbr title="Database::convertDbUrlToConnectionInfo">convertDbUrlToConnectionInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Schema.php.html#188"><abbr title="Schema::findTables">findTables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/sqlite/Connection.php.html#347"><abbr title="Connection::databaseType">databaseType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/sqlite/Connection.php.html#186"><abbr title="Connection::sqlFunctionIf">sqlFunctionIf</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/sqlite/Connection.php.html#193"><abbr title="Connection::sqlFunctionGreatest">sqlFunctionGreatest</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/sqlite/Connection.php.html#211"><abbr title="Connection::sqlFunctionConcat">sqlFunctionConcat</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/sqlite/Connection.php.html#221"><abbr title="Connection::sqlFunctionConcatWs">sqlFunctionConcatWs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/sqlite/Connection.php.html#229"><abbr title="Connection::anonymous function">anonymous function</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/sqlite/Connection.php.html#238"><abbr title="Connection::sqlFunctionSubstring">sqlFunctionSubstring</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/sqlite/Connection.php.html#245"><abbr title="Connection::sqlFunctionSubstringIndex">sqlFunctionSubstringIndex</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/sqlite/Connection.php.html#263"><abbr title="Connection::sqlFunctionRand">sqlFunctionRand</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/sqlite/Connection.php.html#277"><abbr title="Connection::sqlFunctionRegexp">sqlFunctionRegexp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/sqlite/Connection.php.html#295"><abbr title="Connection::sqlFunctionLikeBinary">sqlFunctionLikeBinary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/sqlite/Connection.php.html#327"><abbr title="Connection::queryRange">queryRange</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/sqlite/Connection.php.html#331"><abbr title="Connection::queryTemporary">queryTemporary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/sqlite/Connection.php.html#359"><abbr title="Connection::createDatabase">createDatabase</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Database.php.html#443"><abbr title="Database::ignoreTarget">ignoreTarget</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/sqlite/Connection.php.html#385"><abbr title="Connection::nextId">nextId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Database.php.html#100"><abbr title="Database::startLog">startLog</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Database.php.html#135"><abbr title="Database::getLog">getLog</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Database.php.html#186"><abbr title="Database::isActiveConnection">isActiveConnection</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Database.php.html#196"><abbr title="Database::setActiveConnection">setActiveConnection</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Database.php.html#212"><abbr title="Database::parseConnectionInfo">parseConnectionInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Database.php.html#256"><abbr title="Database::addConnectionInfo">addConnectionInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Database.php.html#281"><abbr title="Database::getAllConnectionInfo">getAllConnectionInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Database.php.html#292"><abbr title="Database::setMultipleConnectionInfo">setMultipleConnectionInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Database.php.html#311"><abbr title="Database::renameConnection">renameConnection</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Database.php.html#339"><abbr title="Database::removeConnection">removeConnection</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Database.php.html#404"><abbr title="Database::closeConnection">closeConnection</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Schema.php.html#168"><abbr title="Schema::tableExists">tableExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Merge.php.html#354"><abbr title="Merge::__toString">__toString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Schema.php.html#249"><abbr title="Schema::fieldExists">fieldExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Upsert.php.html#72"><abbr title="Upsert::preExecute">preExecute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Select.php.html#402"><abbr title="Select::escapeLike">escapeLike</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Select.php.html#409"><abbr title="Select::escapeField">escapeField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Select.php.html#589"><abbr title="Select::rightJoin">rightJoin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Select.php.html#641"><abbr title="Select::orderRandom">orderRandom</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Select.php.html#658"><abbr title="Select::union">union</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transaction.php.html#81"><abbr title="Transaction::name">name</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transaction.php.html#97"><abbr title="Transaction::rollback">rollback</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Update.php.html#109"><abbr title="Update::expression">expression</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Upsert.php.html#42"><abbr title="Upsert::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Upsert.php.html#56"><abbr title="Upsert::key">key</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Upsert.php.html#98"><abbr title="Upsert::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Select.php.html#388"><abbr title="Select::getTables">getTables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/pgsql/NativeUpsert.php.html#22"><abbr title="NativeUpsert::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/pgsql/NativeUpsert.php.html#102"><abbr title="NativeUpsert::__toString">__toString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Statement.php.html#39"><abbr title="Statement::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Statement.php.html#47"><abbr title="Statement::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Statement.php.html#77"><abbr title="Statement::getQueryString">getQueryString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Statement.php.html#84"><abbr title="Statement::fetchCol">fetchCol</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Statement.php.html#91"><abbr title="Statement::fetchAllAssoc">fetchAllAssoc</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Statement.php.html#113"><abbr title="Statement::fetchAllKeyed">fetchAllKeyed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Statement.php.html#125"><abbr title="Statement::fetchField">fetchField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Statement.php.html#133"><abbr title="Statement::fetchAssoc">fetchAssoc</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Select.php.html#395"><abbr title="Select::getUnion">getUnion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Select.php.html#683"><abbr title="Select::groupBy">groupBy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Select.php.html#350"><abbr title="Select::forUpdate">forUpdate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Select.php.html#270"><abbr title="Select::havingCondition">havingCondition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Select.php.html#292"><abbr title="Select::having">having</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Select.php.html#342"><abbr title="Select::havingNotExists">havingNotExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Select.php.html#182"><abbr title="Select::getMetaData">getMetaData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Select.php.html#167"><abbr title="Select::hasAnyTag">hasAnyTag</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Select.php.html#300"><abbr title="Select::havingCompile">havingCompile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Select.php.html#160"><abbr title="Select::hasAllTags">hasAllTags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Select.php.html#307"><abbr title="Select::extend">extend</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Select.php.html#318"><abbr title="Select::havingIsNull">havingIsNull</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Select.php.html#153"><abbr title="Select::hasTag">hasTag</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Schema.php.html#657"><abbr title="Schema::escapeDefaultValue">escapeDefaultValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Schema.php.html#641"><abbr title="Schema::prepareComment">prepareComment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Select.php.html#326"><abbr title="Select::havingIsNotNull">havingIsNotNull</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Schema.php.html#617"><abbr title="Schema::fieldNames">fieldNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Select.php.html#334"><abbr title="Select::havingExists">havingExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Select.php.html#285"><abbr title="Select::havingArguments">havingArguments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Database.php.html#362"><abbr title="Database::openConnection">openConnection</abbr></a></td><td class="text-right">14%</td></tr>
+       <tr><td><a href="StatementPrefetch.php.html#273"><abbr title="StatementPrefetch::current">current</abbr></a></td><td class="text-right">28%</td></tr>
+       <tr><td><a href="Driver/sqlite/Connection.php.html#148"><abbr title="Connection::__destruct">__destruct</abbr></a></td><td class="text-right">28%</td></tr>
+       <tr><td><a href="StatementPrefetch.php.html#241"><abbr title="StatementPrefetch::setFetchMode">setFetchMode</abbr></a></td><td class="text-right">46%</td></tr>
+       <tr><td><a href="Driver/sqlite/Connection.php.html#313"><abbr title="Connection::handleQueryException">handleQueryException</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Query/Insert.php.html#148"><abbr title="Insert::preExecute">preExecute</abbr></a></td><td class="text-right">55%</td></tr>
+       <tr><td><a href="Database.php.html#504"><abbr title="Database::getConnectionInfoAsUrl">getConnectionInfoAsUrl</abbr></a></td><td class="text-right">56%</td></tr>
+       <tr><td><a href="Query/Merge.php.html#357"><abbr title="Merge::execute">execute</abbr></a></td><td class="text-right">58%</td></tr>
+       <tr><td><a href="Query/Insert.php.html#69"><abbr title="Insert::execute">execute</abbr></a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="Query/Update.php.html#125"><abbr title="Update::execute">execute</abbr></a></td><td class="text-right">62%</td></tr>
+       <tr><td><a href="Transaction.php.html#53"><abbr title="Transaction::__construct">__construct</abbr></a></td><td class="text-right">62%</td></tr>
+       <tr><td><a href="Database.php.html#270"><abbr title="Database::getConnectionInfo">getConnectionInfo</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Query/Condition.php.html#142"><abbr title="Condition::arguments">arguments</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Query/Condition.php.html#262"><abbr title="Condition::__toString">__toString</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="StatementPrefetch.php.html#361"><abbr title="StatementPrefetch::rowCount">rowCount</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Query/Update.php.html#162"><abbr title="Update::__toString">__toString</abbr></a></td><td class="text-right">70%</td></tr>
+       <tr><td><a href="Query/Merge.php.html#334"><abbr title="Merge::key">key</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Query/Select.php.html#473"><abbr title="Select::execute">execute</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="StatementPrefetch.php.html#144"><abbr title="StatementPrefetch::execute">execute</abbr></a></td><td class="text-right">76%</td></tr>
+       <tr><td><a href="Query/Condition.php.html#71"><abbr title="Condition::condition">condition</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Query/Select.php.html#888"><abbr title="Select::__clone">__clone</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Query/Select.php.html#244"><abbr title="Select::compiled">compiled</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Query/Select.php.html#706"><abbr title="Select::prepareCountQuery">prepareCountQuery</abbr></a></td><td class="text-right">81%</td></tr>
+       <tr><td><a href="Query/Merge.php.html#308"><abbr title="Merge::keys">keys</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Schema.php.html#595"><abbr title="Schema::createTable">createTable</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="StatementPrefetch.php.html#459"><abbr title="StatementPrefetch::fetchAll">fetchAll</abbr></a></td><td class="text-right">84%</td></tr>
+       <tr><td><a href="Query/Condition.php.html#153"><abbr title="Condition::compile">compile</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="Query/InsertTrait.php.html#106"><abbr title="InsertTrait::values">values</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="Query/Merge.php.html#275"><abbr title="Merge::fields">fields</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="Query/Select.php.html#495"><abbr title="Select::addField">addField</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="Query/Select.php.html#189"><abbr title="Select::arguments">arguments</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="Database.php.html#155"><abbr title="Database::getConnection">getConnection</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="Query/Select.php.html#224"><abbr title="Select::compile">compile</abbr></a></td><td class="text-right">87%</td></tr>
+       <tr><td><a href="StatementPrefetch.php.html#504"><abbr title="StatementPrefetch::fetchAllKeyed">fetchAllKeyed</abbr></a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Driver/pgsql/NativeUpsert.php.html#22"><abbr title="NativeUpsert::execute">execute</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="StatementPrefetch.php.html#273"><abbr title="StatementPrefetch::current">current</abbr></a></td><td class="text-right">111</td></tr>
+       <tr><td><a href="Install/Tasks.php.html#209"><abbr title="Tasks::getFormOptions">getFormOptions</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Log.php.html#147"><abbr title="Log::findCaller">findCaller</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Schema.php.html#188"><abbr title="Schema::findTables">findTables</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Database.php.html#462"><abbr title="Database::convertDbUrlToConnectionInfo">convertDbUrlToConnectionInfo</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Database.php.html#404"><abbr title="Database::closeConnection">closeConnection</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Install/Tasks.php.html#137"><abbr title="Tasks::runTasks">runTasks</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Statement.php.html#172"><abbr title="Statement::fetchAll">fetchAll</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Statement.php.html#91"><abbr title="Statement::fetchAllAssoc">fetchAllAssoc</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Statement.php.html#47"><abbr title="Statement::execute">execute</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Query/Upsert.php.html#72"><abbr title="Upsert::preExecute">preExecute</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Database.php.html#362"><abbr title="Database::openConnection">openConnection</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Install/Tasks.php.html#294"><abbr title="Tasks::validateDatabaseSettings">validateDatabaseSettings</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Database.php.html#311"><abbr title="Database::renameConnection">renameConnection</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Query/InsertTrait.php.html#156"><abbr title="InsertTrait::getInsertPlaceholderFragment">getInsertPlaceholderFragment</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Query/Select.php.html#658"><abbr title="Select::union">union</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Database.php.html#212"><abbr title="Database::parseConnectionInfo">parseConnectionInfo</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Database.php.html#100"><abbr title="Database::startLog">startLog</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Statement.php.html#154"><abbr title="Statement::setFetchMode">setFetchMode</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Driver/sqlite/Connection.php.html#245"><abbr title="Connection::sqlFunctionSubstringIndex">sqlFunctionSubstringIndex</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Driver/sqlite/Connection.php.html#193"><abbr title="Connection::sqlFunctionGreatest">sqlFunctionGreatest</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Query/Upsert.php.html#98"><abbr title="Upsert::execute">execute</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Query/Merge.php.html#357"><abbr title="Merge::execute">execute</abbr></a></td><td class="text-right">19</td></tr>
+       <tr><td><a href="Driver/sqlite/Connection.php.html#148"><abbr title="Connection::__destruct">__destruct</abbr></a></td><td class="text-right">19</td></tr>
+       <tr><td><a href="Query/Condition.php.html#153"><abbr title="Condition::compile">compile</abbr></a></td><td class="text-right">15</td></tr>
+       <tr><td><a href="Database.php.html#186"><abbr title="Database::isActiveConnection">isActiveConnection</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Schema.php.html#617"><abbr title="Schema::fieldNames">fieldNames</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="StatementPrefetch.php.html#417"><abbr title="StatementPrefetch::fetchObject">fetchObject</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="StatementPrefetch.php.html#374"><abbr title="StatementPrefetch::fetch">fetch</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Driver/sqlite/Connection.php.html#221"><abbr title="Connection::sqlFunctionConcatWs">sqlFunctionConcatWs</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Install/Tasks.php.html#193"><abbr title="Tasks::checkEngineVersion">checkEngineVersion</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Query/PagerSelectExtender.php.html#66"><abbr title="PagerSelectExtender::execute">execute</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Driver/sqlite/Connection.php.html#359"><abbr title="Connection::createDatabase">createDatabase</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Schema.php.html#657"><abbr title="Schema::escapeDefaultValue">escapeDefaultValue</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Database.php.html#292"><abbr title="Database::setMultipleConnectionInfo">setMultipleConnectionInfo</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Query/Select.php.html#706"><abbr title="Select::prepareCountQuery">prepareCountQuery</abbr></a></td><td class="text-right">11</td></tr>
+       <tr><td><a href="Query/Insert.php.html#148"><abbr title="Insert::preExecute">preExecute</abbr></a></td><td class="text-right">11</td></tr>
+       <tr><td><a href="StatementPrefetch.php.html#144"><abbr title="StatementPrefetch::execute">execute</abbr></a></td><td class="text-right">10</td></tr>
+       <tr><td><a href="Database.php.html#504"><abbr title="Database::getConnectionInfoAsUrl">getConnectionInfoAsUrl</abbr></a></td><td class="text-right">9</td></tr>
+       <tr><td><a href="StatementPrefetch.php.html#241"><abbr title="StatementPrefetch::setFetchMode">setFetchMode</abbr></a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="Query/Select.php.html#244"><abbr title="Select::compiled">compiled</abbr></a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="Query/Select.php.html#189"><abbr title="Select::arguments">arguments</abbr></a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="Query/Update.php.html#125"><abbr title="Update::execute">execute</abbr></a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="Query/Insert.php.html#69"><abbr title="Insert::execute">execute</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Delete.php.html#69"><abbr title="Delete::__toString">__toString</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#302"><abbr title="SelectExtender::preExecute">preExecute</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Driver/sqlite/Connection.php.html#263"><abbr title="Connection::sqlFunctionRand">sqlFunctionRand</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Merge.php.html#222"><abbr title="Merge::insertFields">insertFields</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Database.php.html#339"><abbr title="Database::removeConnection">removeConnection</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/PagerSelectExtender.php.html#96"><abbr title="PagerSelectExtender::ensureElement">ensureElement</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/PagerSelectExtender.php.html#125"><abbr title="PagerSelectExtender::getCountQuery">getCountQuery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/PagerSelectExtender.php.html#167"><abbr title="PagerSelectExtender::element">element</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#504"><abbr title="SelectExtender::__call">__call</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/SelectExtender.php.html#314"><abbr title="SelectExtender::execute">execute</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Statement.php.html#141"><abbr title="Statement::rowCount">rowCount</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/TableSortExtender.php.html#42"><abbr title="TableSortExtender::orderByHeader">orderByHeader</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="RowCountException.php.html#15"><abbr title="RowCountException::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="StatementEmpty.php.html#48"><abbr title="StatementEmpty::rowCount">rowCount</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Install/Tasks.php.html#179"><abbr title="Tasks::runTestQuery">runTestQuery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Install/Tasks.php.html#161"><abbr title="Tasks::connect">connect</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Delete.php.html#53"><abbr title="Delete::execute">execute</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Install/Tasks.php.html#111"><abbr title="Tasks::installable">installable</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Insert.php.html#118"><abbr title="Insert::__toString">__toString</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Log.php.html#117"><abbr title="Log::log">log</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Log.php.html#66"><abbr title="Log::start">start</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Statement.php.html#113"><abbr title="Statement::fetchAllKeyed">fetchAllKeyed</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Driver/pgsql/NativeUpsert.php.html#102"><abbr title="NativeUpsert::__toString">__toString</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Select.php.html#350"><abbr title="Select::forUpdate">forUpdate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Database.php.html#256"><abbr title="Database::addConnectionInfo">addConnectionInfo</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Select.php.html#182"><abbr title="Select::getMetaData">getMetaData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Database.php.html#196"><abbr title="Database::setActiveConnection">setActiveConnection</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Driver/sqlite/Connection.php.html#186"><abbr title="Connection::sqlFunctionIf">sqlFunctionIf</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Select.php.html#307"><abbr title="Select::extend">extend</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Database.php.html#135"><abbr title="Database::getLog">getLog</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Driver/sqlite/Connection.php.html#385"><abbr title="Connection::nextId">nextId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Update.php.html#162"><abbr title="Update::__toString">__toString</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="StatementPrefetch.php.html#459"><abbr title="StatementPrefetch::fetchAll">fetchAll</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Database.php.html#155"><abbr title="Database::getConnection">getConnection</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Query/Condition.php.html#71"><abbr title="Condition::condition">condition</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Driver/sqlite/Connection.php.html#313"><abbr title="Connection::handleQueryException">handleQueryException</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Query/InsertTrait.php.html#106"><abbr title="InsertTrait::values">values</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Query/Select.php.html#495"><abbr title="Select::addField">addField</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Query/Select.php.html#224"><abbr title="Select::compile">compile</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="StatementPrefetch.php.html#504"><abbr title="StatementPrefetch::fetchAllKeyed">fetchAllKeyed</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Transaction.php.html#53"><abbr title="Transaction::__construct">__construct</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Query/Merge.php.html#334"><abbr title="Merge::key">key</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Query/Merge.php.html#308"><abbr title="Merge::keys">keys</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Schema.php.html#595"><abbr title="Schema::createTable">createTable</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Query/Merge.php.html#275"><abbr title="Merge::fields">fields</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="StatementPrefetch.php.html#361"><abbr title="StatementPrefetch::rowCount">rowCount</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Query/Condition.php.html#262"><abbr title="Condition::__toString">__toString</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Query/Condition.php.html#142"><abbr title="Condition::arguments">arguments</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Database.php.html#270"><abbr title="Database::getConnectionInfo">getConnectionInfo</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Query/Select.php.html#473"><abbr title="Select::execute">execute</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Query/Select.php.html#888"><abbr title="Select::__clone">__clone</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 2.2.4</a> using <a href="http://php.net/" target="_top">PHP 7.0.3</a> and <a href="http://phpunit.de/">PHPUnit 4.8.11</a> at Sat Feb 27 11:34:46 AEDT 2016.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../../js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../../../../../js/holder.min.js" type="text/javascript"></script>
+  <script src="../../../../../js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../../js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([10,0,1,2,0,5,3,1,2,0,0,20], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([227,0,1,2,0,1,4,7,4,15,6,85], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[41.509433962264,52,"<a href=\"Driver\/sqlite\/Connection.php.html#17\">Connection<\/a>"],[100,0,"<a href=\"ConnectionNotDefinedException.php.html#13\">ConnectionNotDefinedException<\/a>"],[15.966386554622,58,"<a href=\"Database.php.html#17\">Database<\/a>"],[100,0,"<a href=\"DatabaseExceptionWrapper.php.html#15\">DatabaseExceptionWrapper<\/a>"],[100,0,"<a href=\"DatabaseNotFoundException.php.html#12\">DatabaseNotFoundException<\/a>"],[0,5,"<a href=\"Query\/Delete.php.html#18\">Delete<\/a>"],[48.717948717949,17,"<a href=\"Query\/Insert.php.html#17\">Insert<\/a>"],[0,32,"<a href=\"Install\/Tasks.php.html#17\">Tasks<\/a>"],[53.623188405797,28,"<a href=\"Query\/Merge.php.html#51\">Merge<\/a>"],[24.285714285714,42,"<a href=\"Schema.php.html#16\">Schema<\/a>"],[74.131274131274,129,"<a href=\"Query\/Select.php.html#19\">Select<\/a>"],[53.333333333333,7,"<a href=\"Transaction.php.html#29\">Transaction<\/a>"],[100,6,"<a href=\"Query\/Truncate.php.html#17\">Truncate<\/a>"],[65.909090909091,14,"<a href=\"Query\/Update.php.html#18\">Update<\/a>"],[0,11,"<a href=\"Query\/Upsert.php.html#21\">Upsert<\/a>"],[0,15,"<a href=\"Driver\/pgsql\/NativeUpsert.php.html#17\">NativeUpsert<\/a>"],[0,28,"<a href=\"Statement.php.html#21\">Statement<\/a>"],[100,0,"<a href=\"DriverNotSpecifiedException.php.html#13\">DriverNotSpecifiedException<\/a>"],[100,0,"<a href=\"IntegrityConstraintViolationException.php.html#16\">IntegrityConstraintViolationException<\/a>"],[100,0,"<a href=\"InvalidQueryException.php.html#16\">InvalidQueryException<\/a>"],[0,16,"<a href=\"Log.php.html#21\">Log<\/a>"],[76.842105263158,43,"<a href=\"Query\/Condition.php.html#16\">Condition<\/a>"],[100,0,"<a href=\"Query\/FieldsOverlapException.php.html#18\">FieldsOverlapException<\/a>"],[100,0,"<a href=\"Query\/InvalidMergeQueryException.php.html#18\">InvalidMergeQueryException<\/a>"],[100,0,"<a href=\"Query\/NoFieldsException.php.html#15\">NoFieldsException<\/a>"],[100,0,"<a href=\"Query\/NoUniqueFieldException.php.html#15\">NoUniqueFieldException<\/a>"],[0,12,"<a href=\"Query\/PagerSelectExtender.php.html#22\">PagerSelectExtender<\/a>"],[44.444444444444,10,"<a href=\"Query\/Query.php.html#19\">Query<\/a>"],[0,66,"<a href=\"Query\/SelectExtender.php.html#15\">SelectExtender<\/a>"],[0,7,"<a href=\"Query\/TableSortExtender.php.html#15\">TableSortExtender<\/a>"],[0,2,"<a href=\"RowCountException.php.html#13\">RowCountException<\/a>"],[100,0,"<a href=\"SchemaException.php.html#13\">SchemaException<\/a>"],[100,0,"<a href=\"SchemaObjectDoesNotExistException.php.html#17\">SchemaObjectDoesNotExistException<\/a>"],[100,0,"<a href=\"SchemaObjectExistsException.php.html#17\">SchemaObjectExistsException<\/a>"],[21.052631578947,18,"<a href=\"StatementEmpty.php.html#22\">StatementEmpty<\/a>"],[59.638554216867,68,"<a href=\"StatementPrefetch.php.html#16\">StatementPrefetch<\/a>"],[100,0,"<a href=\"TransactionCommitFailedException.php.html#13\">TransactionCommitFailedException<\/a>"],[100,0,"<a href=\"TransactionException.php.html#13\">TransactionException<\/a>"],[100,0,"<a href=\"TransactionExplicitCommitNotAllowedException.php.html#16\">TransactionExplicitCommitNotAllowedException<\/a>"],[100,0,"<a href=\"TransactionNameNonUniqueException.php.html#13\">TransactionNameNonUniqueException<\/a>"],[100,0,"<a href=\"TransactionNoActiveException.php.html#13\">TransactionNoActiveException<\/a>"],[100,0,"<a href=\"TransactionOutOfOrderException.php.html#13\">TransactionOutOfOrderException<\/a>"],[46.875,14,"<a href=\"Query\/InsertTrait.php.html#15\">InsertTrait<\/a>"],[40,13,"<a href=\"Query\/QueryConditionTrait.php.html#17\">QueryConditionTrait<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[93.333333333333,6,"<a href=\"Driver\/sqlite\/Connection.php.html#54\">Connection::__construct<\/a>"],[95,2,"<a href=\"Driver\/sqlite\/Connection.php.html#97\">Connection::open<\/a>"],[28.571428571429,6,"<a href=\"Driver\/sqlite\/Connection.php.html#148\">Connection::__destruct<\/a>"],[0,1,"<a href=\"Driver\/sqlite\/Connection.php.html#179\">Connection::getAttachedDatabases<\/a>"],[0,2,"<a href=\"Driver\/sqlite\/Connection.php.html#186\">Connection::sqlFunctionIf<\/a>"],[0,4,"<a href=\"Driver\/sqlite\/Connection.php.html#193\">Connection::sqlFunctionGreatest<\/a>"],[0,1,"<a href=\"Driver\/sqlite\/Connection.php.html#211\">Connection::sqlFunctionConcat<\/a>"],[0,3,"<a href=\"Driver\/sqlite\/Connection.php.html#221\">Connection::sqlFunctionConcatWs<\/a>"],[0,1,"<a href=\"Driver\/sqlite\/Connection.php.html#229\">Connection::anonymous function<\/a>"],[0,1,"<a href=\"Driver\/sqlite\/Connection.php.html#238\">Connection::sqlFunctionSubstring<\/a>"],[0,4,"<a href=\"Driver\/sqlite\/Connection.php.html#245\">Connection::sqlFunctionSubstringIndex<\/a>"],[0,2,"<a href=\"Driver\/sqlite\/Connection.php.html#263\">Connection::sqlFunctionRand<\/a>"],[0,1,"<a href=\"Driver\/sqlite\/Connection.php.html#277\">Connection::sqlFunctionRegexp<\/a>"],[0,1,"<a href=\"Driver\/sqlite\/Connection.php.html#295\">Connection::sqlFunctionLikeBinary<\/a>"],[100,1,"<a href=\"Driver\/sqlite\/Connection.php.html#306\">Connection::prepare<\/a>"],[50,3,"<a href=\"Driver\/sqlite\/Connection.php.html#313\">Connection::handleQueryException<\/a>"],[0,1,"<a href=\"Driver\/sqlite\/Connection.php.html#327\">Connection::queryRange<\/a>"],[0,1,"<a href=\"Driver\/sqlite\/Connection.php.html#331\">Connection::queryTemporary<\/a>"],[100,1,"<a href=\"Driver\/sqlite\/Connection.php.html#343\">Connection::driver<\/a>"],[0,1,"<a href=\"Driver\/sqlite\/Connection.php.html#347\">Connection::databaseType<\/a>"],[0,3,"<a href=\"Driver\/sqlite\/Connection.php.html#359\">Connection::createDatabase<\/a>"],[100,2,"<a href=\"Driver\/sqlite\/Connection.php.html#367\">Connection::mapConditionOperator<\/a>"],[100,1,"<a href=\"Driver\/sqlite\/Connection.php.html#381\">Connection::prepareQuery<\/a>"],[0,2,"<a href=\"Driver\/sqlite\/Connection.php.html#385\">Connection::nextId<\/a>"],[100,1,"<a href=\"Driver\/sqlite\/Connection.php.html#411\">Connection::getFullQualifiedTableName<\/a>"],[0,4,"<a href=\"Database.php.html#100\">Database::startLog<\/a>"],[0,2,"<a href=\"Database.php.html#135\">Database::getLog<\/a>"],[85.714285714286,5,"<a href=\"Database.php.html#155\">Database::getConnection<\/a>"],[0,3,"<a href=\"Database.php.html#186\">Database::isActiveConnection<\/a>"],[0,2,"<a href=\"Database.php.html#196\">Database::setActiveConnection<\/a>"],[0,4,"<a href=\"Database.php.html#212\">Database::parseConnectionInfo<\/a>"],[0,2,"<a href=\"Database.php.html#256\">Database::addConnectionInfo<\/a>"],[66.666666666667,2,"<a href=\"Database.php.html#270\">Database::getConnectionInfo<\/a>"],[0,1,"<a href=\"Database.php.html#281\">Database::getAllConnectionInfo<\/a>"],[0,3,"<a href=\"Database.php.html#292\">Database::setMultipleConnectionInfo<\/a>"],[0,4,"<a href=\"Database.php.html#311\">Database::renameConnection<\/a>"],[0,2,"<a href=\"Database.php.html#339\">Database::removeConnection<\/a>"],[14.285714285714,5,"<a href=\"Database.php.html#362\">Database::openConnection<\/a>"],[0,6,"<a href=\"Database.php.html#404\">Database::closeConnection<\/a>"],[0,1,"<a href=\"Database.php.html#443\">Database::ignoreTarget<\/a>"],[0,6,"<a href=\"Database.php.html#462\">Database::convertDbUrlToConnectionInfo<\/a>"],[56.25,6,"<a href=\"Database.php.html#504\">Database::getConnectionInfoAsUrl<\/a>"],[0,1,"<a href=\"Query\/Delete.php.html#39\">Delete::__construct<\/a>"],[0,2,"<a href=\"Query\/Delete.php.html#53\">Delete::execute<\/a>"],[0,2,"<a href=\"Query\/Delete.php.html#69\">Delete::__toString<\/a>"],[100,2,"<a href=\"Query\/Insert.php.html#38\">Insert::__construct<\/a>"],[0,1,"<a href=\"Query\/Insert.php.html#55\">Insert::from<\/a>"],[60,5,"<a href=\"Query\/Insert.php.html#69\">Insert::execute<\/a>"],[0,2,"<a href=\"Query\/Insert.php.html#118\">Insert::__toString<\/a>"],[55.555555555556,7,"<a href=\"Query\/Insert.php.html#148\">Insert::preExecute<\/a>"],[0,1,"<a href=\"Install\/Tasks.php.html#90\">Tasks::hasPdoDriver<\/a>"],[0,1,"<a href=\"Install\/Tasks.php.html#97\">Tasks::fail<\/a>"],[0,1,"<a href=\"Install\/Tasks.php.html#104\">Tasks::pass<\/a>"],[0,2,"<a href=\"Install\/Tasks.php.html#111\">Tasks::installable<\/a>"],[100,1,"<a href=\"Install\/Tasks.php.html#118\">Tasks::name<\/a>"],[0,1,"<a href=\"Install\/Tasks.php.html#127\">Tasks::minimumVersion<\/a>"],[0,6,"<a href=\"Install\/Tasks.php.html#137\">Tasks::runTasks<\/a>"],[0,2,"<a href=\"Install\/Tasks.php.html#161\">Tasks::connect<\/a>"],[0,2,"<a href=\"Install\/Tasks.php.html#179\">Tasks::runTestQuery<\/a>"],[0,3,"<a href=\"Install\/Tasks.php.html#193\">Tasks::checkEngineVersion<\/a>"],[0,8,"<a href=\"Install\/Tasks.php.html#209\">Tasks::getFormOptions<\/a>"],[0,4,"<a href=\"Install\/Tasks.php.html#294\">Tasks::validateDatabaseSettings<\/a>"],[100,1,"<a href=\"Query\/Merge.php.html#139\">Merge::__construct<\/a>"],[0,1,"<a href=\"Query\/Merge.php.html#157\">Merge::conditionTable<\/a>"],[0,1,"<a href=\"Query\/Merge.php.html#172\">Merge::updateFields<\/a>"],[0,1,"<a href=\"Query\/Merge.php.html#197\">Merge::expression<\/a>"],[0,2,"<a href=\"Query\/Merge.php.html#222\">Merge::insertFields<\/a>"],[0,1,"<a href=\"Query\/Merge.php.html#249\">Merge::useDefaults<\/a>"],[85.714285714286,3,"<a href=\"Query\/Merge.php.html#275\">Merge::fields<\/a>"],[83.333333333333,3,"<a href=\"Query\/Merge.php.html#308\">Merge::keys<\/a>"],[75,3,"<a href=\"Query\/Merge.php.html#334\">Merge::key<\/a>"],[0,1,"<a href=\"Query\/Merge.php.html#354\">Merge::__toString<\/a>"],[58.620689655172,11,"<a href=\"Query\/Merge.php.html#357\">Merge::execute<\/a>"],[100,1,"<a href=\"Schema.php.html#46\">Schema::__construct<\/a>"],[0,1,"<a href=\"Schema.php.html#54\">Schema::__clone<\/a>"],[0,1,"<a href=\"Schema.php.html#61\">Schema::uniqueIdentifier<\/a>"],[0,1,"<a href=\"Schema.php.html#68\">Schema::nextPlaceholder<\/a>"],[100,3,"<a href=\"Schema.php.html#84\">Schema::getPrefixInfo<\/a>"],[0,1,"<a href=\"Schema.php.html#113\">Schema::prefixNonTable<\/a>"],[0,1,"<a href=\"Schema.php.html#146\">Schema::buildTableNameCondition<\/a>"],[0,1,"<a href=\"Schema.php.html#168\">Schema::tableExists<\/a>"],[0,6,"<a href=\"Schema.php.html#188\">Schema::findTables<\/a>"],[0,1,"<a href=\"Schema.php.html#249\">Schema::fieldExists<\/a>"],[100,1,"<a href=\"Schema.php.html#271\">Schema::getFieldTypeMap<\/a>"],[100,1,"<a href=\"Schema.php.html#286\">Schema::renameTable<\/a>"],[100,1,"<a href=\"Schema.php.html#298\">Schema::dropTable<\/a>"],[100,1,"<a href=\"Schema.php.html#326\">Schema::addField<\/a>"],[100,1,"<a href=\"Schema.php.html#340\">Schema::dropField<\/a>"],[100,1,"<a href=\"Schema.php.html#355\">Schema::fieldSetDefault<\/a>"],[100,1,"<a href=\"Schema.php.html#368\">Schema::fieldSetNoDefault<\/a>"],[100,1,"<a href=\"Schema.php.html#381\">Schema::indexExists<\/a>"],[100,1,"<a href=\"Schema.php.html#396\">Schema::addPrimaryKey<\/a>"],[100,1,"<a href=\"Schema.php.html#408\">Schema::dropPrimaryKey<\/a>"],[100,1,"<a href=\"Schema.php.html#425\">Schema::addUniqueKey<\/a>"],[100,1,"<a href=\"Schema.php.html#439\">Schema::dropUniqueKey<\/a>"],[100,1,"<a href=\"Schema.php.html#501\">Schema::addIndex<\/a>"],[100,1,"<a href=\"Schema.php.html#515\">Schema::dropIndex<\/a>"],[100,1,"<a href=\"Schema.php.html#582\">Schema::changeField<\/a>"],[83.333333333333,3,"<a href=\"Schema.php.html#595\">Schema::createTable<\/a>"],[0,3,"<a href=\"Schema.php.html#617\">Schema::fieldNames<\/a>"],[0,1,"<a href=\"Schema.php.html#641\">Schema::prepareComment<\/a>"],[0,3,"<a href=\"Schema.php.html#657\">Schema::escapeDefaultValue<\/a>"],[100,2,"<a href=\"Query\/Select.php.html#133\">Select::__construct<\/a>"],[100,1,"<a href=\"Query\/Select.php.html#145\">Select::addTag<\/a>"],[0,1,"<a href=\"Query\/Select.php.html#153\">Select::hasTag<\/a>"],[0,1,"<a href=\"Query\/Select.php.html#160\">Select::hasAllTags<\/a>"],[0,1,"<a href=\"Query\/Select.php.html#167\">Select::hasAnyTag<\/a>"],[100,1,"<a href=\"Query\/Select.php.html#174\">Select::addMetaData<\/a>"],[0,2,"<a href=\"Query\/Select.php.html#182\">Select::getMetaData<\/a>"],[85.714285714286,8,"<a href=\"Query\/Select.php.html#189\">Select::arguments<\/a>"],[87.5,4,"<a href=\"Query\/Select.php.html#224\">Select::compile<\/a>"],[80,8,"<a href=\"Query\/Select.php.html#244\">Select::compiled<\/a>"],[0,1,"<a href=\"Query\/Select.php.html#270\">Select::havingCondition<\/a>"],[100,1,"<a href=\"Query\/Select.php.html#278\">Select::havingConditions<\/a>"],[0,1,"<a href=\"Query\/Select.php.html#285\">Select::havingArguments<\/a>"],[0,1,"<a href=\"Query\/Select.php.html#292\">Select::having<\/a>"],[0,1,"<a href=\"Query\/Select.php.html#300\">Select::havingCompile<\/a>"],[0,2,"<a href=\"Query\/Select.php.html#307\">Select::extend<\/a>"],[0,1,"<a href=\"Query\/Select.php.html#318\">Select::havingIsNull<\/a>"],[0,1,"<a href=\"Query\/Select.php.html#326\">Select::havingIsNotNull<\/a>"],[0,1,"<a href=\"Query\/Select.php.html#334\">Select::havingExists<\/a>"],[0,1,"<a href=\"Query\/Select.php.html#342\">Select::havingNotExists<\/a>"],[0,2,"<a href=\"Query\/Select.php.html#350\">Select::forUpdate<\/a>"],[100,1,"<a href=\"Query\/Select.php.html#360\">Select::getFields<\/a>"],[100,1,"<a href=\"Query\/Select.php.html#367\">Select::getExpressions<\/a>"],[100,1,"<a href=\"Query\/Select.php.html#374\">Select::getOrderBy<\/a>"],[100,1,"<a href=\"Query\/Select.php.html#381\">Select::getGroupBy<\/a>"],[0,1,"<a href=\"Query\/Select.php.html#388\">Select::getTables<\/a>"],[0,1,"<a href=\"Query\/Select.php.html#395\">Select::getUnion<\/a>"],[0,1,"<a href=\"Query\/Select.php.html#402\">Select::escapeLike<\/a>"],[0,1,"<a href=\"Query\/Select.php.html#409\">Select::escapeField<\/a>"],[100,2,"<a href=\"Query\/Select.php.html#416\">Select::getArguments<\/a>"],[100,1,"<a href=\"Query\/Select.php.html#427\">Select::isPrepared<\/a>"],[93.75,8,"<a href=\"Query\/Select.php.html#434\">Select::preExecute<\/a>"],[75,2,"<a href=\"Query\/Select.php.html#473\">Select::execute<\/a>"],[100,1,"<a href=\"Query\/Select.php.html#487\">Select::distinct<\/a>"],[85.714285714286,4,"<a href=\"Query\/Select.php.html#495\">Select::addField<\/a>"],[100,3,"<a href=\"Query\/Select.php.html#526\">Select::fields<\/a>"],[91.666666666667,3,"<a href=\"Query\/Select.php.html#544\">Select::addExpression<\/a>"],[100,1,"<a href=\"Query\/Select.php.html#568\">Select::join<\/a>"],[100,1,"<a href=\"Query\/Select.php.html#575\">Select::innerJoin<\/a>"],[100,1,"<a href=\"Query\/Select.php.html#582\">Select::leftJoin<\/a>"],[0,1,"<a href=\"Query\/Select.php.html#589\">Select::rightJoin<\/a>"],[94.444444444444,5,"<a href=\"Query\/Select.php.html#596\">Select::addJoin<\/a>"],[100,2,"<a href=\"Query\/Select.php.html#631\">Select::orderBy<\/a>"],[0,1,"<a href=\"Query\/Select.php.html#641\">Select::orderRandom<\/a>"],[100,2,"<a href=\"Query\/Select.php.html#650\">Select::range<\/a>"],[0,4,"<a href=\"Query\/Select.php.html#658\">Select::union<\/a>"],[0,1,"<a href=\"Query\/Select.php.html#683\">Select::groupBy<\/a>"],[100,1,"<a href=\"Query\/Select.php.html#691\">Select::countQuery<\/a>"],[81.818181818182,11,"<a href=\"Query\/Select.php.html#706\">Select::prepareCountQuery<\/a>"],[90,22,"<a href=\"Query\/Select.php.html#766\">Select::__toString<\/a>"],[80,2,"<a href=\"Query\/Select.php.html#888\">Select::__clone<\/a>"],[62.5,3,"<a href=\"Transaction.php.html#53\">Transaction::__construct<\/a>"],[100,2,"<a href=\"Transaction.php.html#71\">Transaction::__destruct<\/a>"],[0,1,"<a href=\"Transaction.php.html#81\">Transaction::name<\/a>"],[0,1,"<a href=\"Transaction.php.html#97\">Transaction::rollback<\/a>"],[100,1,"<a href=\"Query\/Truncate.php.html#36\">Truncate::__construct<\/a>"],[100,1,"<a href=\"Query\/Truncate.php.html#45\">Truncate::compile<\/a>"],[100,1,"<a href=\"Query\/Truncate.php.html#52\">Truncate::compiled<\/a>"],[100,1,"<a href=\"Query\/Truncate.php.html#62\">Truncate::execute<\/a>"],[100,2,"<a href=\"Query\/Truncate.php.html#72\">Truncate::__toString<\/a>"],[100,1,"<a href=\"Query\/Update.php.html#68\">Update::__construct<\/a>"],[100,1,"<a href=\"Query\/Update.php.html#86\">Update::fields<\/a>"],[0,1,"<a href=\"Query\/Update.php.html#109\">Update::expression<\/a>"],[62.5,6,"<a href=\"Query\/Update.php.html#125\">Update::execute<\/a>"],[70.588235294118,5,"<a href=\"Query\/Update.php.html#162\">Update::__toString<\/a>"],[0,1,"<a href=\"Query\/Upsert.php.html#42\">Upsert::__construct<\/a>"],[0,1,"<a href=\"Query\/Upsert.php.html#56\">Upsert::key<\/a>"],[0,5,"<a href=\"Query\/Upsert.php.html#72\">Upsert::preExecute<\/a>"],[0,4,"<a href=\"Query\/Upsert.php.html#98\">Upsert::execute<\/a>"],[0,12,"<a href=\"Driver\/pgsql\/NativeUpsert.php.html#22\">NativeUpsert::execute<\/a>"],[0,2,"<a href=\"Driver\/pgsql\/NativeUpsert.php.html#102\">NativeUpsert::__toString<\/a>"],[100,1,"<a href=\"Driver\/pgsql\/NativeUpsert.php.html#108\">NativeUpsert::anonymous function<\/a>"],[0,1,"<a href=\"Statement.php.html#39\">Statement::__construct<\/a>"],[0,5,"<a href=\"Statement.php.html#47\">Statement::execute<\/a>"],[0,1,"<a href=\"Statement.php.html#77\">Statement::getQueryString<\/a>"],[0,1,"<a href=\"Statement.php.html#84\">Statement::fetchCol<\/a>"],[0,5,"<a href=\"Statement.php.html#91\">Statement::fetchAllAssoc<\/a>"],[0,2,"<a href=\"Statement.php.html#113\">Statement::fetchAllKeyed<\/a>"],[0,1,"<a href=\"Statement.php.html#125\">Statement::fetchField<\/a>"],[0,1,"<a href=\"Statement.php.html#133\">Statement::fetchAssoc<\/a>"],[0,2,"<a href=\"Statement.php.html#141\">Statement::rowCount<\/a>"],[0,4,"<a href=\"Statement.php.html#154\">Statement::setFetchMode<\/a>"],[0,5,"<a href=\"Statement.php.html#172\">Statement::fetchAll<\/a>"],[0,1,"<a href=\"Log.php.html#52\">Log::__construct<\/a>"],[0,2,"<a href=\"Log.php.html#66\">Log::start<\/a>"],[0,1,"<a href=\"Log.php.html#80\">Log::get<\/a>"],[0,1,"<a href=\"Log.php.html#93\">Log::clear<\/a>"],[0,1,"<a href=\"Log.php.html#103\">Log::end<\/a>"],[0,2,"<a href=\"Log.php.html#117\">Log::log<\/a>"],[0,8,"<a href=\"Log.php.html#147\">Log::findCaller<\/a>"],[100,1,"<a href=\"Query\/Condition.php.html#53\">Condition::__construct<\/a>"],[100,1,"<a href=\"Query\/Condition.php.html#64\">Condition::count<\/a>"],[80,4,"<a href=\"Query\/Condition.php.html#71\">Condition::condition<\/a>"],[0,1,"<a href=\"Query\/Condition.php.html#93\">Condition::where<\/a>"],[0,1,"<a href=\"Query\/Condition.php.html#107\">Condition::isNull<\/a>"],[100,1,"<a href=\"Query\/Condition.php.html#114\">Condition::isNotNull<\/a>"],[0,1,"<a href=\"Query\/Condition.php.html#121\">Condition::exists<\/a>"],[0,1,"<a href=\"Query\/Condition.php.html#128\">Condition::notExists<\/a>"],[100,1,"<a href=\"Query\/Condition.php.html#135\">Condition::conditions<\/a>"],[66.666666666667,2,"<a href=\"Query\/Condition.php.html#142\">Condition::arguments<\/a>"],[85.106382978723,15,"<a href=\"Query\/Condition.php.html#153\">Condition::compile<\/a>"],[100,1,"<a href=\"Query\/Condition.php.html#252\">Condition::compiled<\/a>"],[66.666666666667,2,"<a href=\"Query\/Condition.php.html#262\">Condition::__toString<\/a>"],[100,5,"<a href=\"Query\/Condition.php.html#276\">Condition::__clone<\/a>"],[100,3,"<a href=\"Query\/Condition.php.html#304\">Condition::mapConditionOperator<\/a>"],[0,1,"<a href=\"Query\/Condition.php.html#342\">Condition::conditionGroupFactory<\/a>"],[0,1,"<a href=\"Query\/Condition.php.html#349\">Condition::andConditionGroup<\/a>"],[0,1,"<a href=\"Query\/Condition.php.html#356\">Condition::orConditionGroup<\/a>"],[0,1,"<a href=\"Query\/PagerSelectExtender.php.html#52\">PagerSelectExtender::__construct<\/a>"],[0,3,"<a href=\"Query\/PagerSelectExtender.php.html#66\">PagerSelectExtender::execute<\/a>"],[0,2,"<a href=\"Query\/PagerSelectExtender.php.html#96\">PagerSelectExtender::ensureElement<\/a>"],[0,1,"<a href=\"Query\/PagerSelectExtender.php.html#112\">PagerSelectExtender::setCountQuery<\/a>"],[0,2,"<a href=\"Query\/PagerSelectExtender.php.html#125\">PagerSelectExtender::getCountQuery<\/a>"],[0,1,"<a href=\"Query\/PagerSelectExtender.php.html#143\">PagerSelectExtender::limit<\/a>"],[0,2,"<a href=\"Query\/PagerSelectExtender.php.html#167\">PagerSelectExtender::element<\/a>"],[100,1,"<a href=\"Query\/Query.php.html#74\">Query::__construct<\/a>"],[0,1,"<a href=\"Query\/Query.php.html#87\">Query::__sleep<\/a>"],[0,1,"<a href=\"Query\/Query.php.html#96\">Query::__wakeup<\/a>"],[0,1,"<a href=\"Query\/Query.php.html#103\">Query::__clone<\/a>"],[100,1,"<a href=\"Query\/Query.php.html#113\">Query::execute<\/a>"],[100,1,"<a href=\"Query\/Query.php.html#124\">Query::__toString<\/a>"],[100,1,"<a href=\"Query\/Query.php.html#129\">Query::uniqueIdentifier<\/a>"],[100,1,"<a href=\"Query\/Query.php.html#139\">Query::nextPlaceholder<\/a>"],[0,1,"<a href=\"Query\/Query.php.html#159\">Query::comment<\/a>"],[0,1,"<a href=\"Query\/Query.php.html#179\">Query::getComments<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#41\">SelectExtender::__construct<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#50\">SelectExtender::uniqueIdentifier<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#57\">SelectExtender::nextPlaceholder<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#64\">SelectExtender::addTag<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#72\">SelectExtender::hasTag<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#79\">SelectExtender::hasAllTags<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#86\">SelectExtender::hasAnyTag<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#93\">SelectExtender::addMetaData<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#101\">SelectExtender::getMetaData<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#108\">SelectExtender::condition<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#116\">SelectExtender::conditions<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#123\">SelectExtender::arguments<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#130\">SelectExtender::where<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#138\">SelectExtender::compile<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#145\">SelectExtender::compiled<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#152\">SelectExtender::havingCondition<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#160\">SelectExtender::havingConditions<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#167\">SelectExtender::havingArguments<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#174\">SelectExtender::having<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#182\">SelectExtender::havingCompile<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#189\">SelectExtender::havingIsNull<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#197\">SelectExtender::havingIsNotNull<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#205\">SelectExtender::havingExists<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#213\">SelectExtender::havingNotExists<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#221\">SelectExtender::extend<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#231\">SelectExtender::getFields<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#238\">SelectExtender::getExpressions<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#245\">SelectExtender::getOrderBy<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#252\">SelectExtender::getGroupBy<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#259\">SelectExtender::getTables<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#266\">SelectExtender::getUnion<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#273\">SelectExtender::escapeLike<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#280\">SelectExtender::escapeField<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#288\">SelectExtender::getArguments<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#295\">SelectExtender::isPrepared<\/a>"],[0,2,"<a href=\"Query\/SelectExtender.php.html#302\">SelectExtender::preExecute<\/a>"],[0,2,"<a href=\"Query\/SelectExtender.php.html#314\">SelectExtender::execute<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#328\">SelectExtender::distinct<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#336\">SelectExtender::addField<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#343\">SelectExtender::fields<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#351\">SelectExtender::addExpression<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#358\">SelectExtender::join<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#365\">SelectExtender::innerJoin<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#372\">SelectExtender::leftJoin<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#379\">SelectExtender::rightJoin<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#386\">SelectExtender::addJoin<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#393\">SelectExtender::orderBy<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#401\">SelectExtender::orderRandom<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#409\">SelectExtender::range<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#417\">SelectExtender::union<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#425\">SelectExtender::groupBy<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#433\">SelectExtender::forUpdate<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#441\">SelectExtender::countQuery<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#448\">SelectExtender::isNull<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#456\">SelectExtender::isNotNull<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#464\">SelectExtender::exists<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#472\">SelectExtender::notExists<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#480\">SelectExtender::__toString<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#487\">SelectExtender::__clone<\/a>"],[0,2,"<a href=\"Query\/SelectExtender.php.html#504\">SelectExtender::__call<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#523\">SelectExtender::conditionGroupFactory<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#530\">SelectExtender::andConditionGroup<\/a>"],[0,1,"<a href=\"Query\/SelectExtender.php.html#537\">SelectExtender::orConditionGroup<\/a>"],[0,1,"<a href=\"Query\/TableSortExtender.php.html#22\">TableSortExtender::__construct<\/a>"],[0,2,"<a href=\"Query\/TableSortExtender.php.html#42\">TableSortExtender::orderByHeader<\/a>"],[0,1,"<a href=\"Query\/TableSortExtender.php.html#59\">TableSortExtender::init<\/a>"],[0,1,"<a href=\"Query\/TableSortExtender.php.html#74\">TableSortExtender::getSort<\/a>"],[0,1,"<a href=\"Query\/TableSortExtender.php.html#87\">TableSortExtender::getQueryParameters<\/a>"],[0,1,"<a href=\"Query\/TableSortExtender.php.html#101\">TableSortExtender::order<\/a>"],[0,2,"<a href=\"RowCountException.php.html#15\">RowCountException::__construct<\/a>"],[0,1,"<a href=\"StatementEmpty.php.html#34\">StatementEmpty::execute<\/a>"],[0,1,"<a href=\"StatementEmpty.php.html#41\">StatementEmpty::getQueryString<\/a>"],[0,2,"<a href=\"StatementEmpty.php.html#48\">StatementEmpty::rowCount<\/a>"],[0,1,"<a href=\"StatementEmpty.php.html#58\">StatementEmpty::setFetchMode<\/a>"],[0,1,"<a href=\"StatementEmpty.php.html#65\">StatementEmpty::fetch<\/a>"],[0,1,"<a href=\"StatementEmpty.php.html#72\">StatementEmpty::fetchField<\/a>"],[100,1,"<a href=\"StatementEmpty.php.html#79\">StatementEmpty::fetchObject<\/a>"],[0,1,"<a href=\"StatementEmpty.php.html#86\">StatementEmpty::fetchAssoc<\/a>"],[100,1,"<a href=\"StatementEmpty.php.html#93\">StatementEmpty::fetchAll<\/a>"],[0,1,"<a href=\"StatementEmpty.php.html#100\">StatementEmpty::fetchCol<\/a>"],[0,1,"<a href=\"StatementEmpty.php.html#107\">StatementEmpty::fetchAllKeyed<\/a>"],[0,1,"<a href=\"StatementEmpty.php.html#114\">StatementEmpty::fetchAllAssoc<\/a>"],[0,1,"<a href=\"StatementEmpty.php.html#121\">StatementEmpty::current<\/a>"],[0,1,"<a href=\"StatementEmpty.php.html#128\">StatementEmpty::key<\/a>"],[100,1,"<a href=\"StatementEmpty.php.html#135\">StatementEmpty::rewind<\/a>"],[0,1,"<a href=\"StatementEmpty.php.html#142\">StatementEmpty::next<\/a>"],[100,1,"<a href=\"StatementEmpty.php.html#149\">StatementEmpty::valid<\/a>"],[100,1,"<a href=\"StatementPrefetch.php.html#134\">StatementPrefetch::__construct<\/a>"],[76.923076923077,9,"<a href=\"StatementPrefetch.php.html#144\">StatementPrefetch::execute<\/a>"],[0,1,"<a href=\"StatementPrefetch.php.html#206\">StatementPrefetch::throwPDOException<\/a>"],[0,1,"<a href=\"StatementPrefetch.php.html#227\">StatementPrefetch::getStatement<\/a>"],[0,1,"<a href=\"StatementPrefetch.php.html#234\">StatementPrefetch::getQueryString<\/a>"],[46.666666666667,5,"<a href=\"StatementPrefetch.php.html#241\">StatementPrefetch::setFetchMode<\/a>"],[28.125,16,"<a href=\"StatementPrefetch.php.html#273\">StatementPrefetch::current<\/a>"],[100,1,"<a href=\"StatementPrefetch.php.html#326\">StatementPrefetch::key<\/a>"],[100,1,"<a href=\"StatementPrefetch.php.html#333\">StatementPrefetch::rewind<\/a>"],[100,2,"<a href=\"StatementPrefetch.php.html#340\">StatementPrefetch::next<\/a>"],[100,1,"<a href=\"StatementPrefetch.php.html#354\">StatementPrefetch::valid<\/a>"],[66.666666666667,2,"<a href=\"StatementPrefetch.php.html#361\">StatementPrefetch::rowCount<\/a>"],[0,3,"<a href=\"StatementPrefetch.php.html#374\">StatementPrefetch::fetch<\/a>"],[100,3,"<a href=\"StatementPrefetch.php.html#395\">StatementPrefetch::fetchColumn<\/a>"],[100,1,"<a href=\"StatementPrefetch.php.html#410\">StatementPrefetch::fetchField<\/a>"],[0,3,"<a href=\"StatementPrefetch.php.html#417\">StatementPrefetch::fetchObject<\/a>"],[100,2,"<a href=\"StatementPrefetch.php.html#445\">StatementPrefetch::fetchAssoc<\/a>"],[84.615384615385,5,"<a href=\"StatementPrefetch.php.html#459\">StatementPrefetch::fetchAll<\/a>"],[100,3,"<a href=\"StatementPrefetch.php.html#486\">StatementPrefetch::fetchCol<\/a>"],[88.888888888889,4,"<a href=\"StatementPrefetch.php.html#504\">StatementPrefetch::fetchAllKeyed<\/a>"],[100,3,"<a href=\"StatementPrefetch.php.html#523\">StatementPrefetch::fetchAllAssoc<\/a>"],[100,5,"<a href=\"Query\/InsertTrait.php.html#75\">InsertTrait::fields<\/a>"],[85.714285714286,4,"<a href=\"Query\/InsertTrait.php.html#106\">InsertTrait::values<\/a>"],[0,1,"<a href=\"Query\/InsertTrait.php.html#140\">InsertTrait::useDefaults<\/a>"],[0,4,"<a href=\"Query\/InsertTrait.php.html#156\">InsertTrait::getInsertPlaceholderFragment<\/a>"],[100,1,"<a href=\"Query\/QueryConditionTrait.php.html#31\">QueryConditionTrait::condition<\/a>"],[0,1,"<a href=\"Query\/QueryConditionTrait.php.html#39\">QueryConditionTrait::isNull<\/a>"],[100,1,"<a href=\"Query\/QueryConditionTrait.php.html#47\">QueryConditionTrait::isNotNull<\/a>"],[0,1,"<a href=\"Query\/QueryConditionTrait.php.html#55\">QueryConditionTrait::exists<\/a>"],[0,1,"<a href=\"Query\/QueryConditionTrait.php.html#63\">QueryConditionTrait::notExists<\/a>"],[100,1,"<a href=\"Query\/QueryConditionTrait.php.html#71\">QueryConditionTrait::conditions<\/a>"],[0,1,"<a href=\"Query\/QueryConditionTrait.php.html#78\">QueryConditionTrait::arguments<\/a>"],[0,1,"<a href=\"Query\/QueryConditionTrait.php.html#85\">QueryConditionTrait::where<\/a>"],[0,1,"<a href=\"Query\/QueryConditionTrait.php.html#93\">QueryConditionTrait::compile<\/a>"],[0,1,"<a href=\"Query\/QueryConditionTrait.php.html#100\">QueryConditionTrait::compiled<\/a>"],[100,1,"<a href=\"Query\/QueryConditionTrait.php.html#107\">QueryConditionTrait::conditionGroupFactory<\/a>"],[100,1,"<a href=\"Query\/QueryConditionTrait.php.html#114\">QueryConditionTrait::andConditionGroup<\/a>"],[100,1,"<a href=\"Query\/QueryConditionTrait.php.html#121\">QueryConditionTrait::orConditionGroup<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

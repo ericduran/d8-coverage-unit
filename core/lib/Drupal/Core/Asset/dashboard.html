@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/ericduran/Sites/drupal/drupal/core/lib/Drupal/Core/Asset</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../../../../css/nv.d3.min.css" rel="stylesheet">
+  <link href="../../../../../css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="../../../../../js/html5shiv.min.js"></script>
+  <script src="../../../../../js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../../../../../index.html">/Users/ericduran/Sites/drupal/drupal</a></li>
+        <li><a href="../../../../index.html">core</a></li>
+        <li><a href="../../../index.html">lib</a></li>
+        <li><a href="../../index.html">Drupal</a></li>
+        <li><a href="../index.html">Core</a></li>
+        <li><a href="index.html">Asset</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AssetDumper.php.html#15">AssetDumper</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CssCollectionOptimizer.php.html#15">CssCollectionOptimizer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JsCollectionGrouper.php.html#13">JsCollectionGrouper</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JsCollectionOptimizer.php.html#16">JsCollectionOptimizer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JsCollectionRenderer.php.html#16">JsCollectionRenderer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscoveryCollector.php.html#21">LibraryDiscoveryCollector</a></td><td class="text-right">8%</td></tr>
+       <tr><td><a href="AttachedAssets.php.html#12">AttachedAssets</a></td><td class="text-right">41%</td></tr>
+       <tr><td><a href="LibraryDiscovery.php.html#15">LibraryDiscovery</a></td><td class="text-right">46%</td></tr>
+       <tr><td><a href="AssetResolver.php.html#19">AssetResolver</a></td><td class="text-right">48%</td></tr>
+       <tr><td><a href="LibraryDiscoveryParser.php.html#23">LibraryDiscoveryParser</a></td><td class="text-right">51%</td></tr>
+       <tr><td><a href="LibraryDependencyResolver.php.html#13">LibraryDependencyResolver</a></td><td class="text-right">61%</td></tr>
+       <tr><td><a href="CssCollectionGrouper.php.html#13">CssCollectionGrouper</a></td><td class="text-right">78%</td></tr>
+       <tr><td><a href="JsOptimizer.php.html#15">JsOptimizer</a></td><td class="text-right">83%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="LibraryDiscoveryParser.php.html#23">LibraryDiscoveryParser</a></td><td class="text-right">573</td></tr>
+       <tr><td><a href="JsCollectionOptimizer.php.html#16">JsCollectionOptimizer</a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="CssCollectionOptimizer.php.html#15">CssCollectionOptimizer</a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="AssetResolver.php.html#19">AssetResolver</a></td><td class="text-right">310</td></tr>
+       <tr><td><a href="LibraryDiscoveryCollector.php.html#21">LibraryDiscoveryCollector</a></td><td class="text-right">188</td></tr>
+       <tr><td><a href="JsCollectionRenderer.php.html#16">JsCollectionRenderer</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="JsCollectionGrouper.php.html#13">JsCollectionGrouper</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="AssetDumper.php.html#15">AssetDumper</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="AttachedAssets.php.html#12">AttachedAssets</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="LibraryDependencyResolver.php.html#13">LibraryDependencyResolver</a></td><td class="text-right">22</td></tr>
+       <tr><td><a href="LibraryDiscovery.php.html#15">LibraryDiscovery</a></td><td class="text-right">14</td></tr>
+       <tr><td><a href="CssCollectionGrouper.php.html#13">CssCollectionGrouper</a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="JsOptimizer.php.html#15">JsOptimizer</a></td><td class="text-right">7</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AssetDumper.php.html#24"><abbr title="AssetDumper::dump">dump</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscoveryCollector.php.html#73"><abbr title="LibraryDiscoveryCollector::getCid">getCid</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JsCollectionOptimizer.php.html#188"><abbr title="JsCollectionOptimizer::anonymous function">anonymous function</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JsCollectionRenderer.php.html#31"><abbr title="JsCollectionRenderer::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JsCollectionRenderer.php.html#44"><abbr title="JsCollectionRenderer::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDependencyResolver.php.html#28"><abbr title="LibraryDependencyResolver::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDependencyResolver.php.html#55"><abbr title="LibraryDependencyResolver::doGetDependencies">doGetDependencies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscovery.php.html#40"><abbr title="LibraryDiscovery::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscovery.php.html#62"><abbr title="LibraryDiscovery::getLibraryByName">getLibraryByName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscovery.php.html#70"><abbr title="LibraryDiscovery::clearCachedDefinitions">clearCachedDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscoveryCollector.php.html#63"><abbr title="LibraryDiscoveryCollector::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscoveryCollector.php.html#105"><abbr title="LibraryDiscoveryCollector::getLibraryDefinitions">getLibraryDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssetResolver.php.html#79"><abbr title="AssetResolver::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscoveryCollector.php.html#154"><abbr title="LibraryDiscoveryCollector::applyLibrariesExtend">applyLibrariesExtend</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscoveryCollector.php.html#178"><abbr title="LibraryDiscoveryCollector::reset">reset</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscoveryParser.php.html#56"><abbr title="LibraryDiscoveryParser::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscoveryParser.php.html#300"><abbr title="LibraryDiscoveryParser::parseLibraryInfo">parseLibraryInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscoveryParser.php.html#338"><abbr title="LibraryDiscoveryParser::applyLibrariesOverride">applyLibrariesOverride</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscoveryParser.php.html#394"><abbr title="LibraryDiscoveryParser::drupalGetPath">drupalGetPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscoveryParser.php.html#401"><abbr title="LibraryDiscoveryParser::fileValidUri">fileValidUri</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscoveryParser.php.html#408"><abbr title="LibraryDiscoveryParser::isValidUri">isValidUri</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscoveryParser.php.html#424"><abbr title="LibraryDiscoveryParser::setOverrideValue">setOverrideValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JsCollectionOptimizer.php.html#186"><abbr title="JsCollectionOptimizer::deleteAll">deleteAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JsCollectionOptimizer.php.html#179"><abbr title="JsCollectionOptimizer::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JsCollectionOptimizer.php.html#168"><abbr title="JsCollectionOptimizer::generateHash">generateHash</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CssCollectionOptimizer.php.html#57"><abbr title="CssCollectionOptimizer::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssetResolver.php.html#106"><abbr title="AssetResolver::getLibrariesToLoad">getLibrariesToLoad</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssetResolver.php.html#198"><abbr title="AssetResolver::getJsSettingsAssets">getJsSettingsAssets</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssetResolver.php.html#375"><abbr title="AssetResolver::sort">sort</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AttachedAssets.php.html#56"><abbr title="AttachedAssets::setLibraries">setLibraries</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AttachedAssets.php.html#71"><abbr title="AttachedAssets::setSettings">setSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AttachedAssets.php.html#86"><abbr title="AttachedAssets::getAlreadyLoadedLibraries">getAlreadyLoadedLibraries</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AttachedAssets.php.html#93"><abbr title="AttachedAssets::setAlreadyLoadedLibraries">setAlreadyLoadedLibraries</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JsCollectionOptimizer.php.html#79"><abbr title="JsCollectionOptimizer::optimize">optimize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscoveryParser.php.html#458"><abbr title="LibraryDiscoveryParser::resolveThemeAssetPath">resolveThemeAssetPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CssCollectionOptimizer.php.html#78"><abbr title="CssCollectionOptimizer::optimize">optimize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CssCollectionOptimizer.php.html#172"><abbr title="CssCollectionOptimizer::generateHash">generateHash</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CssCollectionOptimizer.php.html#183"><abbr title="CssCollectionOptimizer::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CssCollectionOptimizer.php.html#190"><abbr title="CssCollectionOptimizer::deleteAll">deleteAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CssCollectionOptimizer.php.html#193"><abbr title="CssCollectionOptimizer::anonymous function">anonymous function</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JsCollectionGrouper.php.html#27"><abbr title="JsCollectionGrouper::group">group</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JsCollectionOptimizer.php.html#58"><abbr title="JsCollectionOptimizer::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssetResolver.php.html#215"><abbr title="AssetResolver::getJsAssets">getJsAssets</abbr></a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="AttachedAssets.php.html#38"><abbr title="AttachedAssets::createFromRenderArray">createFromRenderArray</abbr></a></td><td class="text-right">62%</td></tr>
+       <tr><td><a href="AssetResolver.php.html#116"><abbr title="AssetResolver::getCssAssets">getCssAssets</abbr></a></td><td class="text-right">68%</td></tr>
+       <tr><td><a href="CssCollectionGrouper.php.html#27"><abbr title="CssCollectionGrouper::group">group</abbr></a></td><td class="text-right">78%</td></tr>
+       <tr><td><a href="JsOptimizer.php.html#20"><abbr title="JsOptimizer::optimize">optimize</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="CssOptimizer.php.html#27"><abbr title="CssOptimizer::optimize">optimize</abbr></a></td><td class="text-right">85%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="JsCollectionOptimizer.php.html#79"><abbr title="JsCollectionOptimizer::optimize">optimize</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="LibraryDiscoveryParser.php.html#338"><abbr title="LibraryDiscoveryParser::applyLibrariesOverride">applyLibrariesOverride</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="CssCollectionOptimizer.php.html#78"><abbr title="CssCollectionOptimizer::optimize">optimize</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="JsCollectionRenderer.php.html#44"><abbr title="JsCollectionRenderer::render">render</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="JsCollectionGrouper.php.html#27"><abbr title="JsCollectionGrouper::group">group</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="AssetResolver.php.html#215"><abbr title="AssetResolver::getJsAssets">getJsAssets</abbr></a></td><td class="text-right">58</td></tr>
+       <tr><td><a href="AssetDumper.php.html#24"><abbr title="AssetDumper::dump">dump</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="AssetResolver.php.html#375"><abbr title="AssetResolver::sort">sort</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="LibraryDiscoveryCollector.php.html#154"><abbr title="LibraryDiscoveryCollector::applyLibrariesExtend">applyLibrariesExtend</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="LibraryDiscoveryCollector.php.html#105"><abbr title="LibraryDiscoveryCollector::getLibraryDefinitions">getLibraryDefinitions</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="LibraryDiscoveryParser.php.html#424"><abbr title="LibraryDiscoveryParser::setOverrideValue">setOverrideValue</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="LibraryDiscoveryParser.php.html#300"><abbr title="LibraryDiscoveryParser::parseLibraryInfo">parseLibraryInfo</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="LibraryDependencyResolver.php.html#55"><abbr title="LibraryDependencyResolver::doGetDependencies">doGetDependencies</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="AssetResolver.php.html#116"><abbr title="AssetResolver::getCssAssets">getCssAssets</abbr></a></td><td class="text-right">16</td></tr>
+       <tr><td><a href="LibraryDiscoveryParser.php.html#458"><abbr title="LibraryDiscoveryParser::resolveThemeAssetPath">resolveThemeAssetPath</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AssetResolver.php.html#198"><abbr title="AssetResolver::getJsSettingsAssets">getJsSettingsAssets</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="CssCollectionGrouper.php.html#27"><abbr title="CssCollectionGrouper::group">group</abbr></a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="JsOptimizer.php.html#20"><abbr title="JsOptimizer::optimize">optimize</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="JsCollectionOptimizer.php.html#186"><abbr title="JsCollectionOptimizer::deleteAll">deleteAll</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="JsCollectionOptimizer.php.html#188"><abbr title="JsCollectionOptimizer::anonymous function">anonymous function</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="CssCollectionOptimizer.php.html#193"><abbr title="CssCollectionOptimizer::anonymous function">anonymous function</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="LibraryDiscovery.php.html#62"><abbr title="LibraryDiscovery::getLibraryByName">getLibraryByName</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="LibraryDiscoveryCollector.php.html#73"><abbr title="LibraryDiscoveryCollector::getCid">getCid</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="CssCollectionOptimizer.php.html#190"><abbr title="CssCollectionOptimizer::deleteAll">deleteAll</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="CssCollectionOptimizer.php.html#172"><abbr title="CssCollectionOptimizer::generateHash">generateHash</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="JsCollectionOptimizer.php.html#168"><abbr title="JsCollectionOptimizer::generateHash">generateHash</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="CssOptimizer.php.html#27"><abbr title="CssOptimizer::optimize">optimize</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="AttachedAssets.php.html#38"><abbr title="AttachedAssets::createFromRenderArray">createFromRenderArray</abbr></a></td><td class="text-right">4</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 2.2.4</a> using <a href="http://php.net/" target="_top">PHP 7.0.3</a> and <a href="http://phpunit.de/">PHPUnit 4.8.11</a> at Sat Feb 27 11:34:46 AEDT 2016.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../../js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../../../../../js/holder.min.js" type="text/javascript"></script>
+  <script src="../../../../../js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../../js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([5,1,0,0,0,3,1,1,1,1,1,6], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([42,0,0,0,0,0,1,2,1,2,1,16], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,7,"<a href=\"AssetDumper.php.html#15\">AssetDumper<\/a>"],[48.387096774194,44,"<a href=\"AssetResolver.php.html#19\">AssetResolver<\/a>"],[41.176470588235,10,"<a href=\"AttachedAssets.php.html#12\">AttachedAssets<\/a>"],[78.260869565217,8,"<a href=\"CssCollectionGrouper.php.html#13\">CssCollectionGrouper<\/a>"],[0,20,"<a href=\"CssCollectionOptimizer.php.html#15\">CssCollectionOptimizer<\/a>"],[100,13,"<a href=\"CssCollectionRenderer.php.html#59\">CssCollectionRenderer<\/a>"],[98.333333333333,23,"<a href=\"CssOptimizer.php.html#15\">CssOptimizer<\/a>"],[100,0,"<a href=\"Exception\/IncompleteLibraryDefinitionException.php.html#13\">IncompleteLibraryDefinitionException<\/a>"],[100,0,"<a href=\"Exception\/InvalidLibrariesExtendSpecificationException.php.html#13\">InvalidLibrariesExtendSpecificationException<\/a>"],[100,0,"<a href=\"Exception\/InvalidLibrariesOverrideSpecificationException.php.html#13\">InvalidLibrariesOverrideSpecificationException<\/a>"],[100,0,"<a href=\"Exception\/InvalidLibraryFileException.php.html#13\">InvalidLibraryFileException<\/a>"],[100,0,"<a href=\"Exception\/LibraryDefinitionMissingLicenseException.php.html#13\">LibraryDefinitionMissingLicenseException<\/a>"],[0,9,"<a href=\"JsCollectionGrouper.php.html#13\">JsCollectionGrouper<\/a>"],[0,22,"<a href=\"JsCollectionOptimizer.php.html#16\">JsCollectionOptimizer<\/a>"],[0,13,"<a href=\"JsCollectionRenderer.php.html#16\">JsCollectionRenderer<\/a>"],[83.333333333333,7,"<a href=\"JsOptimizer.php.html#15\">JsOptimizer<\/a>"],[61.538461538462,13,"<a href=\"LibraryDependencyResolver.php.html#13\">LibraryDependencyResolver<\/a>"],[46.153846153846,7,"<a href=\"LibraryDiscovery.php.html#15\">LibraryDiscovery<\/a>"],[8.3333333333333,15,"<a href=\"LibraryDiscoveryCollector.php.html#21\">LibraryDiscoveryCollector<\/a>"],[51.666666666667,67,"<a href=\"LibraryDiscoveryParser.php.html#23\">LibraryDiscoveryParser<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,7,"<a href=\"AssetDumper.php.html#24\">AssetDumper::dump<\/a>"],[0,1,"<a href=\"AssetResolver.php.html#79\">AssetResolver::__construct<\/a>"],[0,1,"<a href=\"AssetResolver.php.html#106\">AssetResolver::getLibrariesToLoad<\/a>"],[68.75,12,"<a href=\"AssetResolver.php.html#116\">AssetResolver::getCssAssets<\/a>"],[0,3,"<a href=\"AssetResolver.php.html#198\">AssetResolver::getJsSettingsAssets<\/a>"],[57.575757575758,22,"<a href=\"AssetResolver.php.html#215\">AssetResolver::getJsAssets<\/a>"],[0,5,"<a href=\"AssetResolver.php.html#375\">AssetResolver::sort<\/a>"],[62.5,4,"<a href=\"AttachedAssets.php.html#38\">AttachedAssets::createFromRenderArray<\/a>"],[0,1,"<a href=\"AttachedAssets.php.html#56\">AttachedAssets::setLibraries<\/a>"],[100,1,"<a href=\"AttachedAssets.php.html#64\">AttachedAssets::getLibraries<\/a>"],[0,1,"<a href=\"AttachedAssets.php.html#71\">AttachedAssets::setSettings<\/a>"],[100,1,"<a href=\"AttachedAssets.php.html#79\">AttachedAssets::getSettings<\/a>"],[0,1,"<a href=\"AttachedAssets.php.html#86\">AttachedAssets::getAlreadyLoadedLibraries<\/a>"],[0,1,"<a href=\"AttachedAssets.php.html#93\">AttachedAssets::setAlreadyLoadedLibraries<\/a>"],[78.260869565217,8,"<a href=\"CssCollectionGrouper.php.html#27\">CssCollectionGrouper::group<\/a>"],[0,1,"<a href=\"CssCollectionOptimizer.php.html#57\">CssCollectionOptimizer::__construct<\/a>"],[0,12,"<a href=\"CssCollectionOptimizer.php.html#78\">CssCollectionOptimizer::optimize<\/a>"],[0,2,"<a href=\"CssCollectionOptimizer.php.html#172\">CssCollectionOptimizer::generateHash<\/a>"],[0,1,"<a href=\"CssCollectionOptimizer.php.html#183\">CssCollectionOptimizer::getAll<\/a>"],[0,2,"<a href=\"CssCollectionOptimizer.php.html#190\">CssCollectionOptimizer::deleteAll<\/a>"],[0,2,"<a href=\"CssCollectionOptimizer.php.html#193\">CssCollectionOptimizer::anonymous function<\/a>"],[100,1,"<a href=\"CssCollectionRenderer.php.html#74\">CssCollectionRenderer::__construct<\/a>"],[100,11,"<a href=\"CssCollectionRenderer.php.html#81\">CssCollectionRenderer::render<\/a>"],[100,1,"<a href=\"CssCollectionRenderer.php.html#105\">CssCollectionRenderer::anonymous function<\/a>"],[85.714285714286,5,"<a href=\"CssOptimizer.php.html#27\">CssOptimizer::optimize<\/a>"],[100,1,"<a href=\"CssOptimizer.php.html#52\">CssOptimizer::clean<\/a>"],[100,1,"<a href=\"CssOptimizer.php.html#63\">CssOptimizer::processFile<\/a>"],[100,10,"<a href=\"CssOptimizer.php.html#102\">CssOptimizer::loadFile<\/a>"],[100,2,"<a href=\"CssOptimizer.php.html#166\">CssOptimizer::loadNestedFile<\/a>"],[100,2,"<a href=\"CssOptimizer.php.html#195\">CssOptimizer::processCss<\/a>"],[100,2,"<a href=\"CssOptimizer.php.html#260\">CssOptimizer::rewriteFileURI<\/a>"],[0,9,"<a href=\"JsCollectionGrouper.php.html#27\">JsCollectionGrouper::group<\/a>"],[0,1,"<a href=\"JsCollectionOptimizer.php.html#58\">JsCollectionOptimizer::__construct<\/a>"],[0,14,"<a href=\"JsCollectionOptimizer.php.html#79\">JsCollectionOptimizer::optimize<\/a>"],[0,2,"<a href=\"JsCollectionOptimizer.php.html#168\">JsCollectionOptimizer::generateHash<\/a>"],[0,1,"<a href=\"JsCollectionOptimizer.php.html#179\">JsCollectionOptimizer::getAll<\/a>"],[0,2,"<a href=\"JsCollectionOptimizer.php.html#186\">JsCollectionOptimizer::deleteAll<\/a>"],[0,2,"<a href=\"JsCollectionOptimizer.php.html#188\">JsCollectionOptimizer::anonymous function<\/a>"],[0,1,"<a href=\"JsCollectionRenderer.php.html#31\">JsCollectionRenderer::__construct<\/a>"],[0,12,"<a href=\"JsCollectionRenderer.php.html#44\">JsCollectionRenderer::render<\/a>"],[80,6,"<a href=\"JsOptimizer.php.html#20\">JsOptimizer::optimize<\/a>"],[100,1,"<a href=\"JsOptimizer.php.html#52\">JsOptimizer::clean<\/a>"],[0,1,"<a href=\"LibraryDependencyResolver.php.html#28\">LibraryDependencyResolver::__construct<\/a>"],[100,1,"<a href=\"LibraryDependencyResolver.php.html#35\">LibraryDependencyResolver::getLibrariesWithDependencies<\/a>"],[0,4,"<a href=\"LibraryDependencyResolver.php.html#55\">LibraryDependencyResolver::doGetDependencies<\/a>"],[100,7,"<a href=\"LibraryDependencyResolver.php.html#72\">LibraryDependencyResolver::getMinimalRepresentativeSubset<\/a>"],[0,1,"<a href=\"LibraryDiscovery.php.html#40\">LibraryDiscovery::__construct<\/a>"],[100,3,"<a href=\"LibraryDiscovery.php.html#47\">LibraryDiscovery::getLibrariesByExtension<\/a>"],[0,2,"<a href=\"LibraryDiscovery.php.html#62\">LibraryDiscovery::getLibraryByName<\/a>"],[0,1,"<a href=\"LibraryDiscovery.php.html#70\">LibraryDiscovery::clearCachedDefinitions<\/a>"],[0,1,"<a href=\"LibraryDiscoveryCollector.php.html#63\">LibraryDiscoveryCollector::__construct<\/a>"],[0,2,"<a href=\"LibraryDiscoveryCollector.php.html#73\">LibraryDiscoveryCollector::getCid<\/a>"],[100,1,"<a href=\"LibraryDiscoveryCollector.php.html#84\">LibraryDiscoveryCollector::resolveCacheMiss<\/a>"],[0,5,"<a href=\"LibraryDiscoveryCollector.php.html#105\">LibraryDiscoveryCollector::getLibraryDefinitions<\/a>"],[0,5,"<a href=\"LibraryDiscoveryCollector.php.html#154\">LibraryDiscoveryCollector::applyLibrariesExtend<\/a>"],[0,1,"<a href=\"LibraryDiscoveryCollector.php.html#178\">LibraryDiscoveryCollector::reset<\/a>"],[0,1,"<a href=\"LibraryDiscoveryParser.php.html#56\">LibraryDiscoveryParser::__construct<\/a>"],[93.939393939394,39,"<a href=\"LibraryDiscoveryParser.php.html#76\">LibraryDiscoveryParser::buildByExtension<\/a>"],[0,4,"<a href=\"LibraryDiscoveryParser.php.html#300\">LibraryDiscoveryParser::parseLibraryInfo<\/a>"],[0,13,"<a href=\"LibraryDiscoveryParser.php.html#338\">LibraryDiscoveryParser::applyLibrariesOverride<\/a>"],[0,1,"<a href=\"LibraryDiscoveryParser.php.html#394\">LibraryDiscoveryParser::drupalGetPath<\/a>"],[0,1,"<a href=\"LibraryDiscoveryParser.php.html#401\">LibraryDiscoveryParser::fileValidUri<\/a>"],[0,1,"<a href=\"LibraryDiscoveryParser.php.html#408\">LibraryDiscoveryParser::isValidUri<\/a>"],[0,4,"<a href=\"LibraryDiscoveryParser.php.html#424\">LibraryDiscoveryParser::setOverrideValue<\/a>"],[0,3,"<a href=\"LibraryDiscoveryParser.php.html#458\">LibraryDiscoveryParser::resolveThemeAssetPath<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

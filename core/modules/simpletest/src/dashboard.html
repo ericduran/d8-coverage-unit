@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/ericduran/Sites/drupal/drupal/core/modules/simpletest/src</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../../../css/nv.d3.min.css" rel="stylesheet">
+  <link href="../../../../css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="../../../../js/html5shiv.min.js"></script>
+  <script src="../../../../js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../../../../index.html">/Users/ericduran/Sites/drupal/drupal</a></li>
+        <li><a href="../../../index.html">core</a></li>
+        <li><a href="../../index.html">modules</a></li>
+        <li><a href="../index.html">simpletest</a></li>
+        <li><a href="index.html">src</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Form/SimpletestResultsForm.php.html#28">SimpletestResultsForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SimpletestSettingsForm.php.html#16">SimpletestSettingsForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SimpletestTestForm.php.html#18">SimpletestTestForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RouteProvider.php.html#17">RouteProvider</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TestServiceProvider.php.html#15">TestServiceProvider</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="WebAssert.php.html#17">WebAssert</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockCreationTrait.php.html#17">BlockCreationTrait</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ContentTypeCreationTrait.php.html#17">ContentTypeCreationTrait</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NodeCreationTrait.php.html#16">NodeCreationTrait</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SessionTestTrait.php.html#15">SessionTestTrait</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserCreationTrait.php.html#23">UserCreationTrait</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#20">AssertContentTrait</a></td><td class="text-right">3%</td></tr>
+       <tr><td><a href="TestDiscovery.php.html#22">TestDiscovery</a></td><td class="text-right">24%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AssertContentTrait.php.html#20">AssertContentTrait</a></td><td class="text-right">16875</td></tr>
+       <tr><td><a href="TestDiscovery.php.html#22">TestDiscovery</a></td><td class="text-right">1468</td></tr>
+       <tr><td><a href="Form/SimpletestResultsForm.php.html#28">SimpletestResultsForm</a></td><td class="text-right">650</td></tr>
+       <tr><td><a href="UserCreationTrait.php.html#23">UserCreationTrait</a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="Form/SimpletestTestForm.php.html#18">SimpletestTestForm</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="RouteProvider.php.html#17">RouteProvider</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Form/SimpletestSettingsForm.php.html#16">SimpletestSettingsForm</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="TestServiceProvider.php.html#15">TestServiceProvider</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="WebAssert.php.html#17">WebAssert</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ContentTypeCreationTrait.php.html#17">ContentTypeCreationTrait</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="BlockCreationTrait.php.html#17">BlockCreationTrait</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="NodeCreationTrait.php.html#16">NodeCreationTrait</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SessionTestTrait.php.html#15">SessionTestTrait</a></td><td class="text-right">12</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Form/SimpletestResultsForm.php.html#47"><abbr title="SimpletestResultsForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#695"><abbr title="AssertContentTrait::assertUniqueTextHelper">assertUniqueTextHelper</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#1028"><abbr title="AssertContentTrait::assertNoFieldByXPath">assertNoFieldByXPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#992"><abbr title="AssertContentTrait::getSelectedItem">getSelectedItem</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#977"><abbr title="AssertContentTrait::assertFieldByXPath">assertFieldByXPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#919"><abbr title="AssertContentTrait::assertFieldsByValue">assertFieldsByValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#875"><abbr title="AssertContentTrait::assertThemeOutput">assertThemeOutput</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#841"><abbr title="AssertContentTrait::assertNoTitle">assertNoTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#804"><abbr title="AssertContentTrait::assertTitle">assertTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#778"><abbr title="AssertContentTrait::assertTextPattern">assertTextPattern</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#755"><abbr title="AssertContentTrait::assertNoPattern">assertNoPattern</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#729"><abbr title="AssertContentTrait::assertPattern">assertPattern</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#667"><abbr title="AssertContentTrait::assertNoUniqueText">assertNoUniqueText</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#1138"><abbr title="AssertContentTrait::assertFieldById">assertFieldById</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#640"><abbr title="AssertContentTrait::assertUniqueText">assertUniqueText</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#610"><abbr title="AssertContentTrait::assertTextHelper">assertTextHelper</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#582"><abbr title="AssertContentTrait::assertNoText">assertNoText</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#554"><abbr title="AssertContentTrait::assertText">assertText</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#523"><abbr title="AssertContentTrait::assertNoEscaped">assertNoEscaped</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#494"><abbr title="AssertContentTrait::assertEscaped">assertEscaped</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#466"><abbr title="AssertContentTrait::assertNoRaw">assertNoRaw</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#438"><abbr title="AssertContentTrait::assertRaw">assertRaw</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#411"><abbr title="AssertContentTrait::assertNoLinkByHrefInMainRegion">assertNoLinkByHrefInMainRegion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#386"><abbr title="AssertContentTrait::assertNoLinkByHref">assertNoLinkByHref</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#361"><abbr title="AssertContentTrait::assertLinkByHref">assertLinkByHref</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#1110"><abbr title="AssertContentTrait::assertNoFieldByName">assertNoFieldByName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#1171"><abbr title="AssertContentTrait::assertNoFieldById">assertNoFieldById</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#305"><abbr title="AssertContentTrait::assertLink">assertLink</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ContentTypeCreationTrait.php.html#29"><abbr title="ContentTypeCreationTrait::createContentType">createContentType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserCreationTrait.php.html#190"><abbr title="UserCreationTrait::checkPermissions">checkPermissions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserCreationTrait.php.html#129"><abbr title="UserCreationTrait::createRole">createRole</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserCreationTrait.php.html#102"><abbr title="UserCreationTrait::createAdminRole">createAdminRole</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserCreationTrait.php.html#51"><abbr title="UserCreationTrait::createUser">createUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserCreationTrait.php.html#31"><abbr title="UserCreationTrait::setCurrentUser">setCurrentUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SessionTestTrait.php.html#41"><abbr title="SessionTestTrait::getSessionName">getSessionName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SessionTestTrait.php.html#30"><abbr title="SessionTestTrait::generateSessionName">generateSessionName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RandomGeneratorTrait.php.html#98"><abbr title="RandomGeneratorTrait::randomMachineName">randomMachineName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NodeCreationTrait.php.html#71"><abbr title="NodeCreationTrait::createNode">createNode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NodeCreationTrait.php.html#29"><abbr title="NodeCreationTrait::getNodeByTitle">getNodeByTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockCreationTrait.php.html#46"><abbr title="BlockCreationTrait::placeBlock">placeBlock</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#1194"><abbr title="AssertContentTrait::assertFieldChecked">assertFieldChecked</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#1478"><abbr title="AssertContentTrait::constructFieldXpath">constructFieldXpath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#1454"><abbr title="AssertContentTrait::assertNoDuplicateIds">assertNoDuplicateIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#1426"><abbr title="AssertContentTrait::assertNoField">assertNoField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#1403"><abbr title="AssertContentTrait::assertField">assertField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#1379"><abbr title="AssertContentTrait::assertNoOptionSelected">assertNoOptionSelected</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#1353"><abbr title="AssertContentTrait::assertOptionSelectedWithDrupalSelector">assertOptionSelectedWithDrupalSelector</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#1325"><abbr title="AssertContentTrait::assertOptionSelected">assertOptionSelected</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#1296"><abbr title="AssertContentTrait::assertNoOption">assertNoOption</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#1270"><abbr title="AssertContentTrait::assertOptionWithDrupalSelector">assertOptionWithDrupalSelector</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#1244"><abbr title="AssertContentTrait::assertOption">assertOption</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#1218"><abbr title="AssertContentTrait::assertNoFieldChecked">assertNoFieldChecked</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#332"><abbr title="AssertContentTrait::assertNoLink">assertNoLink</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#267"><abbr title="AssertContentTrait::getAllOptions">getAllOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SimpletestResultsForm.php.html#59"><abbr title="SimpletestResultsForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SimpletestTestForm.php.html#42"><abbr title="SimpletestTestForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RouteProvider.php.html#82"><abbr title="RouteProvider::routeProviderRouteCompare">routeProviderRouteCompare</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RouteProvider.php.html#75"><abbr title="RouteProvider::getRoutesByPattern">getRoutesByPattern</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RouteProvider.php.html#68"><abbr title="RouteProvider::getCandidateOutlines">getCandidateOutlines</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RouteProvider.php.html#61"><abbr title="RouteProvider::getRoutesByNames">getRoutesByNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RouteProvider.php.html#54"><abbr title="RouteProvider::preLoadRoutes">preLoadRoutes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RouteProvider.php.html#47"><abbr title="RouteProvider::getRouteByName">getRouteByName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RouteProvider.php.html#40"><abbr title="RouteProvider::getRouteCollectionForRequest">getRouteCollectionForRequest</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RouteProvider.php.html#27"><abbr title="RouteProvider::lazyLoadItself">lazyLoadItself</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SimpletestTestForm.php.html#206"><abbr title="SimpletestTestForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SimpletestTestForm.php.html#56"><abbr title="SimpletestTestForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SimpletestTestForm.php.html#49"><abbr title="SimpletestTestForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SimpletestTestForm.php.html#30"><abbr title="SimpletestTestForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RouteProvider.php.html#96"><abbr title="RouteProvider::reset">reset</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SimpletestSettingsForm.php.html#117"><abbr title="SimpletestSettingsForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SimpletestSettingsForm.php.html#97"><abbr title="SimpletestSettingsForm::validateForm">validateForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SimpletestSettingsForm.php.html#35"><abbr title="SimpletestSettingsForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SimpletestSettingsForm.php.html#28"><abbr title="SimpletestSettingsForm::getEditableConfigNames">getEditableConfigNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SimpletestSettingsForm.php.html#21"><abbr title="SimpletestSettingsForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SimpletestResultsForm.php.html#253"><abbr title="SimpletestResultsForm::addResultForm">addResultForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SimpletestResultsForm.php.html#224"><abbr title="SimpletestResultsForm::getResults">getResults</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SimpletestResultsForm.php.html#178"><abbr title="SimpletestResultsForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SimpletestResultsForm.php.html#113"><abbr title="SimpletestResultsForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SimpletestResultsForm.php.html#106"><abbr title="SimpletestResultsForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SimpletestResultsForm.php.html#66"><abbr title="SimpletestResultsForm::buildStatusImageMap">buildStatusImageMap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RouteProvider.php.html#89"><abbr title="RouteProvider::getAllRoutes">getAllRoutes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RouteProvider.php.html#103"><abbr title="RouteProvider::getRoutesPaged">getRoutesPaged</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#254"><abbr title="AssertContentTrait::cssSelect">cssSelect</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="WebAssert.php.html#33"><abbr title="WebAssert::buttonExists">buttonExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#230"><abbr title="AssertContentTrait::xpath">xpath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#882"><abbr title="AssertContentTrait::anonymous function">anonymous function</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#178"><abbr title="AssertContentTrait::buildXPathQuery">buildXPathQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#154"><abbr title="AssertContentTrait::getUrl">getUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#128"><abbr title="AssertContentTrait::parse">parse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#118"><abbr title="AssertContentTrait::setDrupalSettings">setDrupalSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#109"><abbr title="AssertContentTrait::getDrupalSettings">getDrupalSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#98"><abbr title="AssertContentTrait::removeWhiteSpace">removeWhiteSpace</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#65"><abbr title="AssertContentTrait::setRawContent">setRawContent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#55"><abbr title="AssertContentTrait::getRawContent">getRawContent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="WebAssert.php.html#58"><abbr title="WebAssert::selectExists">selectExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TestServiceProvider.php.html#34"><abbr title="TestServiceProvider::alter">alter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TestServiceProvider.php.html#25"><abbr title="TestServiceProvider::register">register</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TestDiscovery.php.html#452"><abbr title="TestDiscovery::getExtensions">getExtensions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TestDiscovery.php.html#397"><abbr title="TestDiscovery::parseTestClassAnnotations">parseTestClassAnnotations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TestDiscovery.php.html#361"><abbr title="TestDiscovery::parseTestClassSummary">parseTestClassSummary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TestDiscovery.php.html#263"><abbr title="TestDiscovery::anonymous function">anonymous function</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TestDiscovery.php.html#253"><abbr title="TestDiscovery::scanDirectory">scanDirectory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TestDiscovery.php.html#213"><abbr title="TestDiscovery::findAllClassFiles">findAllClassFiles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TestDiscovery.php.html#138"><abbr title="TestDiscovery::getTestClasses">getTestClasses</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TestDiscovery.php.html#74"><abbr title="TestDiscovery::registerTestNamespaces">registerTestNamespaces</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TestDiscovery.php.html#62"><abbr title="TestDiscovery::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RouteProvider.php.html#110"><abbr title="RouteProvider::getRoutesCount">getRoutesCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserCreationTrait.php.html#210"><abbr title="UserCreationTrait::grantPermissions">grantPermissions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#1069"><abbr title="AssertContentTrait::assertFieldByName">assertFieldByName</abbr></a></td><td class="text-right">25%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AssertContentTrait.php.html#919"><abbr title="AssertContentTrait::assertFieldsByValue">assertFieldsByValue</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="TestDiscovery.php.html#138"><abbr title="TestDiscovery::getTestClasses">getTestClasses</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Form/SimpletestResultsForm.php.html#178"><abbr title="SimpletestResultsForm::submitForm">submitForm</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="UserCreationTrait.php.html#129"><abbr title="UserCreationTrait::createRole">createRole</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Form/SimpletestResultsForm.php.html#253"><abbr title="SimpletestResultsForm::addResultForm">addResultForm</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="UserCreationTrait.php.html#51"><abbr title="UserCreationTrait::createUser">createUser</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Form/SimpletestTestForm.php.html#206"><abbr title="SimpletestTestForm::submitForm">submitForm</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="TestDiscovery.php.html#253"><abbr title="TestDiscovery::scanDirectory">scanDirectory</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#178"><abbr title="AssertContentTrait::buildXPathQuery">buildXPathQuery</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#1028"><abbr title="AssertContentTrait::assertNoFieldByXPath">assertNoFieldByXPath</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#992"><abbr title="AssertContentTrait::getSelectedItem">getSelectedItem</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Form/SimpletestResultsForm.php.html#113"><abbr title="SimpletestResultsForm::buildForm">buildForm</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="TestDiscovery.php.html#213"><abbr title="TestDiscovery::findAllClassFiles">findAllClassFiles</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Form/SimpletestSettingsForm.php.html#97"><abbr title="SimpletestSettingsForm::validateForm">validateForm</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="TestDiscovery.php.html#74"><abbr title="TestDiscovery::registerTestNamespaces">registerTestNamespaces</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Form/SimpletestTestForm.php.html#56"><abbr title="SimpletestTestForm::buildForm">buildForm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Form/SimpletestSettingsForm.php.html#35"><abbr title="SimpletestSettingsForm::buildForm">buildForm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ContentTypeCreationTrait.php.html#29"><abbr title="ContentTypeCreationTrait::createContentType">createContentType</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#695"><abbr title="AssertContentTrait::assertUniqueTextHelper">assertUniqueTextHelper</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#267"><abbr title="AssertContentTrait::getAllOptions">getAllOptions</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#1454"><abbr title="AssertContentTrait::assertNoDuplicateIds">assertNoDuplicateIds</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="TestDiscovery.php.html#361"><abbr title="TestDiscovery::parseTestClassSummary">parseTestClassSummary</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#128"><abbr title="AssertContentTrait::parse">parse</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="TestServiceProvider.php.html#34"><abbr title="TestServiceProvider::alter">alter</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="TestDiscovery.php.html#397"><abbr title="TestDiscovery::parseTestClassAnnotations">parseTestClassAnnotations</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#1325"><abbr title="AssertContentTrait::assertOptionSelected">assertOptionSelected</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#804"><abbr title="AssertContentTrait::assertTitle">assertTitle</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#1218"><abbr title="AssertContentTrait::assertNoFieldChecked">assertNoFieldChecked</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#610"><abbr title="AssertContentTrait::assertTextHelper">assertTextHelper</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#1353"><abbr title="AssertContentTrait::assertOptionSelectedWithDrupalSelector">assertOptionSelectedWithDrupalSelector</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#1296"><abbr title="AssertContentTrait::assertNoOption">assertNoOption</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#230"><abbr title="AssertContentTrait::xpath">xpath</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#1379"><abbr title="AssertContentTrait::assertNoOptionSelected">assertNoOptionSelected</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="BlockCreationTrait.php.html#46"><abbr title="BlockCreationTrait::placeBlock">placeBlock</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#1138"><abbr title="AssertContentTrait::assertFieldById">assertFieldById</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="WebAssert.php.html#58"><abbr title="WebAssert::selectExists">selectExists</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="WebAssert.php.html#33"><abbr title="WebAssert::buttonExists">buttonExists</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="TestServiceProvider.php.html#25"><abbr title="TestServiceProvider::register">register</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="TestDiscovery.php.html#263"><abbr title="TestDiscovery::anonymous function">anonymous function</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="UserCreationTrait.php.html#190"><abbr title="UserCreationTrait::checkPermissions">checkPermissions</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#1194"><abbr title="AssertContentTrait::assertFieldChecked">assertFieldChecked</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#1069"><abbr title="AssertContentTrait::assertFieldByName">assertFieldByName</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="NodeCreationTrait.php.html#29"><abbr title="NodeCreationTrait::getNodeByTitle">getNodeByTitle</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SessionTestTrait.php.html#30"><abbr title="SessionTestTrait::generateSessionName">generateSessionName</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="UserCreationTrait.php.html#102"><abbr title="UserCreationTrait::createAdminRole">createAdminRole</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#1270"><abbr title="AssertContentTrait::assertOptionWithDrupalSelector">assertOptionWithDrupalSelector</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#1244"><abbr title="AssertContentTrait::assertOption">assertOption</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#523"><abbr title="AssertContentTrait::assertNoEscaped">assertNoEscaped</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#1171"><abbr title="AssertContentTrait::assertNoFieldById">assertNoFieldById</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#411"><abbr title="AssertContentTrait::assertNoLinkByHrefInMainRegion">assertNoLinkByHrefInMainRegion</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="RouteProvider.php.html#27"><abbr title="RouteProvider::lazyLoadItself">lazyLoadItself</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#65"><abbr title="AssertContentTrait::setRawContent">setRawContent</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#154"><abbr title="AssertContentTrait::getUrl">getUrl</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#305"><abbr title="AssertContentTrait::assertLink">assertLink</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#332"><abbr title="AssertContentTrait::assertNoLink">assertNoLink</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#361"><abbr title="AssertContentTrait::assertLinkByHref">assertLinkByHref</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#386"><abbr title="AssertContentTrait::assertNoLinkByHref">assertNoLinkByHref</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#438"><abbr title="AssertContentTrait::assertRaw">assertRaw</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#1110"><abbr title="AssertContentTrait::assertNoFieldByName">assertNoFieldByName</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#466"><abbr title="AssertContentTrait::assertNoRaw">assertNoRaw</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#494"><abbr title="AssertContentTrait::assertEscaped">assertEscaped</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#729"><abbr title="AssertContentTrait::assertPattern">assertPattern</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#755"><abbr title="AssertContentTrait::assertNoPattern">assertNoPattern</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#778"><abbr title="AssertContentTrait::assertTextPattern">assertTextPattern</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#841"><abbr title="AssertContentTrait::assertNoTitle">assertNoTitle</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AssertContentTrait.php.html#875"><abbr title="AssertContentTrait::assertThemeOutput">assertThemeOutput</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="UserCreationTrait.php.html#210"><abbr title="UserCreationTrait::grantPermissions">grantPermissions</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 2.2.4</a> using <a href="http://php.net/" target="_top">PHP 7.0.3</a> and <a href="http://phpunit.de/">PHPUnit 4.8.11</a> at Sat Feb 27 11:34:46 AEDT 2016.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../../../../js/holder.min.js" type="text/javascript"></script>
+  <script src="../../../../js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([11,1,0,1,0,0,0,0,0,0,1,2], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([108,0,0,1,0,0,0,0,0,0,1,8], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,0,"<a href=\"Exception\/MissingGroupException.php.html#13\">MissingGroupException<\/a>"],[0,25,"<a href=\"Form\/SimpletestResultsForm.php.html#28\">SimpletestResultsForm<\/a>"],[0,12,"<a href=\"Form\/SimpletestSettingsForm.php.html#16\">SimpletestSettingsForm<\/a>"],[0,14,"<a href=\"Form\/SimpletestTestForm.php.html#18\">SimpletestTestForm<\/a>"],[0,13,"<a href=\"RouteProvider.php.html#17\">RouteProvider<\/a>"],[24.264705882353,57,"<a href=\"TestDiscovery.php.html#22\">TestDiscovery<\/a>"],[0,7,"<a href=\"TestServiceProvider.php.html#15\">TestServiceProvider<\/a>"],[0,6,"<a href=\"WebAssert.php.html#17\">WebAssert<\/a>"],[3.2710280373832,136,"<a href=\"AssertContentTrait.php.html#20\">AssertContentTrait<\/a>"],[100,6,"<a href=\"AssertHelperTrait.php.html#15\">AssertHelperTrait<\/a>"],[0,3,"<a href=\"BlockCreationTrait.php.html#17\">BlockCreationTrait<\/a>"],[0,4,"<a href=\"ContentTypeCreationTrait.php.html#17\">ContentTypeCreationTrait<\/a>"],[0,3,"<a href=\"NodeCreationTrait.php.html#16\">NodeCreationTrait<\/a>"],[93.333333333333,9,"<a href=\"RandomGeneratorTrait.php.html#15\">RandomGeneratorTrait<\/a>"],[0,3,"<a href=\"SessionTestTrait.php.html#15\">SessionTestTrait<\/a>"],[0,23,"<a href=\"UserCreationTrait.php.html#23\">UserCreationTrait<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Form\/SimpletestResultsForm.php.html#47\">SimpletestResultsForm::create<\/a>"],[0,1,"<a href=\"Form\/SimpletestResultsForm.php.html#59\">SimpletestResultsForm::__construct<\/a>"],[0,1,"<a href=\"Form\/SimpletestResultsForm.php.html#66\">SimpletestResultsForm::buildStatusImageMap<\/a>"],[0,1,"<a href=\"Form\/SimpletestResultsForm.php.html#106\">SimpletestResultsForm::getFormId<\/a>"],[0,5,"<a href=\"Form\/SimpletestResultsForm.php.html#113\">SimpletestResultsForm::buildForm<\/a>"],[0,8,"<a href=\"Form\/SimpletestResultsForm.php.html#178\">SimpletestResultsForm::submitForm<\/a>"],[0,1,"<a href=\"Form\/SimpletestResultsForm.php.html#224\">SimpletestResultsForm::getResults<\/a>"],[0,7,"<a href=\"Form\/SimpletestResultsForm.php.html#253\">SimpletestResultsForm::addResultForm<\/a>"],[0,1,"<a href=\"Form\/SimpletestSettingsForm.php.html#21\">SimpletestSettingsForm::getFormId<\/a>"],[0,1,"<a href=\"Form\/SimpletestSettingsForm.php.html#28\">SimpletestSettingsForm::getEditableConfigNames<\/a>"],[0,4,"<a href=\"Form\/SimpletestSettingsForm.php.html#35\">SimpletestSettingsForm::buildForm<\/a>"],[0,5,"<a href=\"Form\/SimpletestSettingsForm.php.html#97\">SimpletestSettingsForm::validateForm<\/a>"],[0,1,"<a href=\"Form\/SimpletestSettingsForm.php.html#117\">SimpletestSettingsForm::submitForm<\/a>"],[0,1,"<a href=\"Form\/SimpletestTestForm.php.html#30\">SimpletestTestForm::create<\/a>"],[0,1,"<a href=\"Form\/SimpletestTestForm.php.html#42\">SimpletestTestForm::__construct<\/a>"],[0,1,"<a href=\"Form\/SimpletestTestForm.php.html#49\">SimpletestTestForm::getFormId<\/a>"],[0,4,"<a href=\"Form\/SimpletestTestForm.php.html#56\">SimpletestTestForm::buildForm<\/a>"],[0,7,"<a href=\"Form\/SimpletestTestForm.php.html#206\">SimpletestTestForm::submitForm<\/a>"],[0,2,"<a href=\"RouteProvider.php.html#27\">RouteProvider::lazyLoadItself<\/a>"],[0,1,"<a href=\"RouteProvider.php.html#40\">RouteProvider::getRouteCollectionForRequest<\/a>"],[0,1,"<a href=\"RouteProvider.php.html#47\">RouteProvider::getRouteByName<\/a>"],[0,1,"<a href=\"RouteProvider.php.html#54\">RouteProvider::preLoadRoutes<\/a>"],[0,1,"<a href=\"RouteProvider.php.html#61\">RouteProvider::getRoutesByNames<\/a>"],[0,1,"<a href=\"RouteProvider.php.html#68\">RouteProvider::getCandidateOutlines<\/a>"],[0,1,"<a href=\"RouteProvider.php.html#75\">RouteProvider::getRoutesByPattern<\/a>"],[0,1,"<a href=\"RouteProvider.php.html#82\">RouteProvider::routeProviderRouteCompare<\/a>"],[0,1,"<a href=\"RouteProvider.php.html#89\">RouteProvider::getAllRoutes<\/a>"],[0,1,"<a href=\"RouteProvider.php.html#96\">RouteProvider::reset<\/a>"],[0,1,"<a href=\"RouteProvider.php.html#103\">RouteProvider::getRoutesPaged<\/a>"],[0,1,"<a href=\"RouteProvider.php.html#110\">RouteProvider::getRoutesCount<\/a>"],[0,1,"<a href=\"TestDiscovery.php.html#62\">TestDiscovery::__construct<\/a>"],[0,5,"<a href=\"TestDiscovery.php.html#74\">TestDiscovery::registerTestNamespaces<\/a>"],[0,13,"<a href=\"TestDiscovery.php.html#138\">TestDiscovery::getTestClasses<\/a>"],[0,5,"<a href=\"TestDiscovery.php.html#213\">TestDiscovery::findAllClassFiles<\/a>"],[0,6,"<a href=\"TestDiscovery.php.html#253\">TestDiscovery::scanDirectory<\/a>"],[0,3,"<a href=\"TestDiscovery.php.html#263\">TestDiscovery::anonymous function<\/a>"],[100,9,"<a href=\"TestDiscovery.php.html#303\">TestDiscovery::getTestInfo<\/a>"],[0,4,"<a href=\"TestDiscovery.php.html#361\">TestDiscovery::parseTestClassSummary<\/a>"],[0,4,"<a href=\"TestDiscovery.php.html#397\">TestDiscovery::parseTestClassAnnotations<\/a>"],[90.909090909091,6,"<a href=\"TestDiscovery.php.html#425\">TestDiscovery::getPhpunitTestSuite<\/a>"],[0,1,"<a href=\"TestDiscovery.php.html#452\">TestDiscovery::getExtensions<\/a>"],[0,3,"<a href=\"TestServiceProvider.php.html#25\">TestServiceProvider::register<\/a>"],[0,4,"<a href=\"TestServiceProvider.php.html#34\">TestServiceProvider::alter<\/a>"],[0,3,"<a href=\"WebAssert.php.html#33\">WebAssert::buttonExists<\/a>"],[0,3,"<a href=\"WebAssert.php.html#58\">WebAssert::selectExists<\/a>"],[0,1,"<a href=\"AssertContentTrait.php.html#55\">AssertContentTrait::getRawContent<\/a>"],[0,2,"<a href=\"AssertContentTrait.php.html#65\">AssertContentTrait::setRawContent<\/a>"],[100,2,"<a href=\"AssertContentTrait.php.html#78\">AssertContentTrait::getTextContent<\/a>"],[0,1,"<a href=\"AssertContentTrait.php.html#98\">AssertContentTrait::removeWhiteSpace<\/a>"],[0,1,"<a href=\"AssertContentTrait.php.html#109\">AssertContentTrait::getDrupalSettings<\/a>"],[0,1,"<a href=\"AssertContentTrait.php.html#118\">AssertContentTrait::setDrupalSettings<\/a>"],[0,4,"<a href=\"AssertContentTrait.php.html#128\">AssertContentTrait::parse<\/a>"],[0,2,"<a href=\"AssertContentTrait.php.html#154\">AssertContentTrait::getUrl<\/a>"],[0,6,"<a href=\"AssertContentTrait.php.html#178\">AssertContentTrait::buildXPathQuery<\/a>"],[0,1,"<a href=\"AssertContentTrait.php.html#882\">AssertContentTrait::anonymous function<\/a>"],[0,3,"<a href=\"AssertContentTrait.php.html#230\">AssertContentTrait::xpath<\/a>"],[0,1,"<a href=\"AssertContentTrait.php.html#254\">AssertContentTrait::cssSelect<\/a>"],[0,4,"<a href=\"AssertContentTrait.php.html#267\">AssertContentTrait::getAllOptions<\/a>"],[0,2,"<a href=\"AssertContentTrait.php.html#305\">AssertContentTrait::assertLink<\/a>"],[0,2,"<a href=\"AssertContentTrait.php.html#332\">AssertContentTrait::assertNoLink<\/a>"],[0,2,"<a href=\"AssertContentTrait.php.html#361\">AssertContentTrait::assertLinkByHref<\/a>"],[0,2,"<a href=\"AssertContentTrait.php.html#386\">AssertContentTrait::assertNoLinkByHref<\/a>"],[0,2,"<a href=\"AssertContentTrait.php.html#411\">AssertContentTrait::assertNoLinkByHrefInMainRegion<\/a>"],[0,2,"<a href=\"AssertContentTrait.php.html#438\">AssertContentTrait::assertRaw<\/a>"],[0,2,"<a href=\"AssertContentTrait.php.html#466\">AssertContentTrait::assertNoRaw<\/a>"],[0,2,"<a href=\"AssertContentTrait.php.html#494\">AssertContentTrait::assertEscaped<\/a>"],[0,2,"<a href=\"AssertContentTrait.php.html#523\">AssertContentTrait::assertNoEscaped<\/a>"],[0,1,"<a href=\"AssertContentTrait.php.html#554\">AssertContentTrait::assertText<\/a>"],[0,1,"<a href=\"AssertContentTrait.php.html#582\">AssertContentTrait::assertNoText<\/a>"],[0,3,"<a href=\"AssertContentTrait.php.html#610\">AssertContentTrait::assertTextHelper<\/a>"],[0,1,"<a href=\"AssertContentTrait.php.html#640\">AssertContentTrait::assertUniqueText<\/a>"],[0,1,"<a href=\"AssertContentTrait.php.html#667\">AssertContentTrait::assertNoUniqueText<\/a>"],[0,4,"<a href=\"AssertContentTrait.php.html#695\">AssertContentTrait::assertUniqueTextHelper<\/a>"],[0,2,"<a href=\"AssertContentTrait.php.html#729\">AssertContentTrait::assertPattern<\/a>"],[0,2,"<a href=\"AssertContentTrait.php.html#755\">AssertContentTrait::assertNoPattern<\/a>"],[0,2,"<a href=\"AssertContentTrait.php.html#778\">AssertContentTrait::assertTextPattern<\/a>"],[0,3,"<a href=\"AssertContentTrait.php.html#804\">AssertContentTrait::assertTitle<\/a>"],[0,2,"<a href=\"AssertContentTrait.php.html#841\">AssertContentTrait::assertNoTitle<\/a>"],[0,2,"<a href=\"AssertContentTrait.php.html#875\">AssertContentTrait::assertThemeOutput<\/a>"],[0,14,"<a href=\"AssertContentTrait.php.html#919\">AssertContentTrait::assertFieldsByValue<\/a>"],[0,1,"<a href=\"AssertContentTrait.php.html#977\">AssertContentTrait::assertFieldByXPath<\/a>"],[0,5,"<a href=\"AssertContentTrait.php.html#992\">AssertContentTrait::getSelectedItem<\/a>"],[0,6,"<a href=\"AssertContentTrait.php.html#1028\">AssertContentTrait::assertNoFieldByXPath<\/a>"],[25,3,"<a href=\"AssertContentTrait.php.html#1069\">AssertContentTrait::assertFieldByName<\/a>"],[0,2,"<a href=\"AssertContentTrait.php.html#1110\">AssertContentTrait::assertNoFieldByName<\/a>"],[0,3,"<a href=\"AssertContentTrait.php.html#1138\">AssertContentTrait::assertFieldById<\/a>"],[0,2,"<a href=\"AssertContentTrait.php.html#1171\">AssertContentTrait::assertNoFieldById<\/a>"],[0,3,"<a href=\"AssertContentTrait.php.html#1194\">AssertContentTrait::assertFieldChecked<\/a>"],[0,3,"<a href=\"AssertContentTrait.php.html#1218\">AssertContentTrait::assertNoFieldChecked<\/a>"],[0,2,"<a href=\"AssertContentTrait.php.html#1244\">AssertContentTrait::assertOption<\/a>"],[0,2,"<a href=\"AssertContentTrait.php.html#1270\">AssertContentTrait::assertOptionWithDrupalSelector<\/a>"],[0,3,"<a href=\"AssertContentTrait.php.html#1296\">AssertContentTrait::assertNoOption<\/a>"],[0,3,"<a href=\"AssertContentTrait.php.html#1325\">AssertContentTrait::assertOptionSelected<\/a>"],[0,3,"<a href=\"AssertContentTrait.php.html#1353\">AssertContentTrait::assertOptionSelectedWithDrupalSelector<\/a>"],[0,3,"<a href=\"AssertContentTrait.php.html#1379\">AssertContentTrait::assertNoOptionSelected<\/a>"],[0,1,"<a href=\"AssertContentTrait.php.html#1403\">AssertContentTrait::assertField<\/a>"],[0,1,"<a href=\"AssertContentTrait.php.html#1426\">AssertContentTrait::assertNoField<\/a>"],[0,4,"<a href=\"AssertContentTrait.php.html#1454\">AssertContentTrait::assertNoDuplicateIds<\/a>"],[0,1,"<a href=\"AssertContentTrait.php.html#1478\">AssertContentTrait::constructFieldXpath<\/a>"],[100,4,"<a href=\"AssertHelperTrait.php.html#26\">AssertHelperTrait::castSafeStrings<\/a>"],[100,2,"<a href=\"AssertHelperTrait.php.html#31\">AssertHelperTrait::anonymous function<\/a>"],[0,3,"<a href=\"BlockCreationTrait.php.html#46\">BlockCreationTrait::placeBlock<\/a>"],[0,4,"<a href=\"ContentTypeCreationTrait.php.html#29\">ContentTypeCreationTrait::createContentType<\/a>"],[0,2,"<a href=\"NodeCreationTrait.php.html#29\">NodeCreationTrait::getNodeByTitle<\/a>"],[0,1,"<a href=\"NodeCreationTrait.php.html#71\">NodeCreationTrait::createNode<\/a>"],[100,2,"<a href=\"RandomGeneratorTrait.php.html#42\">RandomGeneratorTrait::randomString<\/a>"],[100,3,"<a href=\"RandomGeneratorTrait.php.html#68\">RandomGeneratorTrait::randomStringValidate<\/a>"],[0,1,"<a href=\"RandomGeneratorTrait.php.html#98\">RandomGeneratorTrait::randomMachineName<\/a>"],[100,1,"<a href=\"RandomGeneratorTrait.php.html#114\">RandomGeneratorTrait::randomObject<\/a>"],[100,2,"<a href=\"RandomGeneratorTrait.php.html#124\">RandomGeneratorTrait::getRandomGenerator<\/a>"],[0,2,"<a href=\"SessionTestTrait.php.html#30\">SessionTestTrait::generateSessionName<\/a>"],[0,1,"<a href=\"SessionTestTrait.php.html#41\">SessionTestTrait::getSessionName<\/a>"],[0,1,"<a href=\"UserCreationTrait.php.html#31\">UserCreationTrait::setCurrentUser<\/a>"],[0,7,"<a href=\"UserCreationTrait.php.html#51\">UserCreationTrait::createUser<\/a>"],[0,2,"<a href=\"UserCreationTrait.php.html#102\">UserCreationTrait::createAdminRole<\/a>"],[0,8,"<a href=\"UserCreationTrait.php.html#129\">UserCreationTrait::createRole<\/a>"],[0,3,"<a href=\"UserCreationTrait.php.html#190\">UserCreationTrait::checkPermissions<\/a>"],[0,2,"<a href=\"UserCreationTrait.php.html#210\">UserCreationTrait::grantPermissions<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/ericduran/Sites/drupal/drupal/core/modules/block/src</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../../../css/nv.d3.min.css" rel="stylesheet">
+  <link href="../../../../css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="../../../../js/html5shiv.min.js"></script>
+  <script src="../../../../js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../../../../index.html">/Users/ericduran/Sites/drupal/drupal</a></li>
+        <li><a href="../../../index.html">core</a></li>
+        <li><a href="../../index.html">modules</a></li>
+        <li><a href="../index.html">block</a></li>
+        <li><a href="index.html">src</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="BlockAccessControlHandler.php.html#31">BlockAccessControlHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockListBuilder.php.html#29">BlockListBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/migrate/process/BlockTheme.php.html#23">BlockTheme</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/migrate/process/BlockSettings.php.html#19">BlockSettings</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/migrate/process/BlockPluginId.php.html#24">BlockPluginId</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/migrate/destination/EntityBlock.php.html#18">EntityBlock</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/BlockDeleteForm.php.html#16">BlockDeleteForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventSubscriber/BlockPageDisplayVariantSubscriber.php.html#19">BlockPageDisplayVariantSubscriber</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/BlockListController.php.html#19">BlockListController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/BlockLibraryController.php.html#24">BlockLibraryController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/BlockController.php.html#19">BlockController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/BlockAddController.php.html#15">BlockAddController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockViewBuilder.php.html#27">BlockViewBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockPluginCollection.php.html#17">BlockPluginCollection</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Theme/AdminDemoNegotiator.php.html#16">AdminDemoNegotiator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/migrate/source/Block.php.html#21">Block</a></td><td class="text-right">42%</td></tr>
+       <tr><td><a href="Plugin/migrate/process/BlockRegion.php.html#21">BlockRegion</a></td><td class="text-right">46%</td></tr>
+       <tr><td><a href="Plugin/migrate/process/BlockVisibility.php.html#25">BlockVisibility</a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="Plugin/DisplayVariant/BlockPageVariant.php.html#37">BlockPageVariant</a></td><td class="text-right">65%</td></tr>
+       <tr><td><a href="BlockRepository.php.html#18">BlockRepository</a></td><td class="text-right">78%</td></tr>
+       <tr><td><a href="Controller/CategoryAutocompleteController.php.html#20">CategoryAutocompleteController</a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Plugin/Derivative/ThemeLocalTask.php.html#18">ThemeLocalTask</a></td><td class="text-right">86%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="BlockListBuilder.php.html#29">BlockListBuilder</a></td><td class="text-right">702</td></tr>
+       <tr><td><a href="BlockViewBuilder.php.html#27">BlockViewBuilder</a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="BlockAccessControlHandler.php.html#31">BlockAccessControlHandler</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="Plugin/migrate/process/BlockPluginId.php.html#24">BlockPluginId</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Controller/BlockLibraryController.php.html#24">BlockLibraryController</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Plugin/migrate/process/BlockSettings.php.html#19">BlockSettings</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Plugin/migrate/source/Block.php.html#21">Block</a></td><td class="text-right">70</td></tr>
+       <tr><td><a href="BlockPluginCollection.php.html#17">BlockPluginCollection</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Plugin/migrate/process/BlockTheme.php.html#23">BlockTheme</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Controller/BlockController.php.html#19">BlockController</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Plugin/DisplayVariant/BlockPageVariant.php.html#37">BlockPageVariant</a></td><td class="text-right">31</td></tr>
+       <tr><td><a href="Controller/BlockListController.php.html#19">BlockListController</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Plugin/migrate/process/BlockVisibility.php.html#25">BlockVisibility</a></td><td class="text-right">23</td></tr>
+       <tr><td><a href="Plugin/migrate/process/BlockRegion.php.html#21">BlockRegion</a></td><td class="text-right">14</td></tr>
+       <tr><td><a href="BlockRepository.php.html#18">BlockRepository</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/Derivative/ThemeLocalTask.php.html#18">ThemeLocalTask</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controller/CategoryAutocompleteController.php.html#20">CategoryAutocompleteController</a></td><td class="text-right">5</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="BlockAccessControlHandler.php.html#59"><abbr title="BlockAccessControlHandler::createInstance">createInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DisplayVariant/BlockPageVariant.php.html#114"><abbr title="BlockPageVariant::setMainContent">setMainContent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/BlockLibraryController.php.html#76"><abbr title="BlockLibraryController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/BlockLibraryController.php.html#96"><abbr title="BlockLibraryController::listBlocks">listBlocks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/BlockLibraryController.php.html#181"><abbr title="BlockLibraryController::buildLocalActions">buildLocalActions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/BlockListController.php.html#34"><abbr title="BlockListController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/BlockListController.php.html#41"><abbr title="BlockListController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/BlockListController.php.html#58"><abbr title="BlockListController::listing">listing</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/CategoryAutocompleteController.php.html#42"><abbr title="CategoryAutocompleteController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventSubscriber/BlockPageDisplayVariantSubscriber.php.html#27"><abbr title="BlockPageDisplayVariantSubscriber::onSelectPageDisplayVariant">onSelectPageDisplayVariant</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventSubscriber/BlockPageDisplayVariantSubscriber.php.html#34"><abbr title="BlockPageDisplayVariantSubscriber::getSubscribedEvents">getSubscribedEvents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/BlockDeleteForm.php.html#21"><abbr title="BlockDeleteForm::getCancelUrl">getCancelUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DisplayVariant/BlockPageVariant.php.html#90"><abbr title="BlockPageVariant::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DisplayVariant/BlockPageVariant.php.html#100"><abbr title="BlockPageVariant::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DisplayVariant/BlockPageVariant.php.html#122"><abbr title="BlockPageVariant::setTitle">setTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/BlockController.php.html#101"><abbr title="BlockController::getVisibleRegionNames">getVisibleRegionNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/migrate/destination/EntityBlock.php.html#23"><abbr title="EntityBlock::getEntityId">getEntityId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/migrate/process/BlockPluginId.php.html#44"><abbr title="BlockPluginId::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/migrate/process/BlockPluginId.php.html#53"><abbr title="BlockPluginId::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/migrate/process/BlockPluginId.php.html#75"><abbr title="BlockPluginId::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/migrate/process/BlockRegion.php.html#42"><abbr title="BlockRegion::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/migrate/process/BlockRegion.php.html#50"><abbr title="BlockRegion::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/migrate/process/BlockSettings.php.html#26"><abbr title="BlockSettings::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/migrate/process/BlockTheme.php.html#55"><abbr title="BlockTheme::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/migrate/process/BlockTheme.php.html#64"><abbr title="BlockTheme::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/migrate/process/BlockTheme.php.html#78"><abbr title="BlockTheme::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/migrate/process/BlockVisibility.php.html#53"><abbr title="BlockVisibility::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/migrate/process/BlockVisibility.php.html#66"><abbr title="BlockVisibility::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Theme/AdminDemoNegotiator.php.html#21"><abbr title="AdminDemoNegotiator::applies">applies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockAccessControlHandler.php.html#80"><abbr title="BlockAccessControlHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/BlockLibraryController.php.html#66"><abbr title="BlockLibraryController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/BlockController.php.html#56"><abbr title="BlockController::demo">demo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/BlockController.php.html#41"><abbr title="BlockController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockAccessControlHandler.php.html#91"><abbr title="BlockAccessControlHandler::checkAccess">checkAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockAccessControlHandler.php.html#166"><abbr title="BlockAccessControlHandler::mergeCacheabilityFromConditions">mergeCacheabilityFromConditions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockListBuilder.php.html#76"><abbr title="BlockListBuilder::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockListBuilder.php.html#86"><abbr title="BlockListBuilder::createInstance">createInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockListBuilder.php.html#107"><abbr title="BlockListBuilder::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockListBuilder.php.html#117"><abbr title="BlockListBuilder::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockListBuilder.php.html#124"><abbr title="BlockListBuilder::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockListBuilder.php.html#151"><abbr title="BlockListBuilder::buildBlocksForm">buildBlocksForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockListBuilder.php.html#321"><abbr title="BlockListBuilder::getThemeName">getThemeName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockListBuilder.php.html#332"><abbr title="BlockListBuilder::getEntityIds">getEntityIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockListBuilder.php.html#342"><abbr title="BlockListBuilder::getDefaultOperations">getDefaultOperations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockListBuilder.php.html#355"><abbr title="BlockListBuilder::validateForm">validateForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockListBuilder.php.html#362"><abbr title="BlockListBuilder::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockListBuilder.php.html#386"><abbr title="BlockListBuilder::systemRegionList">systemRegionList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockPluginCollection.php.html#38"><abbr title="BlockPluginCollection::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockPluginCollection.php.html#49"><abbr title="BlockPluginCollection::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockViewBuilder.php.html#74"><abbr title="BlockViewBuilder::view">view</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/BlockController.php.html#34"><abbr title="BlockController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/BlockAddController.php.html#28"><abbr title="BlockAddController::blockAddConfigureForm">blockAddConfigureForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockViewBuilder.php.html#206"><abbr title="BlockViewBuilder::preRender">preRender</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockViewBuilder.php.html#193"><abbr title="BlockViewBuilder::lazyBuilder">lazyBuilder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockViewBuilder.php.html#138"><abbr title="BlockViewBuilder::buildPreRenderableBlock">buildPreRenderableBlock</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockViewBuilder.php.html#82"><abbr title="BlockViewBuilder::viewMultiple">viewMultiple</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Theme/AdminDemoNegotiator.php.html#28"><abbr title="AdminDemoNegotiator::determineActiveTheme">determineActiveTheme</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockPluginCollection.php.html#56"><abbr title="BlockPluginCollection::initializePlugin">initializePlugin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockViewBuilder.php.html#68"><abbr title="BlockViewBuilder::buildComponents">buildComponents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockViewBuilder.php.html#56"><abbr title="BlockViewBuilder::createInstance">createInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockViewBuilder.php.html#48"><abbr title="BlockViewBuilder::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockRepository.php.html#44"><abbr title="BlockRepository::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/migrate/source/Block.php.html#107"><abbr title="Block::prepareRow">prepareRow</abbr></a></td><td class="text-right">32%</td></tr>
+       <tr><td><a href="Plugin/migrate/source/Block.php.html#54"><abbr title="Block::query">query</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Plugin/Derivative/ThemeLocalTask.php.html#49"><abbr title="ThemeLocalTask::getDerivativeDefinitions">getDerivativeDefinitions</abbr></a></td><td class="text-right">81%</td></tr>
+       <tr><td><a href="Plugin/migrate/process/BlockVisibility.php.html#85"><abbr title="BlockVisibility::transform">transform</abbr></a></td><td class="text-right">82%</td></tr>
+       <tr><td><a href="Plugin/migrate/process/BlockRegion.php.html#61"><abbr title="BlockRegion::transform">transform</abbr></a></td><td class="text-right">87%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="BlockListBuilder.php.html#151"><abbr title="BlockListBuilder::buildBlocksForm">buildBlocksForm</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="BlockAccessControlHandler.php.html#91"><abbr title="BlockAccessControlHandler::checkAccess">checkAccess</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Plugin/migrate/process/BlockSettings.php.html#26"><abbr title="BlockSettings::transform">transform</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Plugin/migrate/process/BlockPluginId.php.html#75"><abbr title="BlockPluginId::transform">transform</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Plugin/migrate/source/Block.php.html#107"><abbr title="Block::prepareRow">prepareRow</abbr></a></td><td class="text-right">57</td></tr>
+       <tr><td><a href="BlockViewBuilder.php.html#206"><abbr title="BlockViewBuilder::preRender">preRender</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="BlockPluginCollection.php.html#56"><abbr title="BlockPluginCollection::initializePlugin">initializePlugin</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Plugin/migrate/process/BlockTheme.php.html#78"><abbr title="BlockTheme::transform">transform</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="BlockViewBuilder.php.html#82"><abbr title="BlockViewBuilder::viewMultiple">viewMultiple</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Controller/BlockLibraryController.php.html#96"><abbr title="BlockLibraryController::listBlocks">listBlocks</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="BlockListBuilder.php.html#362"><abbr title="BlockListBuilder::submitForm">submitForm</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Controller/BlockController.php.html#56"><abbr title="BlockController::demo">demo</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="BlockAccessControlHandler.php.html#166"><abbr title="BlockAccessControlHandler::mergeCacheabilityFromConditions">mergeCacheabilityFromConditions</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Controller/BlockListController.php.html#58"><abbr title="BlockListController::listing">listing</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugin/migrate/process/BlockVisibility.php.html#85"><abbr title="BlockVisibility::transform">transform</abbr></a></td><td class="text-right">9</td></tr>
+       <tr><td><a href="Plugin/migrate/process/BlockPluginId.php.html#53"><abbr title="BlockPluginId::create">create</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="BlockViewBuilder.php.html#138"><abbr title="BlockViewBuilder::buildPreRenderableBlock">buildPreRenderableBlock</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/migrate/process/BlockRegion.php.html#50"><abbr title="BlockRegion::create">create</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="BlockListBuilder.php.html#342"><abbr title="BlockListBuilder::getDefaultOperations">getDefaultOperations</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="BlockListBuilder.php.html#321"><abbr title="BlockListBuilder::getThemeName">getThemeName</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/migrate/process/BlockVisibility.php.html#53"><abbr title="BlockVisibility::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controller/BlockLibraryController.php.html#181"><abbr title="BlockLibraryController::buildLocalActions">buildLocalActions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/Derivative/ThemeLocalTask.php.html#49"><abbr title="ThemeLocalTask::getDerivativeDefinitions">getDerivativeDefinitions</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Plugin/migrate/process/BlockRegion.php.html#61"><abbr title="BlockRegion::transform">transform</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Plugin/migrate/source/Block.php.html#54"><abbr title="Block::query">query</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 2.2.4</a> using <a href="http://php.net/" target="_top">PHP 7.0.3</a> and <a href="http://phpunit.de/">PHPUnit 4.8.11</a> at Sat Feb 27 11:34:46 AEDT 2016.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../../../../js/holder.min.js" type="text/javascript"></script>
+  <script src="../../../../js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([15,0,0,0,0,2,1,1,1,2,0,1], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([62,0,0,0,1,0,0,1,0,3,1,19], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,15,"<a href=\"BlockAccessControlHandler.php.html#31\">BlockAccessControlHandler<\/a>"],[100,34,"<a href=\"BlockForm.php.html#25\">BlockForm<\/a>"],[0,26,"<a href=\"BlockListBuilder.php.html#29\">BlockListBuilder<\/a>"],[0,7,"<a href=\"BlockPluginCollection.php.html#17\">BlockPluginCollection<\/a>"],[78.947368421053,6,"<a href=\"BlockRepository.php.html#18\">BlockRepository<\/a>"],[0,17,"<a href=\"BlockViewBuilder.php.html#27\">BlockViewBuilder<\/a>"],[0,1,"<a href=\"Controller\/BlockAddController.php.html#15\">BlockAddController<\/a>"],[0,6,"<a href=\"Controller\/BlockController.php.html#19\">BlockController<\/a>"],[0,8,"<a href=\"Controller\/BlockLibraryController.php.html#24\">BlockLibraryController<\/a>"],[0,5,"<a href=\"Controller\/BlockListController.php.html#19\">BlockListController<\/a>"],[80,5,"<a href=\"Controller\/CategoryAutocompleteController.php.html#20\">CategoryAutocompleteController<\/a>"],[42.857142857143,17,"<a href=\"Plugin\/migrate\/source\/Block.php.html#21\">Block<\/a>"],[0,2,"<a href=\"EventSubscriber\/BlockPageDisplayVariantSubscriber.php.html#19\">BlockPageDisplayVariantSubscriber<\/a>"],[0,1,"<a href=\"Form\/BlockDeleteForm.php.html#16\">BlockDeleteForm<\/a>"],[86.666666666667,6,"<a href=\"Plugin\/Derivative\/ThemeLocalTask.php.html#18\">ThemeLocalTask<\/a>"],[65.116279069767,18,"<a href=\"Plugin\/DisplayVariant\/BlockPageVariant.php.html#37\">BlockPageVariant<\/a>"],[0,1,"<a href=\"Plugin\/migrate\/destination\/EntityBlock.php.html#18\">EntityBlock<\/a>"],[0,11,"<a href=\"Plugin\/migrate\/process\/BlockPluginId.php.html#24\">BlockPluginId<\/a>"],[46.666666666667,7,"<a href=\"Plugin\/migrate\/process\/BlockRegion.php.html#21\">BlockRegion<\/a>"],[0,8,"<a href=\"Plugin\/migrate\/process\/BlockSettings.php.html#19\">BlockSettings<\/a>"],[0,6,"<a href=\"Plugin\/migrate\/process\/BlockTheme.php.html#23\">BlockTheme<\/a>"],[57.575757575758,12,"<a href=\"Plugin\/migrate\/process\/BlockVisibility.php.html#25\">BlockVisibility<\/a>"],[0,2,"<a href=\"Theme\/AdminDemoNegotiator.php.html#16\">AdminDemoNegotiator<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"BlockAccessControlHandler.php.html#59\">BlockAccessControlHandler::createInstance<\/a>"],[0,1,"<a href=\"BlockAccessControlHandler.php.html#80\">BlockAccessControlHandler::__construct<\/a>"],[0,10,"<a href=\"BlockAccessControlHandler.php.html#91\">BlockAccessControlHandler::checkAccess<\/a>"],[0,3,"<a href=\"BlockAccessControlHandler.php.html#166\">BlockAccessControlHandler::mergeCacheabilityFromConditions<\/a>"],[100,1,"<a href=\"BlockForm.php.html#90\">BlockForm::__construct<\/a>"],[100,1,"<a href=\"BlockForm.php.html#101\">BlockForm::create<\/a>"],[100,7,"<a href=\"BlockForm.php.html#114\">BlockForm::form<\/a>"],[100,1,"<a href=\"BlockForm.php.html#192\">BlockForm::themeSwitch<\/a>"],[100,10,"<a href=\"BlockForm.php.html#208\">BlockForm::buildVisibilityInterface<\/a>"],[100,1,"<a href=\"BlockForm.php.html#274\">BlockForm::actions<\/a>"],[100,1,"<a href=\"BlockForm.php.html#283\">BlockForm::validateForm<\/a>"],[100,3,"<a href=\"BlockForm.php.html#304\">BlockForm::validateVisibility<\/a>"],[100,6,"<a href=\"BlockForm.php.html#327\">BlockForm::submitForm<\/a>"],[100,2,"<a href=\"BlockForm.php.html#387\">BlockForm::getUniqueMachineName<\/a>"],[100,1,"<a href=\"BlockForm.php.html#395\">BlockForm::anonymous function<\/a>"],[0,1,"<a href=\"BlockListBuilder.php.html#76\">BlockListBuilder::__construct<\/a>"],[0,1,"<a href=\"BlockListBuilder.php.html#86\">BlockListBuilder::createInstance<\/a>"],[0,1,"<a href=\"BlockListBuilder.php.html#107\">BlockListBuilder::render<\/a>"],[0,1,"<a href=\"BlockListBuilder.php.html#117\">BlockListBuilder::getFormId<\/a>"],[0,1,"<a href=\"BlockListBuilder.php.html#124\">BlockListBuilder::buildForm<\/a>"],[0,11,"<a href=\"BlockListBuilder.php.html#151\">BlockListBuilder::buildBlocksForm<\/a>"],[0,2,"<a href=\"BlockListBuilder.php.html#321\">BlockListBuilder::getThemeName<\/a>"],[0,1,"<a href=\"BlockListBuilder.php.html#332\">BlockListBuilder::getEntityIds<\/a>"],[0,2,"<a href=\"BlockListBuilder.php.html#342\">BlockListBuilder::getDefaultOperations<\/a>"],[0,1,"<a href=\"BlockListBuilder.php.html#355\">BlockListBuilder::validateForm<\/a>"],[0,3,"<a href=\"BlockListBuilder.php.html#362\">BlockListBuilder::submitForm<\/a>"],[0,1,"<a href=\"BlockListBuilder.php.html#386\">BlockListBuilder::systemRegionList<\/a>"],[0,1,"<a href=\"BlockPluginCollection.php.html#38\">BlockPluginCollection::__construct<\/a>"],[0,1,"<a href=\"BlockPluginCollection.php.html#49\">BlockPluginCollection::get<\/a>"],[0,5,"<a href=\"BlockPluginCollection.php.html#56\">BlockPluginCollection::initializePlugin<\/a>"],[0,1,"<a href=\"BlockRepository.php.html#44\">BlockRepository::__construct<\/a>"],[100,5,"<a href=\"BlockRepository.php.html#53\">BlockRepository::getVisibleBlocksPerRegion<\/a>"],[0,1,"<a href=\"BlockViewBuilder.php.html#48\">BlockViewBuilder::__construct<\/a>"],[0,1,"<a href=\"BlockViewBuilder.php.html#56\">BlockViewBuilder::createInstance<\/a>"],[0,1,"<a href=\"BlockViewBuilder.php.html#68\">BlockViewBuilder::buildComponents<\/a>"],[0,1,"<a href=\"BlockViewBuilder.php.html#74\">BlockViewBuilder::view<\/a>"],[0,4,"<a href=\"BlockViewBuilder.php.html#82\">BlockViewBuilder::viewMultiple<\/a>"],[0,2,"<a href=\"BlockViewBuilder.php.html#138\">BlockViewBuilder::buildPreRenderableBlock<\/a>"],[0,1,"<a href=\"BlockViewBuilder.php.html#193\">BlockViewBuilder::lazyBuilder<\/a>"],[0,6,"<a href=\"BlockViewBuilder.php.html#206\">BlockViewBuilder::preRender<\/a>"],[0,1,"<a href=\"Controller\/BlockAddController.php.html#28\">BlockAddController::blockAddConfigureForm<\/a>"],[0,1,"<a href=\"Controller\/BlockController.php.html#34\">BlockController::__construct<\/a>"],[0,1,"<a href=\"Controller\/BlockController.php.html#41\">BlockController::create<\/a>"],[0,3,"<a href=\"Controller\/BlockController.php.html#56\">BlockController::demo<\/a>"],[0,1,"<a href=\"Controller\/BlockController.php.html#101\">BlockController::getVisibleRegionNames<\/a>"],[0,1,"<a href=\"Controller\/BlockLibraryController.php.html#66\">BlockLibraryController::__construct<\/a>"],[0,1,"<a href=\"Controller\/BlockLibraryController.php.html#76\">BlockLibraryController::create<\/a>"],[0,4,"<a href=\"Controller\/BlockLibraryController.php.html#96\">BlockLibraryController::listBlocks<\/a>"],[0,2,"<a href=\"Controller\/BlockLibraryController.php.html#181\">BlockLibraryController::buildLocalActions<\/a>"],[0,1,"<a href=\"Controller\/BlockListController.php.html#34\">BlockListController::__construct<\/a>"],[0,1,"<a href=\"Controller\/BlockListController.php.html#41\">BlockListController::create<\/a>"],[0,3,"<a href=\"Controller\/BlockListController.php.html#58\">BlockListController::listing<\/a>"],[100,1,"<a href=\"Controller\/CategoryAutocompleteController.php.html#35\">CategoryAutocompleteController::__construct<\/a>"],[0,1,"<a href=\"Controller\/CategoryAutocompleteController.php.html#42\">CategoryAutocompleteController::create<\/a>"],[100,3,"<a href=\"Controller\/CategoryAutocompleteController.php.html#57\">CategoryAutocompleteController::autocomplete<\/a>"],[66.666666666667,2,"<a href=\"Plugin\/migrate\/source\/Block.php.html#54\">Block::query<\/a>"],[100,1,"<a href=\"Plugin\/migrate\/source\/Block.php.html#69\">Block::initializeIterator<\/a>"],[100,1,"<a href=\"Plugin\/migrate\/source\/Block.php.html#78\">Block::fields<\/a>"],[100,1,"<a href=\"Plugin\/migrate\/source\/Block.php.html#97\">Block::getIds<\/a>"],[32,12,"<a href=\"Plugin\/migrate\/source\/Block.php.html#107\">Block::prepareRow<\/a>"],[0,1,"<a href=\"EventSubscriber\/BlockPageDisplayVariantSubscriber.php.html#27\">BlockPageDisplayVariantSubscriber::onSelectPageDisplayVariant<\/a>"],[0,1,"<a href=\"EventSubscriber\/BlockPageDisplayVariantSubscriber.php.html#34\">BlockPageDisplayVariantSubscriber::getSubscribedEvents<\/a>"],[0,1,"<a href=\"Form\/BlockDeleteForm.php.html#21\">BlockDeleteForm::getCancelUrl<\/a>"],[100,1,"<a href=\"Plugin\/Derivative\/ThemeLocalTask.php.html#33\">ThemeLocalTask::__construct<\/a>"],[100,1,"<a href=\"Plugin\/Derivative\/ThemeLocalTask.php.html#40\">ThemeLocalTask::create<\/a>"],[81.818181818182,4,"<a href=\"Plugin\/Derivative\/ThemeLocalTask.php.html#49\">ThemeLocalTask::getDerivativeDefinitions<\/a>"],[0,1,"<a href=\"Plugin\/DisplayVariant\/BlockPageVariant.php.html#90\">BlockPageVariant::__construct<\/a>"],[0,1,"<a href=\"Plugin\/DisplayVariant\/BlockPageVariant.php.html#100\">BlockPageVariant::create<\/a>"],[0,1,"<a href=\"Plugin\/DisplayVariant\/BlockPageVariant.php.html#114\">BlockPageVariant::setMainContent<\/a>"],[0,1,"<a href=\"Plugin\/DisplayVariant\/BlockPageVariant.php.html#122\">BlockPageVariant::setTitle<\/a>"],[93.333333333333,14,"<a href=\"Plugin\/DisplayVariant\/BlockPageVariant.php.html#130\">BlockPageVariant::build<\/a>"],[0,1,"<a href=\"Plugin\/migrate\/destination\/EntityBlock.php.html#23\">EntityBlock::getEntityId<\/a>"],[0,1,"<a href=\"Plugin\/migrate\/process\/BlockPluginId.php.html#44\">BlockPluginId::__construct<\/a>"],[0,2,"<a href=\"Plugin\/migrate\/process\/BlockPluginId.php.html#53\">BlockPluginId::create<\/a>"],[0,8,"<a href=\"Plugin\/migrate\/process\/BlockPluginId.php.html#75\">BlockPluginId::transform<\/a>"],[0,1,"<a href=\"Plugin\/migrate\/process\/BlockRegion.php.html#42\">BlockRegion::__construct<\/a>"],[0,2,"<a href=\"Plugin\/migrate\/process\/BlockRegion.php.html#50\">BlockRegion::create<\/a>"],[87.5,4,"<a href=\"Plugin\/migrate\/process\/BlockRegion.php.html#61\">BlockRegion::transform<\/a>"],[0,8,"<a href=\"Plugin\/migrate\/process\/BlockSettings.php.html#26\">BlockSettings::transform<\/a>"],[0,1,"<a href=\"Plugin\/migrate\/process\/BlockTheme.php.html#55\">BlockTheme::__construct<\/a>"],[0,1,"<a href=\"Plugin\/migrate\/process\/BlockTheme.php.html#64\">BlockTheme::create<\/a>"],[0,4,"<a href=\"Plugin\/migrate\/process\/BlockTheme.php.html#78\">BlockTheme::transform<\/a>"],[0,2,"<a href=\"Plugin\/migrate\/process\/BlockVisibility.php.html#53\">BlockVisibility::__construct<\/a>"],[0,1,"<a href=\"Plugin\/migrate\/process\/BlockVisibility.php.html#66\">BlockVisibility::create<\/a>"],[82.608695652174,9,"<a href=\"Plugin\/migrate\/process\/BlockVisibility.php.html#85\">BlockVisibility::transform<\/a>"],[0,1,"<a href=\"Theme\/AdminDemoNegotiator.php.html#21\">AdminDemoNegotiator::applies<\/a>"],[0,1,"<a href=\"Theme\/AdminDemoNegotiator.php.html#28\">AdminDemoNegotiator::determineActiveTheme<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

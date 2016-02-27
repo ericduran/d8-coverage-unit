@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/ericduran/Sites/drupal/drupal/core/lib/Drupal/Core/Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../../../../css/nv.d3.min.css" rel="stylesheet">
+  <link href="../../../../../css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="../../../../../js/html5shiv.min.js"></script>
+  <script src="../../../../../js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../../../../../index.html">/Users/ericduran/Sites/drupal/drupal</a></li>
+        <li><a href="../../../../index.html">core</a></li>
+        <li><a href="../../../index.html">lib</a></li>
+        <li><a href="../../index.html">Drupal</a></li>
+        <li><a href="../index.html">Core</a></li>
+        <li><a href="index.html">Form</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ConfirmFormBase.php.html#13">ConfirmFormBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EnforcedResponse.php.html#26">EnforcedResponse</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exception/BrokenPostRequestException.php.html#15">BrokenPostRequestException</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormAjaxException.php.html#13">FormAjaxException</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormBase.php.html#25">FormBase</a></td><td class="text-right">21%</td></tr>
+       <tr><td><a href="FormHelper.php.html#17">FormHelper</a></td><td class="text-right">31%</td></tr>
+       <tr><td><a href="EventSubscriber/FormAjaxSubscriber.php.html#27">FormAjaxSubscriber</a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="FormBuilder.php.html#33">FormBuilder</a></td><td class="text-right">74%</td></tr>
+       <tr><td><a href="FormSubmitter.php.html#19">FormSubmitter</a></td><td class="text-right">78%</td></tr>
+       <tr><td><a href="FormCache.php.html#24">FormCache</a></td><td class="text-right">79%</td></tr>
+       <tr><td><a href="FormState.php.html#17">FormState</a></td><td class="text-right">79%</td></tr>
+       <tr><td><a href="FormAjaxResponseBuilder.php.html#23">FormAjaxResponseBuilder</a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="ConfigFormBase.php.html#16">ConfigFormBase</a></td><td class="text-right">84%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="FormBuilder.php.html#33">FormBuilder</a></td><td class="text-right">853</td></tr>
+       <tr><td><a href="FormState.php.html#17">FormState</a></td><td class="text-right">247</td></tr>
+       <tr><td><a href="FormBase.php.html#25">FormBase</a></td><td class="text-right">138</td></tr>
+       <tr><td><a href="ConfirmFormBase.php.html#13">ConfirmFormBase</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="FormHelper.php.html#17">FormHelper</a></td><td class="text-right">34</td></tr>
+       <tr><td><a href="EnforcedResponse.php.html#26">EnforcedResponse</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="FormSubmitter.php.html#19">FormSubmitter</a></td><td class="text-right">28</td></tr>
+       <tr><td><a href="FormCache.php.html#24">FormCache</a></td><td class="text-right">23</td></tr>
+       <tr><td><a href="EventSubscriber/FormAjaxSubscriber.php.html#27">FormAjaxSubscriber</a></td><td class="text-right">18</td></tr>
+       <tr><td><a href="FormAjaxResponseBuilder.php.html#23">FormAjaxResponseBuilder</a></td><td class="text-right">11</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ConfigFormBase.php.html#32"><abbr title="ConfigFormBase::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormState.php.html#729"><abbr title="FormState::setStorage">setStorage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormBuilder.php.html#867"><abbr title="FormBuilder::redirectForm">redirectForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfirmFormBase.php.html#18"><abbr title="ConfirmFormBase::getDescription">getDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormBuilder.php.html#881"><abbr title="FormBuilder::executeSubmitHandlers">executeSubmitHandlers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormBuilder.php.html#888"><abbr title="FormBuilder::doSubmitForm">doSubmitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormBuilder.php.html#1379"><abbr title="FormBuilder::getFileUploadMaxSize">getFileUploadMaxSize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormCache.php.html#110"><abbr title="FormCache::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormHelper.php.html#52"><abbr title="FormHelper::processStatesArray">processStatesArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormState.php.html#472"><abbr title="FormState::setAlwaysProcess">setAlwaysProcess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormState.php.html#523"><abbr title="FormState::disableCache">disableCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormState.php.html#554"><abbr title="FormState::getGroups">getGroups</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormState.php.html#561"><abbr title="FormState::setHasFileElement">setHasFileElement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormState.php.html#629"><abbr title="FormState::setValidationEnforced">setValidationEnforced</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormState.php.html#644"><abbr title="FormState::disableRedirect">disableRedirect</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormState.php.html#689"><abbr title="FormState::setProgrammedBypassAccessCheck">setProgrammedBypassAccessCheck</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormState.php.html#737"><abbr title="FormState::getStorage">getStorage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormBuilder.php.html#853"><abbr title="FormBuilder::setInvalidTokenError">setInvalidTokenError</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormState.php.html#1064"><abbr title="FormState::setRedirect">setRedirect</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormValidator.php.html#132"><abbr title="FormValidator::setInvalidTokenError">setInvalidTokenError</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormSubmitter.php.html#163"><abbr title="FormSubmitter::batchGet">batchGet</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormSubmitter.php.html#156"><abbr title="FormSubmitter::drupalInstallationAttempted">drupalInstallationAttempted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormState.php.html#1316"><abbr title="FormState::moduleLoadInclude">moduleLoadInclude</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormState.php.html#1301"><abbr title="FormState::setInvalidToken">setInvalidToken</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormState.php.html#1072"><abbr title="FormState::setRedirectUrl">setRedirectUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormState.php.html#932"><abbr title="FormState::has">has</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormState.php.html#744"><abbr title="FormState::setSubmitHandlers">setSubmitHandlers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormState.php.html#916"><abbr title="FormState::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormState.php.html#909"><abbr title="FormState::getCompleteForm">getCompleteForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormState.php.html#882"><abbr title="FormState::getCacheableArray">getCacheableArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormState.php.html#829"><abbr title="FormState::setValidateHandlers">setValidateHandlers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormState.php.html#782"><abbr title="FormState::getTemporary">getTemporary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormState.php.html#774"><abbr title="FormState::setTemporary">setTemporary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormBuilder.php.html#860"><abbr title="FormBuilder::validateForm">validateForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormBuilder.php.html#874"><abbr title="FormBuilder::executeValidateHandlers">executeValidateHandlers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormBuilder.php.html#831"><abbr title="FormBuilder::buildFormAction">buildFormAction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventSubscriber/FormAjaxSubscriber.php.html#145"><abbr title="FormAjaxSubscriber::formatSize">formatSize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormAjaxResponseBuilder.php.html#47"><abbr title="FormAjaxResponseBuilder::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormAjaxException.php.html#65"><abbr title="FormAjaxException::getFormState">getFormState</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormAjaxException.php.html#55"><abbr title="FormAjaxException::getForm">getForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormAjaxException.php.html#43"><abbr title="FormAjaxException::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exception/BrokenPostRequestException.php.html#49"><abbr title="BrokenPostRequestException::getSize">getSize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exception/BrokenPostRequestException.php.html#36"><abbr title="BrokenPostRequestException::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventSubscriber/FormAjaxSubscriber.php.html#152"><abbr title="FormAjaxSubscriber::getSubscribedEvents">getSubscribedEvents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventSubscriber/FormAjaxSubscriber.php.html#57"><abbr title="FormAjaxSubscriber::onView">onView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormBuilder.php.html#664"><abbr title="FormBuilder::renderFormTokenPlaceholder">renderFormTokenPlaceholder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventSubscriber/FormAjaxSubscriber.php.html#46"><abbr title="FormAjaxSubscriber::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EnforcedResponse.php.html#78"><abbr title="EnforcedResponse::getResponse">getResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EnforcedResponse.php.html#67"><abbr title="EnforcedResponse::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EnforcedResponse.php.html#49"><abbr title="EnforcedResponse::createFromException">createFromException</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfirmFormBase.php.html#46"><abbr title="ConfirmFormBase::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfirmFormBase.php.html#39"><abbr title="ConfirmFormBase::getFormName">getFormName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfirmFormBase.php.html#32"><abbr title="ConfirmFormBase::getCancelText">getCancelText</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfirmFormBase.php.html#25"><abbr title="ConfirmFormBase::getConfirmText">getConfirmText</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormBase.php.html#69"><abbr title="FormBase::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormBase.php.html#96"><abbr title="FormBase::config">config</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormBuilder.php.html#646"><abbr title="FormBuilder::renderPlaceholderFormAction">renderPlaceholderFormAction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormBase.php.html#131"><abbr title="FormBase::resetConfigFactory">resetConfigFactory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormBase.php.html#141"><abbr title="FormBase::getRequest">getRequest</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormBase.php.html#153"><abbr title="FormBase::getRouteMatch">getRouteMatch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormBase.php.html#168"><abbr title="FormBase::setRequestStack">setRequestStack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormBase.php.html#179"><abbr title="FormBase::currentUser">currentUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormBase.php.html#194"><abbr title="FormBase::container">container</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormBase.php.html#207"><abbr title="FormBase::logger">logger</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormBuilder.php.html#457"><abbr title="FormBuilder::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormBuilder.php.html#1317"><abbr title="FormBuilder::elementTriggeredScriptedSubmission">elementTriggeredScriptedSubmission</abbr></a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="FormSubmitter.php.html#50"><abbr title="FormSubmitter::doSubmitForm">doSubmitForm</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="FormBase.php.html#108"><abbr title="FormBase::configFactory">configFactory</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="FormBuilder.php.html#1134"><abbr title="FormBuilder::valueCallableIsSafe">valueCallableIsSafe</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="FormBuilder.php.html#1388"><abbr title="FormBuilder::currentUser">currentUser</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="FormBuilder.php.html#223"><abbr title="FormBuilder::buildForm">buildForm</abbr></a></td><td class="text-right">72%</td></tr>
+       <tr><td><a href="FormBuilder.php.html#537"><abbr title="FormBuilder::processForm">processForm</abbr></a></td><td class="text-right">72%</td></tr>
+       <tr><td><a href="FormBuilder.php.html#895"><abbr title="FormBuilder::doBuildForm">doBuildForm</abbr></a></td><td class="text-right">74%</td></tr>
+       <tr><td><a href="FormSubmitter.php.html#95"><abbr title="FormSubmitter::executeSubmitHandlers">executeSubmitHandlers</abbr></a></td><td class="text-right">77%</td></tr>
+       <tr><td><a href="FormBuilder.php.html#1152"><abbr title="FormBuilder::handleInputElement">handleInputElement</abbr></a></td><td class="text-right">82%</td></tr>
+       <tr><td><a href="FormValidator.php.html#381"><abbr title="FormValidator::determineLimitValidationErrors">determineLimitValidationErrors</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="FormBuilder.php.html#1347"><abbr title="FormBuilder::buttonWasClicked">buttonWasClicked</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="FormBuilder.php.html#490"><abbr title="FormBuilder::retrieveForm">retrieveForm</abbr></a></td><td class="text-right">85%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="FormBuilder.php.html#895"><abbr title="FormBuilder::doBuildForm">doBuildForm</abbr></a></td><td class="text-right">100</td></tr>
+       <tr><td><a href="FormBuilder.php.html#1152"><abbr title="FormBuilder::handleInputElement">handleInputElement</abbr></a></td><td class="text-right">41</td></tr>
+       <tr><td><a href="FormBuilder.php.html#537"><abbr title="FormBuilder::processForm">processForm</abbr></a></td><td class="text-right">31</td></tr>
+       <tr><td><a href="FormHelper.php.html#52"><abbr title="FormHelper::processStatesArray">processStatesArray</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="FormBuilder.php.html#223"><abbr title="FormBuilder::buildForm">buildForm</abbr></a></td><td class="text-right">21</td></tr>
+       <tr><td><a href="FormBuilder.php.html#831"><abbr title="FormBuilder::buildFormAction">buildFormAction</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="FormSubmitter.php.html#50"><abbr title="FormSubmitter::doSubmitForm">doSubmitForm</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="EnforcedResponse.php.html#49"><abbr title="EnforcedResponse::createFromException">createFromException</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="FormValidator.php.html#381"><abbr title="FormValidator::determineLimitValidationErrors">determineLimitValidationErrors</abbr></a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="FormBuilder.php.html#1317"><abbr title="FormBuilder::elementTriggeredScriptedSubmission">elementTriggeredScriptedSubmission</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FormSubmitter.php.html#95"><abbr title="FormSubmitter::executeSubmitHandlers">executeSubmitHandlers</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FormBuilder.php.html#1347"><abbr title="FormBuilder::buttonWasClicked">buttonWasClicked</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FormBuilder.php.html#457"><abbr title="FormBuilder::submitForm">submitForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FormBase.php.html#207"><abbr title="FormBase::logger">logger</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FormBase.php.html#153"><abbr title="FormBase::getRouteMatch">getRouteMatch</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FormBase.php.html#141"><abbr title="FormBase::getRequest">getRequest</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="EventSubscriber/FormAjaxSubscriber.php.html#57"><abbr title="FormAjaxSubscriber::onView">onView</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ConfirmFormBase.php.html#46"><abbr title="ConfirmFormBase::buildForm">buildForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FormBuilder.php.html#1388"><abbr title="FormBuilder::currentUser">currentUser</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="FormBuilder.php.html#490"><abbr title="FormBuilder::retrieveForm">retrieveForm</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="FormBuilder.php.html#1134"><abbr title="FormBuilder::valueCallableIsSafe">valueCallableIsSafe</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="FormBase.php.html#108"><abbr title="FormBase::configFactory">configFactory</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 2.2.4</a> using <a href="http://php.net/" target="_top">PHP 7.0.3</a> and <a href="http://phpunit.de/">PHPUnit 4.8.11</a> at Sat Feb 27 11:34:46 AEDT 2016.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../../js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../../../../../js/holder.min.js" type="text/javascript"></script>
+  <script src="../../../../../js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../../js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([4,0,0,1,1,0,0,0,5,2,2,5], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([65,0,0,0,0,0,0,5,4,4,5,112], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[84.615384615385,4,"<a href=\"ConfigFormBase.php.html#16\">ConfigFormBase<\/a>"],[0,6,"<a href=\"ConfirmFormBase.php.html#13\">ConfirmFormBase<\/a>"],[90.909090909091,4,"<a href=\"ConfirmFormHelper.php.html#17\">ConfirmFormHelper<\/a>"],[0,5,"<a href=\"EnforcedResponse.php.html#26\">EnforcedResponse<\/a>"],[100,2,"<a href=\"EnforcedResponseException.php.html#15\">EnforcedResponseException<\/a>"],[71.794871794872,14,"<a href=\"EventSubscriber\/FormAjaxSubscriber.php.html#27\">FormAjaxSubscriber<\/a>"],[0,2,"<a href=\"Exception\/BrokenPostRequestException.php.html#15\">BrokenPostRequestException<\/a>"],[0,3,"<a href=\"FormAjaxException.php.html#13\">FormAjaxException<\/a>"],[80,11,"<a href=\"FormAjaxResponseBuilder.php.html#23\">FormAjaxResponseBuilder<\/a>"],[21.739130434783,16,"<a href=\"FormBase.php.html#25\">FormBase<\/a>"],[74.324324324324,197,"<a href=\"FormBuilder.php.html#33\">FormBuilder<\/a>"],[79.166666666667,20,"<a href=\"FormCache.php.html#24\">FormCache<\/a>"],[100,8,"<a href=\"FormElementHelper.php.html#15\">FormElementHelper<\/a>"],[100,9,"<a href=\"FormErrorHandler.php.html#15\">FormErrorHandler<\/a>"],[31.578947368421,9,"<a href=\"FormHelper.php.html#17\">FormHelper<\/a>"],[79.820627802691,123,"<a href=\"FormState.php.html#17\">FormState<\/a>"],[78.048780487805,23,"<a href=\"FormSubmitter.php.html#19\">FormSubmitter<\/a>"],[96.078431372549,72,"<a href=\"FormValidator.php.html#22\">FormValidator<\/a>"],[100,6,"<a href=\"OptGroup.php.html#13\">OptGroup<\/a>"],[100,7,"<a href=\"ConfigFormBaseTrait.php.html#28\">ConfigFormBaseTrait<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"ConfigFormBase.php.html#25\">ConfigFormBase::__construct<\/a>"],[0,1,"<a href=\"ConfigFormBase.php.html#32\">ConfigFormBase::create<\/a>"],[100,1,"<a href=\"ConfigFormBase.php.html#41\">ConfigFormBase::buildForm<\/a>"],[100,1,"<a href=\"ConfigFormBase.php.html#58\">ConfigFormBase::submitForm<\/a>"],[0,1,"<a href=\"ConfirmFormBase.php.html#18\">ConfirmFormBase::getDescription<\/a>"],[0,1,"<a href=\"ConfirmFormBase.php.html#25\">ConfirmFormBase::getConfirmText<\/a>"],[0,1,"<a href=\"ConfirmFormBase.php.html#32\">ConfirmFormBase::getCancelText<\/a>"],[0,1,"<a href=\"ConfirmFormBase.php.html#39\">ConfirmFormBase::getFormName<\/a>"],[0,2,"<a href=\"ConfirmFormBase.php.html#46\">ConfirmFormBase::buildForm<\/a>"],[90.909090909091,4,"<a href=\"ConfirmFormHelper.php.html#30\">ConfirmFormHelper::buildCancelLink<\/a>"],[0,3,"<a href=\"EnforcedResponse.php.html#49\">EnforcedResponse::createFromException<\/a>"],[0,1,"<a href=\"EnforcedResponse.php.html#67\">EnforcedResponse::__construct<\/a>"],[0,1,"<a href=\"EnforcedResponse.php.html#78\">EnforcedResponse::getResponse<\/a>"],[100,1,"<a href=\"EnforcedResponseException.php.html#36\">EnforcedResponseException::__construct<\/a>"],[100,1,"<a href=\"EnforcedResponseException.php.html#48\">EnforcedResponseException::getResponse<\/a>"],[0,1,"<a href=\"EventSubscriber\/FormAjaxSubscriber.php.html#46\">FormAjaxSubscriber::__construct<\/a>"],[0,2,"<a href=\"EventSubscriber\/FormAjaxSubscriber.php.html#57\">FormAjaxSubscriber::onView<\/a>"],[100,5,"<a href=\"EventSubscriber\/FormAjaxSubscriber.php.html#76\">FormAjaxSubscriber::onException<\/a>"],[100,3,"<a href=\"EventSubscriber\/FormAjaxSubscriber.php.html#126\">FormAjaxSubscriber::getFormAjaxException<\/a>"],[0,1,"<a href=\"EventSubscriber\/FormAjaxSubscriber.php.html#145\">FormAjaxSubscriber::formatSize<\/a>"],[0,1,"<a href=\"EventSubscriber\/FormAjaxSubscriber.php.html#152\">FormAjaxSubscriber::getSubscribedEvents<\/a>"],[100,1,"<a href=\"EventSubscriber\/FormAjaxSubscriber.php.html#166\">FormAjaxSubscriber::drupalSetMessage<\/a>"],[0,1,"<a href=\"Exception\/BrokenPostRequestException.php.html#36\">BrokenPostRequestException::__construct<\/a>"],[0,1,"<a href=\"Exception\/BrokenPostRequestException.php.html#49\">BrokenPostRequestException::getSize<\/a>"],[0,1,"<a href=\"FormAjaxException.php.html#43\">FormAjaxException::__construct<\/a>"],[0,1,"<a href=\"FormAjaxException.php.html#55\">FormAjaxException::getForm<\/a>"],[0,1,"<a href=\"FormAjaxException.php.html#65\">FormAjaxException::getFormState<\/a>"],[0,1,"<a href=\"FormAjaxResponseBuilder.php.html#47\">FormAjaxResponseBuilder::__construct<\/a>"],[94.117647058824,10,"<a href=\"FormAjaxResponseBuilder.php.html#55\">FormAjaxResponseBuilder::buildResponse<\/a>"],[0,1,"<a href=\"FormBase.php.html#69\">FormBase::create<\/a>"],[100,1,"<a href=\"FormBase.php.html#76\">FormBase::validateForm<\/a>"],[0,1,"<a href=\"FormBase.php.html#96\">FormBase::config<\/a>"],[66.666666666667,2,"<a href=\"FormBase.php.html#108\">FormBase::configFactory<\/a>"],[100,1,"<a href=\"FormBase.php.html#123\">FormBase::setConfigFactory<\/a>"],[0,1,"<a href=\"FormBase.php.html#131\">FormBase::resetConfigFactory<\/a>"],[0,2,"<a href=\"FormBase.php.html#141\">FormBase::getRequest<\/a>"],[0,2,"<a href=\"FormBase.php.html#153\">FormBase::getRouteMatch<\/a>"],[0,1,"<a href=\"FormBase.php.html#168\">FormBase::setRequestStack<\/a>"],[0,1,"<a href=\"FormBase.php.html#179\">FormBase::currentUser<\/a>"],[0,1,"<a href=\"FormBase.php.html#194\">FormBase::container<\/a>"],[0,2,"<a href=\"FormBase.php.html#207\">FormBase::logger<\/a>"],[100,1,"<a href=\"FormBuilder.php.html#171\">FormBuilder::__construct<\/a>"],[100,6,"<a href=\"FormBuilder.php.html#187\">FormBuilder::getFormId<\/a>"],[100,1,"<a href=\"FormBuilder.php.html#209\">FormBuilder::getForm<\/a>"],[72.222222222222,16,"<a href=\"FormBuilder.php.html#223\">FormBuilder::buildForm<\/a>"],[95,10,"<a href=\"FormBuilder.php.html#366\">FormBuilder::rebuildForm<\/a>"],[100,1,"<a href=\"FormBuilder.php.html#436\">FormBuilder::getCache<\/a>"],[100,1,"<a href=\"FormBuilder.php.html#443\">FormBuilder::setCache<\/a>"],[100,1,"<a href=\"FormBuilder.php.html#450\">FormBuilder::deleteCache<\/a>"],[0,2,"<a href=\"FormBuilder.php.html#457\">FormBuilder::submitForm<\/a>"],[85.714285714286,3,"<a href=\"FormBuilder.php.html#490\">FormBuilder::retrieveForm<\/a>"],[72.727272727273,22,"<a href=\"FormBuilder.php.html#537\">FormBuilder::processForm<\/a>"],[0,1,"<a href=\"FormBuilder.php.html#646\">FormBuilder::renderPlaceholderFormAction<\/a>"],[0,1,"<a href=\"FormBuilder.php.html#664\">FormBuilder::renderFormTokenPlaceholder<\/a>"],[96.153846153846,17,"<a href=\"FormBuilder.php.html#678\">FormBuilder::prepareForm<\/a>"],[0,3,"<a href=\"FormBuilder.php.html#831\">FormBuilder::buildFormAction<\/a>"],[0,1,"<a href=\"FormBuilder.php.html#853\">FormBuilder::setInvalidTokenError<\/a>"],[0,1,"<a href=\"FormBuilder.php.html#860\">FormBuilder::validateForm<\/a>"],[0,1,"<a href=\"FormBuilder.php.html#867\">FormBuilder::redirectForm<\/a>"],[0,1,"<a href=\"FormBuilder.php.html#874\">FormBuilder::executeValidateHandlers<\/a>"],[0,1,"<a href=\"FormBuilder.php.html#881\">FormBuilder::executeSubmitHandlers<\/a>"],[0,1,"<a href=\"FormBuilder.php.html#888\">FormBuilder::doSubmitForm<\/a>"],[74.418604651163,53,"<a href=\"FormBuilder.php.html#895\">FormBuilder::doBuildForm<\/a>"],[66.666666666667,2,"<a href=\"FormBuilder.php.html#1134\">FormBuilder::valueCallableIsSafe<\/a>"],[82.978723404255,35,"<a href=\"FormBuilder.php.html#1152\">FormBuilder::handleInputElement<\/a>"],[60,5,"<a href=\"FormBuilder.php.html#1317\">FormBuilder::elementTriggeredScriptedSubmission<\/a>"],[83.333333333333,6,"<a href=\"FormBuilder.php.html#1347\">FormBuilder::buttonWasClicked<\/a>"],[0,1,"<a href=\"FormBuilder.php.html#1379\">FormBuilder::getFileUploadMaxSize<\/a>"],[66.666666666667,3,"<a href=\"FormBuilder.php.html#1388\">FormBuilder::currentUser<\/a>"],[0,1,"<a href=\"FormCache.php.html#110\">FormCache::__construct<\/a>"],[100,7,"<a href=\"FormCache.php.html#124\">FormCache::getCache<\/a>"],[90.909090909091,5,"<a href=\"FormCache.php.html#153\">FormCache::loadCachedFormState<\/a>"],[100,6,"<a href=\"FormCache.php.html#177\">FormCache::setCache<\/a>"],[100,1,"<a href=\"FormCache.php.html#208\">FormCache::deleteCache<\/a>"],[100,4,"<a href=\"FormElementHelper.php.html#29\">FormElementHelper::getElementByName<\/a>"],[100,4,"<a href=\"FormElementHelper.php.html#53\">FormElementHelper::getElementTitle<\/a>"],[100,2,"<a href=\"FormErrorHandler.php.html#20\">FormErrorHandler::handleFormErrors<\/a>"],[100,2,"<a href=\"FormErrorHandler.php.html#41\">FormErrorHandler::displayErrorMessages<\/a>"],[100,4,"<a href=\"FormErrorHandler.php.html#61\">FormErrorHandler::setElementErrorsFromFormState<\/a>"],[100,1,"<a href=\"FormErrorHandler.php.html#78\">FormErrorHandler::drupalSetMessage<\/a>"],[100,4,"<a href=\"FormHelper.php.html#31\">FormHelper::rewriteStatesSelector<\/a>"],[0,5,"<a href=\"FormHelper.php.html#52\">FormHelper::processStatesArray<\/a>"],[100,3,"<a href=\"FormState.php.html#457\">FormState::setFormState<\/a>"],[0,1,"<a href=\"FormState.php.html#472\">FormState::setAlwaysProcess<\/a>"],[100,1,"<a href=\"FormState.php.html#480\">FormState::getAlwaysProcess<\/a>"],[100,1,"<a href=\"FormState.php.html#487\">FormState::setButtons<\/a>"],[100,1,"<a href=\"FormState.php.html#495\">FormState::getButtons<\/a>"],[100,3,"<a href=\"FormState.php.html#502\">FormState::setCached<\/a>"],[100,2,"<a href=\"FormState.php.html#516\">FormState::isCached<\/a>"],[0,1,"<a href=\"FormState.php.html#523\">FormState::disableCache<\/a>"],[100,1,"<a href=\"FormState.php.html#531\">FormState::setExecuted<\/a>"],[100,1,"<a href=\"FormState.php.html#539\">FormState::isExecuted<\/a>"],[100,1,"<a href=\"FormState.php.html#546\">FormState::setGroups<\/a>"],[0,1,"<a href=\"FormState.php.html#554\">FormState::getGroups<\/a>"],[0,1,"<a href=\"FormState.php.html#561\">FormState::setHasFileElement<\/a>"],[100,1,"<a href=\"FormState.php.html#569\">FormState::hasFileElement<\/a>"],[100,1,"<a href=\"FormState.php.html#576\">FormState::setLimitValidationErrors<\/a>"],[100,1,"<a href=\"FormState.php.html#584\">FormState::getLimitValidationErrors<\/a>"],[100,1,"<a href=\"FormState.php.html#591\">FormState::setMethod<\/a>"],[100,1,"<a href=\"FormState.php.html#599\">FormState::isMethodType<\/a>"],[100,1,"<a href=\"FormState.php.html#606\">FormState::setRequestMethod<\/a>"],[100,1,"<a href=\"FormState.php.html#622\">FormState::isRequestMethodSafe<\/a>"],[0,1,"<a href=\"FormState.php.html#629\">FormState::setValidationEnforced<\/a>"],[100,1,"<a href=\"FormState.php.html#637\">FormState::isValidationEnforced<\/a>"],[0,1,"<a href=\"FormState.php.html#644\">FormState::disableRedirect<\/a>"],[100,1,"<a href=\"FormState.php.html#652\">FormState::isRedirectDisabled<\/a>"],[100,1,"<a href=\"FormState.php.html#659\">FormState::setProcessInput<\/a>"],[100,1,"<a href=\"FormState.php.html#667\">FormState::isProcessingInput<\/a>"],[100,1,"<a href=\"FormState.php.html#674\">FormState::setProgrammed<\/a>"],[100,1,"<a href=\"FormState.php.html#682\">FormState::isProgrammed<\/a>"],[0,1,"<a href=\"FormState.php.html#689\">FormState::setProgrammedBypassAccessCheck<\/a>"],[100,1,"<a href=\"FormState.php.html#697\">FormState::isBypassingProgrammedAccessChecks<\/a>"],[100,1,"<a href=\"FormState.php.html#704\">FormState::setRebuildInfo<\/a>"],[100,1,"<a href=\"FormState.php.html#712\">FormState::getRebuildInfo<\/a>"],[100,1,"<a href=\"FormState.php.html#719\">FormState::addRebuildInfo<\/a>"],[0,1,"<a href=\"FormState.php.html#729\">FormState::setStorage<\/a>"],[0,1,"<a href=\"FormState.php.html#737\">FormState::getStorage<\/a>"],[0,1,"<a href=\"FormState.php.html#744\">FormState::setSubmitHandlers<\/a>"],[100,1,"<a href=\"FormState.php.html#752\">FormState::getSubmitHandlers<\/a>"],[100,1,"<a href=\"FormState.php.html#759\">FormState::setSubmitted<\/a>"],[100,1,"<a href=\"FormState.php.html#767\">FormState::isSubmitted<\/a>"],[0,1,"<a href=\"FormState.php.html#774\">FormState::setTemporary<\/a>"],[0,1,"<a href=\"FormState.php.html#782\">FormState::getTemporary<\/a>"],[100,1,"<a href=\"FormState.php.html#789\">FormState::getTemporaryValue<\/a>"],[100,1,"<a href=\"FormState.php.html#797\">FormState::setTemporaryValue<\/a>"],[100,1,"<a href=\"FormState.php.html#805\">FormState::hasTemporaryValue<\/a>"],[100,1,"<a href=\"FormState.php.html#814\">FormState::setTriggeringElement<\/a>"],[100,1,"<a href=\"FormState.php.html#822\">FormState::getTriggeringElement<\/a>"],[0,1,"<a href=\"FormState.php.html#829\">FormState::setValidateHandlers<\/a>"],[100,1,"<a href=\"FormState.php.html#837\">FormState::getValidateHandlers<\/a>"],[100,1,"<a href=\"FormState.php.html#844\">FormState::setValidationComplete<\/a>"],[100,1,"<a href=\"FormState.php.html#852\">FormState::isValidationComplete<\/a>"],[100,4,"<a href=\"FormState.php.html#859\">FormState::loadInclude<\/a>"],[0,1,"<a href=\"FormState.php.html#882\">FormState::getCacheableArray<\/a>"],[100,1,"<a href=\"FormState.php.html#901\">FormState::setCompleteForm<\/a>"],[0,1,"<a href=\"FormState.php.html#909\">FormState::getCompleteForm<\/a>"],[0,1,"<a href=\"FormState.php.html#916\">FormState::get<\/a>"],[100,1,"<a href=\"FormState.php.html#924\">FormState::set<\/a>"],[0,1,"<a href=\"FormState.php.html#932\">FormState::has<\/a>"],[100,1,"<a href=\"FormState.php.html#941\">FormState::setBuildInfo<\/a>"],[100,1,"<a href=\"FormState.php.html#949\">FormState::getBuildInfo<\/a>"],[100,1,"<a href=\"FormState.php.html#956\">FormState::addBuildInfo<\/a>"],[100,1,"<a href=\"FormState.php.html#966\">FormState::getUserInput<\/a>"],[100,1,"<a href=\"FormState.php.html#973\">FormState::setUserInput<\/a>"],[100,1,"<a href=\"FormState.php.html#981\">FormState::getValues<\/a>"],[100,2,"<a href=\"FormState.php.html#988\">FormState::getValue<\/a>"],[100,1,"<a href=\"FormState.php.html#1000\">FormState::setValues<\/a>"],[100,1,"<a href=\"FormState.php.html#1008\">FormState::setValue<\/a>"],[100,1,"<a href=\"FormState.php.html#1016\">FormState::unsetValue<\/a>"],[100,2,"<a href=\"FormState.php.html#1024\">FormState::hasValue<\/a>"],[100,2,"<a href=\"FormState.php.html#1033\">FormState::isValueEmpty<\/a>"],[100,1,"<a href=\"FormState.php.html#1042\">FormState::setValueForElement<\/a>"],[100,1,"<a href=\"FormState.php.html#1049\">FormState::setResponse<\/a>"],[100,1,"<a href=\"FormState.php.html#1057\">FormState::getResponse<\/a>"],[0,1,"<a href=\"FormState.php.html#1064\">FormState::setRedirect<\/a>"],[0,1,"<a href=\"FormState.php.html#1072\">FormState::setRedirectUrl<\/a>"],[100,4,"<a href=\"FormState.php.html#1080\">FormState::getRedirect<\/a>"],[100,1,"<a href=\"FormState.php.html#1104\">FormState::setAnyErrors<\/a>"],[100,1,"<a href=\"FormState.php.html#1111\">FormState::hasAnyErrors<\/a>"],[100,7,"<a href=\"FormState.php.html#1118\">FormState::setErrorByName<\/a>"],[100,1,"<a href=\"FormState.php.html#1156\">FormState::setError<\/a>"],[100,1,"<a href=\"FormState.php.html#1164\">FormState::clearErrors<\/a>"],[100,4,"<a href=\"FormState.php.html#1172\">FormState::getError<\/a>"],[100,1,"<a href=\"FormState.php.html#1188\">FormState::getErrors<\/a>"],[100,1,"<a href=\"FormState.php.html#1195\">FormState::setRebuild<\/a>"],[100,1,"<a href=\"FormState.php.html#1203\">FormState::isRebuilding<\/a>"],[100,3,"<a href=\"FormState.php.html#1210\">FormState::prepareCallback<\/a>"],[100,1,"<a href=\"FormState.php.html#1220\">FormState::setFormObject<\/a>"],[100,1,"<a href=\"FormState.php.html#1228\">FormState::getFormObject<\/a>"],[100,1,"<a href=\"FormState.php.html#1235\">FormState::getCleanValueKeys<\/a>"],[100,1,"<a href=\"FormState.php.html#1242\">FormState::setCleanValueKeys<\/a>"],[100,1,"<a href=\"FormState.php.html#1250\">FormState::addCleanValueKey<\/a>"],[100,5,"<a href=\"FormState.php.html#1259\">FormState::cleanValues<\/a>"],[0,1,"<a href=\"FormState.php.html#1301\">FormState::setInvalidToken<\/a>"],[100,1,"<a href=\"FormState.php.html#1309\">FormState::hasInvalidToken<\/a>"],[0,1,"<a href=\"FormState.php.html#1316\">FormState::moduleLoadInclude<\/a>"],[100,1,"<a href=\"FormSubmitter.php.html#42\">FormSubmitter::__construct<\/a>"],[66.666666666667,9,"<a href=\"FormSubmitter.php.html#50\">FormSubmitter::doSubmitForm<\/a>"],[77.777777777778,6,"<a href=\"FormSubmitter.php.html#95\">FormSubmitter::executeSubmitHandlers<\/a>"],[100,5,"<a href=\"FormSubmitter.php.html#124\">FormSubmitter::redirectForm<\/a>"],[0,1,"<a href=\"FormSubmitter.php.html#156\">FormSubmitter::drupalInstallationAttempted<\/a>"],[0,1,"<a href=\"FormSubmitter.php.html#163\">FormSubmitter::batchGet<\/a>"],[100,1,"<a href=\"FormValidator.php.html#68\">FormValidator::__construct<\/a>"],[100,4,"<a href=\"FormValidator.php.html#79\">FormValidator::executeValidateHandlers<\/a>"],[100,6,"<a href=\"FormValidator.php.html#95\">FormValidator::validateForm<\/a>"],[0,1,"<a href=\"FormValidator.php.html#132\">FormValidator::setInvalidTokenError<\/a>"],[100,10,"<a href=\"FormValidator.php.html#152\">FormValidator::handleErrorsWithLimitedValidation<\/a>"],[100,1,"<a href=\"FormValidator.php.html#205\">FormValidator::finalizeValidation<\/a>"],[100,22,"<a href=\"FormValidator.php.html#236\">FormValidator::doValidateForm<\/a>"],[100,19,"<a href=\"FormValidator.php.html#331\">FormValidator::performRequiredValidation<\/a>"],[83.333333333333,8,"<a href=\"FormValidator.php.html#381\">FormValidator::determineLimitValidationErrors<\/a>"],[100,1,"<a href=\"OptGroup.php.html#28\">OptGroup::flattenOptions<\/a>"],[100,5,"<a href=\"OptGroup.php.html#44\">OptGroup::doFlattenOptions<\/a>"],[100,6,"<a href=\"ConfigFormBaseTrait.php.html#47\">ConfigFormBaseTrait::config<\/a>"],[100,1,"<a href=\"ConfigFormBaseTrait.php.html#75\">ConfigFormBaseTrait::getEditableConfigNames<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

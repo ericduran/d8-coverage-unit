@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/ericduran/Sites/drupal/drupal/core/modules/comment</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../../css/nv.d3.min.css" rel="stylesheet">
+  <link href="../../../css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="../../../js/html5shiv.min.js"></script>
+  <script src="../../../js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../../../index.html">/Users/ericduran/Sites/drupal/drupal</a></li>
+        <li><a href="../../index.html">core</a></li>
+        <li><a href="../index.html">modules</a></li>
+        <li><a href="index.html">comment</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/CommentAccessControlHandler.php.html#22">CommentAccessControlHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/EntityLink.php.html#21">EntityLink</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/CommentDefaultFormatter.php.html#36">CommentDefaultFormatter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldType/CommentItem.php.html#33">CommentItem</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldWidget/CommentWidget.php.html#27">CommentWidget</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Menu/LocalTask/UnapprovedComments.php.html#19">UnapprovedComments</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/CommentNameConstraint.php.html#21">CommentNameConstraint</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/CommentNameConstraintValidator.php.html#20">CommentNameConstraintValidator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/destination/EntityComment.php.html#26">EntityComment</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/destination/EntityCommentType.php.html#18">EntityCommentType</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/filter/UserUid.php.html#20">UserUid</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/Depth.php.html#20">Depth</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/LastTimestamp.php.html#22">LastTimestamp</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentBreadcrumbBuilder.php.html#20">CommentBreadcrumbBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/LinkApprove.php.html#21">LinkApprove</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/LinkReply.php.html#21">LinkReply</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/NodeNewComments.php.html#26">NodeNewComments</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/sort/StatisticsLastCommentName.php.html#20">StatisticsLastCommentName</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/sort/StatisticsLastUpdated.php.html#19">StatisticsLastUpdated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/filter/NodeComment.php.html#20">NodeComment</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/row/Rss.php.html#25">Rss</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/sort/Thread.php.html#19">Thread</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Tests/Migrate/d6/MigrateCommentVariableDisplayBase.php.html#15">MigrateCommentVariableDisplayBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/modules/comment_test/src/Controller/CommentTestController.php.html#16">CommentTestController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/AuthorNameFormatter.php.html#26">AuthorNameFormatter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/EntityReferenceSelection/CommentSelection.php.html#25">CommentSelection</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Action/UnpublishComment.php.html#22">UnpublishComment</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentViewsData.php.html#15">CommentViewsData</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentFieldItemList.php.html#15">CommentFieldItemList</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentForm.php.html#25">CommentForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentLazyBuilders.php.html#22">CommentLazyBuilders</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStorage.php.html#27">CommentStorage</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStorageSchema.php.html#17">CommentStorageSchema</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentTranslationHandler.php.html#17">CommentTranslationHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentTypeForm.php.html#21">CommentTypeForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentTypeListBuilder.php.html#18">CommentTypeListBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Action/UnpublishByKeywordComment.php.html#28">UnpublishByKeywordComment</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentViewBuilder.php.html#23">CommentViewBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/AdminController.php.html#18">AdminController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/CommentController.php.html#31">CommentController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/wizard/Comment.php.html#25">Comment</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/CommentAdminOverview.php.html#23">CommentAdminOverview</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/CommentTypeDeleteForm.php.html#22">CommentTypeDeleteForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/ConfirmDeleteMultiple.php.html#20">ConfirmDeleteMultiple</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/DeleteForm.php.html#15">DeleteForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Action/PublishComment.php.html#22">PublishComment</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Action/SaveComment.php.html#22">SaveComment</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Tests/CommentTestTrait.php.html#16">CommentTestTrait</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentManager.php.html#28">CommentManager</a></td><td class="text-right">6%</td></tr>
+       <tr><td><a href="src/CommentStatistics.php.html#19">CommentStatistics</a></td><td class="text-right">14%</td></tr>
+       <tr><td><a href="src/CommentLinkBuilder.php.html#25">CommentLinkBuilder</a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/CommentVariablePerCommentType.php.html#15">CommentVariablePerCommentType</a></td><td class="text-right">83%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/CommentForm.php.html#25">CommentForm</a></td><td class="text-right">3080</td></tr>
+       <tr><td><a href="src/CommentAccessControlHandler.php.html#22">CommentAccessControlHandler</a></td><td class="text-right">812</td></tr>
+       <tr><td><a href="src/Controller/CommentController.php.html#31">CommentController</a></td><td class="text-right">812</td></tr>
+       <tr><td><a href="src/Plugin/views/field/NodeNewComments.php.html#26">NodeNewComments</a></td><td class="text-right">650</td></tr>
+       <tr><td><a href="src/CommentStorage.php.html#27">CommentStorage</a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="src/Form/CommentAdminOverview.php.html#23">CommentAdminOverview</a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/CommentDefaultFormatter.php.html#36">CommentDefaultFormatter</a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="src/CommentViewBuilder.php.html#23">CommentViewBuilder</a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="src/CommentManager.php.html#28">CommentManager</a></td><td class="text-right">317</td></tr>
+       <tr><td><a href="src/CommentStatistics.php.html#19">CommentStatistics</a></td><td class="text-right">294</td></tr>
+       <tr><td><a href="src/CommentLazyBuilders.php.html#22">CommentLazyBuilders</a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/CommentNameConstraintValidator.php.html#20">CommentNameConstraintValidator</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="src/CommentViewsData.php.html#15">CommentViewsData</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldType/CommentItem.php.html#33">CommentItem</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="src/Form/ConfirmDeleteMultiple.php.html#20">ConfirmDeleteMultiple</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="src/Tests/CommentTestTrait.php.html#16">CommentTestTrait</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="src/Plugin/Action/UnpublishByKeywordComment.php.html#28">UnpublishByKeywordComment</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="src/Plugin/EntityReferenceSelection/CommentSelection.php.html#25">CommentSelection</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="src/CommentTypeForm.php.html#21">CommentTypeForm</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="src/Form/CommentTypeDeleteForm.php.html#22">CommentTypeDeleteForm</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="src/Plugin/views/row/Rss.php.html#25">Rss</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="src/Plugin/views/field/EntityLink.php.html#21">EntityLink</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="src/Plugin/migrate/destination/EntityComment.php.html#26">EntityComment</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldWidget/CommentWidget.php.html#27">CommentWidget</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/CommentStorageSchema.php.html#17">CommentStorageSchema</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/CommentBreadcrumbBuilder.php.html#20">CommentBreadcrumbBuilder</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/CommentLinkBuilder.php.html#25">CommentLinkBuilder</a></td><td class="text-right">34</td></tr>
+       <tr><td><a href="src/CommentTranslationHandler.php.html#17">CommentTranslationHandler</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/CommentFieldItemList.php.html#15">CommentFieldItemList</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/Controller/AdminController.php.html#18">AdminController</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/CommentTypeListBuilder.php.html#18">CommentTypeListBuilder</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/AuthorNameFormatter.php.html#26">AuthorNameFormatter</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Plugin/views/field/LastTimestamp.php.html#22">LastTimestamp</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Plugin/Action/UnpublishComment.php.html#22">UnpublishComment</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Plugin/Action/PublishComment.php.html#22">PublishComment</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Plugin/views/field/Depth.php.html#20">Depth</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/views/sort/Thread.php.html#19">Thread</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/CommentVariablePerCommentType.php.html#15">CommentVariablePerCommentType</a></td><td class="text-right">5</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/CommentAccessControlHandler.php.html#27"><abbr title="CommentAccessControlHandler::checkAccess">checkAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldType/CommentItem.php.html#61"><abbr title="CommentItem::propertyDefinitions">propertyDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/CommentDefaultFormatter.php.html#41"><abbr title="CommentDefaultFormatter::defaultSettings">defaultSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/CommentDefaultFormatter.php.html#85"><abbr title="CommentDefaultFormatter::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/CommentDefaultFormatter.php.html#124"><abbr title="CommentDefaultFormatter::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/CommentDefaultFormatter.php.html#136"><abbr title="CommentDefaultFormatter::viewElements">viewElements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/CommentDefaultFormatter.php.html#207"><abbr title="CommentDefaultFormatter::settingsForm">settingsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/CommentDefaultFormatter.php.html#222"><abbr title="CommentDefaultFormatter::settingsSummary">settingsSummary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldType/CommentItem.php.html#39"><abbr title="CommentItem::defaultStorageSettings">defaultStorageSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldType/CommentItem.php.html#48"><abbr title="CommentItem::defaultFieldSettings">defaultFieldSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldType/CommentItem.php.html#90"><abbr title="CommentItem::schema">schema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/AuthorNameFormatter.php.html#31"><abbr title="AuthorNameFormatter::viewElements">viewElements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldType/CommentItem.php.html#107"><abbr title="CommentItem::fieldSettingsForm">fieldSettingsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldType/CommentItem.php.html#162"><abbr title="CommentItem::mainPropertyName">mainPropertyName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldType/CommentItem.php.html#169"><abbr title="CommentItem::isEmpty">isEmpty</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldType/CommentItem.php.html#179"><abbr title="CommentItem::storageSettingsForm">storageSettingsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldType/CommentItem.php.html#207"><abbr title="CommentItem::generateSampleValue">generateSampleValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldWidget/CommentWidget.php.html#32"><abbr title="CommentWidget::formElement">formElement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldWidget/CommentWidget.php.html#94"><abbr title="CommentWidget::massageFormValues">massageFormValues</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Menu/LocalTask/UnapprovedComments.php.html#41"><abbr title="UnapprovedComments::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/AuthorNameFormatter.php.html#53"><abbr title="AuthorNameFormatter::isApplicable">isApplicable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/EntityReferenceSelection/CommentSelection.php.html#73"><abbr title="CommentSelection::entityQueryAlter">entityQueryAlter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Menu/LocalTask/UnapprovedComments.php.html#61"><abbr title="UnapprovedComments::getTitle">getTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Action/UnpublishByKeywordComment.php.html#68"><abbr title="UnpublishByKeywordComment::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/DeleteForm.php.html#35"><abbr title="DeleteForm::getDescription">getDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/DeleteForm.php.html#42"><abbr title="DeleteForm::getDeletionMessage">getDeletionMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/DeleteForm.php.html#49"><abbr title="DeleteForm::logDeletionMessage">logDeletionMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Action/PublishComment.php.html#27"><abbr title="PublishComment::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Action/PublishComment.php.html#35"><abbr title="PublishComment::access">access</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Action/SaveComment.php.html#27"><abbr title="SaveComment::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Action/SaveComment.php.html#34"><abbr title="SaveComment::access">access</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Action/UnpublishByKeywordComment.php.html#58"><abbr title="UnpublishByKeywordComment::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Action/UnpublishByKeywordComment.php.html#81"><abbr title="UnpublishByKeywordComment::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/EntityReferenceSelection/CommentSelection.php.html#62"><abbr title="CommentSelection::anonymous function">anonymous function</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Action/UnpublishByKeywordComment.php.html#96"><abbr title="UnpublishByKeywordComment::defaultConfiguration">defaultConfiguration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Action/UnpublishByKeywordComment.php.html#105"><abbr title="UnpublishByKeywordComment::buildConfigurationForm">buildConfigurationForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Action/UnpublishByKeywordComment.php.html#118"><abbr title="UnpublishByKeywordComment::submitConfigurationForm">submitConfigurationForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Action/UnpublishByKeywordComment.php.html#125"><abbr title="UnpublishByKeywordComment::access">access</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Action/UnpublishComment.php.html#27"><abbr title="UnpublishComment::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Action/UnpublishComment.php.html#35"><abbr title="UnpublishComment::access">access</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/EntityReferenceSelection/CommentSelection.php.html#30"><abbr title="CommentSelection::buildEntityQuery">buildEntityQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/EntityReferenceSelection/CommentSelection.php.html#45"><abbr title="CommentSelection::createNewEntity">createNewEntity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/EntityReferenceSelection/CommentSelection.php.html#58"><abbr title="CommentSelection::validateReferenceableNewEntities">validateReferenceableNewEntities</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Menu/LocalTask/UnapprovedComments.php.html#49"><abbr title="UnapprovedComments::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/CommentNameConstraint.php.html#47"><abbr title="CommentNameConstraint::coversFields">coversFields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/DeleteForm.php.html#20"><abbr title="DeleteForm::getCancelUrl">getCancelUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/NodeNewComments.php.html#162"><abbr title="NodeNewComments::renderLink">renderLink</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/NodeNewComments.php.html#31"><abbr title="NodeNewComments::usesGroupBy">usesGroupBy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/NodeNewComments.php.html#54"><abbr title="NodeNewComments::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/NodeNewComments.php.html#63"><abbr title="NodeNewComments::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/NodeNewComments.php.html#70"><abbr title="NodeNewComments::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/NodeNewComments.php.html#81"><abbr title="NodeNewComments::defineOptions">defineOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/NodeNewComments.php.html#92"><abbr title="NodeNewComments::buildOptionsForm">buildOptionsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/NodeNewComments.php.html#106"><abbr title="NodeNewComments::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/NodeNewComments.php.html#115"><abbr title="NodeNewComments::preRender">preRender</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/NodeNewComments.php.html#198"><abbr title="NodeNewComments::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/LinkReply.php.html#26"><abbr title="LinkReply::getUrlInfo">getUrlInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/sort/StatisticsLastCommentName.php.html#22"><abbr title="StatisticsLastCommentName::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/sort/StatisticsLastUpdated.php.html#21"><abbr title="StatisticsLastUpdated::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/filter/NodeComment.php.html#22"><abbr title="NodeComment::getValueOptions">getValueOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/row/Rss.php.html#47"><abbr title="Rss::preRender">preRender</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/row/Rss.php.html#60"><abbr title="Rss::buildOptionsForm_summary_options">buildOptionsForm_summary_options</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/row/Rss.php.html#67"><abbr title="Rss::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/sort/Thread.php.html#21"><abbr title="Thread::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Tests/Migrate/d6/MigrateCommentVariableDisplayBase.php.html#25"><abbr title="MigrateCommentVariableDisplayBase::setUp">setUp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/modules/comment_test/src/Controller/CommentTestController.php.html#21"><abbr title="CommentTestController::commentReport">commentReport</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/LinkReply.php.html#40"><abbr title="LinkReply::getDefaultLabel">getDefaultLabel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/LinkApprove.php.html#41"><abbr title="LinkApprove::getDefaultLabel">getDefaultLabel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/CommentNameConstraintValidator.php.html#42"><abbr title="CommentNameConstraintValidator::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/CommentVariable.php.html#81"><abbr title="CommentVariable::fields">fields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/CommentNameConstraintValidator.php.html#49"><abbr title="CommentNameConstraintValidator::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/CommentNameConstraintValidator.php.html#56"><abbr title="CommentNameConstraintValidator::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/CommentNameConstraintValidator.php.html#98"><abbr title="CommentNameConstraintValidator::getAnonymousContactDetailsSetting">getAnonymousContactDetailsSetting</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/destination/EntityComment.php.html#73"><abbr title="EntityComment::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/destination/EntityComment.php.html#82"><abbr title="EntityComment::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/destination/EntityComment.php.html#101"><abbr title="EntityComment::import">import</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/destination/EntityComment.php.html#115"><abbr title="EntityComment::processStubRow">processStubRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/destination/EntityCommentType.php.html#23"><abbr title="EntityCommentType::import">import</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/CommentVariablePerCommentType.php.html#51"><abbr title="CommentVariablePerCommentType::fields">fields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/LinkApprove.php.html#33"><abbr title="LinkApprove::renderLink">renderLink</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/filter/UserUid.php.html#22"><abbr title="UserUid::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/Depth.php.html#25"><abbr title="Depth::getItems">getItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/EntityLink.php.html#33"><abbr title="EntityLink::defineOptions">defineOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/EntityLink.php.html#42"><abbr title="EntityLink::buildOptionsForm">buildOptionsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/EntityLink.php.html#61"><abbr title="EntityLink::preRender">preRender</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/EntityLink.php.html#76"><abbr title="EntityLink::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/LastTimestamp.php.html#27"><abbr title="LastTimestamp::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/LastTimestamp.php.html#36"><abbr title="LastTimestamp::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/LinkApprove.php.html#26"><abbr title="LinkApprove::getUrlInfo">getUrlInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/DeleteForm.php.html#28"><abbr title="DeleteForm::getRedirectUrl">getRedirectUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/ConfirmDeleteMultiple.php.html#120"><abbr title="ConfirmDeleteMultiple::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentAccessControlHandler.php.html#59"><abbr title="CommentAccessControlHandler::checkCreateAccess">checkCreateAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStorage.php.html#60"><abbr title="CommentStorage::createInstance">createInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentManager.php.html#150"><abbr title="CommentManager::forbiddenMessage">forbiddenMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentManager.php.html#195"><abbr title="CommentManager::getCountNewComments">getCountNewComments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStatistics.php.html#89"><abbr title="CommentStatistics::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStatistics.php.html#99"><abbr title="CommentStatistics::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStatistics.php.html#151"><abbr title="CommentStatistics::getMaximumCount">getMaximumCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStatistics.php.html#158"><abbr title="CommentStatistics::getRankingInfo">getRankingInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStatistics.php.html#185"><abbr title="CommentStatistics::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStorage.php.html#52"><abbr title="CommentStorage::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStorage.php.html#74"><abbr title="CommentStorage::getMaxThread">getMaxThread</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentManager.php.html#92"><abbr title="CommentManager::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStorage.php.html#88"><abbr title="CommentStorage::getMaxThreadPerThread">getMaxThreadPerThread</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStorage.php.html#103"><abbr title="CommentStorage::getDisplayOrdinal">getDisplayOrdinal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStorage.php.html#138"><abbr title="CommentStorage::getNewCommentPageNumber">getNewCommentPageNumber</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStorage.php.html#199"><abbr title="CommentStorage::getChildCids">getChildCids</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStorage.php.html#265"><abbr title="CommentStorage::loadThread">loadThread</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStorage.php.html#331"><abbr title="CommentStorage::getUnapprovedCount">getUnapprovedCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStorageSchema.php.html#22"><abbr title="CommentStorageSchema::getEntitySchema">getEntitySchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStorageSchema.php.html#50"><abbr title="CommentStorageSchema::getSharedTableFieldSchema">getSharedTableFieldSchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentManager.php.html#118"><abbr title="CommentManager::addBodyField">addBodyField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentLinkBuilder.php.html#71"><abbr title="CommentLinkBuilder::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/ConfirmDeleteMultiple.php.html#86"><abbr title="ConfirmDeleteMultiple::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentForm.php.html#71"><abbr title="CommentForm::form">form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentAccessControlHandler.php.html#66"><abbr title="CommentAccessControlHandler::checkFieldAccess">checkFieldAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentBreadcrumbBuilder.php.html#36"><abbr title="CommentBreadcrumbBuilder::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentBreadcrumbBuilder.php.html#43"><abbr title="CommentBreadcrumbBuilder::applies">applies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentBreadcrumbBuilder.php.html#50"><abbr title="CommentBreadcrumbBuilder::build">build</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentFieldItemList.php.html#20"><abbr title="CommentFieldItemList::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentFieldItemList.php.html#36"><abbr title="CommentFieldItemList::offsetExists">offsetExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentForm.php.html#44"><abbr title="CommentForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentForm.php.html#62"><abbr title="CommentForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentForm.php.html#232"><abbr title="CommentForm::actions">actions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentLazyBuilders.php.html#228"><abbr title="CommentLazyBuilders::access">access</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentForm.php.html#263"><abbr title="CommentForm::buildEntity">buildEntity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentForm.php.html#317"><abbr title="CommentForm::getEditedFieldNames">getEditedFieldNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentForm.php.html#324"><abbr title="CommentForm::flagViolations">flagViolations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentForm.php.html#343"><abbr title="CommentForm::preview">preview</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentForm.php.html#353"><abbr title="CommentForm::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentLazyBuilders.php.html#82"><abbr title="CommentLazyBuilders::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentLazyBuilders.php.html#106"><abbr title="CommentLazyBuilders::renderForm">renderForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentLazyBuilders.php.html#133"><abbr title="CommentLazyBuilders::renderLinks">renderLinks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentLazyBuilders.php.html#169"><abbr title="CommentLazyBuilders::buildLinks">buildLinks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentTranslationHandler.php.html#22"><abbr title="CommentTranslationHandler::entityFormAlter">entityFormAlter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentTranslationHandler.php.html#37"><abbr title="CommentTranslationHandler::entityFormTitle">entityFormTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentTranslationHandler.php.html#44"><abbr title="CommentTranslationHandler::entityFormEntityBuild">entityFormEntityBuild</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/CommentAdminOverview.php.html#249"><abbr title="CommentAdminOverview::validateForm">validateForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/CommentController.php.html#278"><abbr title="CommentController::replyFormAccess">replyFormAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/CommentController.php.html#322"><abbr title="CommentController::renderNewCommentsNodeLinks">renderNewCommentsNodeLinks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/wizard/Comment.php.html#58"><abbr title="Comment::rowStyleOptions">rowStyleOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/wizard/Comment.php.html#68"><abbr title="Comment::defaultDisplayOptions">defaultDisplayOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/CommentAdminOverview.php.html#65"><abbr title="CommentAdminOverview::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/CommentAdminOverview.php.html#75"><abbr title="CommentAdminOverview::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/CommentAdminOverview.php.html#87"><abbr title="CommentAdminOverview::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/CommentAdminOverview.php.html#104"><abbr title="CommentAdminOverview::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/CommentAdminOverview.php.html#260"><abbr title="CommentAdminOverview::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/CommentController.php.html#180"><abbr title="CommentController::redirectNode">redirectNode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/CommentTypeDeleteForm.php.html#71"><abbr title="CommentTypeDeleteForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/CommentTypeDeleteForm.php.html#81"><abbr title="CommentTypeDeleteForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/CommentTypeDeleteForm.php.html#93"><abbr title="CommentTypeDeleteForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/ConfirmDeleteMultiple.php.html#42"><abbr title="ConfirmDeleteMultiple::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/ConfirmDeleteMultiple.php.html#49"><abbr title="ConfirmDeleteMultiple::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/ConfirmDeleteMultiple.php.html#58"><abbr title="ConfirmDeleteMultiple::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/ConfirmDeleteMultiple.php.html#65"><abbr title="ConfirmDeleteMultiple::getQuestion">getQuestion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/ConfirmDeleteMultiple.php.html#72"><abbr title="ConfirmDeleteMultiple::getCancelUrl">getCancelUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/ConfirmDeleteMultiple.php.html#79"><abbr title="ConfirmDeleteMultiple::getConfirmText">getConfirmText</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/CommentController.php.html#220"><abbr title="CommentController::getReplyForm">getReplyForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Tests/CommentTestTrait.php.html#38"><abbr title="CommentTestTrait::addDefaultCommentField">addDefaultCommentField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentTypeForm.php.html#47"><abbr title="CommentTypeForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentViewBuilder.php.html#90"><abbr title="CommentViewBuilder::buildComponents">buildComponents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentTypeForm.php.html#65"><abbr title="CommentTypeForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentTypeForm.php.html#74"><abbr title="CommentTypeForm::form">form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentTypeForm.php.html#160"><abbr title="CommentTypeForm::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentTypeListBuilder.php.html#23"><abbr title="CommentTypeListBuilder::getDefaultOperations">getDefaultOperations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentTypeListBuilder.php.html#36"><abbr title="CommentTypeListBuilder::buildHeader">buildHeader</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentTypeListBuilder.php.html#45"><abbr title="CommentTypeListBuilder::buildRow">buildRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentViewBuilder.php.html#44"><abbr title="CommentViewBuilder::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentViewBuilder.php.html#52"><abbr title="CommentViewBuilder::createInstance">createInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentViewBuilder.php.html#64"><abbr title="CommentViewBuilder::getBuildDefaults">getBuildDefaults</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentViewBuilder.php.html#168"><abbr title="CommentViewBuilder::alterBuild">alterBuild</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/CommentController.php.html#165"><abbr title="CommentController::commentPermalinkTitle">commentPermalinkTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentViewsData.php.html#20"><abbr title="CommentViewsData::getViewsData">getViewsData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/AdminController.php.html#30"><abbr title="AdminController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/AdminController.php.html#42"><abbr title="AdminController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/AdminController.php.html#58"><abbr title="AdminController::adminPage">adminPage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/CommentController.php.html#64"><abbr title="CommentController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/CommentController.php.html#73"><abbr title="CommentController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/CommentController.php.html#90"><abbr title="CommentController::commentApprove">commentApprove</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/CommentController.php.html#122"><abbr title="CommentController::commentPermalink">commentPermalink</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentManager.php.html#105"><abbr title="CommentManager::getFields">getFields</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="src/CommentLinkBuilder.php.html#82"><abbr title="CommentLinkBuilder::buildCommentedEntityLinks">buildCommentedEntityLinks</abbr></a></td><td class="text-right">89%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/CommentForm.php.html#71"><abbr title="CommentForm::form">form</abbr></a></td><td class="text-right">650</td></tr>
+       <tr><td><a href="src/CommentAccessControlHandler.php.html#66"><abbr title="CommentAccessControlHandler::checkFieldAccess">checkFieldAccess</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/CommentDefaultFormatter.php.html#136"><abbr title="CommentDefaultFormatter::viewElements">viewElements</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="src/CommentViewsData.php.html#20"><abbr title="CommentViewsData::getViewsData">getViewsData</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/CommentNameConstraintValidator.php.html#56"><abbr title="CommentNameConstraintValidator::validate">validate</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="src/Form/CommentAdminOverview.php.html#104"><abbr title="CommentAdminOverview::buildForm">buildForm</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="src/CommentForm.php.html#263"><abbr title="CommentForm::buildEntity">buildEntity</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="src/CommentAccessControlHandler.php.html#27"><abbr title="CommentAccessControlHandler::checkAccess">checkAccess</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="src/CommentLazyBuilders.php.html#169"><abbr title="CommentLazyBuilders::buildLinks">buildLinks</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="src/CommentViewBuilder.php.html#90"><abbr title="CommentViewBuilder::buildComponents">buildComponents</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="src/Tests/CommentTestTrait.php.html#38"><abbr title="CommentTestTrait::addDefaultCommentField">addDefaultCommentField</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="src/CommentManager.php.html#195"><abbr title="CommentManager::getCountNewComments">getCountNewComments</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/Plugin/views/field/NodeNewComments.php.html#162"><abbr title="NodeNewComments::renderLink">renderLink</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/Plugin/views/field/NodeNewComments.php.html#115"><abbr title="NodeNewComments::preRender">preRender</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/Form/CommentTypeDeleteForm.php.html#93"><abbr title="CommentTypeDeleteForm::buildForm">buildForm</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/CommentStorage.php.html#265"><abbr title="CommentStorage::loadThread">loadThread</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/CommentForm.php.html#353"><abbr title="CommentForm::save">save</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/CommentStatistics.php.html#185"><abbr title="CommentStatistics::update">update</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/CommentStatistics.php.html#99"><abbr title="CommentStatistics::create">create</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/Plugin/views/row/Rss.php.html#67"><abbr title="Rss::render">render</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/Controller/CommentController.php.html#278"><abbr title="CommentController::replyFormAccess">replyFormAccess</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/CommentLinkBuilder.php.html#82"><abbr title="CommentLinkBuilder::buildCommentedEntityLinks">buildCommentedEntityLinks</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/CommentManager.php.html#150"><abbr title="CommentManager::forbiddenMessage">forbiddenMessage</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/CommentViewBuilder.php.html#168"><abbr title="CommentViewBuilder::alterBuild">alterBuild</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/Controller/CommentController.php.html#122"><abbr title="CommentController::commentPermalink">commentPermalink</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/CommentStorageSchema.php.html#50"><abbr title="CommentStorageSchema::getSharedTableFieldSchema">getSharedTableFieldSchema</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/Controller/CommentController.php.html#322"><abbr title="CommentController::renderNewCommentsNodeLinks">renderNewCommentsNodeLinks</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/CommentTypeForm.php.html#74"><abbr title="CommentTypeForm::form">form</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/Plugin/migrate/destination/EntityComment.php.html#101"><abbr title="EntityComment::import">import</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/Controller/CommentController.php.html#180"><abbr title="CommentController::redirectNode">redirectNode</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Plugin/EntityReferenceSelection/CommentSelection.php.html#73"><abbr title="CommentSelection::entityQueryAlter">entityQueryAlter</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldWidget/CommentWidget.php.html#32"><abbr title="CommentWidget::formElement">formElement</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Plugin/views/field/EntityLink.php.html#61"><abbr title="EntityLink::preRender">preRender</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Controller/CommentController.php.html#220"><abbr title="CommentController::getReplyForm">getReplyForm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Form/CommentAdminOverview.php.html#260"><abbr title="CommentAdminOverview::submitForm">submitForm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/CommentForm.php.html#232"><abbr title="CommentForm::actions">actions</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/CommentStorage.php.html#138"><abbr title="CommentStorage::getNewCommentPageNumber">getNewCommentPageNumber</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/CommentStorage.php.html#103"><abbr title="CommentStorage::getDisplayOrdinal">getDisplayOrdinal</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Controller/AdminController.php.html#58"><abbr title="AdminController::adminPage">adminPage</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Form/ConfirmDeleteMultiple.php.html#86"><abbr title="ConfirmDeleteMultiple::buildForm">buildForm</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Plugin/Action/UnpublishByKeywordComment.php.html#81"><abbr title="UnpublishByKeywordComment::execute">execute</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Plugin/views/field/LastTimestamp.php.html#36"><abbr title="LastTimestamp::render">render</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldType/CommentItem.php.html#179"><abbr title="CommentItem::storageSettingsForm">storageSettingsForm</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/CommentBreadcrumbBuilder.php.html#50"><abbr title="CommentBreadcrumbBuilder::build">build</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/CommentFieldItemList.php.html#20"><abbr title="CommentFieldItemList::get">get</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/CommentForm.php.html#324"><abbr title="CommentForm::flagViolations">flagViolations</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/CommentManager.php.html#118"><abbr title="CommentManager::addBodyField">addBodyField</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/views/field/NodeNewComments.php.html#198"><abbr title="NodeNewComments::render">render</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/views/row/Rss.php.html#47"><abbr title="Rss::preRender">preRender</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/views/field/EntityLink.php.html#76"><abbr title="EntityLink::render">render</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/views/sort/Thread.php.html#21"><abbr title="Thread::query">query</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/views/field/Depth.php.html#25"><abbr title="Depth::getItems">getItems</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/CommentBreadcrumbBuilder.php.html#43"><abbr title="CommentBreadcrumbBuilder::applies">applies</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldWidget/CommentWidget.php.html#94"><abbr title="CommentWidget::massageFormValues">massageFormValues</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/CommentTranslationHandler.php.html#22"><abbr title="CommentTranslationHandler::entityFormAlter">entityFormAlter</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/CommentStatistics.php.html#158"><abbr title="CommentStatistics::getRankingInfo">getRankingInfo</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/AuthorNameFormatter.php.html#53"><abbr title="AuthorNameFormatter::isApplicable">isApplicable</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/CommentDefaultFormatter.php.html#222"><abbr title="CommentDefaultFormatter::settingsSummary">settingsSummary</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/CommentFieldItemList.php.html#36"><abbr title="CommentFieldItemList::offsetExists">offsetExists</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/AuthorNameFormatter.php.html#31"><abbr title="AuthorNameFormatter::viewElements">viewElements</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/CommentTranslationHandler.php.html#44"><abbr title="CommentTranslationHandler::entityFormEntityBuild">entityFormEntityBuild</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/EntityReferenceSelection/CommentSelection.php.html#58"><abbr title="CommentSelection::validateReferenceableNewEntities">validateReferenceableNewEntities</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/EntityReferenceSelection/CommentSelection.php.html#30"><abbr title="CommentSelection::buildEntityQuery">buildEntityQuery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/Action/UnpublishComment.php.html#35"><abbr title="UnpublishComment::access">access</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/Action/UnpublishByKeywordComment.php.html#125"><abbr title="UnpublishByKeywordComment::access">access</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/Action/PublishComment.php.html#35"><abbr title="PublishComment::access">access</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Form/ConfirmDeleteMultiple.php.html#120"><abbr title="ConfirmDeleteMultiple::submitForm">submitForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/CommentTypeForm.php.html#160"><abbr title="CommentTypeForm::save">save</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/CommentTypeListBuilder.php.html#23"><abbr title="CommentTypeListBuilder::getDefaultOperations">getDefaultOperations</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Form/CommentAdminOverview.php.html#249"><abbr title="CommentAdminOverview::validateForm">validateForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/CommentViewBuilder.php.html#64"><abbr title="CommentViewBuilder::getBuildDefaults">getBuildDefaults</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/CommentLazyBuilders.php.html#133"><abbr title="CommentLazyBuilders::renderLinks">renderLinks</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/CommentManager.php.html#105"><abbr title="CommentManager::getFields">getFields</abbr></a></td><td class="text-right">3</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 2.2.4</a> using <a href="http://php.net/" target="_top">PHP 7.0.3</a> and <a href="http://phpunit.de/">PHPUnit 4.8.11</a> at Sat Feb 27 11:34:46 AEDT 2016.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../../../js/holder.min.js" type="text/javascript"></script>
+  <script src="../../../js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([48,1,1,0,0,0,0,0,0,2,1,1], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([180,0,0,0,0,0,0,0,0,2,0,15], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,28,"<a href=\"src\/CommentAccessControlHandler.php.html#22\">CommentAccessControlHandler<\/a>"],[0,6,"<a href=\"src\/CommentBreadcrumbBuilder.php.html#20\">CommentBreadcrumbBuilder<\/a>"],[0,5,"<a href=\"src\/CommentFieldItemList.php.html#15\">CommentFieldItemList<\/a>"],[0,55,"<a href=\"src\/CommentForm.php.html#25\">CommentForm<\/a>"],[0,16,"<a href=\"src\/CommentLazyBuilders.php.html#22\">CommentLazyBuilders<\/a>"],[83.14606741573,30,"<a href=\"src\/CommentLinkBuilder.php.html#25\">CommentLinkBuilder<\/a>"],[6.1538461538462,19,"<a href=\"src\/CommentManager.php.html#28\">CommentManager<\/a>"],[14.705882352941,21,"<a href=\"src\/CommentStatistics.php.html#19\">CommentStatistics<\/a>"],[0,21,"<a href=\"src\/CommentStorage.php.html#27\">CommentStorage<\/a>"],[0,6,"<a href=\"src\/CommentStorageSchema.php.html#17\">CommentStorageSchema<\/a>"],[0,5,"<a href=\"src\/CommentTranslationHandler.php.html#17\">CommentTranslationHandler<\/a>"],[0,9,"<a href=\"src\/CommentTypeForm.php.html#21\">CommentTypeForm<\/a>"],[0,4,"<a href=\"src\/CommentTypeListBuilder.php.html#18\">CommentTypeListBuilder<\/a>"],[0,20,"<a href=\"src\/CommentViewBuilder.php.html#23\">CommentViewBuilder<\/a>"],[0,13,"<a href=\"src\/CommentViewsData.php.html#15\">CommentViewsData<\/a>"],[0,5,"<a href=\"src\/Controller\/AdminController.php.html#18\">AdminController<\/a>"],[0,28,"<a href=\"src\/Controller\/CommentController.php.html#31\">CommentController<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/wizard\/Comment.php.html#25\">Comment<\/a>"],[100,5,"<a href=\"src\/Plugin\/migrate\/source\/d7\/CommentType.php.html#22\">CommentType<\/a>"],[0,21,"<a href=\"src\/Form\/CommentAdminOverview.php.html#23\">CommentAdminOverview<\/a>"],[0,9,"<a href=\"src\/Form\/CommentTypeDeleteForm.php.html#22\">CommentTypeDeleteForm<\/a>"],[0,11,"<a href=\"src\/Form\/ConfirmDeleteMultiple.php.html#20\">ConfirmDeleteMultiple<\/a>"],[0,5,"<a href=\"src\/Form\/DeleteForm.php.html#15\">DeleteForm<\/a>"],[0,3,"<a href=\"src\/Plugin\/Action\/PublishComment.php.html#22\">PublishComment<\/a>"],[0,2,"<a href=\"src\/Plugin\/Action\/SaveComment.php.html#22\">SaveComment<\/a>"],[0,10,"<a href=\"src\/Plugin\/Action\/UnpublishByKeywordComment.php.html#28\">UnpublishByKeywordComment<\/a>"],[0,3,"<a href=\"src\/Plugin\/Action\/UnpublishComment.php.html#22\">UnpublishComment<\/a>"],[0,10,"<a href=\"src\/Plugin\/EntityReferenceSelection\/CommentSelection.php.html#25\">CommentSelection<\/a>"],[0,4,"<a href=\"src\/Plugin\/Field\/FieldFormatter\/AuthorNameFormatter.php.html#26\">AuthorNameFormatter<\/a>"],[0,20,"<a href=\"src\/Plugin\/Field\/FieldFormatter\/CommentDefaultFormatter.php.html#36\">CommentDefaultFormatter<\/a>"],[0,11,"<a href=\"src\/Plugin\/Field\/FieldType\/CommentItem.php.html#33\">CommentItem<\/a>"],[0,6,"<a href=\"src\/Plugin\/Field\/FieldWidget\/CommentWidget.php.html#27\">CommentWidget<\/a>"],[0,3,"<a href=\"src\/Plugin\/Menu\/LocalTask\/UnapprovedComments.php.html#19\">UnapprovedComments<\/a>"],[0,1,"<a href=\"src\/Plugin\/Validation\/Constraint\/CommentNameConstraint.php.html#21\">CommentNameConstraint<\/a>"],[0,15,"<a href=\"src\/Plugin\/Validation\/Constraint\/CommentNameConstraintValidator.php.html#20\">CommentNameConstraintValidator<\/a>"],[0,8,"<a href=\"src\/Plugin\/migrate\/destination\/EntityComment.php.html#26\">EntityComment<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/destination\/EntityCommentType.php.html#18\">EntityCommentType<\/a>"],[92.682926829268,13,"<a href=\"src\/Plugin\/migrate\/source\/d6\/CommentVariable.php.html#18\">CommentVariable<\/a>"],[83.333333333333,5,"<a href=\"src\/Plugin\/migrate\/source\/d6\/CommentVariablePerCommentType.php.html#15\">CommentVariablePerCommentType<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/filter\/UserUid.php.html#20\">UserUid<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/field\/Depth.php.html#20\">Depth<\/a>"],[0,9,"<a href=\"src\/Plugin\/views\/field\/EntityLink.php.html#21\">EntityLink<\/a>"],[0,4,"<a href=\"src\/Plugin\/views\/field\/LastTimestamp.php.html#22\">LastTimestamp<\/a>"],[0,3,"<a href=\"src\/Plugin\/views\/field\/LinkApprove.php.html#21\">LinkApprove<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/field\/LinkReply.php.html#21\">LinkReply<\/a>"],[0,25,"<a href=\"src\/Plugin\/views\/field\/NodeNewComments.php.html#26\">NodeNewComments<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/sort\/StatisticsLastCommentName.php.html#20\">StatisticsLastCommentName<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/sort\/StatisticsLastUpdated.php.html#19\">StatisticsLastUpdated<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/filter\/NodeComment.php.html#20\">NodeComment<\/a>"],[0,9,"<a href=\"src\/Plugin\/views\/row\/Rss.php.html#25\">Rss<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/sort\/Thread.php.html#19\">Thread<\/a>"],[0,1,"<a href=\"src\/Tests\/Migrate\/d6\/MigrateCommentVariableDisplayBase.php.html#15\">MigrateCommentVariableDisplayBase<\/a>"],[0,1,"<a href=\"tests\/modules\/comment_test\/src\/Controller\/CommentTestController.php.html#16\">CommentTestController<\/a>"],[0,11,"<a href=\"src\/Tests\/CommentTestTrait.php.html#16\">CommentTestTrait<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,11,"<a href=\"src\/CommentAccessControlHandler.php.html#27\">CommentAccessControlHandler::checkAccess<\/a>"],[0,1,"<a href=\"src\/CommentAccessControlHandler.php.html#59\">CommentAccessControlHandler::checkCreateAccess<\/a>"],[0,16,"<a href=\"src\/CommentAccessControlHandler.php.html#66\">CommentAccessControlHandler::checkFieldAccess<\/a>"],[0,1,"<a href=\"src\/CommentBreadcrumbBuilder.php.html#36\">CommentBreadcrumbBuilder::__construct<\/a>"],[0,2,"<a href=\"src\/CommentBreadcrumbBuilder.php.html#43\">CommentBreadcrumbBuilder::applies<\/a>"],[0,3,"<a href=\"src\/CommentBreadcrumbBuilder.php.html#50\">CommentBreadcrumbBuilder::build<\/a>"],[0,3,"<a href=\"src\/CommentFieldItemList.php.html#20\">CommentFieldItemList::get<\/a>"],[0,2,"<a href=\"src\/CommentFieldItemList.php.html#36\">CommentFieldItemList::offsetExists<\/a>"],[0,1,"<a href=\"src\/CommentForm.php.html#44\">CommentForm::create<\/a>"],[0,1,"<a href=\"src\/CommentForm.php.html#62\">CommentForm::__construct<\/a>"],[0,25,"<a href=\"src\/CommentForm.php.html#71\">CommentForm::form<\/a>"],[0,4,"<a href=\"src\/CommentForm.php.html#232\">CommentForm::actions<\/a>"],[0,12,"<a href=\"src\/CommentForm.php.html#263\">CommentForm::buildEntity<\/a>"],[0,1,"<a href=\"src\/CommentForm.php.html#317\">CommentForm::getEditedFieldNames<\/a>"],[0,3,"<a href=\"src\/CommentForm.php.html#324\">CommentForm::flagViolations<\/a>"],[0,1,"<a href=\"src\/CommentForm.php.html#343\">CommentForm::preview<\/a>"],[0,7,"<a href=\"src\/CommentForm.php.html#353\">CommentForm::save<\/a>"],[0,1,"<a href=\"src\/CommentLazyBuilders.php.html#82\">CommentLazyBuilders::__construct<\/a>"],[0,1,"<a href=\"src\/CommentLazyBuilders.php.html#106\">CommentLazyBuilders::renderForm<\/a>"],[0,2,"<a href=\"src\/CommentLazyBuilders.php.html#133\">CommentLazyBuilders::renderLinks<\/a>"],[0,11,"<a href=\"src\/CommentLazyBuilders.php.html#169\">CommentLazyBuilders::buildLinks<\/a>"],[0,1,"<a href=\"src\/CommentLazyBuilders.php.html#228\">CommentLazyBuilders::access<\/a>"],[0,1,"<a href=\"src\/CommentLinkBuilder.php.html#71\">CommentLinkBuilder::__construct<\/a>"],[89.156626506024,29,"<a href=\"src\/CommentLinkBuilder.php.html#82\">CommentLinkBuilder::buildCommentedEntityLinks<\/a>"],[0,1,"<a href=\"src\/CommentManager.php.html#92\">CommentManager::__construct<\/a>"],[80,3,"<a href=\"src\/CommentManager.php.html#105\">CommentManager::getFields<\/a>"],[0,2,"<a href=\"src\/CommentManager.php.html#118\">CommentManager::addBodyField<\/a>"],[0,5,"<a href=\"src\/CommentManager.php.html#150\">CommentManager::forbiddenMessage<\/a>"],[0,8,"<a href=\"src\/CommentManager.php.html#195\">CommentManager::getCountNewComments<\/a>"],[100,1,"<a href=\"src\/CommentStatistics.php.html#61\">CommentStatistics::__construct<\/a>"],[100,3,"<a href=\"src\/CommentStatistics.php.html#71\">CommentStatistics::read<\/a>"],[0,1,"<a href=\"src\/CommentStatistics.php.html#89\">CommentStatistics::delete<\/a>"],[0,6,"<a href=\"src\/CommentStatistics.php.html#99\">CommentStatistics::create<\/a>"],[0,1,"<a href=\"src\/CommentStatistics.php.html#151\">CommentStatistics::getMaximumCount<\/a>"],[0,2,"<a href=\"src\/CommentStatistics.php.html#158\">CommentStatistics::getRankingInfo<\/a>"],[0,7,"<a href=\"src\/CommentStatistics.php.html#185\">CommentStatistics::update<\/a>"],[0,1,"<a href=\"src\/CommentStorage.php.html#52\">CommentStorage::__construct<\/a>"],[0,1,"<a href=\"src\/CommentStorage.php.html#60\">CommentStorage::createInstance<\/a>"],[0,1,"<a href=\"src\/CommentStorage.php.html#74\">CommentStorage::getMaxThread<\/a>"],[0,1,"<a href=\"src\/CommentStorage.php.html#88\">CommentStorage::getMaxThreadPerThread<\/a>"],[0,4,"<a href=\"src\/CommentStorage.php.html#103\">CommentStorage::getDisplayOrdinal<\/a>"],[0,4,"<a href=\"src\/CommentStorage.php.html#138\">CommentStorage::getNewCommentPageNumber<\/a>"],[0,1,"<a href=\"src\/CommentStorage.php.html#199\">CommentStorage::getChildCids<\/a>"],[0,7,"<a href=\"src\/CommentStorage.php.html#265\">CommentStorage::loadThread<\/a>"],[0,1,"<a href=\"src\/CommentStorage.php.html#331\">CommentStorage::getUnapprovedCount<\/a>"],[0,1,"<a href=\"src\/CommentStorageSchema.php.html#22\">CommentStorageSchema::getEntitySchema<\/a>"],[0,5,"<a href=\"src\/CommentStorageSchema.php.html#50\">CommentStorageSchema::getSharedTableFieldSchema<\/a>"],[0,2,"<a href=\"src\/CommentTranslationHandler.php.html#22\">CommentTranslationHandler::entityFormAlter<\/a>"],[0,1,"<a href=\"src\/CommentTranslationHandler.php.html#37\">CommentTranslationHandler::entityFormTitle<\/a>"],[0,2,"<a href=\"src\/CommentTranslationHandler.php.html#44\">CommentTranslationHandler::entityFormEntityBuild<\/a>"],[0,1,"<a href=\"src\/CommentTypeForm.php.html#47\">CommentTypeForm::create<\/a>"],[0,1,"<a href=\"src\/CommentTypeForm.php.html#65\">CommentTypeForm::__construct<\/a>"],[0,5,"<a href=\"src\/CommentTypeForm.php.html#74\">CommentTypeForm::form<\/a>"],[0,2,"<a href=\"src\/CommentTypeForm.php.html#160\">CommentTypeForm::save<\/a>"],[0,2,"<a href=\"src\/CommentTypeListBuilder.php.html#23\">CommentTypeListBuilder::getDefaultOperations<\/a>"],[0,1,"<a href=\"src\/CommentTypeListBuilder.php.html#36\">CommentTypeListBuilder::buildHeader<\/a>"],[0,1,"<a href=\"src\/CommentTypeListBuilder.php.html#45\">CommentTypeListBuilder::buildRow<\/a>"],[0,1,"<a href=\"src\/CommentViewBuilder.php.html#44\">CommentViewBuilder::__construct<\/a>"],[0,1,"<a href=\"src\/CommentViewBuilder.php.html#52\">CommentViewBuilder::createInstance<\/a>"],[0,2,"<a href=\"src\/CommentViewBuilder.php.html#64\">CommentViewBuilder::getBuildDefaults<\/a>"],[0,11,"<a href=\"src\/CommentViewBuilder.php.html#90\">CommentViewBuilder::buildComponents<\/a>"],[0,5,"<a href=\"src\/CommentViewBuilder.php.html#168\">CommentViewBuilder::alterBuild<\/a>"],[0,13,"<a href=\"src\/CommentViewsData.php.html#20\">CommentViewsData::getViewsData<\/a>"],[0,1,"<a href=\"src\/Controller\/AdminController.php.html#30\">AdminController::create<\/a>"],[0,1,"<a href=\"src\/Controller\/AdminController.php.html#42\">AdminController::__construct<\/a>"],[0,3,"<a href=\"src\/Controller\/AdminController.php.html#58\">AdminController::adminPage<\/a>"],[0,1,"<a href=\"src\/Controller\/CommentController.php.html#64\">CommentController::__construct<\/a>"],[0,1,"<a href=\"src\/Controller\/CommentController.php.html#73\">CommentController::create<\/a>"],[0,1,"<a href=\"src\/Controller\/CommentController.php.html#90\">CommentController::commentApprove<\/a>"],[0,5,"<a href=\"src\/Controller\/CommentController.php.html#122\">CommentController::commentPermalink<\/a>"],[0,1,"<a href=\"src\/Controller\/CommentController.php.html#165\">CommentController::commentPermalinkTitle<\/a>"],[0,4,"<a href=\"src\/Controller\/CommentController.php.html#180\">CommentController::redirectNode<\/a>"],[0,4,"<a href=\"src\/Controller\/CommentController.php.html#220\">CommentController::getReplyForm<\/a>"],[0,6,"<a href=\"src\/Controller\/CommentController.php.html#278\">CommentController::replyFormAccess<\/a>"],[0,5,"<a href=\"src\/Controller\/CommentController.php.html#322\">CommentController::renderNewCommentsNodeLinks<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/wizard\/Comment.php.html#58\">Comment::rowStyleOptions<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/wizard\/Comment.php.html#68\">Comment::defaultDisplayOptions<\/a>"],[100,1,"<a href=\"src\/Plugin\/migrate\/source\/d7\/CommentType.php.html#34\">CommentType::query<\/a>"],[100,1,"<a href=\"src\/Plugin\/migrate\/source\/d7\/CommentType.php.html#44\">CommentType::initializeIterator<\/a>"],[100,1,"<a href=\"src\/Plugin\/migrate\/source\/d7\/CommentType.php.html#56\">CommentType::prepareRow<\/a>"],[100,1,"<a href=\"src\/Plugin\/migrate\/source\/d7\/CommentType.php.html#78\">CommentType::fields<\/a>"],[100,1,"<a href=\"src\/Plugin\/migrate\/source\/d7\/CommentType.php.html#95\">CommentType::getIds<\/a>"],[0,1,"<a href=\"src\/Form\/CommentAdminOverview.php.html#65\">CommentAdminOverview::__construct<\/a>"],[0,1,"<a href=\"src\/Form\/CommentAdminOverview.php.html#75\">CommentAdminOverview::create<\/a>"],[0,1,"<a href=\"src\/Form\/CommentAdminOverview.php.html#87\">CommentAdminOverview::getFormId<\/a>"],[0,12,"<a href=\"src\/Form\/CommentAdminOverview.php.html#104\">CommentAdminOverview::buildForm<\/a>"],[0,2,"<a href=\"src\/Form\/CommentAdminOverview.php.html#249\">CommentAdminOverview::validateForm<\/a>"],[0,4,"<a href=\"src\/Form\/CommentAdminOverview.php.html#260\">CommentAdminOverview::submitForm<\/a>"],[0,1,"<a href=\"src\/Form\/CommentTypeDeleteForm.php.html#71\">CommentTypeDeleteForm::__construct<\/a>"],[0,1,"<a href=\"src\/Form\/CommentTypeDeleteForm.php.html#81\">CommentTypeDeleteForm::create<\/a>"],[0,7,"<a href=\"src\/Form\/CommentTypeDeleteForm.php.html#93\">CommentTypeDeleteForm::buildForm<\/a>"],[0,1,"<a href=\"src\/Form\/ConfirmDeleteMultiple.php.html#42\">ConfirmDeleteMultiple::__construct<\/a>"],[0,1,"<a href=\"src\/Form\/ConfirmDeleteMultiple.php.html#49\">ConfirmDeleteMultiple::create<\/a>"],[0,1,"<a href=\"src\/Form\/ConfirmDeleteMultiple.php.html#58\">ConfirmDeleteMultiple::getFormId<\/a>"],[0,1,"<a href=\"src\/Form\/ConfirmDeleteMultiple.php.html#65\">ConfirmDeleteMultiple::getQuestion<\/a>"],[0,1,"<a href=\"src\/Form\/ConfirmDeleteMultiple.php.html#72\">ConfirmDeleteMultiple::getCancelUrl<\/a>"],[0,1,"<a href=\"src\/Form\/ConfirmDeleteMultiple.php.html#79\">ConfirmDeleteMultiple::getConfirmText<\/a>"],[0,3,"<a href=\"src\/Form\/ConfirmDeleteMultiple.php.html#86\">ConfirmDeleteMultiple::buildForm<\/a>"],[0,2,"<a href=\"src\/Form\/ConfirmDeleteMultiple.php.html#120\">ConfirmDeleteMultiple::submitForm<\/a>"],[0,1,"<a href=\"src\/Form\/DeleteForm.php.html#20\">DeleteForm::getCancelUrl<\/a>"],[0,1,"<a href=\"src\/Form\/DeleteForm.php.html#28\">DeleteForm::getRedirectUrl<\/a>"],[0,1,"<a href=\"src\/Form\/DeleteForm.php.html#35\">DeleteForm::getDescription<\/a>"],[0,1,"<a href=\"src\/Form\/DeleteForm.php.html#42\">DeleteForm::getDeletionMessage<\/a>"],[0,1,"<a href=\"src\/Form\/DeleteForm.php.html#49\">DeleteForm::logDeletionMessage<\/a>"],[0,1,"<a href=\"src\/Plugin\/Action\/PublishComment.php.html#27\">PublishComment::execute<\/a>"],[0,2,"<a href=\"src\/Plugin\/Action\/PublishComment.php.html#35\">PublishComment::access<\/a>"],[0,1,"<a href=\"src\/Plugin\/Action\/SaveComment.php.html#27\">SaveComment::execute<\/a>"],[0,1,"<a href=\"src\/Plugin\/Action\/SaveComment.php.html#34\">SaveComment::access<\/a>"],[0,1,"<a href=\"src\/Plugin\/Action\/UnpublishByKeywordComment.php.html#58\">UnpublishByKeywordComment::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/Action\/UnpublishByKeywordComment.php.html#68\">UnpublishByKeywordComment::create<\/a>"],[0,3,"<a href=\"src\/Plugin\/Action\/UnpublishByKeywordComment.php.html#81\">UnpublishByKeywordComment::execute<\/a>"],[0,1,"<a href=\"src\/Plugin\/Action\/UnpublishByKeywordComment.php.html#96\">UnpublishByKeywordComment::defaultConfiguration<\/a>"],[0,1,"<a href=\"src\/Plugin\/Action\/UnpublishByKeywordComment.php.html#105\">UnpublishByKeywordComment::buildConfigurationForm<\/a>"],[0,1,"<a href=\"src\/Plugin\/Action\/UnpublishByKeywordComment.php.html#118\">UnpublishByKeywordComment::submitConfigurationForm<\/a>"],[0,2,"<a href=\"src\/Plugin\/Action\/UnpublishByKeywordComment.php.html#125\">UnpublishByKeywordComment::access<\/a>"],[0,1,"<a href=\"src\/Plugin\/Action\/UnpublishComment.php.html#27\">UnpublishComment::execute<\/a>"],[0,2,"<a href=\"src\/Plugin\/Action\/UnpublishComment.php.html#35\">UnpublishComment::access<\/a>"],[0,2,"<a href=\"src\/Plugin\/EntityReferenceSelection\/CommentSelection.php.html#30\">CommentSelection::buildEntityQuery<\/a>"],[0,1,"<a href=\"src\/Plugin\/EntityReferenceSelection\/CommentSelection.php.html#45\">CommentSelection::createNewEntity<\/a>"],[0,2,"<a href=\"src\/Plugin\/EntityReferenceSelection\/CommentSelection.php.html#58\">CommentSelection::validateReferenceableNewEntities<\/a>"],[0,1,"<a href=\"src\/Plugin\/EntityReferenceSelection\/CommentSelection.php.html#62\">CommentSelection::anonymous function<\/a>"],[0,4,"<a href=\"src\/Plugin\/EntityReferenceSelection\/CommentSelection.php.html#73\">CommentSelection::entityQueryAlter<\/a>"],[0,2,"<a href=\"src\/Plugin\/Field\/FieldFormatter\/AuthorNameFormatter.php.html#31\">AuthorNameFormatter::viewElements<\/a>"],[0,2,"<a href=\"src\/Plugin\/Field\/FieldFormatter\/AuthorNameFormatter.php.html#53\">AuthorNameFormatter::isApplicable<\/a>"],[0,1,"<a href=\"src\/Plugin\/Field\/FieldFormatter\/CommentDefaultFormatter.php.html#41\">CommentDefaultFormatter::defaultSettings<\/a>"],[0,1,"<a href=\"src\/Plugin\/Field\/FieldFormatter\/CommentDefaultFormatter.php.html#85\">CommentDefaultFormatter::create<\/a>"],[0,1,"<a href=\"src\/Plugin\/Field\/FieldFormatter\/CommentDefaultFormatter.php.html#124\">CommentDefaultFormatter::__construct<\/a>"],[0,14,"<a href=\"src\/Plugin\/Field\/FieldFormatter\/CommentDefaultFormatter.php.html#136\">CommentDefaultFormatter::viewElements<\/a>"],[0,1,"<a href=\"src\/Plugin\/Field\/FieldFormatter\/CommentDefaultFormatter.php.html#207\">CommentDefaultFormatter::settingsForm<\/a>"],[0,2,"<a href=\"src\/Plugin\/Field\/FieldFormatter\/CommentDefaultFormatter.php.html#222\">CommentDefaultFormatter::settingsSummary<\/a>"],[0,1,"<a href=\"src\/Plugin\/Field\/FieldType\/CommentItem.php.html#39\">CommentItem::defaultStorageSettings<\/a>"],[0,1,"<a href=\"src\/Plugin\/Field\/FieldType\/CommentItem.php.html#48\">CommentItem::defaultFieldSettings<\/a>"],[0,1,"<a href=\"src\/Plugin\/Field\/FieldType\/CommentItem.php.html#61\">CommentItem::propertyDefinitions<\/a>"],[0,1,"<a href=\"src\/Plugin\/Field\/FieldType\/CommentItem.php.html#90\">CommentItem::schema<\/a>"],[0,1,"<a href=\"src\/Plugin\/Field\/FieldType\/CommentItem.php.html#107\">CommentItem::fieldSettingsForm<\/a>"],[0,1,"<a href=\"src\/Plugin\/Field\/FieldType\/CommentItem.php.html#162\">CommentItem::mainPropertyName<\/a>"],[0,1,"<a href=\"src\/Plugin\/Field\/FieldType\/CommentItem.php.html#169\">CommentItem::isEmpty<\/a>"],[0,3,"<a href=\"src\/Plugin\/Field\/FieldType\/CommentItem.php.html#179\">CommentItem::storageSettingsForm<\/a>"],[0,1,"<a href=\"src\/Plugin\/Field\/FieldType\/CommentItem.php.html#207\">CommentItem::generateSampleValue<\/a>"],[0,4,"<a href=\"src\/Plugin\/Field\/FieldWidget\/CommentWidget.php.html#32\">CommentWidget::formElement<\/a>"],[0,2,"<a href=\"src\/Plugin\/Field\/FieldWidget\/CommentWidget.php.html#94\">CommentWidget::massageFormValues<\/a>"],[0,1,"<a href=\"src\/Plugin\/Menu\/LocalTask\/UnapprovedComments.php.html#41\">UnapprovedComments::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/Menu\/LocalTask\/UnapprovedComments.php.html#49\">UnapprovedComments::create<\/a>"],[0,1,"<a href=\"src\/Plugin\/Menu\/LocalTask\/UnapprovedComments.php.html#61\">UnapprovedComments::getTitle<\/a>"],[0,1,"<a href=\"src\/Plugin\/Validation\/Constraint\/CommentNameConstraint.php.html#47\">CommentNameConstraint::coversFields<\/a>"],[0,1,"<a href=\"src\/Plugin\/Validation\/Constraint\/CommentNameConstraintValidator.php.html#42\">CommentNameConstraintValidator::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/Validation\/Constraint\/CommentNameConstraintValidator.php.html#49\">CommentNameConstraintValidator::create<\/a>"],[0,12,"<a href=\"src\/Plugin\/Validation\/Constraint\/CommentNameConstraintValidator.php.html#56\">CommentNameConstraintValidator::validate<\/a>"],[0,1,"<a href=\"src\/Plugin\/Validation\/Constraint\/CommentNameConstraintValidator.php.html#98\">CommentNameConstraintValidator::getAnonymousContactDetailsSetting<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/destination\/EntityComment.php.html#73\">EntityComment::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/destination\/EntityComment.php.html#82\">EntityComment::create<\/a>"],[0,5,"<a href=\"src\/Plugin\/migrate\/destination\/EntityComment.php.html#101\">EntityComment::import<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/destination\/EntityComment.php.html#115\">EntityComment::processStubRow<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/destination\/EntityCommentType.php.html#23\">EntityCommentType::import<\/a>"],[100,1,"<a href=\"src\/Plugin\/migrate\/source\/d6\/CommentVariable.php.html#25\">CommentVariable::initializeIterator<\/a>"],[100,1,"<a href=\"src\/Plugin\/migrate\/source\/d6\/CommentVariable.php.html#32\">CommentVariable::count<\/a>"],[100,8,"<a href=\"src\/Plugin\/migrate\/source\/d6\/CommentVariable.php.html#41\">CommentVariable::getCommentVariables<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/d6\/CommentVariable.php.html#81\">CommentVariable::fields<\/a>"],[100,1,"<a href=\"src\/Plugin\/migrate\/source\/d6\/CommentVariable.php.html#91\">CommentVariable::commentPrefixes<\/a>"],[100,1,"<a href=\"src\/Plugin\/migrate\/source\/d6\/CommentVariable.php.html#108\">CommentVariable::getIds<\/a>"],[100,3,"<a href=\"src\/Plugin\/migrate\/source\/d6\/CommentVariablePerCommentType.php.html#22\">CommentVariablePerCommentType::getCommentVariables<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/d6\/CommentVariablePerCommentType.php.html#51\">CommentVariablePerCommentType::fields<\/a>"],[100,1,"<a href=\"src\/Plugin\/migrate\/source\/d6\/CommentVariablePerCommentType.php.html#62\">CommentVariablePerCommentType::getIds<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/filter\/UserUid.php.html#22\">UserUid::query<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/field\/Depth.php.html#25\">Depth::getItems<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/EntityLink.php.html#33\">EntityLink::defineOptions<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/EntityLink.php.html#42\">EntityLink::buildOptionsForm<\/a>"],[100,1,"<a href=\"src\/Plugin\/views\/field\/EntityLink.php.html#56\">EntityLink::query<\/a>"],[0,4,"<a href=\"src\/Plugin\/views\/field\/EntityLink.php.html#61\">EntityLink::preRender<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/field\/EntityLink.php.html#76\">EntityLink::render<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/LastTimestamp.php.html#27\">LastTimestamp::init<\/a>"],[0,3,"<a href=\"src\/Plugin\/views\/field\/LastTimestamp.php.html#36\">LastTimestamp::render<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/LinkApprove.php.html#26\">LinkApprove::getUrlInfo<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/LinkApprove.php.html#33\">LinkApprove::renderLink<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/LinkApprove.php.html#41\">LinkApprove::getDefaultLabel<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/LinkReply.php.html#26\">LinkReply::getUrlInfo<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/LinkReply.php.html#40\">LinkReply::getDefaultLabel<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/NodeNewComments.php.html#31\">NodeNewComments::usesGroupBy<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/NodeNewComments.php.html#54\">NodeNewComments::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/NodeNewComments.php.html#63\">NodeNewComments::create<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/NodeNewComments.php.html#70\">NodeNewComments::init<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/NodeNewComments.php.html#81\">NodeNewComments::defineOptions<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/NodeNewComments.php.html#92\">NodeNewComments::buildOptionsForm<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/NodeNewComments.php.html#106\">NodeNewComments::query<\/a>"],[0,8,"<a href=\"src\/Plugin\/views\/field\/NodeNewComments.php.html#115\">NodeNewComments::preRender<\/a>"],[0,8,"<a href=\"src\/Plugin\/views\/field\/NodeNewComments.php.html#162\">NodeNewComments::renderLink<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/field\/NodeNewComments.php.html#198\">NodeNewComments::render<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/sort\/StatisticsLastCommentName.php.html#22\">StatisticsLastCommentName::query<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/sort\/StatisticsLastUpdated.php.html#21\">StatisticsLastUpdated::query<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/filter\/NodeComment.php.html#22\">NodeComment::getValueOptions<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/row\/Rss.php.html#47\">Rss::preRender<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/row\/Rss.php.html#60\">Rss::buildOptionsForm_summary_options<\/a>"],[0,6,"<a href=\"src\/Plugin\/views\/row\/Rss.php.html#67\">Rss::render<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/sort\/Thread.php.html#21\">Thread::query<\/a>"],[0,1,"<a href=\"src\/Tests\/Migrate\/d6\/MigrateCommentVariableDisplayBase.php.html#25\">MigrateCommentVariableDisplayBase::setUp<\/a>"],[0,1,"<a href=\"tests\/modules\/comment_test\/src\/Controller\/CommentTestController.php.html#21\">CommentTestController::commentReport<\/a>"],[0,11,"<a href=\"src\/Tests\/CommentTestTrait.php.html#38\">CommentTestTrait::addDefaultCommentField<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

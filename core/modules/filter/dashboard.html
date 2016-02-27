@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/ericduran/Sites/drupal/drupal/core/modules/filter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../../css/nv.d3.min.css" rel="stylesheet">
+  <link href="../../../css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="../../../js/html5shiv.min.js"></script>
+  <script src="../../../js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../../../index.html">/Users/ericduran/Sites/drupal/drupal</a></li>
+        <li><a href="../../index.html">core</a></li>
+        <li><a href="../index.html">modules</a></li>
+        <li><a href="index.html">filter</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Controller/FilterController.php.html#15">FilterController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/filter_test/src/Plugin/Filter/FilterTestAssets.php.html#23">FilterTestAssets</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterNull.php.html#27">FilterNull</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterUrl.php.html#26">FilterUrl</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/FilterBase.php.html#21">FilterBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/process/FilterSettings.php.html#24">FilterSettings</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/process/d6/FilterFormatPermission.php.html#27">FilterFormatPermission</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/filter_test/src/Form/FilterTestFormatForm.php.html#15">FilterTestFormatForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/filter_test/src/Plugin/Filter/FilterTestCacheContexts.php.html#24">FilterTestCacheContexts</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterHtmlEscape.php.html#23">FilterHtmlEscape</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/filter_test/src/Plugin/Filter/FilterTestCacheMerge.php.html#24">FilterTestCacheMerge</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/filter_test/src/Plugin/Filter/FilterTestCacheTags.php.html#23">FilterTestCacheTags</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/filter_test/src/Plugin/Filter/FilterTestPlaceholders.php.html#23">FilterTestPlaceholders</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/filter_test/src/Plugin/Filter/FilterTestReplace.php.html#23">FilterTestReplace</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/filter_test/src/Plugin/Filter/FilterTestRestrictTagsAndAttributes.php.html#24">FilterTestRestrictTagsAndAttributes</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/filter_test_plugin/src/Plugin/Filter/FilterSparkles.php.html#29">FilterSparkles</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterHtmlImageSecure.php.html#24">FilterHtmlImageSecure</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterHtmlCorrector.php.html#24">FilterHtmlCorrector</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Element/ProcessedText.php.html#22">ProcessedText</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterPermissions.php.html#18">FilterPermissions</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Element/TextFormat.php.html#41">TextFormat</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterFormatAccessControlHandler.php.html#20">FilterFormatAccessControlHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterFormatAddForm.php.html#15">FilterFormatAddForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterFormatEditForm.php.html#16">FilterFormatEditForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterFormatFormBase.php.html#19">FilterFormatFormBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterFormatListBuilder.php.html#23">FilterFormatListBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterPluginManager.php.html#24">FilterPluginManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterProcessResult.php.html#69">FilterProcessResult</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ProxyClass/FilterUninstallValidator.php.html#19">FilterUninstallValidator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/FilterDisableForm.php.html#17">FilterDisableForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterAlign.php.html#24">FilterAlign</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterAutoP.php.html#22">FilterAutoP</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterCaption.php.html#29">FilterCaption</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/filter_test_plugin/src/Plugin/Filter/FilterTestStatic.php.html#23">FilterTestStatic</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterHtml.php.html#35">FilterHtml</a></td><td class="text-right">10%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Plugin/Filter/FilterHtml.php.html#35">FilterHtml</a></td><td class="text-right">1548</td></tr>
+       <tr><td><a href="src/Element/TextFormat.php.html#41">TextFormat</a></td><td class="text-right">600</td></tr>
+       <tr><td><a href="src/FilterFormatFormBase.php.html#19">FilterFormatFormBase</a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="src/Element/ProcessedText.php.html#22">ProcessedText</a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="src/Plugin/FilterBase.php.html#21">FilterBase</a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="src/FilterFormatListBuilder.php.html#23">FilterFormatListBuilder</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="tests/filter_test/src/Plugin/Filter/FilterTestRestrictTagsAndAttributes.php.html#24">FilterTestRestrictTagsAndAttributes</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterCaption.php.html#29">FilterCaption</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterAlign.php.html#24">FilterAlign</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/FilterFormatAccessControlHandler.php.html#20">FilterFormatAccessControlHandler</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/Plugin/migrate/process/d6/FilterFormatPermission.php.html#27">FilterFormatPermission</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/ProxyClass/FilterUninstallValidator.php.html#19">FilterUninstallValidator</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/FilterPermissions.php.html#18">FilterPermissions</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterNull.php.html#27">FilterNull</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterAutoP.php.html#22">FilterAutoP</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/FilterFormatEditForm.php.html#16">FilterFormatEditForm</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Controller/FilterController.php.html#15">FilterController</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Plugin/migrate/process/FilterSettings.php.html#24">FilterSettings</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Controller/FilterController.php.html#29"><abbr title="FilterController::filterTips">filterTips</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterHtmlEscape.php.html#43"><abbr title="FilterHtmlEscape::tips">tips</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/FilterBase.php.html#68"><abbr title="FilterBase::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterUrl.php.html#53"><abbr title="FilterUrl::tips">tips</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterUrl.php.html#46"><abbr title="FilterUrl::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterUrl.php.html#31"><abbr title="FilterUrl::settingsForm">settingsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterNull.php.html#66"><abbr title="FilterNull::tips">tips</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterNull.php.html#58"><abbr title="FilterNull::getHTMLRestrictions">getHTMLRestrictions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterNull.php.html#51"><abbr title="FilterNull::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterNull.php.html#39"><abbr title="FilterNull::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterHtmlImageSecure.php.html#36"><abbr title="FilterHtmlImageSecure::tips">tips</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterHtmlImageSecure.php.html#29"><abbr title="FilterHtmlImageSecure::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterHtmlEscape.php.html#35"><abbr title="FilterHtmlEscape::getHTMLRestrictions">getHTMLRestrictions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/FilterBase.php.html#95"><abbr title="FilterBase::getConfiguration">getConfiguration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterHtmlEscape.php.html#28"><abbr title="FilterHtmlEscape::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterHtmlCorrector.php.html#29"><abbr title="FilterHtmlCorrector::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterHtml.php.html#337"><abbr title="FilterHtml::tips">tips</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterHtml.php.html#246"><abbr title="FilterHtml::getHTMLRestrictions">getHTMLRestrictions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterHtml.php.html#225"><abbr title="FilterHtml::prepareAttributeValues">prepareAttributeValues</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterHtml.php.html#201"><abbr title="FilterHtml::findAllowedValue">findAllowedValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterHtml.php.html#160"><abbr title="FilterHtml::filterElementAttributes">filterElementAttributes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterHtml.php.html#86"><abbr title="FilterHtml::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterHtml.php.html#77"><abbr title="FilterHtml::setConfiguration">setConfiguration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterHtml.php.html#47"><abbr title="FilterHtml::settingsForm">settingsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterCaption.php.html#103"><abbr title="FilterCaption::tips">tips</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/FilterBase.php.html#79"><abbr title="FilterBase::setConfiguration">setConfiguration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/FilterBase.php.html#108"><abbr title="FilterBase::defaultConfiguration">defaultConfiguration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/FilterController.php.html#50"><abbr title="FilterController::getLabel">getLabel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/filter_test/src/Form/FilterTestFormatForm.php.html#27"><abbr title="FilterTestFormatForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/filter_test_plugin/src/Plugin/Filter/FilterSparkles.php.html#34"><abbr title="FilterSparkles::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/filter_test/src/Plugin/Filter/FilterTestRestrictTagsAndAttributes.php.html#39"><abbr title="FilterTestRestrictTagsAndAttributes::getHTMLRestrictions">getHTMLRestrictions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/filter_test/src/Plugin/Filter/FilterTestRestrictTagsAndAttributes.php.html#30"><abbr title="FilterTestRestrictTagsAndAttributes::anonymous function">anonymous function</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/filter_test/src/Plugin/Filter/FilterTestReplace.php.html#28"><abbr title="FilterTestReplace::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/filter_test/src/Plugin/Filter/FilterTestPlaceholders.php.html#44"><abbr title="FilterTestPlaceholders::renderDynamicThing">renderDynamicThing</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/filter_test/src/Plugin/Filter/FilterTestPlaceholders.php.html#28"><abbr title="FilterTestPlaceholders::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/filter_test/src/Plugin/Filter/FilterTestCacheTags.php.html#28"><abbr title="FilterTestCacheTags::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/filter_test/src/Plugin/Filter/FilterTestCacheMerge.php.html#29"><abbr title="FilterTestCacheMerge::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/filter_test/src/Plugin/Filter/FilterTestCacheContexts.php.html#29"><abbr title="FilterTestCacheContexts::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/filter_test/src/Plugin/Filter/FilterTestAssets.php.html#28"><abbr title="FilterTestAssets::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/filter_test/src/Form/FilterTestFormatForm.php.html#113"><abbr title="FilterTestFormatForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/filter_test/src/Form/FilterTestFormatForm.php.html#20"><abbr title="FilterTestFormatForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/FilterBase.php.html#120"><abbr title="FilterBase::calculateDependencies">calculateDependencies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/process/d6/FilterFormatPermission.php.html#63"><abbr title="FilterFormatPermission::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/process/d6/FilterFormatPermission.php.html#48"><abbr title="FilterFormatPermission::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/process/d6/FilterFormatPermission.php.html#39"><abbr title="FilterFormatPermission::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/process/FilterSettings.php.html#47"><abbr title="FilterSettings::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/FilterBase.php.html#172"><abbr title="FilterBase::tips">tips</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/FilterBase.php.html#165"><abbr title="FilterBase::getHTMLRestrictions">getHTMLRestrictions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/FilterBase.php.html#158"><abbr title="FilterBase::prepare">prepare</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/FilterBase.php.html#148"><abbr title="FilterBase::settingsForm">settingsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/FilterBase.php.html#141"><abbr title="FilterBase::getDescription">getDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/FilterBase.php.html#134"><abbr title="FilterBase::getLabel">getLabel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/FilterBase.php.html#127"><abbr title="FilterBase::getType">getType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterCaption.php.html#34"><abbr title="FilterCaption::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterAutoP.php.html#34"><abbr title="FilterAutoP::tips">tips</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterAutoP.php.html#27"><abbr title="FilterAutoP::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterFormatAddForm.php.html#27"><abbr title="FilterFormatAddForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterFormatListBuilder.php.html#56"><abbr title="FilterFormatListBuilder::createInstance">createInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterFormatListBuilder.php.html#47"><abbr title="FilterFormatListBuilder::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterFormatFormBase.php.html#262"><abbr title="FilterFormatFormBase::actions">actions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterFormatFormBase.php.html#230"><abbr title="FilterFormatFormBase::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterFormatFormBase.php.html#206"><abbr title="FilterFormatFormBase::validateForm">validateForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterFormatFormBase.php.html#196"><abbr title="FilterFormatFormBase::exists">exists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterFormatFormBase.php.html#50"><abbr title="FilterFormatFormBase::form">form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterFormatFormBase.php.html#41"><abbr title="FilterFormatFormBase::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterFormatFormBase.php.html#34"><abbr title="FilterFormatFormBase::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterFormatEditForm.php.html#35"><abbr title="FilterFormatEditForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterFormatEditForm.php.html#21"><abbr title="FilterFormatEditForm::form">form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterFormatAddForm.php.html#20"><abbr title="FilterFormatAddForm::form">form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterFormatListBuilder.php.html#76"><abbr title="FilterFormatListBuilder::anonymous function">anonymous function</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterFormatAccessControlHandler.php.html#25"><abbr title="FilterFormatAccessControlHandler::checkAccess">checkAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Element/TextFormat.php.html#278"><abbr title="TextFormat::elementInfo">elementInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Element/TextFormat.php.html#269"><abbr title="TextFormat::configFactory">configFactory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Element/TextFormat.php.html#260"><abbr title="TextFormat::currentUser">currentUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Element/TextFormat.php.html#87"><abbr title="TextFormat::processFormat">processFormat</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Element/TextFormat.php.html#46"><abbr title="TextFormat::getInfo">getInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Element/ProcessedText.php.html#156"><abbr title="ProcessedText::configFactory">configFactory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Element/ProcessedText.php.html#147"><abbr title="ProcessedText::logger">logger</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Element/ProcessedText.php.html#90"><abbr title="ProcessedText::anonymous function">anonymous function</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Element/ProcessedText.php.html#70"><abbr title="ProcessedText::preRenderText">preRenderText</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Element/ProcessedText.php.html#27"><abbr title="ProcessedText::getInfo">getInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterFormatListBuilder.php.html#67"><abbr title="FilterFormatListBuilder::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterFormatListBuilder.php.html#84"><abbr title="FilterFormatListBuilder::buildHeader">buildHeader</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterAlign.php.html#57"><abbr title="FilterAlign::tips">tips</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterProcessResult.php.html#139"><abbr title="FilterProcessResult::createPlaceholder">createPlaceholder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterAlign.php.html#29"><abbr title="FilterAlign::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/FilterDisableForm.php.html#50"><abbr title="FilterDisableForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/FilterDisableForm.php.html#43"><abbr title="FilterDisableForm::getDescription">getDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/FilterDisableForm.php.html#36"><abbr title="FilterDisableForm::getConfirmText">getConfirmText</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/FilterDisableForm.php.html#29"><abbr title="FilterDisableForm::getCancelUrl">getCancelUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/FilterDisableForm.php.html#22"><abbr title="FilterDisableForm::getQuestion">getQuestion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ProxyClass/FilterUninstallValidator.php.html#85"><abbr title="FilterUninstallValidator::setStringTranslation">setStringTranslation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ProxyClass/FilterUninstallValidator.php.html#77"><abbr title="FilterUninstallValidator::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ProxyClass/FilterUninstallValidator.php.html#65"><abbr title="FilterUninstallValidator::lazyLoadItself">lazyLoadItself</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ProxyClass/FilterUninstallValidator.php.html#53"><abbr title="FilterUninstallValidator::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterProcessResult.php.html#116"><abbr title="FilterProcessResult::setProcessedText">setProcessedText</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterFormatListBuilder.php.html#93"><abbr title="FilterFormatListBuilder::buildRow">buildRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterProcessResult.php.html#104"><abbr title="FilterProcessResult::__toString">__toString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterProcessResult.php.html#95"><abbr title="FilterProcessResult::getProcessedText">getProcessedText</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterProcessResult.php.html#86"><abbr title="FilterProcessResult::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterPluginManager.php.html#46"><abbr title="FilterPluginManager::getFallbackPluginId">getFallbackPluginId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterPluginManager.php.html#37"><abbr title="FilterPluginManager::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterPermissions.php.html#51"><abbr title="FilterPermissions::permissions">permissions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterPermissions.php.html#42"><abbr title="FilterPermissions::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterPermissions.php.html#35"><abbr title="FilterPermissions::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterFormatListBuilder.php.html#154"><abbr title="FilterFormatListBuilder::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterFormatListBuilder.php.html#145"><abbr title="FilterFormatListBuilder::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FilterFormatListBuilder.php.html#127"><abbr title="FilterFormatListBuilder::getDefaultOperations">getDefaultOperations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/filter_test_plugin/src/Plugin/Filter/FilterTestStatic.php.html#28"><abbr title="FilterTestStatic::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterHtml.php.html#107"><abbr title="FilterHtml::filterAttributes">filterAttributes</abbr></a></td><td class="text-right">86%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Element/TextFormat.php.html#87"><abbr title="TextFormat::processFormat">processFormat</abbr></a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="src/Element/ProcessedText.php.html#70"><abbr title="ProcessedText::preRenderText">preRenderText</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="tests/filter_test/src/Plugin/Filter/FilterTestRestrictTagsAndAttributes.php.html#39"><abbr title="FilterTestRestrictTagsAndAttributes::getHTMLRestrictions">getHTMLRestrictions</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterHtml.php.html#160"><abbr title="FilterHtml::filterElementAttributes">filterElementAttributes</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterHtml.php.html#246"><abbr title="FilterHtml::getHTMLRestrictions">getHTMLRestrictions</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterHtml.php.html#337"><abbr title="FilterHtml::tips">tips</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/FilterFormatFormBase.php.html#50"><abbr title="FilterFormatFormBase::form">form</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/FilterFormatAccessControlHandler.php.html#25"><abbr title="FilterFormatAccessControlHandler::checkAccess">checkAccess</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/FilterFormatFormBase.php.html#230"><abbr title="FilterFormatFormBase::submitForm">submitForm</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterHtml.php.html#225"><abbr title="FilterHtml::prepareAttributeValues">prepareAttributeValues</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterCaption.php.html#34"><abbr title="FilterCaption::process">process</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterAlign.php.html#29"><abbr title="FilterAlign::process">process</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterHtml.php.html#201"><abbr title="FilterHtml::findAllowedValue">findAllowedValue</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Plugin/migrate/process/d6/FilterFormatPermission.php.html#63"><abbr title="FilterFormatPermission::transform">transform</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Plugin/FilterBase.php.html#79"><abbr title="FilterBase::setConfiguration">setConfiguration</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/FilterPermissions.php.html#51"><abbr title="FilterPermissions::permissions">permissions</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/FilterFormatListBuilder.php.html#93"><abbr title="FilterFormatListBuilder::buildRow">buildRow</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/FilterFormatListBuilder.php.html#127"><abbr title="FilterFormatListBuilder::getDefaultOperations">getDefaultOperations</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Element/ProcessedText.php.html#90"><abbr title="ProcessedText::anonymous function">anonymous function</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterHtml.php.html#107"><abbr title="FilterHtml::filterAttributes">filterAttributes</abbr></a></td><td class="text-right">9</td></tr>
+       <tr><td><a href="tests/filter_test/src/Plugin/Filter/FilterTestRestrictTagsAndAttributes.php.html#30"><abbr title="FilterTestRestrictTagsAndAttributes::anonymous function">anonymous function</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/migrate/process/FilterSettings.php.html#47"><abbr title="FilterSettings::transform">transform</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/FilterBase.php.html#108"><abbr title="FilterBase::defaultConfiguration">defaultConfiguration</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Controller/FilterController.php.html#29"><abbr title="FilterController::filterTips">filterTips</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterNull.php.html#39"><abbr title="FilterNull::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterCaption.php.html#103"><abbr title="FilterCaption::tips">tips</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterAlign.php.html#57"><abbr title="FilterAlign::tips">tips</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/ProxyClass/FilterUninstallValidator.php.html#65"><abbr title="FilterUninstallValidator::lazyLoadItself">lazyLoadItself</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/FilterFormatFormBase.php.html#206"><abbr title="FilterFormatFormBase::validateForm">validateForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/FilterFormatEditForm.php.html#21"><abbr title="FilterFormatEditForm::form">form</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/Filter/FilterAutoP.php.html#34"><abbr title="FilterAutoP::tips">tips</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 2.2.4</a> using <a href="http://php.net/" target="_top">PHP 7.0.3</a> and <a href="http://phpunit.de/">PHPUnit 4.8.11</a> at Sat Feb 27 11:34:46 AEDT 2016.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../../../js/holder.min.js" type="text/javascript"></script>
+  <script src="../../../js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([34,0,1,0,0,0,0,0,0,0,0,4], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([109,0,0,0,0,0,0,0,0,1,0,13], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,0,"<a href=\"src\/Annotation\/Filter.php.html#26\">Filter<\/a>"],[0,3,"<a href=\"src\/Controller\/FilterController.php.html#15\">FilterController<\/a>"],[0,17,"<a href=\"src\/Element\/ProcessedText.php.html#22\">ProcessedText<\/a>"],[0,24,"<a href=\"src\/Element\/TextFormat.php.html#41\">TextFormat<\/a>"],[100,5,"<a href=\"src\/Plugin\/migrate\/source\/d7\/FilterFormat.php.html#20\">FilterFormat<\/a>"],[0,7,"<a href=\"src\/FilterFormatAccessControlHandler.php.html#20\">FilterFormatAccessControlHandler<\/a>"],[0,2,"<a href=\"src\/FilterFormatAddForm.php.html#15\">FilterFormatAddForm<\/a>"],[0,3,"<a href=\"src\/FilterFormatEditForm.php.html#16\">FilterFormatEditForm<\/a>"],[0,19,"<a href=\"src\/FilterFormatFormBase.php.html#19\">FilterFormatFormBase<\/a>"],[0,14,"<a href=\"src\/FilterFormatListBuilder.php.html#23\">FilterFormatListBuilder<\/a>"],[0,5,"<a href=\"src\/FilterPermissions.php.html#18\">FilterPermissions<\/a>"],[100,17,"<a href=\"src\/FilterPluginCollection.php.html#16\">FilterPluginCollection<\/a>"],[0,2,"<a href=\"src\/FilterPluginManager.php.html#24\">FilterPluginManager<\/a>"],[0,5,"<a href=\"src\/FilterProcessResult.php.html#69\">FilterProcessResult<\/a>"],[0,5,"<a href=\"src\/ProxyClass\/FilterUninstallValidator.php.html#19\">FilterUninstallValidator<\/a>"],[0,5,"<a href=\"src\/Form\/FilterDisableForm.php.html#17\">FilterDisableForm<\/a>"],[0,7,"<a href=\"src\/Plugin\/Filter\/FilterAlign.php.html#24\">FilterAlign<\/a>"],[0,3,"<a href=\"src\/Plugin\/Filter\/FilterAutoP.php.html#22\">FilterAutoP<\/a>"],[0,8,"<a href=\"src\/Plugin\/Filter\/FilterCaption.php.html#29\">FilterCaption<\/a>"],[10.795454545455,46,"<a href=\"src\/Plugin\/Filter\/FilterHtml.php.html#35\">FilterHtml<\/a>"],[0,1,"<a href=\"src\/Plugin\/Filter\/FilterHtmlCorrector.php.html#24\">FilterHtmlCorrector<\/a>"],[0,3,"<a href=\"src\/Plugin\/Filter\/FilterHtmlEscape.php.html#23\">FilterHtmlEscape<\/a>"],[0,2,"<a href=\"src\/Plugin\/Filter\/FilterHtmlImageSecure.php.html#24\">FilterHtmlImageSecure<\/a>"],[0,5,"<a href=\"src\/Plugin\/Filter\/FilterNull.php.html#27\">FilterNull<\/a>"],[0,3,"<a href=\"src\/Plugin\/Filter\/FilterUrl.php.html#26\">FilterUrl<\/a>"],[0,16,"<a href=\"src\/Plugin\/FilterBase.php.html#21\">FilterBase<\/a>"],[0,2,"<a href=\"src\/Plugin\/migrate\/process\/FilterSettings.php.html#24\">FilterSettings<\/a>"],[0,6,"<a href=\"src\/Plugin\/migrate\/process\/d6\/FilterFormatPermission.php.html#27\">FilterFormatPermission<\/a>"],[100,0,"<a href=\"src\/Render\/FilteredMarkup.php.html#27\">FilteredMarkup<\/a>"],[0,3,"<a href=\"tests\/filter_test\/src\/Form\/FilterTestFormatForm.php.html#15\">FilterTestFormatForm<\/a>"],[0,1,"<a href=\"tests\/filter_test\/src\/Plugin\/Filter\/FilterTestAssets.php.html#23\">FilterTestAssets<\/a>"],[0,1,"<a href=\"tests\/filter_test\/src\/Plugin\/Filter\/FilterTestCacheContexts.php.html#24\">FilterTestCacheContexts<\/a>"],[0,1,"<a href=\"tests\/filter_test\/src\/Plugin\/Filter\/FilterTestCacheMerge.php.html#24\">FilterTestCacheMerge<\/a>"],[0,1,"<a href=\"tests\/filter_test\/src\/Plugin\/Filter\/FilterTestCacheTags.php.html#23\">FilterTestCacheTags<\/a>"],[0,2,"<a href=\"tests\/filter_test\/src\/Plugin\/Filter\/FilterTestPlaceholders.php.html#23\">FilterTestPlaceholders<\/a>"],[0,1,"<a href=\"tests\/filter_test\/src\/Plugin\/Filter\/FilterTestReplace.php.html#23\">FilterTestReplace<\/a>"],[0,13,"<a href=\"tests\/filter_test\/src\/Plugin\/Filter\/FilterTestRestrictTagsAndAttributes.php.html#24\">FilterTestRestrictTagsAndAttributes<\/a>"],[0,1,"<a href=\"tests\/filter_test_plugin\/src\/Plugin\/Filter\/FilterSparkles.php.html#29\">FilterSparkles<\/a>"],[0,1,"<a href=\"tests\/filter_test_plugin\/src\/Plugin\/Filter\/FilterTestStatic.php.html#23\">FilterTestStatic<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,2,"<a href=\"src\/Controller\/FilterController.php.html#29\">FilterController::filterTips<\/a>"],[0,1,"<a href=\"src\/Controller\/FilterController.php.html#50\">FilterController::getLabel<\/a>"],[0,1,"<a href=\"src\/Element\/ProcessedText.php.html#27\">ProcessedText::getInfo<\/a>"],[0,11,"<a href=\"src\/Element\/ProcessedText.php.html#70\">ProcessedText::preRenderText<\/a>"],[0,3,"<a href=\"src\/Element\/ProcessedText.php.html#90\">ProcessedText::anonymous function<\/a>"],[0,1,"<a href=\"src\/Element\/ProcessedText.php.html#147\">ProcessedText::logger<\/a>"],[0,1,"<a href=\"src\/Element\/ProcessedText.php.html#156\">ProcessedText::configFactory<\/a>"],[0,1,"<a href=\"src\/Element\/TextFormat.php.html#46\">TextFormat::getInfo<\/a>"],[0,20,"<a href=\"src\/Element\/TextFormat.php.html#87\">TextFormat::processFormat<\/a>"],[0,1,"<a href=\"src\/Element\/TextFormat.php.html#260\">TextFormat::currentUser<\/a>"],[0,1,"<a href=\"src\/Element\/TextFormat.php.html#269\">TextFormat::configFactory<\/a>"],[0,1,"<a href=\"src\/Element\/TextFormat.php.html#278\">TextFormat::elementInfo<\/a>"],[100,1,"<a href=\"src\/Plugin\/migrate\/source\/d7\/FilterFormat.php.html#25\">FilterFormat::query<\/a>"],[100,1,"<a href=\"src\/Plugin\/migrate\/source\/d7\/FilterFormat.php.html#32\">FilterFormat::fields<\/a>"],[100,2,"<a href=\"src\/Plugin\/migrate\/source\/d7\/FilterFormat.php.html#46\">FilterFormat::prepareRow<\/a>"],[100,1,"<a href=\"src\/Plugin\/migrate\/source\/d7\/FilterFormat.php.html#66\">FilterFormat::getIds<\/a>"],[0,7,"<a href=\"src\/FilterFormatAccessControlHandler.php.html#25\">FilterFormatAccessControlHandler::checkAccess<\/a>"],[0,1,"<a href=\"src\/FilterFormatAddForm.php.html#20\">FilterFormatAddForm::form<\/a>"],[0,1,"<a href=\"src\/FilterFormatAddForm.php.html#27\">FilterFormatAddForm::submitForm<\/a>"],[0,2,"<a href=\"src\/FilterFormatEditForm.php.html#21\">FilterFormatEditForm::form<\/a>"],[0,1,"<a href=\"src\/FilterFormatEditForm.php.html#35\">FilterFormatEditForm::submitForm<\/a>"],[0,1,"<a href=\"src\/FilterFormatFormBase.php.html#34\">FilterFormatFormBase::__construct<\/a>"],[0,1,"<a href=\"src\/FilterFormatFormBase.php.html#41\">FilterFormatFormBase::create<\/a>"],[0,7,"<a href=\"src\/FilterFormatFormBase.php.html#50\">FilterFormatFormBase::form<\/a>"],[0,1,"<a href=\"src\/FilterFormatFormBase.php.html#196\">FilterFormatFormBase::exists<\/a>"],[0,2,"<a href=\"src\/FilterFormatFormBase.php.html#206\">FilterFormatFormBase::validateForm<\/a>"],[0,6,"<a href=\"src\/FilterFormatFormBase.php.html#230\">FilterFormatFormBase::submitForm<\/a>"],[0,1,"<a href=\"src\/FilterFormatFormBase.php.html#262\">FilterFormatFormBase::actions<\/a>"],[0,1,"<a href=\"src\/FilterFormatListBuilder.php.html#47\">FilterFormatListBuilder::__construct<\/a>"],[0,1,"<a href=\"src\/FilterFormatListBuilder.php.html#56\">FilterFormatListBuilder::createInstance<\/a>"],[0,1,"<a href=\"src\/FilterFormatListBuilder.php.html#67\">FilterFormatListBuilder::getFormId<\/a>"],[100,1,"<a href=\"src\/FilterFormatListBuilder.php.html#74\">FilterFormatListBuilder::load<\/a>"],[0,1,"<a href=\"src\/FilterFormatListBuilder.php.html#76\">FilterFormatListBuilder::anonymous function<\/a>"],[0,1,"<a href=\"src\/FilterFormatListBuilder.php.html#84\">FilterFormatListBuilder::buildHeader<\/a>"],[0,3,"<a href=\"src\/FilterFormatListBuilder.php.html#93\">FilterFormatListBuilder::buildRow<\/a>"],[0,3,"<a href=\"src\/FilterFormatListBuilder.php.html#127\">FilterFormatListBuilder::getDefaultOperations<\/a>"],[0,1,"<a href=\"src\/FilterFormatListBuilder.php.html#145\">FilterFormatListBuilder::buildForm<\/a>"],[0,1,"<a href=\"src\/FilterFormatListBuilder.php.html#154\">FilterFormatListBuilder::submitForm<\/a>"],[0,1,"<a href=\"src\/FilterPermissions.php.html#35\">FilterPermissions::__construct<\/a>"],[0,1,"<a href=\"src\/FilterPermissions.php.html#42\">FilterPermissions::create<\/a>"],[0,3,"<a href=\"src\/FilterPermissions.php.html#51\">FilterPermissions::permissions<\/a>"],[100,1,"<a href=\"src\/FilterPluginCollection.php.html#30\">FilterPluginCollection::get<\/a>"],[100,4,"<a href=\"src\/FilterPluginCollection.php.html#45\">FilterPluginCollection::getAll<\/a>"],[100,2,"<a href=\"src\/FilterPluginCollection.php.html#68\">FilterPluginCollection::initializePlugin<\/a>"],[100,1,"<a href=\"src\/FilterPluginCollection.php.html#87\">FilterPluginCollection::sort<\/a>"],[100,6,"<a href=\"src\/FilterPluginCollection.php.html#95\">FilterPluginCollection::sortHelper<\/a>"],[100,3,"<a href=\"src\/FilterPluginCollection.php.html#113\">FilterPluginCollection::getConfiguration<\/a>"],[0,1,"<a href=\"src\/FilterPluginManager.php.html#37\">FilterPluginManager::__construct<\/a>"],[0,1,"<a href=\"src\/FilterPluginManager.php.html#46\">FilterPluginManager::getFallbackPluginId<\/a>"],[0,1,"<a href=\"src\/FilterProcessResult.php.html#86\">FilterProcessResult::__construct<\/a>"],[0,1,"<a href=\"src\/FilterProcessResult.php.html#95\">FilterProcessResult::getProcessedText<\/a>"],[0,1,"<a href=\"src\/FilterProcessResult.php.html#104\">FilterProcessResult::__toString<\/a>"],[0,1,"<a href=\"src\/FilterProcessResult.php.html#116\">FilterProcessResult::setProcessedText<\/a>"],[0,1,"<a href=\"src\/FilterProcessResult.php.html#139\">FilterProcessResult::createPlaceholder<\/a>"],[0,1,"<a href=\"src\/ProxyClass\/FilterUninstallValidator.php.html#53\">FilterUninstallValidator::__construct<\/a>"],[0,2,"<a href=\"src\/ProxyClass\/FilterUninstallValidator.php.html#65\">FilterUninstallValidator::lazyLoadItself<\/a>"],[0,1,"<a href=\"src\/ProxyClass\/FilterUninstallValidator.php.html#77\">FilterUninstallValidator::validate<\/a>"],[0,1,"<a href=\"src\/ProxyClass\/FilterUninstallValidator.php.html#85\">FilterUninstallValidator::setStringTranslation<\/a>"],[0,1,"<a href=\"src\/Form\/FilterDisableForm.php.html#22\">FilterDisableForm::getQuestion<\/a>"],[0,1,"<a href=\"src\/Form\/FilterDisableForm.php.html#29\">FilterDisableForm::getCancelUrl<\/a>"],[0,1,"<a href=\"src\/Form\/FilterDisableForm.php.html#36\">FilterDisableForm::getConfirmText<\/a>"],[0,1,"<a href=\"src\/Form\/FilterDisableForm.php.html#43\">FilterDisableForm::getDescription<\/a>"],[0,1,"<a href=\"src\/Form\/FilterDisableForm.php.html#50\">FilterDisableForm::submitForm<\/a>"],[0,5,"<a href=\"src\/Plugin\/Filter\/FilterAlign.php.html#29\">FilterAlign::process<\/a>"],[0,2,"<a href=\"src\/Plugin\/Filter\/FilterAlign.php.html#57\">FilterAlign::tips<\/a>"],[0,1,"<a href=\"src\/Plugin\/Filter\/FilterAutoP.php.html#27\">FilterAutoP::process<\/a>"],[0,2,"<a href=\"src\/Plugin\/Filter\/FilterAutoP.php.html#34\">FilterAutoP::tips<\/a>"],[0,6,"<a href=\"src\/Plugin\/Filter\/FilterCaption.php.html#34\">FilterCaption::process<\/a>"],[0,2,"<a href=\"src\/Plugin\/Filter\/FilterCaption.php.html#103\">FilterCaption::tips<\/a>"],[0,1,"<a href=\"src\/Plugin\/Filter\/FilterHtml.php.html#47\">FilterHtml::settingsForm<\/a>"],[0,1,"<a href=\"src\/Plugin\/Filter\/FilterHtml.php.html#77\">FilterHtml::setConfiguration<\/a>"],[0,1,"<a href=\"src\/Plugin\/Filter\/FilterHtml.php.html#86\">FilterHtml::process<\/a>"],[86.363636363636,9,"<a href=\"src\/Plugin\/Filter\/FilterHtml.php.html#107\">FilterHtml::filterAttributes<\/a>"],[0,8,"<a href=\"src\/Plugin\/Filter\/FilterHtml.php.html#160\">FilterHtml::filterElementAttributes<\/a>"],[0,4,"<a href=\"src\/Plugin\/Filter\/FilterHtml.php.html#201\">FilterHtml::findAllowedValue<\/a>"],[0,6,"<a href=\"src\/Plugin\/Filter\/FilterHtml.php.html#225\">FilterHtml::prepareAttributeValues<\/a>"],[0,8,"<a href=\"src\/Plugin\/Filter\/FilterHtml.php.html#246\">FilterHtml::getHTMLRestrictions<\/a>"],[100,1,"<a href=\"src\/Plugin\/Filter\/FilterHtml.php.html#289\">FilterHtml::anonymous function<\/a>"],[0,7,"<a href=\"src\/Plugin\/Filter\/FilterHtml.php.html#337\">FilterHtml::tips<\/a>"],[0,1,"<a href=\"src\/Plugin\/Filter\/FilterHtmlCorrector.php.html#29\">FilterHtmlCorrector::process<\/a>"],[0,1,"<a href=\"src\/Plugin\/Filter\/FilterHtmlEscape.php.html#28\">FilterHtmlEscape::process<\/a>"],[0,1,"<a href=\"src\/Plugin\/Filter\/FilterHtmlEscape.php.html#35\">FilterHtmlEscape::getHTMLRestrictions<\/a>"],[0,1,"<a href=\"src\/Plugin\/Filter\/FilterHtmlEscape.php.html#43\">FilterHtmlEscape::tips<\/a>"],[0,1,"<a href=\"src\/Plugin\/Filter\/FilterHtmlImageSecure.php.html#29\">FilterHtmlImageSecure::process<\/a>"],[0,1,"<a href=\"src\/Plugin\/Filter\/FilterHtmlImageSecure.php.html#36\">FilterHtmlImageSecure::tips<\/a>"],[0,2,"<a href=\"src\/Plugin\/Filter\/FilterNull.php.html#39\">FilterNull::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/Filter\/FilterNull.php.html#51\">FilterNull::process<\/a>"],[0,1,"<a href=\"src\/Plugin\/Filter\/FilterNull.php.html#58\">FilterNull::getHTMLRestrictions<\/a>"],[0,1,"<a href=\"src\/Plugin\/Filter\/FilterNull.php.html#66\">FilterNull::tips<\/a>"],[0,1,"<a href=\"src\/Plugin\/Filter\/FilterUrl.php.html#31\">FilterUrl::settingsForm<\/a>"],[0,1,"<a href=\"src\/Plugin\/Filter\/FilterUrl.php.html#46\">FilterUrl::process<\/a>"],[0,1,"<a href=\"src\/Plugin\/Filter\/FilterUrl.php.html#53\">FilterUrl::tips<\/a>"],[0,1,"<a href=\"src\/Plugin\/FilterBase.php.html#68\">FilterBase::__construct<\/a>"],[0,4,"<a href=\"src\/Plugin\/FilterBase.php.html#79\">FilterBase::setConfiguration<\/a>"],[0,1,"<a href=\"src\/Plugin\/FilterBase.php.html#95\">FilterBase::getConfiguration<\/a>"],[0,2,"<a href=\"src\/Plugin\/FilterBase.php.html#108\">FilterBase::defaultConfiguration<\/a>"],[0,1,"<a href=\"src\/Plugin\/FilterBase.php.html#120\">FilterBase::calculateDependencies<\/a>"],[0,1,"<a href=\"src\/Plugin\/FilterBase.php.html#127\">FilterBase::getType<\/a>"],[0,1,"<a href=\"src\/Plugin\/FilterBase.php.html#134\">FilterBase::getLabel<\/a>"],[0,1,"<a href=\"src\/Plugin\/FilterBase.php.html#141\">FilterBase::getDescription<\/a>"],[0,1,"<a href=\"src\/Plugin\/FilterBase.php.html#148\">FilterBase::settingsForm<\/a>"],[0,1,"<a href=\"src\/Plugin\/FilterBase.php.html#158\">FilterBase::prepare<\/a>"],[0,1,"<a href=\"src\/Plugin\/FilterBase.php.html#165\">FilterBase::getHTMLRestrictions<\/a>"],[0,1,"<a href=\"src\/Plugin\/FilterBase.php.html#172\">FilterBase::tips<\/a>"],[0,2,"<a href=\"src\/Plugin\/migrate\/process\/FilterSettings.php.html#47\">FilterSettings::transform<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/process\/d6\/FilterFormatPermission.php.html#39\">FilterFormatPermission::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/process\/d6\/FilterFormatPermission.php.html#48\">FilterFormatPermission::create<\/a>"],[0,4,"<a href=\"src\/Plugin\/migrate\/process\/d6\/FilterFormatPermission.php.html#63\">FilterFormatPermission::transform<\/a>"],[0,1,"<a href=\"tests\/filter_test\/src\/Form\/FilterTestFormatForm.php.html#20\">FilterTestFormatForm::getFormId<\/a>"],[0,1,"<a href=\"tests\/filter_test\/src\/Form\/FilterTestFormatForm.php.html#27\">FilterTestFormatForm::buildForm<\/a>"],[0,1,"<a href=\"tests\/filter_test\/src\/Form\/FilterTestFormatForm.php.html#113\">FilterTestFormatForm::submitForm<\/a>"],[0,1,"<a href=\"tests\/filter_test\/src\/Plugin\/Filter\/FilterTestAssets.php.html#28\">FilterTestAssets::process<\/a>"],[0,1,"<a href=\"tests\/filter_test\/src\/Plugin\/Filter\/FilterTestCacheContexts.php.html#29\">FilterTestCacheContexts::process<\/a>"],[0,1,"<a href=\"tests\/filter_test\/src\/Plugin\/Filter\/FilterTestCacheMerge.php.html#29\">FilterTestCacheMerge::process<\/a>"],[0,1,"<a href=\"tests\/filter_test\/src\/Plugin\/Filter\/FilterTestCacheTags.php.html#28\">FilterTestCacheTags::process<\/a>"],[0,1,"<a href=\"tests\/filter_test\/src\/Plugin\/Filter\/FilterTestPlaceholders.php.html#28\">FilterTestPlaceholders::process<\/a>"],[0,1,"<a href=\"tests\/filter_test\/src\/Plugin\/Filter\/FilterTestPlaceholders.php.html#44\">FilterTestPlaceholders::renderDynamicThing<\/a>"],[0,1,"<a href=\"tests\/filter_test\/src\/Plugin\/Filter\/FilterTestReplace.php.html#28\">FilterTestReplace::process<\/a>"],[100,2,"<a href=\"tests\/filter_test\/src\/Plugin\/Filter\/FilterTestRestrictTagsAndAttributes.php.html#29\">FilterTestRestrictTagsAndAttributes::process<\/a>"],[0,2,"<a href=\"tests\/filter_test\/src\/Plugin\/Filter\/FilterTestRestrictTagsAndAttributes.php.html#30\">FilterTestRestrictTagsAndAttributes::anonymous function<\/a>"],[0,9,"<a href=\"tests\/filter_test\/src\/Plugin\/Filter\/FilterTestRestrictTagsAndAttributes.php.html#39\">FilterTestRestrictTagsAndAttributes::getHTMLRestrictions<\/a>"],[0,1,"<a href=\"tests\/filter_test_plugin\/src\/Plugin\/Filter\/FilterSparkles.php.html#34\">FilterSparkles::process<\/a>"],[0,1,"<a href=\"tests\/filter_test_plugin\/src\/Plugin\/Filter\/FilterTestStatic.php.html#28\">FilterTestStatic::process<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/ericduran/Sites/drupal/drupal/core/modules/shortcut</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../../css/nv.d3.min.css" rel="stylesheet">
+  <link href="../../../css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="../../../js/html5shiv.min.js"></script>
+  <script src="../../../js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../../../index.html">/Users/ericduran/Sites/drupal/drupal</a></li>
+        <li><a href="../../index.html">core</a></li>
+        <li><a href="../index.html">modules</a></li>
+        <li><a href="index.html">shortcut</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Controller/ShortcutController.php.html#17">ShortcutController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/ShortcutSetController.php.html#20">ShortcutSetController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SetCustomize.php.html#17">SetCustomize</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/ShortcutDeleteForm.php.html#16">ShortcutDeleteForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/ShortcutSetDeleteForm.php.html#19">ShortcutSetDeleteForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SwitchShortcutSet.php.html#20">SwitchShortcutSet</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Block/ShortcutsBlock.php.html#23">ShortcutsBlock</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/destination/EntityShortcutSet.php.html#18">EntityShortcutSet</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ShortcutAccessControlHandler.php.html#23">ShortcutAccessControlHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ShortcutForm.php.html#16">ShortcutForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ShortcutSetAccessControlHandler.php.html#20">ShortcutSetAccessControlHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ShortcutSetForm.php.html#16">ShortcutSetForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ShortcutSetListBuilder.php.html#18">ShortcutSetListBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ShortcutSetStorage.php.html#22">ShortcutSetStorage</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Form/SwitchShortcutSet.php.html#20">SwitchShortcutSet</a></td><td class="text-right">342</td></tr>
+       <tr><td><a href="src/ShortcutSetStorage.php.html#22">ShortcutSetStorage</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="src/ShortcutSetAccessControlHandler.php.html#20">ShortcutSetAccessControlHandler</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/Controller/ShortcutSetController.php.html#20">ShortcutSetController</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/Form/SetCustomize.php.html#17">SetCustomize</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/ShortcutAccessControlHandler.php.html#23">ShortcutAccessControlHandler</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/Form/ShortcutSetDeleteForm.php.html#19">ShortcutSetDeleteForm</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/ShortcutSetListBuilder.php.html#18">ShortcutSetListBuilder</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Controller/ShortcutController.php.html#17">ShortcutController</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/ShortcutSetForm.php.html#16">ShortcutSetForm</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/ShortcutForm.php.html#16">ShortcutForm</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Controller/ShortcutController.php.html#28"><abbr title="ShortcutController::addForm">addForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ShortcutSetForm.php.html#53"><abbr title="ShortcutSetForm::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ShortcutAccessControlHandler.php.html#40"><abbr title="ShortcutAccessControlHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ShortcutAccessControlHandler.php.html#48"><abbr title="ShortcutAccessControlHandler::createInstance">createInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ShortcutAccessControlHandler.php.html#58"><abbr title="ShortcutAccessControlHandler::checkAccess">checkAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ShortcutAccessControlHandler.php.html#70"><abbr title="ShortcutAccessControlHandler::checkCreateAccess">checkCreateAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ShortcutForm.php.html#28"><abbr title="ShortcutForm::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ShortcutSetAccessControlHandler.php.html#25"><abbr title="ShortcutSetAccessControlHandler::checkAccess">checkAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ShortcutSetAccessControlHandler.php.html#48"><abbr title="ShortcutSetAccessControlHandler::checkCreateAccess">checkCreateAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ShortcutSetForm.php.html#21"><abbr title="ShortcutSetForm::form">form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ShortcutSetListBuilder.php.html#23"><abbr title="ShortcutSetListBuilder::buildHeader">buildHeader</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Block/ShortcutsBlock.php.html#37"><abbr title="ShortcutsBlock::blockAccess">blockAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ShortcutSetListBuilder.php.html#31"><abbr title="ShortcutSetListBuilder::getDefaultOperations">getDefaultOperations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ShortcutSetListBuilder.php.html#48"><abbr title="ShortcutSetListBuilder::buildRow">buildRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ShortcutSetStorage.php.html#45"><abbr title="ShortcutSetStorage::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ShortcutSetStorage.php.html#54"><abbr title="ShortcutSetStorage::createInstance">createInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ShortcutSetStorage.php.html#67"><abbr title="ShortcutSetStorage::deleteAssignedShortcutSets">deleteAssignedShortcutSets</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ShortcutSetStorage.php.html#78"><abbr title="ShortcutSetStorage::assignUser">assignUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ShortcutSetStorage.php.html#89"><abbr title="ShortcutSetStorage::unassignUser">unassignUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ShortcutSetStorage.php.html#99"><abbr title="ShortcutSetStorage::getAssignedToUser">getAssignedToUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ShortcutSetStorage.php.html#109"><abbr title="ShortcutSetStorage::countAssignedUsers">countAssignedUsers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/destination/EntityShortcutSet.php.html#23"><abbr title="EntityShortcutSet::getEntity">getEntity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Block/ShortcutsBlock.php.html#28"><abbr title="ShortcutsBlock::build">build</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/ShortcutController.php.html#43"><abbr title="ShortcutController::deleteShortcutLinkInline">deleteShortcutLinkInline</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/ShortcutSetDeleteForm.php.html#38"><abbr title="ShortcutSetDeleteForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/ShortcutSetController.php.html#35"><abbr title="ShortcutSetController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/ShortcutSetController.php.html#42"><abbr title="ShortcutSetController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/ShortcutSetController.php.html#59"><abbr title="ShortcutSetController::addShortcutLinkInline">addShortcutLinkInline</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SetCustomize.php.html#29"><abbr title="SetCustomize::form">form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SetCustomize.php.html#91"><abbr title="SetCustomize::actions">actions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SetCustomize.php.html#106"><abbr title="SetCustomize::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/ShortcutDeleteForm.php.html#21"><abbr title="ShortcutDeleteForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/ShortcutDeleteForm.php.html#28"><abbr title="ShortcutDeleteForm::getCancelUrl">getCancelUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/ShortcutDeleteForm.php.html#37"><abbr title="ShortcutDeleteForm::getRedirectUrl">getRedirectUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/ShortcutSetDeleteForm.php.html#46"><abbr title="ShortcutSetDeleteForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SwitchShortcutSet.php.html#228"><abbr title="SwitchShortcutSet::checkAccess">checkAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/ShortcutSetDeleteForm.php.html#56"><abbr title="ShortcutSetDeleteForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SwitchShortcutSet.php.html#42"><abbr title="SwitchShortcutSet::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SwitchShortcutSet.php.html#49"><abbr title="SwitchShortcutSet::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SwitchShortcutSet.php.html#58"><abbr title="SwitchShortcutSet::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SwitchShortcutSet.php.html#65"><abbr title="SwitchShortcutSet::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SwitchShortcutSet.php.html#71"><abbr title="SwitchShortcutSet::anonymous function">anonymous function</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SwitchShortcutSet.php.html#153"><abbr title="SwitchShortcutSet::exists">exists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SwitchShortcutSet.php.html#162"><abbr title="SwitchShortcutSet::validateForm">validateForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SwitchShortcutSet.php.html#174"><abbr title="SwitchShortcutSet::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ShortcutSetStorage.php.html#116"><abbr title="ShortcutSetStorage::getDefaultSet">getDefaultSet</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/ShortcutSetAccessControlHandler.php.html#25"><abbr title="ShortcutSetAccessControlHandler::checkAccess">checkAccess</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/Form/SwitchShortcutSet.php.html#65"><abbr title="SwitchShortcutSet::buildForm">buildForm</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/Controller/ShortcutSetController.php.html#59"><abbr title="ShortcutSetController::addShortcutLinkInline">addShortcutLinkInline</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Form/SwitchShortcutSet.php.html#174"><abbr title="SwitchShortcutSet::submitForm">submitForm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Form/SetCustomize.php.html#29"><abbr title="SetCustomize::form">form</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Form/ShortcutSetDeleteForm.php.html#56"><abbr title="ShortcutSetDeleteForm::buildForm">buildForm</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Form/SwitchShortcutSet.php.html#162"><abbr title="SwitchShortcutSet::validateForm">validateForm</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/ShortcutSetStorage.php.html#116"><abbr title="ShortcutSetStorage::getDefaultSet">getDefaultSet</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Controller/ShortcutController.php.html#43"><abbr title="ShortcutController::deleteShortcutLinkInline">deleteShortcutLinkInline</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Form/SetCustomize.php.html#106"><abbr title="SetCustomize::save">save</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/ShortcutAccessControlHandler.php.html#58"><abbr title="ShortcutAccessControlHandler::checkAccess">checkAccess</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/ShortcutAccessControlHandler.php.html#70"><abbr title="ShortcutAccessControlHandler::checkCreateAccess">checkCreateAccess</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/ShortcutForm.php.html#28"><abbr title="ShortcutForm::save">save</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/ShortcutSetForm.php.html#53"><abbr title="ShortcutSetForm::save">save</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/ShortcutSetListBuilder.php.html#31"><abbr title="ShortcutSetListBuilder::getDefaultOperations">getDefaultOperations</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 2.2.4</a> using <a href="http://php.net/" target="_top">PHP 7.0.3</a> and <a href="http://phpunit.de/">PHPUnit 4.8.11</a> at Sat Feb 27 11:34:46 AEDT 2016.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../../../js/holder.min.js" type="text/javascript"></script>
+  <script src="../../../js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([14,0,0,0,0,0,0,0,0,0,0,3], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([46,0,0,0,0,0,0,0,0,0,0,9], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,3,"<a href=\"src\/Controller\/ShortcutController.php.html#17\">ShortcutController<\/a>"],[0,6,"<a href=\"src\/Controller\/ShortcutSetController.php.html#20\">ShortcutSetController<\/a>"],[100,3,"<a href=\"src\/Plugin\/migrate\/source\/d7\/Shortcut.php.html#19\">Shortcut<\/a>"],[100,3,"<a href=\"src\/Plugin\/migrate\/source\/d7\/ShortcutSet.php.html#19\">ShortcutSet<\/a>"],[0,6,"<a href=\"src\/Form\/SetCustomize.php.html#17\">SetCustomize<\/a>"],[0,3,"<a href=\"src\/Form\/ShortcutDeleteForm.php.html#16\">ShortcutDeleteForm<\/a>"],[0,5,"<a href=\"src\/Form\/ShortcutSetDeleteForm.php.html#19\">ShortcutSetDeleteForm<\/a>"],[0,18,"<a href=\"src\/Form\/SwitchShortcutSet.php.html#20\">SwitchShortcutSet<\/a>"],[0,2,"<a href=\"src\/Plugin\/Block\/ShortcutsBlock.php.html#23\">ShortcutsBlock<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/destination\/EntityShortcutSet.php.html#18\">EntityShortcutSet<\/a>"],[100,3,"<a href=\"src\/Plugin\/migrate\/source\/d7\/ShortcutSetUsers.php.html#19\">ShortcutSetUsers<\/a>"],[0,6,"<a href=\"src\/ShortcutAccessControlHandler.php.html#23\">ShortcutAccessControlHandler<\/a>"],[0,2,"<a href=\"src\/ShortcutForm.php.html#16\">ShortcutForm<\/a>"],[0,8,"<a href=\"src\/ShortcutSetAccessControlHandler.php.html#20\">ShortcutSetAccessControlHandler<\/a>"],[0,3,"<a href=\"src\/ShortcutSetForm.php.html#16\">ShortcutSetForm<\/a>"],[0,4,"<a href=\"src\/ShortcutSetListBuilder.php.html#18\">ShortcutSetListBuilder<\/a>"],[0,10,"<a href=\"src\/ShortcutSetStorage.php.html#22\">ShortcutSetStorage<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"src\/Controller\/ShortcutController.php.html#28\">ShortcutController::addForm<\/a>"],[0,2,"<a href=\"src\/Controller\/ShortcutController.php.html#43\">ShortcutController::deleteShortcutLinkInline<\/a>"],[0,1,"<a href=\"src\/Controller\/ShortcutSetController.php.html#35\">ShortcutSetController::__construct<\/a>"],[0,1,"<a href=\"src\/Controller\/ShortcutSetController.php.html#42\">ShortcutSetController::create<\/a>"],[0,4,"<a href=\"src\/Controller\/ShortcutSetController.php.html#59\">ShortcutSetController::addShortcutLinkInline<\/a>"],[100,1,"<a href=\"src\/Plugin\/migrate\/source\/d7\/Shortcut.php.html#24\">Shortcut::query<\/a>"],[100,1,"<a href=\"src\/Plugin\/migrate\/source\/d7\/Shortcut.php.html#34\">Shortcut::fields<\/a>"],[100,1,"<a href=\"src\/Plugin\/migrate\/source\/d7\/Shortcut.php.html#47\">Shortcut::getIds<\/a>"],[100,1,"<a href=\"src\/Plugin\/migrate\/source\/d7\/ShortcutSet.php.html#24\">ShortcutSet::query<\/a>"],[100,1,"<a href=\"src\/Plugin\/migrate\/source\/d7\/ShortcutSet.php.html#31\">ShortcutSet::fields<\/a>"],[100,1,"<a href=\"src\/Plugin\/migrate\/source\/d7\/ShortcutSet.php.html#41\">ShortcutSet::getIds<\/a>"],[0,3,"<a href=\"src\/Form\/SetCustomize.php.html#29\">SetCustomize::form<\/a>"],[0,1,"<a href=\"src\/Form\/SetCustomize.php.html#91\">SetCustomize::actions<\/a>"],[0,2,"<a href=\"src\/Form\/SetCustomize.php.html#106\">SetCustomize::save<\/a>"],[0,1,"<a href=\"src\/Form\/ShortcutDeleteForm.php.html#21\">ShortcutDeleteForm::getFormId<\/a>"],[0,1,"<a href=\"src\/Form\/ShortcutDeleteForm.php.html#28\">ShortcutDeleteForm::getCancelUrl<\/a>"],[0,1,"<a href=\"src\/Form\/ShortcutDeleteForm.php.html#37\">ShortcutDeleteForm::getRedirectUrl<\/a>"],[0,1,"<a href=\"src\/Form\/ShortcutSetDeleteForm.php.html#38\">ShortcutSetDeleteForm::__construct<\/a>"],[0,1,"<a href=\"src\/Form\/ShortcutSetDeleteForm.php.html#46\">ShortcutSetDeleteForm::create<\/a>"],[0,3,"<a href=\"src\/Form\/ShortcutSetDeleteForm.php.html#56\">ShortcutSetDeleteForm::buildForm<\/a>"],[0,1,"<a href=\"src\/Form\/SwitchShortcutSet.php.html#42\">SwitchShortcutSet::__construct<\/a>"],[0,1,"<a href=\"src\/Form\/SwitchShortcutSet.php.html#49\">SwitchShortcutSet::create<\/a>"],[0,1,"<a href=\"src\/Form\/SwitchShortcutSet.php.html#58\">SwitchShortcutSet::getFormId<\/a>"],[0,5,"<a href=\"src\/Form\/SwitchShortcutSet.php.html#65\">SwitchShortcutSet::buildForm<\/a>"],[0,1,"<a href=\"src\/Form\/SwitchShortcutSet.php.html#71\">SwitchShortcutSet::anonymous function<\/a>"],[0,1,"<a href=\"src\/Form\/SwitchShortcutSet.php.html#153\">SwitchShortcutSet::exists<\/a>"],[0,3,"<a href=\"src\/Form\/SwitchShortcutSet.php.html#162\">SwitchShortcutSet::validateForm<\/a>"],[0,4,"<a href=\"src\/Form\/SwitchShortcutSet.php.html#174\">SwitchShortcutSet::submitForm<\/a>"],[0,1,"<a href=\"src\/Form\/SwitchShortcutSet.php.html#228\">SwitchShortcutSet::checkAccess<\/a>"],[0,1,"<a href=\"src\/Plugin\/Block\/ShortcutsBlock.php.html#28\">ShortcutsBlock::build<\/a>"],[0,1,"<a href=\"src\/Plugin\/Block\/ShortcutsBlock.php.html#37\">ShortcutsBlock::blockAccess<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/destination\/EntityShortcutSet.php.html#23\">EntityShortcutSet::getEntity<\/a>"],[100,1,"<a href=\"src\/Plugin\/migrate\/source\/d7\/ShortcutSetUsers.php.html#24\">ShortcutSetUsers::query<\/a>"],[100,1,"<a href=\"src\/Plugin\/migrate\/source\/d7\/ShortcutSetUsers.php.html#31\">ShortcutSetUsers::fields<\/a>"],[100,1,"<a href=\"src\/Plugin\/migrate\/source\/d7\/ShortcutSetUsers.php.html#41\">ShortcutSetUsers::getIds<\/a>"],[0,1,"<a href=\"src\/ShortcutAccessControlHandler.php.html#40\">ShortcutAccessControlHandler::__construct<\/a>"],[0,1,"<a href=\"src\/ShortcutAccessControlHandler.php.html#48\">ShortcutAccessControlHandler::createInstance<\/a>"],[0,2,"<a href=\"src\/ShortcutAccessControlHandler.php.html#58\">ShortcutAccessControlHandler::checkAccess<\/a>"],[0,2,"<a href=\"src\/ShortcutAccessControlHandler.php.html#70\">ShortcutAccessControlHandler::checkCreateAccess<\/a>"],[0,2,"<a href=\"src\/ShortcutForm.php.html#28\">ShortcutForm::save<\/a>"],[0,7,"<a href=\"src\/ShortcutSetAccessControlHandler.php.html#25\">ShortcutSetAccessControlHandler::checkAccess<\/a>"],[0,1,"<a href=\"src\/ShortcutSetAccessControlHandler.php.html#48\">ShortcutSetAccessControlHandler::checkCreateAccess<\/a>"],[0,1,"<a href=\"src\/ShortcutSetForm.php.html#21\">ShortcutSetForm::form<\/a>"],[0,2,"<a href=\"src\/ShortcutSetForm.php.html#53\">ShortcutSetForm::save<\/a>"],[0,1,"<a href=\"src\/ShortcutSetListBuilder.php.html#23\">ShortcutSetListBuilder::buildHeader<\/a>"],[0,2,"<a href=\"src\/ShortcutSetListBuilder.php.html#31\">ShortcutSetListBuilder::getDefaultOperations<\/a>"],[0,1,"<a href=\"src\/ShortcutSetListBuilder.php.html#48\">ShortcutSetListBuilder::buildRow<\/a>"],[0,1,"<a href=\"src\/ShortcutSetStorage.php.html#45\">ShortcutSetStorage::__construct<\/a>"],[0,1,"<a href=\"src\/ShortcutSetStorage.php.html#54\">ShortcutSetStorage::createInstance<\/a>"],[0,1,"<a href=\"src\/ShortcutSetStorage.php.html#67\">ShortcutSetStorage::deleteAssignedShortcutSets<\/a>"],[0,1,"<a href=\"src\/ShortcutSetStorage.php.html#78\">ShortcutSetStorage::assignUser<\/a>"],[0,1,"<a href=\"src\/ShortcutSetStorage.php.html#89\">ShortcutSetStorage::unassignUser<\/a>"],[0,1,"<a href=\"src\/ShortcutSetStorage.php.html#99\">ShortcutSetStorage::getAssignedToUser<\/a>"],[0,1,"<a href=\"src\/ShortcutSetStorage.php.html#109\">ShortcutSetStorage::countAssignedUsers<\/a>"],[0,3,"<a href=\"src\/ShortcutSetStorage.php.html#116\">ShortcutSetStorage::getDefaultSet<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

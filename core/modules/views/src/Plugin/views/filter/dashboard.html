@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/ericduran/Sites/drupal/drupal/core/modules/views/src/Plugin/views/filter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../../../../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../../../../../../css/nv.d3.min.css" rel="stylesheet">
+  <link href="../../../../../../../css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="../../../../../../../js/html5shiv.min.js"></script>
+  <script src="../../../../../../../js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../../../../../../../index.html">/Users/ericduran/Sites/drupal/drupal</a></li>
+        <li><a href="../../../../../../index.html">core</a></li>
+        <li><a href="../../../../../index.html">modules</a></li>
+        <li><a href="../../../../index.html">views</a></li>
+        <li><a href="../../../index.html">src</a></li>
+        <li><a href="../../index.html">Plugin</a></li>
+        <li><a href="../index.html">views</a></li>
+        <li><a href="index.html">filter</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="BooleanOperator.php.html#33">BooleanOperator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BooleanOperatorString.php.html#23">BooleanOperatorString</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Broken.php.html#21">Broken</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Bundle.php.html#22">Bundle</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Combine.php.html#19">Combine</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Date.php.html#19">Date</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Equality.php.html#19">Equality</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#50">FilterPluginBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GroupByNumeric.php.html#17">GroupByNumeric</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InOperator.php.html#27">InOperator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LanguageFilter.php.html#23">LanguageFilter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ManyToOne.php.html#27">ManyToOne</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NumericFilter.php.html#19">NumericFilter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StringFilter.php.html#20">StringFilter</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="FilterPluginBase.php.html#50">FilterPluginBase</a></td><td class="text-right">51302</td></tr>
+       <tr><td><a href="InOperator.php.html#27">InOperator</a></td><td class="text-right">8556</td></tr>
+       <tr><td><a href="NumericFilter.php.html#19">NumericFilter</a></td><td class="text-right">3540</td></tr>
+       <tr><td><a href="StringFilter.php.html#20">StringFilter</a></td><td class="text-right">2652</td></tr>
+       <tr><td><a href="Date.php.html#19">Date</a></td><td class="text-right">2352</td></tr>
+       <tr><td><a href="BooleanOperator.php.html#33">BooleanOperator</a></td><td class="text-right">1560</td></tr>
+       <tr><td><a href="Combine.php.html#19">Combine</a></td><td class="text-right">870</td></tr>
+       <tr><td><a href="ManyToOne.php.html#27">ManyToOne</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Bundle.php.html#22">Bundle</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="GroupByNumeric.php.html#17">GroupByNumeric</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="LanguageFilter.php.html#23">LanguageFilter</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Equality.php.html#19">Equality</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="BooleanOperatorString.php.html#23">BooleanOperatorString</a></td><td class="text-right">12</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="BooleanOperator.php.html#61"><abbr title="BooleanOperator::operatorOptions">operatorOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InOperator.php.html#322"><abbr title="InOperator::adminSummary">adminSummary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InOperator.php.html#156"><abbr title="InOperator::operatorOptions">operatorOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InOperator.php.html#165"><abbr title="InOperator::operatorValues">operatorValues</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InOperator.php.html#176"><abbr title="InOperator::valueForm">valueForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InOperator.php.html#262"><abbr title="InOperator::reduceValueOptions">reduceValueOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InOperator.php.html#290"><abbr title="InOperator::acceptExposedInput">acceptExposedInput</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InOperator.php.html#309"><abbr title="InOperator::valueSubmit">valueSubmit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InOperator.php.html#386"><abbr title="InOperator::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InOperator.php.html#100"><abbr title="InOperator::defineOptions">defineOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InOperator.php.html#393"><abbr title="InOperator::opSimple">opSimple</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InOperator.php.html#404"><abbr title="InOperator::opEmpty">opEmpty</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InOperator.php.html#416"><abbr title="InOperator::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LanguageFilter.php.html#44"><abbr title="LanguageFilter::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LanguageFilter.php.html#53"><abbr title="LanguageFilter::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LanguageFilter.php.html#65"><abbr title="LanguageFilter::getValueOptions">getValueOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InOperator.php.html#115"><abbr title="InOperator::operators">operators</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InOperator.php.html#90"><abbr title="InOperator::buildExposeForm">buildExposeForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ManyToOne.php.html#39"><abbr title="ManyToOne::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#1475"><abbr title="FilterPluginBase::getCacheContexts">getCacheContexts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#1331"><abbr title="FilterPluginBase::acceptExposedInput">acceptExposedInput</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#1374"><abbr title="FilterPluginBase::storeExposedInput">storeExposedInput</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#1433"><abbr title="FilterPluginBase::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#1448"><abbr title="FilterPluginBase::canGroup">canGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#1461"><abbr title="FilterPluginBase::arrayFilterZero">arrayFilterZero</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#1468"><abbr title="FilterPluginBase::getCacheMaxAge">getCacheMaxAge</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#1489"><abbr title="FilterPluginBase::getCacheTags">getCacheTags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InOperator.php.html#85"><abbr title="InOperator::defaultExposeOptions">defaultExposeOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GroupByNumeric.php.html#19"><abbr title="GroupByNumeric::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GroupByNumeric.php.html#28"><abbr title="GroupByNumeric::opBetween">opBetween</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GroupByNumeric.php.html#40"><abbr title="GroupByNumeric::opSimple">opSimple</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GroupByNumeric.php.html#45"><abbr title="GroupByNumeric::opEmpty">opEmpty</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GroupByNumeric.php.html#56"><abbr title="GroupByNumeric::adminLabel">adminLabel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InOperator.php.html#47"><abbr title="InOperator::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InOperator.php.html#65"><abbr title="InOperator::getValueOptions">getValueOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LanguageFilter.php.html#78"><abbr title="LanguageFilter::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ManyToOne.php.html#45"><abbr title="ManyToOne::defineOptions">defineOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#1284"><abbr title="FilterPluginBase::multipleExposedInput">multipleExposedInput</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StringFilter.php.html#267"><abbr title="StringFilter::opContainsWord">opContainsWord</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StringFilter.php.html#171"><abbr title="StringFilter::operatorValues">operatorValues</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StringFilter.php.html#185"><abbr title="StringFilter::valueForm">valueForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StringFilter.php.html#238"><abbr title="StringFilter::operator">operator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StringFilter.php.html#249"><abbr title="StringFilter::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StringFilter.php.html#259"><abbr title="StringFilter::opEqual">opEqual</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StringFilter.php.html#263"><abbr title="StringFilter::opContains">opContains</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StringFilter.php.html#299"><abbr title="StringFilter::opStartsWith">opStartsWith</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StringFilter.php.html#143"><abbr title="StringFilter::operatorOptions">operatorOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StringFilter.php.html#303"><abbr title="StringFilter::opNotStartsWith">opNotStartsWith</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StringFilter.php.html#307"><abbr title="StringFilter::opEndsWith">opEndsWith</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StringFilter.php.html#311"><abbr title="StringFilter::opNotEndsWith">opNotEndsWith</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StringFilter.php.html#315"><abbr title="StringFilter::opNotLike">opNotLike</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StringFilter.php.html#319"><abbr title="StringFilter::opShorterThan">opShorterThan</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StringFilter.php.html#326"><abbr title="StringFilter::opLongerThan">opLongerThan</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StringFilter.php.html#339"><abbr title="StringFilter::opRegex">opRegex</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StringFilter.php.html#152"><abbr title="StringFilter::adminSummary">adminSummary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StringFilter.php.html#38"><abbr title="StringFilter::operators">operators</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ManyToOne.php.html#62"><abbr title="ManyToOne::operators">operators</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NumericFilter.php.html#128"><abbr title="NumericFilter::operatorValues">operatorValues</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ManyToOne.php.html#111"><abbr title="ManyToOne::valueForm">valueForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ManyToOne.php.html#123"><abbr title="ManyToOne::ensureMyTable">ensureMyTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ManyToOne.php.html#133"><abbr title="ManyToOne::opHelper">opHelper</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NumericFilter.php.html#23"><abbr title="NumericFilter::defineOptions">defineOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NumericFilter.php.html#37"><abbr title="NumericFilter::operators">operators</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NumericFilter.php.html#119"><abbr title="NumericFilter::operatorOptions">operatorOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NumericFilter.php.html#141"><abbr title="NumericFilter::valueForm">valueForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StringFilter.php.html#25"><abbr title="StringFilter::defineOptions">defineOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NumericFilter.php.html#241"><abbr title="NumericFilter::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NumericFilter.php.html#251"><abbr title="NumericFilter::opBetween">opBetween</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NumericFilter.php.html#260"><abbr title="NumericFilter::opSimple">opSimple</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NumericFilter.php.html#264"><abbr title="NumericFilter::opEmpty">opEmpty</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NumericFilter.php.html#281"><abbr title="NumericFilter::opRegex">opRegex</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NumericFilter.php.html#285"><abbr title="NumericFilter::adminSummary">adminSummary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NumericFilter.php.html#307"><abbr title="NumericFilter::acceptExposedInput">acceptExposedInput</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#1293"><abbr title="FilterPluginBase::storeGroupInput">storeGroupInput</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#1273"><abbr title="FilterPluginBase::groupMultipleExposedInput">groupMultipleExposedInput</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BooleanOperator.php.html#75"><abbr title="BooleanOperator::operators">operators</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Combine.php.html#145"><abbr title="Combine::opNotStartsWith">opNotStartsWith</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Combine.php.html#33"><abbr title="Combine::buildOptionsForm">buildOptionsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Combine.php.html#63"><abbr title="Combine::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Combine.php.html#105"><abbr title="Combine::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Combine.php.html#129"><abbr title="Combine::opEqual">opEqual</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Combine.php.html#135"><abbr title="Combine::opContains">opContains</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Combine.php.html#140"><abbr title="Combine::opStartsWith">opStartsWith</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Combine.php.html#150"><abbr title="Combine::opEndsWith">opEndsWith</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Bundle.php.html#118"><abbr title="Bundle::calculateDependencies">calculateDependencies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Combine.php.html#155"><abbr title="Combine::opNotEndsWith">opNotEndsWith</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Combine.php.html#160"><abbr title="Combine::opNotLike">opNotLike</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Combine.php.html#165"><abbr title="Combine::opRegex">opRegex</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Combine.php.html#170"><abbr title="Combine::opEmpty">opEmpty</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Date.php.html#21"><abbr title="Date::defineOptions">defineOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Date.php.html#33"><abbr title="Date::valueForm">valueForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Combine.php.html#26"><abbr title="Combine::defineOptions">defineOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Bundle.php.html#109"><abbr title="Bundle::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Date.php.html#59"><abbr title="Date::validateExposed">validateExposed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BooleanOperator.php.html#208"><abbr title="BooleanOperator::defaultExposeOptions">defaultExposeOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BooleanOperator.php.html#97"><abbr title="BooleanOperator::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BooleanOperator.php.html#125"><abbr title="BooleanOperator::getValueOptions">getValueOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BooleanOperator.php.html#144"><abbr title="BooleanOperator::defineOptions">defineOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BooleanOperator.php.html#152"><abbr title="BooleanOperator::valueForm">valueForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BooleanOperator.php.html#185"><abbr title="BooleanOperator::valueValidate">valueValidate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BooleanOperator.php.html#191"><abbr title="BooleanOperator::adminSummary">adminSummary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BooleanOperator.php.html#218"><abbr title="BooleanOperator::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Bundle.php.html#89"><abbr title="Bundle::getValueOptions">getValueOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BooleanOperator.php.html#235"><abbr title="BooleanOperator::queryOpBoolean">queryOpBoolean</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BooleanOperator.php.html#251"><abbr title="BooleanOperator::_queryOperatorBoolean">_queryOperatorBoolean</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BooleanOperatorString.php.html#25"><abbr title="BooleanOperatorString::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Broken.php.html#27"><abbr title="Broken::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Bundle.php.html#57"><abbr title="Bundle::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Bundle.php.html#66"><abbr title="Bundle::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Bundle.php.html#78"><abbr title="Bundle::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Date.php.html#48"><abbr title="Date::validateOptionsForm">validateOptionsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Date.php.html#84"><abbr title="Date::validateValidTime">validateValidTime</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#1234"><abbr title="FilterPluginBase::convertExposedInput">convertExposedInput</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#720"><abbr title="FilterPluginBase::defaultExposeOptions">defaultExposeOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#434"><abbr title="FilterPluginBase::buildGroupForm">buildGroupForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#461"><abbr title="FilterPluginBase::showExposeButton">showExposeButton</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#514"><abbr title="FilterPluginBase::buildExposeForm">buildExposeForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#624"><abbr title="FilterPluginBase::validateExposeForm">validateExposeForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#641"><abbr title="FilterPluginBase::buildGroupValidate">buildGroupValidate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#686"><abbr title="FilterPluginBase::buildGroupSubmit">buildGroupSubmit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#736"><abbr title="FilterPluginBase::buildGroupOptions">buildGroupOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#359"><abbr title="FilterPluginBase::showBuildGroupForm">showBuildGroupForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#755"><abbr title="FilterPluginBase::groupForm">groupForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#801"><abbr title="FilterPluginBase::buildExposedForm">buildExposedForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#847"><abbr title="FilterPluginBase::buildExposedFiltersGroupForm">buildExposedFiltersGroupForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#1103"><abbr title="FilterPluginBase::addGroupForm">addGroupForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#1126"><abbr title="FilterPluginBase::exposedTranslate">exposedTranslate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#1170"><abbr title="FilterPluginBase::prepareFilterSelectOptions">prepareFilterSelectOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#1202"><abbr title="FilterPluginBase::exposedInfo">exposedInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#382"><abbr title="FilterPluginBase::showBuildGroupButton">showBuildGroupButton</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#341"><abbr title="FilterPluginBase::valueForm">valueForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Date.php.html#108"><abbr title="Date::buildGroupValidate">buildGroupValidate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#120"><abbr title="FilterPluginBase::defineOptions">defineOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Date.php.html#133"><abbr title="Date::acceptExposedInput">acceptExposedInput</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Date.php.html#167"><abbr title="Date::opBetween">opBetween</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Date.php.html#181"><abbr title="Date::opSimple">opSimple</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Equality.php.html#27"><abbr title="Equality::operatorOptions">operatorOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Equality.php.html#37"><abbr title="Equality::valueForm">valueForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#94"><abbr title="FilterPluginBase::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#174"><abbr title="FilterPluginBase::adminSummary">adminSummary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#325"><abbr title="FilterPluginBase::showValueForm">showValueForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#187"><abbr title="FilterPluginBase::canBuildGroup">canBuildGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#194"><abbr title="FilterPluginBase::isAGroup">isAGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#204"><abbr title="FilterPluginBase::buildOptionsForm">buildOptionsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#245"><abbr title="FilterPluginBase::validateOptionsForm">validateOptionsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#259"><abbr title="FilterPluginBase::submitOptionsForm">submitOptionsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#279"><abbr title="FilterPluginBase::showOperatorForm">showOperatorForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#293"><abbr title="FilterPluginBase::operatorForm">operatorForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StringFilter.php.html#343"><abbr title="StringFilter::opEmpty">opEmpty</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="NumericFilter.php.html#141"><abbr title="NumericFilter::valueForm">valueForm</abbr></a></td><td class="text-right">756</td></tr>
+       <tr><td><a href="InOperator.php.html#176"><abbr title="InOperator::valueForm">valueForm</abbr></a></td><td class="text-right">600</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#1331"><abbr title="FilterPluginBase::acceptExposedInput">acceptExposedInput</abbr></a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#847"><abbr title="FilterPluginBase::buildExposedFiltersGroupForm">buildExposedFiltersGroupForm</abbr></a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#641"><abbr title="FilterPluginBase::buildGroupValidate">buildGroupValidate</abbr></a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#1374"><abbr title="FilterPluginBase::storeExposedInput">storeExposedInput</abbr></a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="InOperator.php.html#322"><abbr title="InOperator::adminSummary">adminSummary</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#1126"><abbr title="FilterPluginBase::exposedTranslate">exposedTranslate</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#801"><abbr title="FilterPluginBase::buildExposedForm">buildExposedForm</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="InOperator.php.html#416"><abbr title="InOperator::validate">validate</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="StringFilter.php.html#185"><abbr title="StringFilter::valueForm">valueForm</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Date.php.html#108"><abbr title="Date::buildGroupValidate">buildGroupValidate</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="NumericFilter.php.html#307"><abbr title="NumericFilter::acceptExposedInput">acceptExposedInput</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#1234"><abbr title="FilterPluginBase::convertExposedInput">convertExposedInput</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#755"><abbr title="FilterPluginBase::groupForm">groupForm</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#1293"><abbr title="FilterPluginBase::storeGroupInput">storeGroupInput</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Date.php.html#84"><abbr title="Date::validateValidTime">validateValidTime</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Combine.php.html#63"><abbr title="Combine::query">query</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="StringFilter.php.html#267"><abbr title="StringFilter::opContainsWord">opContainsWord</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="BooleanOperator.php.html#152"><abbr title="BooleanOperator::valueForm">valueForm</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Date.php.html#133"><abbr title="Date::acceptExposedInput">acceptExposedInput</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="InOperator.php.html#262"><abbr title="InOperator::reduceValueOptions">reduceValueOptions</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="InOperator.php.html#65"><abbr title="InOperator::getValueOptions">getValueOptions</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="InOperator.php.html#290"><abbr title="InOperator::acceptExposedInput">acceptExposedInput</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#94"><abbr title="FilterPluginBase::init">init</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="BooleanOperator.php.html#251"><abbr title="BooleanOperator::_queryOperatorBoolean">_queryOperatorBoolean</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#204"><abbr title="FilterPluginBase::buildOptionsForm">buildOptionsForm</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="BooleanOperator.php.html#125"><abbr title="BooleanOperator::getValueOptions">getValueOptions</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#359"><abbr title="FilterPluginBase::showBuildGroupForm">showBuildGroupForm</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#1170"><abbr title="FilterPluginBase::prepareFilterSelectOptions">prepareFilterSelectOptions</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="StringFilter.php.html#152"><abbr title="StringFilter::adminSummary">adminSummary</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Date.php.html#59"><abbr title="Date::validateExposed">validateExposed</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="NumericFilter.php.html#285"><abbr title="NumericFilter::adminSummary">adminSummary</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#686"><abbr title="FilterPluginBase::buildGroupSubmit">buildGroupSubmit</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Combine.php.html#33"><abbr title="Combine::buildOptionsForm">buildOptionsForm</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="BooleanOperator.php.html#191"><abbr title="BooleanOperator::adminSummary">adminSummary</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="BooleanOperator.php.html#97"><abbr title="BooleanOperator::init">init</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Combine.php.html#105"><abbr title="Combine::validate">validate</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#514"><abbr title="FilterPluginBase::buildExposeForm">buildExposeForm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#259"><abbr title="FilterPluginBase::submitOptionsForm">submitOptionsForm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#325"><abbr title="FilterPluginBase::showValueForm">showValueForm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="StringFilter.php.html#171"><abbr title="StringFilter::operatorValues">operatorValues</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#245"><abbr title="FilterPluginBase::validateOptionsForm">validateOptionsForm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#624"><abbr title="FilterPluginBase::validateExposeForm">validateExposeForm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="InOperator.php.html#165"><abbr title="InOperator::operatorValues">operatorValues</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#1202"><abbr title="FilterPluginBase::exposedInfo">exposedInfo</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#293"><abbr title="FilterPluginBase::operatorForm">operatorForm</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Date.php.html#33"><abbr title="Date::valueForm">valueForm</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="BooleanOperatorString.php.html#25"><abbr title="BooleanOperatorString::query">query</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="BooleanOperator.php.html#185"><abbr title="BooleanOperator::valueValidate">valueValidate</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Bundle.php.html#89"><abbr title="Bundle::getValueOptions">getValueOptions</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Equality.php.html#37"><abbr title="Equality::valueForm">valueForm</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Date.php.html#181"><abbr title="Date::opSimple">opSimple</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ManyToOne.php.html#123"><abbr title="ManyToOne::ensureMyTable">ensureMyTable</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Date.php.html#48"><abbr title="Date::validateOptionsForm">validateOptionsForm</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="NumericFilter.php.html#128"><abbr title="NumericFilter::operatorValues">operatorValues</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Bundle.php.html#118"><abbr title="Bundle::calculateDependencies">calculateDependencies</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ManyToOne.php.html#133"><abbr title="ManyToOne::opHelper">opHelper</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="NumericFilter.php.html#37"><abbr title="NumericFilter::operators">operators</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="StringFilter.php.html#143"><abbr title="StringFilter::operatorOptions">operatorOptions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="NumericFilter.php.html#119"><abbr title="NumericFilter::operatorOptions">operatorOptions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="NumericFilter.php.html#241"><abbr title="NumericFilter::query">query</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="NumericFilter.php.html#251"><abbr title="NumericFilter::opBetween">opBetween</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="NumericFilter.php.html#264"><abbr title="NumericFilter::opEmpty">opEmpty</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="StringFilter.php.html#38"><abbr title="StringFilter::operators">operators</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ManyToOne.php.html#62"><abbr title="ManyToOne::operators">operators</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="StringFilter.php.html#238"><abbr title="StringFilter::operator">operator</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="StringFilter.php.html#249"><abbr title="StringFilter::query">query</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ManyToOne.php.html#111"><abbr title="ManyToOne::valueForm">valueForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="BooleanOperator.php.html#61"><abbr title="BooleanOperator::operatorOptions">operatorOptions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ManyToOne.php.html#45"><abbr title="ManyToOne::defineOptions">defineOptions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#1284"><abbr title="FilterPluginBase::multipleExposedInput">multipleExposedInput</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="BooleanOperator.php.html#218"><abbr title="BooleanOperator::query">query</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Combine.php.html#170"><abbr title="Combine::opEmpty">opEmpty</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Date.php.html#167"><abbr title="Date::opBetween">opBetween</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#187"><abbr title="FilterPluginBase::canBuildGroup">canBuildGroup</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#194"><abbr title="FilterPluginBase::isAGroup">isAGroup</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#382"><abbr title="FilterPluginBase::showBuildGroupButton">showBuildGroupButton</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#434"><abbr title="FilterPluginBase::buildGroupForm">buildGroupForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#461"><abbr title="FilterPluginBase::showExposeButton">showExposeButton</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#1273"><abbr title="FilterPluginBase::groupMultipleExposedInput">groupMultipleExposedInput</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FilterPluginBase.php.html#1475"><abbr title="FilterPluginBase::getCacheContexts">getCacheContexts</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="LanguageFilter.php.html#78"><abbr title="LanguageFilter::query">query</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="GroupByNumeric.php.html#19"><abbr title="GroupByNumeric::query">query</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="GroupByNumeric.php.html#28"><abbr title="GroupByNumeric::opBetween">opBetween</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="GroupByNumeric.php.html#45"><abbr title="GroupByNumeric::opEmpty">opEmpty</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="InOperator.php.html#115"><abbr title="InOperator::operators">operators</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="InOperator.php.html#156"><abbr title="InOperator::operatorOptions">operatorOptions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="InOperator.php.html#386"><abbr title="InOperator::query">query</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="InOperator.php.html#393"><abbr title="InOperator::opSimple">opSimple</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="InOperator.php.html#404"><abbr title="InOperator::opEmpty">opEmpty</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="LanguageFilter.php.html#65"><abbr title="LanguageFilter::getValueOptions">getValueOptions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="StringFilter.php.html#343"><abbr title="StringFilter::opEmpty">opEmpty</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 2.2.4</a> using <a href="http://php.net/" target="_top">PHP 7.0.3</a> and <a href="http://phpunit.de/">PHPUnit 4.8.11</a> at Sat Feb 27 11:34:46 AEDT 2016.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../../../../js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../../../../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../../../../../../../js/holder.min.js" type="text/javascript"></script>
+  <script src="../../../../../../../js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../../../../js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([14,0,0,0,0,0,0,0,0,0,0,1], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([149,0,0,0,0,0,0,0,0,0,0,7], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,39,"<a href=\"BooleanOperator.php.html#33\">BooleanOperator<\/a>"],[0,3,"<a href=\"BooleanOperatorString.php.html#23\">BooleanOperatorString<\/a>"],[0,1,"<a href=\"Broken.php.html#21\">Broken<\/a>"],[0,10,"<a href=\"Bundle.php.html#22\">Bundle<\/a>"],[0,29,"<a href=\"Combine.php.html#19\">Combine<\/a>"],[0,48,"<a href=\"Date.php.html#19\">Date<\/a>"],[0,4,"<a href=\"Equality.php.html#19\">Equality<\/a>"],[0,226,"<a href=\"FilterPluginBase.php.html#50\">FilterPluginBase<\/a>"],[0,9,"<a href=\"GroupByNumeric.php.html#17\">GroupByNumeric<\/a>"],[0,92,"<a href=\"InOperator.php.html#27\">InOperator<\/a>"],[0,6,"<a href=\"LanguageFilter.php.html#23\">LanguageFilter<\/a>"],[0,12,"<a href=\"ManyToOne.php.html#27\">ManyToOne<\/a>"],[0,59,"<a href=\"NumericFilter.php.html#19\">NumericFilter<\/a>"],[100,0,"<a href=\"Standard.php.html#17\">Standard<\/a>"],[0,51,"<a href=\"StringFilter.php.html#20\">StringFilter<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,2,"<a href=\"BooleanOperator.php.html#61\">BooleanOperator::operatorOptions<\/a>"],[0,1,"<a href=\"BooleanOperator.php.html#75\">BooleanOperator::operators<\/a>"],[0,4,"<a href=\"BooleanOperator.php.html#97\">BooleanOperator::init<\/a>"],[0,6,"<a href=\"BooleanOperator.php.html#125\">BooleanOperator::getValueOptions<\/a>"],[0,1,"<a href=\"BooleanOperator.php.html#144\">BooleanOperator::defineOptions<\/a>"],[0,8,"<a href=\"BooleanOperator.php.html#152\">BooleanOperator::valueForm<\/a>"],[0,3,"<a href=\"BooleanOperator.php.html#185\">BooleanOperator::valueValidate<\/a>"],[0,4,"<a href=\"BooleanOperator.php.html#191\">BooleanOperator::adminSummary<\/a>"],[0,1,"<a href=\"BooleanOperator.php.html#208\">BooleanOperator::defaultExposeOptions<\/a>"],[0,2,"<a href=\"BooleanOperator.php.html#218\">BooleanOperator::query<\/a>"],[0,1,"<a href=\"BooleanOperator.php.html#235\">BooleanOperator::queryOpBoolean<\/a>"],[0,6,"<a href=\"BooleanOperator.php.html#251\">BooleanOperator::_queryOperatorBoolean<\/a>"],[0,3,"<a href=\"BooleanOperatorString.php.html#25\">BooleanOperatorString::query<\/a>"],[0,1,"<a href=\"Broken.php.html#27\">Broken::init<\/a>"],[0,1,"<a href=\"Bundle.php.html#57\">Bundle::__construct<\/a>"],[0,1,"<a href=\"Bundle.php.html#66\">Bundle::create<\/a>"],[0,1,"<a href=\"Bundle.php.html#78\">Bundle::init<\/a>"],[0,3,"<a href=\"Bundle.php.html#89\">Bundle::getValueOptions<\/a>"],[0,1,"<a href=\"Bundle.php.html#109\">Bundle::query<\/a>"],[0,3,"<a href=\"Bundle.php.html#118\">Bundle::calculateDependencies<\/a>"],[0,1,"<a href=\"Combine.php.html#26\">Combine::defineOptions<\/a>"],[0,5,"<a href=\"Combine.php.html#33\">Combine::buildOptionsForm<\/a>"],[0,9,"<a href=\"Combine.php.html#63\">Combine::query<\/a>"],[0,4,"<a href=\"Combine.php.html#105\">Combine::validate<\/a>"],[0,1,"<a href=\"Combine.php.html#129\">Combine::opEqual<\/a>"],[0,1,"<a href=\"Combine.php.html#135\">Combine::opContains<\/a>"],[0,1,"<a href=\"Combine.php.html#140\">Combine::opStartsWith<\/a>"],[0,1,"<a href=\"Combine.php.html#145\">Combine::opNotStartsWith<\/a>"],[0,1,"<a href=\"Combine.php.html#150\">Combine::opEndsWith<\/a>"],[0,1,"<a href=\"Combine.php.html#155\">Combine::opNotEndsWith<\/a>"],[0,1,"<a href=\"Combine.php.html#160\">Combine::opNotLike<\/a>"],[0,1,"<a href=\"Combine.php.html#165\">Combine::opRegex<\/a>"],[0,2,"<a href=\"Combine.php.html#170\">Combine::opEmpty<\/a>"],[0,1,"<a href=\"Date.php.html#21\">Date::defineOptions<\/a>"],[0,3,"<a href=\"Date.php.html#33\">Date::valueForm<\/a>"],[0,3,"<a href=\"Date.php.html#48\">Date::validateOptionsForm<\/a>"],[0,5,"<a href=\"Date.php.html#59\">Date::validateExposed<\/a>"],[0,10,"<a href=\"Date.php.html#84\">Date::validateValidTime<\/a>"],[0,13,"<a href=\"Date.php.html#108\">Date::buildGroupValidate<\/a>"],[0,8,"<a href=\"Date.php.html#133\">Date::acceptExposedInput<\/a>"],[0,2,"<a href=\"Date.php.html#167\">Date::opBetween<\/a>"],[0,3,"<a href=\"Date.php.html#181\">Date::opSimple<\/a>"],[0,1,"<a href=\"Equality.php.html#27\">Equality::operatorOptions<\/a>"],[0,3,"<a href=\"Equality.php.html#37\">Equality::valueForm<\/a>"],[0,6,"<a href=\"FilterPluginBase.php.html#94\">FilterPluginBase::init<\/a>"],[0,1,"<a href=\"FilterPluginBase.php.html#120\">FilterPluginBase::defineOptions<\/a>"],[0,1,"<a href=\"FilterPluginBase.php.html#174\">FilterPluginBase::adminSummary<\/a>"],[100,1,"<a href=\"FilterPluginBase.php.html#181\">FilterPluginBase::canExpose<\/a>"],[0,2,"<a href=\"FilterPluginBase.php.html#187\">FilterPluginBase::canBuildGroup<\/a>"],[0,2,"<a href=\"FilterPluginBase.php.html#194\">FilterPluginBase::isAGroup<\/a>"],[0,6,"<a href=\"FilterPluginBase.php.html#204\">FilterPluginBase::buildOptionsForm<\/a>"],[0,4,"<a href=\"FilterPluginBase.php.html#245\">FilterPluginBase::validateOptionsForm<\/a>"],[0,4,"<a href=\"FilterPluginBase.php.html#259\">FilterPluginBase::submitOptionsForm<\/a>"],[0,1,"<a href=\"FilterPluginBase.php.html#279\">FilterPluginBase::showOperatorForm<\/a>"],[0,3,"<a href=\"FilterPluginBase.php.html#293\">FilterPluginBase::operatorForm<\/a>"],[100,1,"<a href=\"FilterPluginBase.php.html#309\">FilterPluginBase::operatorOptions<\/a>"],[100,1,"<a href=\"FilterPluginBase.php.html#314\">FilterPluginBase::operatorValidate<\/a>"],[100,1,"<a href=\"FilterPluginBase.php.html#320\">FilterPluginBase::operatorSubmit<\/a>"],[0,4,"<a href=\"FilterPluginBase.php.html#325\">FilterPluginBase::showValueForm<\/a>"],[0,1,"<a href=\"FilterPluginBase.php.html#341\">FilterPluginBase::valueForm<\/a>"],[100,1,"<a href=\"FilterPluginBase.php.html#348\">FilterPluginBase::valueValidate<\/a>"],[100,1,"<a href=\"FilterPluginBase.php.html#354\">FilterPluginBase::valueSubmit<\/a>"],[0,6,"<a href=\"FilterPluginBase.php.html#359\">FilterPluginBase::showBuildGroupForm<\/a>"],[0,2,"<a href=\"FilterPluginBase.php.html#382\">FilterPluginBase::showBuildGroupButton<\/a>"],[0,2,"<a href=\"FilterPluginBase.php.html#434\">FilterPluginBase::buildGroupForm<\/a>"],[0,2,"<a href=\"FilterPluginBase.php.html#461\">FilterPluginBase::showExposeButton<\/a>"],[0,4,"<a href=\"FilterPluginBase.php.html#514\">FilterPluginBase::buildExposeForm<\/a>"],[0,4,"<a href=\"FilterPluginBase.php.html#624\">FilterPluginBase::validateExposeForm<\/a>"],[0,19,"<a href=\"FilterPluginBase.php.html#641\">FilterPluginBase::buildGroupValidate<\/a>"],[0,5,"<a href=\"FilterPluginBase.php.html#686\">FilterPluginBase::buildGroupSubmit<\/a>"],[0,1,"<a href=\"FilterPluginBase.php.html#720\">FilterPluginBase::defaultExposeOptions<\/a>"],[0,1,"<a href=\"FilterPluginBase.php.html#736\">FilterPluginBase::buildGroupOptions<\/a>"],[0,10,"<a href=\"FilterPluginBase.php.html#755\">FilterPluginBase::groupForm<\/a>"],[0,16,"<a href=\"FilterPluginBase.php.html#801\">FilterPluginBase::buildExposedForm<\/a>"],[0,19,"<a href=\"FilterPluginBase.php.html#847\">FilterPluginBase::buildExposedFiltersGroupForm<\/a>"],[0,1,"<a href=\"FilterPluginBase.php.html#1103\">FilterPluginBase::addGroupForm<\/a>"],[0,16,"<a href=\"FilterPluginBase.php.html#1126\">FilterPluginBase::exposedTranslate<\/a>"],[0,5,"<a href=\"FilterPluginBase.php.html#1170\">FilterPluginBase::prepareFilterSelectOptions<\/a>"],[0,3,"<a href=\"FilterPluginBase.php.html#1202\">FilterPluginBase::exposedInfo<\/a>"],[0,11,"<a href=\"FilterPluginBase.php.html#1234\">FilterPluginBase::convertExposedInput<\/a>"],[0,2,"<a href=\"FilterPluginBase.php.html#1273\">FilterPluginBase::groupMultipleExposedInput<\/a>"],[0,2,"<a href=\"FilterPluginBase.php.html#1284\">FilterPluginBase::multipleExposedInput<\/a>"],[0,10,"<a href=\"FilterPluginBase.php.html#1293\">FilterPluginBase::storeGroupInput<\/a>"],[0,20,"<a href=\"FilterPluginBase.php.html#1331\">FilterPluginBase::acceptExposedInput<\/a>"],[0,17,"<a href=\"FilterPluginBase.php.html#1374\">FilterPluginBase::storeExposedInput<\/a>"],[0,1,"<a href=\"FilterPluginBase.php.html#1433\">FilterPluginBase::query<\/a>"],[0,1,"<a href=\"FilterPluginBase.php.html#1448\">FilterPluginBase::canGroup<\/a>"],[0,1,"<a href=\"FilterPluginBase.php.html#1461\">FilterPluginBase::arrayFilterZero<\/a>"],[0,1,"<a href=\"FilterPluginBase.php.html#1468\">FilterPluginBase::getCacheMaxAge<\/a>"],[0,2,"<a href=\"FilterPluginBase.php.html#1475\">FilterPluginBase::getCacheContexts<\/a>"],[0,1,"<a href=\"FilterPluginBase.php.html#1489\">FilterPluginBase::getCacheTags<\/a>"],[0,2,"<a href=\"GroupByNumeric.php.html#19\">GroupByNumeric::query<\/a>"],[0,2,"<a href=\"GroupByNumeric.php.html#28\">GroupByNumeric::opBetween<\/a>"],[0,1,"<a href=\"GroupByNumeric.php.html#40\">GroupByNumeric::opSimple<\/a>"],[0,2,"<a href=\"GroupByNumeric.php.html#45\">GroupByNumeric::opEmpty<\/a>"],[0,1,"<a href=\"GroupByNumeric.php.html#56\">GroupByNumeric::adminLabel<\/a>"],[100,1,"<a href=\"GroupByNumeric.php.html#60\">GroupByNumeric::canGroup<\/a>"],[0,1,"<a href=\"InOperator.php.html#47\">InOperator::init<\/a>"],[0,6,"<a href=\"InOperator.php.html#65\">InOperator::getValueOptions<\/a>"],[0,1,"<a href=\"InOperator.php.html#85\">InOperator::defaultExposeOptions<\/a>"],[0,1,"<a href=\"InOperator.php.html#90\">InOperator::buildExposeForm<\/a>"],[0,1,"<a href=\"InOperator.php.html#100\">InOperator::defineOptions<\/a>"],[0,2,"<a href=\"InOperator.php.html#115\">InOperator::operators<\/a>"],[0,2,"<a href=\"InOperator.php.html#156\">InOperator::operatorOptions<\/a>"],[0,4,"<a href=\"InOperator.php.html#165\">InOperator::operatorValues<\/a>"],[0,24,"<a href=\"InOperator.php.html#176\">InOperator::valueForm<\/a>"],[0,7,"<a href=\"InOperator.php.html#262\">InOperator::reduceValueOptions<\/a>"],[0,6,"<a href=\"InOperator.php.html#290\">InOperator::acceptExposedInput<\/a>"],[0,1,"<a href=\"InOperator.php.html#309\">InOperator::valueSubmit<\/a>"],[0,16,"<a href=\"InOperator.php.html#322\">InOperator::adminSummary<\/a>"],[0,2,"<a href=\"InOperator.php.html#386\">InOperator::query<\/a>"],[0,2,"<a href=\"InOperator.php.html#393\">InOperator::opSimple<\/a>"],[0,2,"<a href=\"InOperator.php.html#404\">InOperator::opEmpty<\/a>"],[0,14,"<a href=\"InOperator.php.html#416\">InOperator::validate<\/a>"],[0,1,"<a href=\"LanguageFilter.php.html#44\">LanguageFilter::__construct<\/a>"],[0,1,"<a href=\"LanguageFilter.php.html#53\">LanguageFilter::create<\/a>"],[0,2,"<a href=\"LanguageFilter.php.html#65\">LanguageFilter::getValueOptions<\/a>"],[0,2,"<a href=\"LanguageFilter.php.html#78\">LanguageFilter::query<\/a>"],[0,1,"<a href=\"ManyToOne.php.html#39\">ManyToOne::init<\/a>"],[0,2,"<a href=\"ManyToOne.php.html#45\">ManyToOne::defineOptions<\/a>"],[0,2,"<a href=\"ManyToOne.php.html#62\">ManyToOne::operators<\/a>"],[0,2,"<a href=\"ManyToOne.php.html#111\">ManyToOne::valueForm<\/a>"],[0,3,"<a href=\"ManyToOne.php.html#123\">ManyToOne::ensureMyTable<\/a>"],[0,2,"<a href=\"ManyToOne.php.html#133\">ManyToOne::opHelper<\/a>"],[0,1,"<a href=\"NumericFilter.php.html#23\">NumericFilter::defineOptions<\/a>"],[0,2,"<a href=\"NumericFilter.php.html#37\">NumericFilter::operators<\/a>"],[0,2,"<a href=\"NumericFilter.php.html#119\">NumericFilter::operatorOptions<\/a>"],[0,3,"<a href=\"NumericFilter.php.html#128\">NumericFilter::operatorValues<\/a>"],[0,27,"<a href=\"NumericFilter.php.html#141\">NumericFilter::valueForm<\/a>"],[0,2,"<a href=\"NumericFilter.php.html#241\">NumericFilter::query<\/a>"],[0,2,"<a href=\"NumericFilter.php.html#251\">NumericFilter::opBetween<\/a>"],[0,1,"<a href=\"NumericFilter.php.html#260\">NumericFilter::opSimple<\/a>"],[0,2,"<a href=\"NumericFilter.php.html#264\">NumericFilter::opEmpty<\/a>"],[0,1,"<a href=\"NumericFilter.php.html#281\">NumericFilter::opRegex<\/a>"],[0,5,"<a href=\"NumericFilter.php.html#285\">NumericFilter::adminSummary<\/a>"],[0,11,"<a href=\"NumericFilter.php.html#307\">NumericFilter::acceptExposedInput<\/a>"],[0,1,"<a href=\"StringFilter.php.html#25\">StringFilter::defineOptions<\/a>"],[0,2,"<a href=\"StringFilter.php.html#38\">StringFilter::operators<\/a>"],[0,2,"<a href=\"StringFilter.php.html#143\">StringFilter::operatorOptions<\/a>"],[0,5,"<a href=\"StringFilter.php.html#152\">StringFilter::adminSummary<\/a>"],[0,4,"<a href=\"StringFilter.php.html#171\">StringFilter::operatorValues<\/a>"],[0,13,"<a href=\"StringFilter.php.html#185\">StringFilter::valueForm<\/a>"],[0,2,"<a href=\"StringFilter.php.html#238\">StringFilter::operator<\/a>"],[0,2,"<a href=\"StringFilter.php.html#249\">StringFilter::query<\/a>"],[0,1,"<a href=\"StringFilter.php.html#259\">StringFilter::opEqual<\/a>"],[0,1,"<a href=\"StringFilter.php.html#263\">StringFilter::opContains<\/a>"],[0,8,"<a href=\"StringFilter.php.html#267\">StringFilter::opContainsWord<\/a>"],[0,1,"<a href=\"StringFilter.php.html#299\">StringFilter::opStartsWith<\/a>"],[0,1,"<a href=\"StringFilter.php.html#303\">StringFilter::opNotStartsWith<\/a>"],[0,1,"<a href=\"StringFilter.php.html#307\">StringFilter::opEndsWith<\/a>"],[0,1,"<a href=\"StringFilter.php.html#311\">StringFilter::opNotEndsWith<\/a>"],[0,1,"<a href=\"StringFilter.php.html#315\">StringFilter::opNotLike<\/a>"],[0,1,"<a href=\"StringFilter.php.html#319\">StringFilter::opShorterThan<\/a>"],[0,1,"<a href=\"StringFilter.php.html#326\">StringFilter::opLongerThan<\/a>"],[0,1,"<a href=\"StringFilter.php.html#339\">StringFilter::opRegex<\/a>"],[0,2,"<a href=\"StringFilter.php.html#343\">StringFilter::opEmpty<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

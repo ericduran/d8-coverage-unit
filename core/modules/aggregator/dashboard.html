@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/ericduran/Sites/drupal/drupal/core/modules/aggregator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../../css/nv.d3.min.css" rel="stylesheet">
+  <link href="../../../css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="../../../js/html5shiv.min.js"></script>
+  <script src="../../../js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../../../index.html">/Users/ericduran/Sites/drupal/drupal</a></li>
+        <li><a href="../../index.html">core</a></li>
+        <li><a href="../index.html">modules</a></li>
+        <li><a href="index.html">aggregator</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/AggregatorFeedViewsData.php.html#15">AggregatorFeedViewsData</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ItemsImporter.php.html#18">ItemsImporter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/modules/aggregator_test/src/Plugin/aggregator/parser/TestParser.php.html#25">TestParser</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/modules/aggregator_test/src/Plugin/aggregator/fetcher/TestFetcher.php.html#25">TestFetcher</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/modules/aggregator_test/src/Controller/AggregatorTestRssController.php.html#18">AggregatorTestRssController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/row/Rss.php.html#24">Rss</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/argument/Iid.php.html#21">Iid</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/argument/Fid.php.html#21">Fid</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/aggregator/processor/DefaultProcessor.php.html#35">DefaultProcessor</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/aggregator/parser/DefaultParser.php.html#26">DefaultParser</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/aggregator/fetcher/DefaultFetcher.php.html#34">DefaultFetcher</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/QueueWorker/AggregatorRefresh.php.html#22">AggregatorRefresh</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/AggregatorXSSFormatter.php.html#26">AggregatorXSSFormatter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/AggregatorTitleFormatter.php.html#28">AggregatorTitleFormatter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Block/AggregatorFeedBlock.php.html#30">AggregatorFeedBlock</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/AggregatorPluginSettingsBase.php.html#27">AggregatorPluginSettingsBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ItemViewBuilder.php.html#15">ItemViewBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/AggregatorItemViewsData.php.html#15">AggregatorItemViewsData</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FeedStorage.php.html#18">FeedStorage</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/AggregatorController.php.html#20">AggregatorController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Feed.php.html#53">Feed</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Item.php.html#42">Item</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FeedAccessControlHandler.php.html#20">FeedAccessControlHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FeedForm.php.html#17">FeedForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FeedHtmlRouteProvider.php.html#16">FeedHtmlRouteProvider</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FeedStorageSchema.php.html#16">FeedStorageSchema</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ItemStorageSchema.php.html#16">ItemStorageSchema</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FeedViewBuilder.php.html#21">FeedViewBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/FeedDeleteForm.php.html#16">FeedDeleteForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/FeedItemsDeleteForm.php.html#17">FeedItemsDeleteForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/OpmlFeedAdd.php.html#21">OpmlFeedAdd</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ItemStorage.php.html#19">ItemStorage</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/modules/aggregator_test/src/Plugin/aggregator/processor/TestProcessor.php.html#30">TestProcessor</a></td><td class="text-right">10%</td></tr>
+       <tr><td><a href="src/Form/SettingsForm.php.html#22">SettingsForm</a></td><td class="text-right">58%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Entity/Feed.php.html#53">Feed</a></td><td class="text-right">992</td></tr>
+       <tr><td><a href="src/Plugin/aggregator/processor/DefaultProcessor.php.html#35">DefaultProcessor</a></td><td class="text-right">812</td></tr>
+       <tr><td><a href="src/Form/OpmlFeedAdd.php.html#21">OpmlFeedAdd</a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="src/Entity/Item.php.html#42">Item</a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="src/Controller/AggregatorController.php.html#20">AggregatorController</a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="src/ItemsImporter.php.html#18">ItemsImporter</a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="src/FeedViewBuilder.php.html#21">FeedViewBuilder</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="src/Plugin/aggregator/fetcher/DefaultFetcher.php.html#34">DefaultFetcher</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="src/Plugin/Block/AggregatorFeedBlock.php.html#30">AggregatorFeedBlock</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="tests/modules/aggregator_test/src/Plugin/aggregator/processor/TestProcessor.php.html#30">TestProcessor</a></td><td class="text-right">114</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/AggregatorTitleFormatter.php.html#28">AggregatorTitleFormatter</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="src/Form/SettingsForm.php.html#22">SettingsForm</a></td><td class="text-right">66</td></tr>
+       <tr><td><a href="tests/modules/aggregator_test/src/Controller/AggregatorTestRssController.php.html#18">AggregatorTestRssController</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/Plugin/aggregator/parser/DefaultParser.php.html#26">DefaultParser</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/ItemStorage.php.html#19">ItemStorage</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/FeedStorageSchema.php.html#16">FeedStorageSchema</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/ItemStorageSchema.php.html#16">ItemStorageSchema</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Plugin/views/argument/Fid.php.html#21">Fid</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Plugin/views/argument/Iid.php.html#21">Iid</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/FeedAccessControlHandler.php.html#20">FeedAccessControlHandler</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/ItemViewBuilder.php.html#15">ItemViewBuilder</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/AggregatorXSSFormatter.php.html#26">AggregatorXSSFormatter</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/QueueWorker/AggregatorRefresh.php.html#22">AggregatorRefresh</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/views/row/Rss.php.html#24">Rss</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="tests/modules/aggregator_test/src/Plugin/aggregator/fetcher/TestFetcher.php.html#25">TestFetcher</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/FeedForm.php.html#17">FeedForm</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/AggregatorFeedViewsData.php.html#20"><abbr title="AggregatorFeedViewsData::getViewsData">getViewsData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Block/AggregatorFeedBlock.php.html#114"><abbr title="AggregatorFeedBlock::blockForm">blockForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/AggregatorPluginSettingsBase.php.html#39"><abbr title="AggregatorPluginSettingsBase::validateConfigurationForm">validateConfigurationForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/AggregatorPluginSettingsBase.php.html#45"><abbr title="AggregatorPluginSettingsBase::calculateDependencies">calculateDependencies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Block/AggregatorFeedBlock.php.html#69"><abbr title="AggregatorFeedBlock::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Block/AggregatorFeedBlock.php.html#80"><abbr title="AggregatorFeedBlock::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Block/AggregatorFeedBlock.php.html#95"><abbr title="AggregatorFeedBlock::defaultConfiguration">defaultConfiguration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Block/AggregatorFeedBlock.php.html#106"><abbr title="AggregatorFeedBlock::blockAccess">blockAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Block/AggregatorFeedBlock.php.html#139"><abbr title="AggregatorFeedBlock::blockSubmit">blockSubmit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ItemsImporter.php.html#89"><abbr title="ItemsImporter::refresh">refresh</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Block/AggregatorFeedBlock.php.html#147"><abbr title="AggregatorFeedBlock::build">build</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Block/AggregatorFeedBlock.php.html#185"><abbr title="AggregatorFeedBlock::getCacheTags">getCacheTags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/AggregatorTitleFormatter.php.html#32"><abbr title="AggregatorTitleFormatter::defaultSettings">defaultSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/AggregatorTitleFormatter.php.html#42"><abbr title="AggregatorTitleFormatter::settingsForm">settingsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/AggregatorTitleFormatter.php.html#57"><abbr title="AggregatorTitleFormatter::viewElements">viewElements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/AggregatorTitleFormatter.php.html#86"><abbr title="AggregatorTitleFormatter::isApplicable">isApplicable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/AggregatorPluginSettingsBase.php.html#32"><abbr title="AggregatorPluginSettingsBase::defaultConfiguration">defaultConfiguration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ItemsImporter.php.html#80"><abbr title="ItemsImporter::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/QueueWorker/AggregatorRefresh.php.html#27"><abbr title="AggregatorRefresh::processItem">processItem</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SettingsForm.php.html#82"><abbr title="SettingsForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/OpmlFeedAdd.php.html#53"><abbr title="OpmlFeedAdd::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/OpmlFeedAdd.php.html#63"><abbr title="OpmlFeedAdd::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/OpmlFeedAdd.php.html#70"><abbr title="OpmlFeedAdd::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/OpmlFeedAdd.php.html#105"><abbr title="OpmlFeedAdd::validateForm">validateForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/OpmlFeedAdd.php.html#116"><abbr title="OpmlFeedAdd::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/OpmlFeedAdd.php.html#196"><abbr title="OpmlFeedAdd::parseOpml">parseOpml</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SettingsForm.php.html#95"><abbr title="SettingsForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ItemsImporter.php.html#69"><abbr title="ItemsImporter::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ItemStorage.php.html#24"><abbr title="ItemStorage::getItemCount">getItemCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ItemStorage.php.html#35"><abbr title="ItemStorage::loadAll">loadAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ItemStorage.php.html#43"><abbr title="ItemStorage::loadByFeed">loadByFeed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ItemStorage.php.html#60"><abbr title="ItemStorage::executeFeedItemQuery">executeFeedItemQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ItemStorageSchema.php.html#21"><abbr title="ItemStorageSchema::getSharedTableFieldSchema">getSharedTableFieldSchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ItemViewBuilder.php.html#20"><abbr title="ItemViewBuilder::buildComponents">buildComponents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/AggregatorXSSFormatter.php.html#31"><abbr title="AggregatorXSSFormatter::viewElements">viewElements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/aggregator/fetcher/DefaultFetcher.php.html#58"><abbr title="DefaultFetcher::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/AggregatorItemViewsData.php.html#20"><abbr title="AggregatorItemViewsData::getViewsData">getViewsData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/modules/aggregator_test/src/Plugin/aggregator/parser/TestParser.php.html#32"><abbr title="TestParser::parse">parse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/argument/Iid.php.html#50"><abbr title="Iid::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/argument/Iid.php.html#57"><abbr title="Iid::titleQuery">titleQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/row/Rss.php.html#48"><abbr title="Rss::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/modules/aggregator_test/src/Controller/AggregatorTestRssController.php.html#33"><abbr title="AggregatorTestRssController::testFeed">testFeed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/modules/aggregator_test/src/Controller/AggregatorTestRssController.php.html#77"><abbr title="AggregatorTestRssController::testRedirect">testRedirect</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/modules/aggregator_test/src/Plugin/aggregator/fetcher/TestFetcher.php.html#30"><abbr title="TestFetcher::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/modules/aggregator_test/src/Plugin/aggregator/processor/TestProcessor.php.html#43"><abbr title="TestProcessor::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/argument/Fid.php.html#57"><abbr title="Fid::titleQuery">titleQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/modules/aggregator_test/src/Plugin/aggregator/processor/TestProcessor.php.html#72"><abbr title="TestProcessor::getEditableConfigNames">getEditableConfigNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/modules/aggregator_test/src/Plugin/aggregator/processor/TestProcessor.php.html#79"><abbr title="TestProcessor::buildConfigurationForm">buildConfigurationForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/modules/aggregator_test/src/Plugin/aggregator/processor/TestProcessor.php.html#103"><abbr title="TestProcessor::submitConfigurationForm">submitConfigurationForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/modules/aggregator_test/src/Plugin/aggregator/processor/TestProcessor.php.html#111"><abbr title="TestProcessor::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/modules/aggregator_test/src/Plugin/aggregator/processor/TestProcessor.php.html#121"><abbr title="TestProcessor::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/modules/aggregator_test/src/Plugin/aggregator/processor/TestProcessor.php.html#129"><abbr title="TestProcessor::postProcess">postProcess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/argument/Iid.php.html#42"><abbr title="Iid::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/argument/Fid.php.html#50"><abbr title="Fid::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/aggregator/fetcher/DefaultFetcher.php.html#66"><abbr title="DefaultFetcher::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/aggregator/processor/DefaultProcessor.php.html#120"><abbr title="DefaultProcessor::buildConfigurationForm">buildConfigurationForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/aggregator/fetcher/DefaultFetcher.php.html#76"><abbr title="DefaultFetcher::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/aggregator/fetcher/DefaultFetcher.php.html#93"><abbr title="DefaultFetcher::anonymous function">anonymous function</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/aggregator/parser/DefaultParser.php.html#31"><abbr title="DefaultParser::parse">parse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/aggregator/processor/DefaultProcessor.php.html#85"><abbr title="DefaultProcessor::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/aggregator/processor/DefaultProcessor.php.html#98"><abbr title="DefaultProcessor::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/aggregator/processor/DefaultProcessor.php.html#113"><abbr title="DefaultProcessor::getEditableConfigNames">getEditableConfigNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/aggregator/processor/DefaultProcessor.php.html#160"><abbr title="DefaultProcessor::anonymous function">anonymous function</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/argument/Fid.php.html#42"><abbr title="Fid::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/aggregator/processor/DefaultProcessor.php.html#177"><abbr title="DefaultProcessor::submitConfigurationForm">submitConfigurationForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/aggregator/processor/DefaultProcessor.php.html#188"><abbr title="DefaultProcessor::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/aggregator/processor/DefaultProcessor.php.html#245"><abbr title="DefaultProcessor::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/aggregator/processor/DefaultProcessor.php.html#258"><abbr title="DefaultProcessor::postProcess">postProcess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/aggregator/processor/DefaultProcessor.php.html#278"><abbr title="DefaultProcessor::getConfiguration">getConfiguration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/aggregator/processor/DefaultProcessor.php.html#285"><abbr title="DefaultProcessor::setConfiguration">setConfiguration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/OpmlFeedAdd.php.html#45"><abbr title="OpmlFeedAdd::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/FeedItemsDeleteForm.php.html#43"><abbr title="FeedItemsDeleteForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/FeedItemsDeleteForm.php.html#36"><abbr title="FeedItemsDeleteForm::getConfirmText">getConfirmText</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Feed.php.html#320"><abbr title="Feed::setTitle">setTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Feed.php.html#278"><abbr title="Feed::getWebsiteUrl">getWebsiteUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Feed.php.html#285"><abbr title="Feed::getDescription">getDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Feed.php.html#292"><abbr title="Feed::getImage">getImage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Feed.php.html#299"><abbr title="Feed::getHash">getHash</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Feed.php.html#306"><abbr title="Feed::getEtag">getEtag</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Feed.php.html#313"><abbr title="Feed::getLastModified">getLastModified</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Feed.php.html#328"><abbr title="Feed::setUrl">setUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Feed.php.html#264"><abbr title="Feed::getLastCheckedTime">getLastCheckedTime</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Feed.php.html#336"><abbr title="Feed::setRefreshRate">setRefreshRate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Feed.php.html#344"><abbr title="Feed::setLastCheckedTime">setLastCheckedTime</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Feed.php.html#352"><abbr title="Feed::setQueuedTime">setQueuedTime</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Feed.php.html#360"><abbr title="Feed::setWebsiteUrl">setWebsiteUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Feed.php.html#368"><abbr title="Feed::setDescription">setDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Feed.php.html#376"><abbr title="Feed::setImage">setImage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Feed.php.html#271"><abbr title="Feed::getQueuedTime">getQueuedTime</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Feed.php.html#257"><abbr title="Feed::getRefreshRate">getRefreshRate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Feed.php.html#392"><abbr title="Feed::setEtag">setEtag</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/AggregatorController.php.html#181"><abbr title="AggregatorController::pageLast">pageLast</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/AggregatorController.php.html#35"><abbr title="AggregatorController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/AggregatorController.php.html#42"><abbr title="AggregatorController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/AggregatorController.php.html#54"><abbr title="AggregatorController::feedAdd">feedAdd</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/AggregatorController.php.html#73"><abbr title="AggregatorController::buildPageList">buildPageList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/AggregatorController.php.html#100"><abbr title="AggregatorController::feedRefresh">feedRefresh</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/AggregatorController.php.html#114"><abbr title="AggregatorController::adminOverview">adminOverview</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/AggregatorController.php.html#197"><abbr title="AggregatorController::feedTitle">feedTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Feed.php.html#250"><abbr title="Feed::getUrl">getUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Feed.php.html#58"><abbr title="Feed::label">label</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Feed.php.html#65"><abbr title="Feed::deleteItems">deleteItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Feed.php.html#81"><abbr title="Feed::refreshItems">refreshItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Feed.php.html#95"><abbr title="Feed::preCreate">preCreate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Feed.php.html#106"><abbr title="Feed::preDelete">preDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Feed.php.html#116"><abbr title="Feed::postDelete">postDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Feed.php.html#134"><abbr title="Feed::baseFieldDefinitions">baseFieldDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Feed.php.html#384"><abbr title="Feed::setHash">setHash</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Feed.php.html#400"><abbr title="Feed::setLastModified">setLastModified</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/FeedItemsDeleteForm.php.html#29"><abbr title="FeedItemsDeleteForm::getCancelUrl">getCancelUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FeedStorageSchema.php.html#21"><abbr title="FeedStorageSchema::getSharedTableFieldSchema">getSharedTableFieldSchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FeedAccessControlHandler.php.html#25"><abbr title="FeedAccessControlHandler::checkAccess">checkAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FeedAccessControlHandler.php.html#40"><abbr title="FeedAccessControlHandler::checkCreateAccess">checkCreateAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FeedForm.php.html#22"><abbr title="FeedForm::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FeedHtmlRouteProvider.php.html#21"><abbr title="FeedHtmlRouteProvider::getCanonicalRoute">getCanonicalRoute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FeedHtmlRouteProvider.php.html#31"><abbr title="FeedHtmlRouteProvider::getEditFormRoute">getEditFormRoute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FeedStorage.php.html#23"><abbr title="FeedStorage::getFeedIdsToRefresh">getFeedIdsToRefresh</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FeedViewBuilder.php.html#35"><abbr title="FeedViewBuilder::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Item.php.html#47"><abbr title="Item::label">label</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FeedViewBuilder.php.html#43"><abbr title="FeedViewBuilder::createInstance">createInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FeedViewBuilder.php.html#55"><abbr title="FeedViewBuilder::buildComponents">buildComponents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/FeedDeleteForm.php.html#21"><abbr title="FeedDeleteForm::getCancelUrl">getCancelUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/FeedDeleteForm.php.html#28"><abbr title="FeedDeleteForm::getRedirectUrl">getRedirectUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/FeedDeleteForm.php.html#35"><abbr title="FeedDeleteForm::getDeletionMessage">getDeletionMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/FeedItemsDeleteForm.php.html#22"><abbr title="FeedItemsDeleteForm::getQuestion">getQuestion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Item.php.html#245"><abbr title="Item::buildUri">buildUri</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Item.php.html#237"><abbr title="Item::getCacheTagsToInvalidate">getCacheTagsToInvalidate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Item.php.html#222"><abbr title="Item::postSave">postSave</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Item.php.html#166"><abbr title="Item::getAuthor">getAuthor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Item.php.html#54"><abbr title="Item::baseFieldDefinitions">baseFieldDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Item.php.html#124"><abbr title="Item::getFeedId">getFeedId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Item.php.html#131"><abbr title="Item::setFeedId">setFeedId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Item.php.html#138"><abbr title="Item::getTitle">getTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Item.php.html#145"><abbr title="Item::setTitle">setTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Item.php.html#152"><abbr title="Item::getLink">getLink</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Item.php.html#159"><abbr title="Item::setLink">setLink</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Item.php.html#173"><abbr title="Item::setAuthor">setAuthor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Item.php.html#215"><abbr title="Item::setGuid">setGuid</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Item.php.html#180"><abbr title="Item::getDescription">getDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Item.php.html#187"><abbr title="Item::setDescription">setDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Item.php.html#194"><abbr title="Item::getPostedTime">getPostedTime</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Item.php.html#201"><abbr title="Item::setPostedTime">setPostedTime</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Item.php.html#208"><abbr title="Item::getGuid">getGuid</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/modules/aggregator_test/src/Plugin/aggregator/processor/TestProcessor.php.html#145"><abbr title="TestProcessor::setConfiguration">setConfiguration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SettingsForm.php.html#109"><abbr title="SettingsForm::buildForm">buildForm</abbr></a></td><td class="text-right">49%</td></tr>
+       <tr><td><a href="src/Form/SettingsForm.php.html#209"><abbr title="SettingsForm::submitForm">submitForm</abbr></a></td><td class="text-right">76%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/ItemsImporter.php.html#89"><abbr title="ItemsImporter::refresh">refresh</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="src/FeedViewBuilder.php.html#55"><abbr title="FeedViewBuilder::buildComponents">buildComponents</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="src/Plugin/aggregator/processor/DefaultProcessor.php.html#188"><abbr title="DefaultProcessor::process">process</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="src/Plugin/aggregator/fetcher/DefaultFetcher.php.html#76"><abbr title="DefaultFetcher::fetch">fetch</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="src/Form/OpmlFeedAdd.php.html#116"><abbr title="OpmlFeedAdd::submitForm">submitForm</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="src/Controller/AggregatorController.php.html#114"><abbr title="AggregatorController::adminOverview">adminOverview</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/Form/OpmlFeedAdd.php.html#196"><abbr title="OpmlFeedAdd::parseOpml">parseOpml</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/Plugin/aggregator/parser/DefaultParser.php.html#31"><abbr title="DefaultParser::parse">parse</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="tests/modules/aggregator_test/src/Controller/AggregatorTestRssController.php.html#33"><abbr title="AggregatorTestRssController::testFeed">testFeed</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/AggregatorTitleFormatter.php.html#57"><abbr title="AggregatorTitleFormatter::viewElements">viewElements</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/FeedStorageSchema.php.html#21"><abbr title="FeedStorageSchema::getSharedTableFieldSchema">getSharedTableFieldSchema</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/Form/SettingsForm.php.html#109"><abbr title="SettingsForm::buildForm">buildForm</abbr></a></td><td class="text-right">27</td></tr>
+       <tr><td><a href="src/ItemStorageSchema.php.html#21"><abbr title="ItemStorageSchema::getSharedTableFieldSchema">getSharedTableFieldSchema</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Plugin/Block/AggregatorFeedBlock.php.html#147"><abbr title="AggregatorFeedBlock::build">build</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/AggregatorTitleFormatter.php.html#86"><abbr title="AggregatorTitleFormatter::isApplicable">isApplicable</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Plugin/aggregator/processor/DefaultProcessor.php.html#258"><abbr title="DefaultProcessor::postProcess">postProcess</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Controller/AggregatorController.php.html#73"><abbr title="AggregatorController::buildPageList">buildPageList</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/ItemViewBuilder.php.html#20"><abbr title="ItemViewBuilder::buildComponents">buildComponents</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Plugin/aggregator/processor/DefaultProcessor.php.html#120"><abbr title="DefaultProcessor::buildConfigurationForm">buildConfigurationForm</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Entity/Feed.php.html#116"><abbr title="Feed::postDelete">postDelete</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Plugin/aggregator/processor/DefaultProcessor.php.html#285"><abbr title="DefaultProcessor::setConfiguration">setConfiguration</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/aggregator/processor/DefaultProcessor.php.html#245"><abbr title="DefaultProcessor::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/views/argument/Iid.php.html#57"><abbr title="Iid::titleQuery">titleQuery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/views/row/Rss.php.html#48"><abbr title="Rss::render">render</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="tests/modules/aggregator_test/src/Plugin/aggregator/fetcher/TestFetcher.php.html#30"><abbr title="TestFetcher::fetch">fetch</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/aggregator/processor/DefaultProcessor.php.html#160"><abbr title="DefaultProcessor::anonymous function">anonymous function</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="tests/modules/aggregator_test/src/Plugin/aggregator/processor/TestProcessor.php.html#111"><abbr title="TestProcessor::process">process</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/views/argument/Fid.php.html#57"><abbr title="Fid::titleQuery">titleQuery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/Block/AggregatorFeedBlock.php.html#114"><abbr title="AggregatorFeedBlock::blockForm">blockForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/QueueWorker/AggregatorRefresh.php.html#27"><abbr title="AggregatorRefresh::processItem">processItem</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/AggregatorXSSFormatter.php.html#31"><abbr title="AggregatorXSSFormatter::viewElements">viewElements</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Controller/AggregatorController.php.html#100"><abbr title="AggregatorController::feedRefresh">feedRefresh</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/ItemsImporter.php.html#80"><abbr title="ItemsImporter::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/ItemStorage.php.html#60"><abbr title="ItemStorage::executeFeedItemQuery">executeFeedItemQuery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Form/OpmlFeedAdd.php.html#105"><abbr title="OpmlFeedAdd::validateForm">validateForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/FeedForm.php.html#22"><abbr title="FeedForm::save">save</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/FeedAccessControlHandler.php.html#25"><abbr title="FeedAccessControlHandler::checkAccess">checkAccess</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Entity/Item.php.html#222"><abbr title="Item::postSave">postSave</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Entity/Feed.php.html#106"><abbr title="Feed::preDelete">preDelete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="tests/modules/aggregator_test/src/Plugin/aggregator/processor/TestProcessor.php.html#145"><abbr title="TestProcessor::setConfiguration">setConfiguration</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Form/SettingsForm.php.html#209"><abbr title="SettingsForm::submitForm">submitForm</abbr></a></td><td class="text-right">5</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 2.2.4</a> using <a href="http://php.net/" target="_top">PHP 7.0.3</a> and <a href="http://phpunit.de/">PHPUnit 4.8.11</a> at Sat Feb 27 11:34:46 AEDT 2016.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../../../js/holder.min.js" type="text/javascript"></script>
+  <script src="../../../js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([32,0,1,0,0,0,1,0,0,0,0,8], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([144,0,0,0,0,1,0,0,1,0,0,12], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"src\/AggregatorFeedViewsData.php.html#15\">AggregatorFeedViewsData<\/a>"],[0,1,"<a href=\"src\/AggregatorItemViewsData.php.html#15\">AggregatorItemViewsData<\/a>"],[100,0,"<a href=\"src\/Annotation\/AggregatorFetcher.php.html#26\">AggregatorFetcher<\/a>"],[100,0,"<a href=\"src\/Annotation\/AggregatorParser.php.html#26\">AggregatorParser<\/a>"],[100,0,"<a href=\"src\/Annotation\/AggregatorProcessor.php.html#26\">AggregatorProcessor<\/a>"],[0,17,"<a href=\"src\/Controller\/AggregatorController.php.html#20\">AggregatorController<\/a>"],[0,31,"<a href=\"src\/Entity\/Feed.php.html#53\">Feed<\/a>"],[0,20,"<a href=\"src\/Entity\/Item.php.html#42\">Item<\/a>"],[0,3,"<a href=\"src\/FeedAccessControlHandler.php.html#20\">FeedAccessControlHandler<\/a>"],[0,2,"<a href=\"src\/FeedForm.php.html#17\">FeedForm<\/a>"],[0,2,"<a href=\"src\/FeedHtmlRouteProvider.php.html#16\">FeedHtmlRouteProvider<\/a>"],[0,1,"<a href=\"src\/FeedStorage.php.html#18\">FeedStorage<\/a>"],[0,5,"<a href=\"src\/FeedStorageSchema.php.html#16\">FeedStorageSchema<\/a>"],[0,14,"<a href=\"src\/FeedViewBuilder.php.html#21\">FeedViewBuilder<\/a>"],[0,3,"<a href=\"src\/Form\/FeedDeleteForm.php.html#16\">FeedDeleteForm<\/a>"],[0,4,"<a href=\"src\/Form\/FeedItemsDeleteForm.php.html#17\">FeedItemsDeleteForm<\/a>"],[0,22,"<a href=\"src\/Form\/OpmlFeedAdd.php.html#21\">OpmlFeedAdd<\/a>"],[58.139534883721,24,"<a href=\"src\/Form\/SettingsForm.php.html#22\">SettingsForm<\/a>"],[0,5,"<a href=\"src\/ItemStorage.php.html#19\">ItemStorage<\/a>"],[0,4,"<a href=\"src\/ItemStorageSchema.php.html#16\">ItemStorageSchema<\/a>"],[0,3,"<a href=\"src\/ItemViewBuilder.php.html#15\">ItemViewBuilder<\/a>"],[0,16,"<a href=\"src\/ItemsImporter.php.html#18\">ItemsImporter<\/a>"],[100,1,"<a href=\"src\/Plugin\/AggregatorPluginManager.php.html#26\">AggregatorPluginManager<\/a>"],[0,3,"<a href=\"src\/Plugin\/AggregatorPluginSettingsBase.php.html#27\">AggregatorPluginSettingsBase<\/a>"],[0,12,"<a href=\"src\/Plugin\/Block\/AggregatorFeedBlock.php.html#30\">AggregatorFeedBlock<\/a>"],[0,10,"<a href=\"src\/Plugin\/Field\/FieldFormatter\/AggregatorTitleFormatter.php.html#28\">AggregatorTitleFormatter<\/a>"],[0,2,"<a href=\"src\/Plugin\/Field\/FieldFormatter\/AggregatorXSSFormatter.php.html#26\">AggregatorXSSFormatter<\/a>"],[0,2,"<a href=\"src\/Plugin\/QueueWorker\/AggregatorRefresh.php.html#22\">AggregatorRefresh<\/a>"],[100,0,"<a href=\"src\/Plugin\/Validation\/Constraint\/FeedTitleConstraint.php.html#20\">FeedTitleConstraint<\/a>"],[100,0,"<a href=\"src\/Plugin\/Validation\/Constraint\/FeedUrlConstraint.php.html#20\">FeedUrlConstraint<\/a>"],[0,12,"<a href=\"src\/Plugin\/aggregator\/fetcher\/DefaultFetcher.php.html#34\">DefaultFetcher<\/a>"],[0,6,"<a href=\"src\/Plugin\/aggregator\/parser\/DefaultParser.php.html#26\">DefaultParser<\/a>"],[0,28,"<a href=\"src\/Plugin\/aggregator\/processor\/DefaultProcessor.php.html#35\">DefaultProcessor<\/a>"],[100,4,"<a href=\"src\/Plugin\/migrate\/source\/AggregatorFeed.php.html#20\">AggregatorFeed<\/a>"],[100,3,"<a href=\"src\/Plugin\/migrate\/source\/AggregatorItem.php.html#20\">AggregatorItem<\/a>"],[0,4,"<a href=\"src\/Plugin\/views\/argument\/Fid.php.html#21\">Fid<\/a>"],[0,4,"<a href=\"src\/Plugin\/views\/argument\/Iid.php.html#21\">Iid<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/row\/Rss.php.html#24\">Rss<\/a>"],[0,6,"<a href=\"tests\/modules\/aggregator_test\/src\/Controller\/AggregatorTestRssController.php.html#18\">AggregatorTestRssController<\/a>"],[0,2,"<a href=\"tests\/modules\/aggregator_test\/src\/Plugin\/aggregator\/fetcher\/TestFetcher.php.html#25\">TestFetcher<\/a>"],[0,1,"<a href=\"tests\/modules\/aggregator_test\/src\/Plugin\/aggregator\/parser\/TestParser.php.html#25\">TestParser<\/a>"],[10.810810810811,12,"<a href=\"tests\/modules\/aggregator_test\/src\/Plugin\/aggregator\/processor\/TestProcessor.php.html#30\">TestProcessor<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"src\/AggregatorFeedViewsData.php.html#20\">AggregatorFeedViewsData::getViewsData<\/a>"],[0,1,"<a href=\"src\/AggregatorItemViewsData.php.html#20\">AggregatorItemViewsData::getViewsData<\/a>"],[0,1,"<a href=\"src\/Controller\/AggregatorController.php.html#35\">AggregatorController::__construct<\/a>"],[0,1,"<a href=\"src\/Controller\/AggregatorController.php.html#42\">AggregatorController::create<\/a>"],[0,1,"<a href=\"src\/Controller\/AggregatorController.php.html#54\">AggregatorController::feedAdd<\/a>"],[0,3,"<a href=\"src\/Controller\/AggregatorController.php.html#73\">AggregatorController::buildPageList<\/a>"],[0,2,"<a href=\"src\/Controller\/AggregatorController.php.html#100\">AggregatorController::feedRefresh<\/a>"],[0,7,"<a href=\"src\/Controller\/AggregatorController.php.html#114\">AggregatorController::adminOverview<\/a>"],[0,1,"<a href=\"src\/Controller\/AggregatorController.php.html#181\">AggregatorController::pageLast<\/a>"],[0,1,"<a href=\"src\/Controller\/AggregatorController.php.html#197\">AggregatorController::feedTitle<\/a>"],[0,1,"<a href=\"src\/Entity\/Feed.php.html#58\">Feed::label<\/a>"],[0,1,"<a href=\"src\/Entity\/Feed.php.html#65\">Feed::deleteItems<\/a>"],[0,1,"<a href=\"src\/Entity\/Feed.php.html#81\">Feed::refreshItems<\/a>"],[0,1,"<a href=\"src\/Entity\/Feed.php.html#95\">Feed::preCreate<\/a>"],[0,2,"<a href=\"src\/Entity\/Feed.php.html#106\">Feed::preDelete<\/a>"],[0,3,"<a href=\"src\/Entity\/Feed.php.html#116\">Feed::postDelete<\/a>"],[0,1,"<a href=\"src\/Entity\/Feed.php.html#134\">Feed::baseFieldDefinitions<\/a>"],[0,1,"<a href=\"src\/Entity\/Feed.php.html#250\">Feed::getUrl<\/a>"],[0,1,"<a href=\"src\/Entity\/Feed.php.html#257\">Feed::getRefreshRate<\/a>"],[0,1,"<a href=\"src\/Entity\/Feed.php.html#264\">Feed::getLastCheckedTime<\/a>"],[0,1,"<a href=\"src\/Entity\/Feed.php.html#271\">Feed::getQueuedTime<\/a>"],[0,1,"<a href=\"src\/Entity\/Feed.php.html#278\">Feed::getWebsiteUrl<\/a>"],[0,1,"<a href=\"src\/Entity\/Feed.php.html#285\">Feed::getDescription<\/a>"],[0,1,"<a href=\"src\/Entity\/Feed.php.html#292\">Feed::getImage<\/a>"],[0,1,"<a href=\"src\/Entity\/Feed.php.html#299\">Feed::getHash<\/a>"],[0,1,"<a href=\"src\/Entity\/Feed.php.html#306\">Feed::getEtag<\/a>"],[0,1,"<a href=\"src\/Entity\/Feed.php.html#313\">Feed::getLastModified<\/a>"],[0,1,"<a href=\"src\/Entity\/Feed.php.html#320\">Feed::setTitle<\/a>"],[0,1,"<a href=\"src\/Entity\/Feed.php.html#328\">Feed::setUrl<\/a>"],[0,1,"<a href=\"src\/Entity\/Feed.php.html#336\">Feed::setRefreshRate<\/a>"],[0,1,"<a href=\"src\/Entity\/Feed.php.html#344\">Feed::setLastCheckedTime<\/a>"],[0,1,"<a href=\"src\/Entity\/Feed.php.html#352\">Feed::setQueuedTime<\/a>"],[0,1,"<a href=\"src\/Entity\/Feed.php.html#360\">Feed::setWebsiteUrl<\/a>"],[0,1,"<a href=\"src\/Entity\/Feed.php.html#368\">Feed::setDescription<\/a>"],[0,1,"<a href=\"src\/Entity\/Feed.php.html#376\">Feed::setImage<\/a>"],[0,1,"<a href=\"src\/Entity\/Feed.php.html#384\">Feed::setHash<\/a>"],[0,1,"<a href=\"src\/Entity\/Feed.php.html#392\">Feed::setEtag<\/a>"],[0,1,"<a href=\"src\/Entity\/Feed.php.html#400\">Feed::setLastModified<\/a>"],[0,1,"<a href=\"src\/Entity\/Item.php.html#47\">Item::label<\/a>"],[0,1,"<a href=\"src\/Entity\/Item.php.html#54\">Item::baseFieldDefinitions<\/a>"],[0,1,"<a href=\"src\/Entity\/Item.php.html#124\">Item::getFeedId<\/a>"],[0,1,"<a href=\"src\/Entity\/Item.php.html#131\">Item::setFeedId<\/a>"],[0,1,"<a href=\"src\/Entity\/Item.php.html#138\">Item::getTitle<\/a>"],[0,1,"<a href=\"src\/Entity\/Item.php.html#145\">Item::setTitle<\/a>"],[0,1,"<a href=\"src\/Entity\/Item.php.html#152\">Item::getLink<\/a>"],[0,1,"<a href=\"src\/Entity\/Item.php.html#159\">Item::setLink<\/a>"],[0,1,"<a href=\"src\/Entity\/Item.php.html#166\">Item::getAuthor<\/a>"],[0,1,"<a href=\"src\/Entity\/Item.php.html#173\">Item::setAuthor<\/a>"],[0,1,"<a href=\"src\/Entity\/Item.php.html#180\">Item::getDescription<\/a>"],[0,1,"<a href=\"src\/Entity\/Item.php.html#187\">Item::setDescription<\/a>"],[0,1,"<a href=\"src\/Entity\/Item.php.html#194\">Item::getPostedTime<\/a>"],[0,1,"<a href=\"src\/Entity\/Item.php.html#201\">Item::setPostedTime<\/a>"],[0,1,"<a href=\"src\/Entity\/Item.php.html#208\">Item::getGuid<\/a>"],[0,1,"<a href=\"src\/Entity\/Item.php.html#215\">Item::setGuid<\/a>"],[0,2,"<a href=\"src\/Entity\/Item.php.html#222\">Item::postSave<\/a>"],[0,1,"<a href=\"src\/Entity\/Item.php.html#237\">Item::getCacheTagsToInvalidate<\/a>"],[0,1,"<a href=\"src\/Entity\/Item.php.html#245\">Item::buildUri<\/a>"],[0,2,"<a href=\"src\/FeedAccessControlHandler.php.html#25\">FeedAccessControlHandler::checkAccess<\/a>"],[0,1,"<a href=\"src\/FeedAccessControlHandler.php.html#40\">FeedAccessControlHandler::checkCreateAccess<\/a>"],[0,2,"<a href=\"src\/FeedForm.php.html#22\">FeedForm::save<\/a>"],[0,1,"<a href=\"src\/FeedHtmlRouteProvider.php.html#21\">FeedHtmlRouteProvider::getCanonicalRoute<\/a>"],[0,1,"<a href=\"src\/FeedHtmlRouteProvider.php.html#31\">FeedHtmlRouteProvider::getEditFormRoute<\/a>"],[0,1,"<a href=\"src\/FeedStorage.php.html#23\">FeedStorage::getFeedIdsToRefresh<\/a>"],[0,5,"<a href=\"src\/FeedStorageSchema.php.html#21\">FeedStorageSchema::getSharedTableFieldSchema<\/a>"],[0,1,"<a href=\"src\/FeedViewBuilder.php.html#35\">FeedViewBuilder::__construct<\/a>"],[0,1,"<a href=\"src\/FeedViewBuilder.php.html#43\">FeedViewBuilder::createInstance<\/a>"],[0,12,"<a href=\"src\/FeedViewBuilder.php.html#55\">FeedViewBuilder::buildComponents<\/a>"],[0,1,"<a href=\"src\/Form\/FeedDeleteForm.php.html#21\">FeedDeleteForm::getCancelUrl<\/a>"],[0,1,"<a href=\"src\/Form\/FeedDeleteForm.php.html#28\">FeedDeleteForm::getRedirectUrl<\/a>"],[0,1,"<a href=\"src\/Form\/FeedDeleteForm.php.html#35\">FeedDeleteForm::getDeletionMessage<\/a>"],[0,1,"<a href=\"src\/Form\/FeedItemsDeleteForm.php.html#22\">FeedItemsDeleteForm::getQuestion<\/a>"],[0,1,"<a href=\"src\/Form\/FeedItemsDeleteForm.php.html#29\">FeedItemsDeleteForm::getCancelUrl<\/a>"],[0,1,"<a href=\"src\/Form\/FeedItemsDeleteForm.php.html#36\">FeedItemsDeleteForm::getConfirmText<\/a>"],[0,1,"<a href=\"src\/Form\/FeedItemsDeleteForm.php.html#43\">FeedItemsDeleteForm::submitForm<\/a>"],[0,1,"<a href=\"src\/Form\/OpmlFeedAdd.php.html#45\">OpmlFeedAdd::__construct<\/a>"],[0,1,"<a href=\"src\/Form\/OpmlFeedAdd.php.html#53\">OpmlFeedAdd::create<\/a>"],[0,1,"<a href=\"src\/Form\/OpmlFeedAdd.php.html#63\">OpmlFeedAdd::getFormId<\/a>"],[0,1,"<a href=\"src\/Form\/OpmlFeedAdd.php.html#70\">OpmlFeedAdd::buildForm<\/a>"],[0,2,"<a href=\"src\/Form\/OpmlFeedAdd.php.html#105\">OpmlFeedAdd::validateForm<\/a>"],[0,9,"<a href=\"src\/Form\/OpmlFeedAdd.php.html#116\">OpmlFeedAdd::submitForm<\/a>"],[0,7,"<a href=\"src\/Form\/OpmlFeedAdd.php.html#196\">OpmlFeedAdd::parseOpml<\/a>"],[100,3,"<a href=\"src\/Form\/SettingsForm.php.html#63\">SettingsForm::__construct<\/a>"],[0,1,"<a href=\"src\/Form\/SettingsForm.php.html#82\">SettingsForm::create<\/a>"],[0,1,"<a href=\"src\/Form\/SettingsForm.php.html#95\">SettingsForm::getFormId<\/a>"],[100,1,"<a href=\"src\/Form\/SettingsForm.php.html#102\">SettingsForm::getEditableConfigNames<\/a>"],[49.019607843137,11,"<a href=\"src\/Form\/SettingsForm.php.html#109\">SettingsForm::buildForm<\/a>"],[100,2,"<a href=\"src\/Form\/SettingsForm.php.html#198\">SettingsForm::validateForm<\/a>"],[76.923076923077,5,"<a href=\"src\/Form\/SettingsForm.php.html#209\">SettingsForm::submitForm<\/a>"],[0,1,"<a href=\"src\/ItemStorage.php.html#24\">ItemStorage::getItemCount<\/a>"],[0,1,"<a href=\"src\/ItemStorage.php.html#35\">ItemStorage::loadAll<\/a>"],[0,1,"<a href=\"src\/ItemStorage.php.html#43\">ItemStorage::loadByFeed<\/a>"],[0,2,"<a href=\"src\/ItemStorage.php.html#60\">ItemStorage::executeFeedItemQuery<\/a>"],[0,4,"<a href=\"src\/ItemStorageSchema.php.html#21\">ItemStorageSchema::getSharedTableFieldSchema<\/a>"],[0,3,"<a href=\"src\/ItemViewBuilder.php.html#20\">ItemViewBuilder::buildComponents<\/a>"],[0,1,"<a href=\"src\/ItemsImporter.php.html#69\">ItemsImporter::__construct<\/a>"],[0,2,"<a href=\"src\/ItemsImporter.php.html#80\">ItemsImporter::delete<\/a>"],[0,13,"<a href=\"src\/ItemsImporter.php.html#89\">ItemsImporter::refresh<\/a>"],[100,1,"<a href=\"src\/Plugin\/AggregatorPluginManager.php.html#41\">AggregatorPluginManager::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/AggregatorPluginSettingsBase.php.html#32\">AggregatorPluginSettingsBase::defaultConfiguration<\/a>"],[0,1,"<a href=\"src\/Plugin\/AggregatorPluginSettingsBase.php.html#39\">AggregatorPluginSettingsBase::validateConfigurationForm<\/a>"],[0,1,"<a href=\"src\/Plugin\/AggregatorPluginSettingsBase.php.html#45\">AggregatorPluginSettingsBase::calculateDependencies<\/a>"],[0,1,"<a href=\"src\/Plugin\/Block\/AggregatorFeedBlock.php.html#69\">AggregatorFeedBlock::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/Block\/AggregatorFeedBlock.php.html#80\">AggregatorFeedBlock::create<\/a>"],[0,1,"<a href=\"src\/Plugin\/Block\/AggregatorFeedBlock.php.html#95\">AggregatorFeedBlock::defaultConfiguration<\/a>"],[0,1,"<a href=\"src\/Plugin\/Block\/AggregatorFeedBlock.php.html#106\">AggregatorFeedBlock::blockAccess<\/a>"],[0,2,"<a href=\"src\/Plugin\/Block\/AggregatorFeedBlock.php.html#114\">AggregatorFeedBlock::blockForm<\/a>"],[0,1,"<a href=\"src\/Plugin\/Block\/AggregatorFeedBlock.php.html#139\">AggregatorFeedBlock::blockSubmit<\/a>"],[0,4,"<a href=\"src\/Plugin\/Block\/AggregatorFeedBlock.php.html#147\">AggregatorFeedBlock::build<\/a>"],[0,1,"<a href=\"src\/Plugin\/Block\/AggregatorFeedBlock.php.html#185\">AggregatorFeedBlock::getCacheTags<\/a>"],[0,1,"<a href=\"src\/Plugin\/Field\/FieldFormatter\/AggregatorTitleFormatter.php.html#32\">AggregatorTitleFormatter::defaultSettings<\/a>"],[0,1,"<a href=\"src\/Plugin\/Field\/FieldFormatter\/AggregatorTitleFormatter.php.html#42\">AggregatorTitleFormatter::settingsForm<\/a>"],[0,5,"<a href=\"src\/Plugin\/Field\/FieldFormatter\/AggregatorTitleFormatter.php.html#57\">AggregatorTitleFormatter::viewElements<\/a>"],[0,3,"<a href=\"src\/Plugin\/Field\/FieldFormatter\/AggregatorTitleFormatter.php.html#86\">AggregatorTitleFormatter::isApplicable<\/a>"],[0,2,"<a href=\"src\/Plugin\/Field\/FieldFormatter\/AggregatorXSSFormatter.php.html#31\">AggregatorXSSFormatter::viewElements<\/a>"],[0,2,"<a href=\"src\/Plugin\/QueueWorker\/AggregatorRefresh.php.html#27\">AggregatorRefresh::processItem<\/a>"],[0,1,"<a href=\"src\/Plugin\/aggregator\/fetcher\/DefaultFetcher.php.html#58\">DefaultFetcher::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/aggregator\/fetcher\/DefaultFetcher.php.html#66\">DefaultFetcher::create<\/a>"],[0,9,"<a href=\"src\/Plugin\/aggregator\/fetcher\/DefaultFetcher.php.html#76\">DefaultFetcher::fetch<\/a>"],[0,1,"<a href=\"src\/Plugin\/aggregator\/fetcher\/DefaultFetcher.php.html#93\">DefaultFetcher::anonymous function<\/a>"],[0,6,"<a href=\"src\/Plugin\/aggregator\/parser\/DefaultParser.php.html#31\">DefaultParser::parse<\/a>"],[0,1,"<a href=\"src\/Plugin\/aggregator\/processor\/DefaultProcessor.php.html#85\">DefaultProcessor::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/aggregator\/processor\/DefaultProcessor.php.html#98\">DefaultProcessor::create<\/a>"],[0,1,"<a href=\"src\/Plugin\/aggregator\/processor\/DefaultProcessor.php.html#113\">DefaultProcessor::getEditableConfigNames<\/a>"],[0,3,"<a href=\"src\/Plugin\/aggregator\/processor\/DefaultProcessor.php.html#120\">DefaultProcessor::buildConfigurationForm<\/a>"],[0,2,"<a href=\"src\/Plugin\/aggregator\/processor\/DefaultProcessor.php.html#160\">DefaultProcessor::anonymous function<\/a>"],[0,1,"<a href=\"src\/Plugin\/aggregator\/processor\/DefaultProcessor.php.html#177\">DefaultProcessor::submitConfigurationForm<\/a>"],[0,11,"<a href=\"src\/Plugin\/aggregator\/processor\/DefaultProcessor.php.html#188\">DefaultProcessor::process<\/a>"],[0,2,"<a href=\"src\/Plugin\/aggregator\/processor\/DefaultProcessor.php.html#245\">DefaultProcessor::delete<\/a>"],[0,3,"<a href=\"src\/Plugin\/aggregator\/processor\/DefaultProcessor.php.html#258\">DefaultProcessor::postProcess<\/a>"],[0,1,"<a href=\"src\/Plugin\/aggregator\/processor\/DefaultProcessor.php.html#278\">DefaultProcessor::getConfiguration<\/a>"],[0,2,"<a href=\"src\/Plugin\/aggregator\/processor\/DefaultProcessor.php.html#285\">DefaultProcessor::setConfiguration<\/a>"],[100,1,"<a href=\"src\/Plugin\/migrate\/source\/AggregatorFeed.php.html#25\">AggregatorFeed::query<\/a>"],[100,2,"<a href=\"src\/Plugin\/migrate\/source\/AggregatorFeed.php.html#33\">AggregatorFeed::fields<\/a>"],[100,1,"<a href=\"src\/Plugin\/migrate\/source\/AggregatorFeed.php.html#56\">AggregatorFeed::getIds<\/a>"],[100,1,"<a href=\"src\/Plugin\/migrate\/source\/AggregatorItem.php.html#25\">AggregatorItem::query<\/a>"],[100,1,"<a href=\"src\/Plugin\/migrate\/source\/AggregatorItem.php.html#34\">AggregatorItem::fields<\/a>"],[100,1,"<a href=\"src\/Plugin\/migrate\/source\/AggregatorItem.php.html#50\">AggregatorItem::getIds<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/argument\/Fid.php.html#42\">Fid::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/argument\/Fid.php.html#50\">Fid::create<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/argument\/Fid.php.html#57\">Fid::titleQuery<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/argument\/Iid.php.html#42\">Iid::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/argument\/Iid.php.html#50\">Iid::create<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/argument\/Iid.php.html#57\">Iid::titleQuery<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/row\/Rss.php.html#48\">Rss::render<\/a>"],[0,5,"<a href=\"tests\/modules\/aggregator_test\/src\/Controller\/AggregatorTestRssController.php.html#33\">AggregatorTestRssController::testFeed<\/a>"],[0,1,"<a href=\"tests\/modules\/aggregator_test\/src\/Controller\/AggregatorTestRssController.php.html#77\">AggregatorTestRssController::testRedirect<\/a>"],[0,2,"<a href=\"tests\/modules\/aggregator_test\/src\/Plugin\/aggregator\/fetcher\/TestFetcher.php.html#30\">TestFetcher::fetch<\/a>"],[0,1,"<a href=\"tests\/modules\/aggregator_test\/src\/Plugin\/aggregator\/parser\/TestParser.php.html#32\">TestParser::parse<\/a>"],[0,1,"<a href=\"tests\/modules\/aggregator_test\/src\/Plugin\/aggregator\/processor\/TestProcessor.php.html#43\">TestProcessor::create<\/a>"],[100,1,"<a href=\"tests\/modules\/aggregator_test\/src\/Plugin\/aggregator\/processor\/TestProcessor.php.html#64\">TestProcessor::__construct<\/a>"],[0,1,"<a href=\"tests\/modules\/aggregator_test\/src\/Plugin\/aggregator\/processor\/TestProcessor.php.html#72\">TestProcessor::getEditableConfigNames<\/a>"],[0,1,"<a href=\"tests\/modules\/aggregator_test\/src\/Plugin\/aggregator\/processor\/TestProcessor.php.html#79\">TestProcessor::buildConfigurationForm<\/a>"],[0,1,"<a href=\"tests\/modules\/aggregator_test\/src\/Plugin\/aggregator\/processor\/TestProcessor.php.html#103\">TestProcessor::submitConfigurationForm<\/a>"],[0,2,"<a href=\"tests\/modules\/aggregator_test\/src\/Plugin\/aggregator\/processor\/TestProcessor.php.html#111\">TestProcessor::process<\/a>"],[0,1,"<a href=\"tests\/modules\/aggregator_test\/src\/Plugin\/aggregator\/processor\/TestProcessor.php.html#121\">TestProcessor::delete<\/a>"],[0,1,"<a href=\"tests\/modules\/aggregator_test\/src\/Plugin\/aggregator\/processor\/TestProcessor.php.html#129\">TestProcessor::postProcess<\/a>"],[100,1,"<a href=\"tests\/modules\/aggregator_test\/src\/Plugin\/aggregator\/processor\/TestProcessor.php.html#138\">TestProcessor::getConfiguration<\/a>"],[0,2,"<a href=\"tests\/modules\/aggregator_test\/src\/Plugin\/aggregator\/processor\/TestProcessor.php.html#145\">TestProcessor::setConfiguration<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

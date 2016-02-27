@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/ericduran/Sites/drupal/drupal/core/modules/editor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../../css/nv.d3.min.css" rel="stylesheet">
+  <link href="../../../css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="../../../js/html5shiv.min.js"></script>
+  <script src="../../../js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../../../index.html">/Users/ericduran/Sites/drupal/drupal</a></li>
+        <li><a href="../../index.html">core</a></li>
+        <li><a href="../index.html">modules</a></li>
+        <li><a href="index.html">editor</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Ajax/EditorDialogSave.php.html#18">EditorDialogSave</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Ajax/GetUntransformedTextCommand.php.html#16">GetUntransformedTextCommand</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/InPlaceEditor/Editor.php.html#23">Editor</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EditorController.php.html#23">EditorController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Element.php.html#18">Element</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/EditorImageDialog.php.html#24">EditorImageDialog</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/EditorLinkDialog.php.html#21">EditorLinkDialog</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/EditorBase.php.html#28">EditorBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/EditorFileReference.php.html#29">EditorFileReference</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/modules/src/EditorXssFilter/Insecure.php.html#16">Insecure</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/modules/src/Plugin/Editor/TRexEditor.php.html#28">TRexEditor</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/modules/src/Plugin/Editor/UnicornEditor.php.html#29">UnicornEditor</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EditorXssFilter/Standard.php.html#18">Standard</a></td><td class="text-right">83%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Form/EditorImageDialog.php.html#24">EditorImageDialog</a></td><td class="text-right">600</td></tr>
+       <tr><td><a href="src/Element.php.html#18">Element</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="src/Plugin/InPlaceEditor/Editor.php.html#23">Editor</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="src/Plugin/Filter/EditorFileReference.php.html#29">EditorFileReference</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/Form/EditorLinkDialog.php.html#21">EditorLinkDialog</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="tests/modules/src/Plugin/Editor/TRexEditor.php.html#28">TRexEditor</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="tests/modules/src/Plugin/Editor/UnicornEditor.php.html#29">UnicornEditor</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/EditorController.php.html#23">EditorController</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/EditorXssFilter/Standard.php.html#18">Standard</a></td><td class="text-right">14</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Ajax/EditorDialogSave.php.html#33"><abbr title="EditorDialogSave::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/EditorFileReference.php.html#70"><abbr title="EditorFileReference::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/EditorBase.php.html#33"><abbr title="EditorBase::getDefaultSettings">getDefaultSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/EditorBase.php.html#40"><abbr title="EditorBase::settingsForm">settingsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/EditorBase.php.html#47"><abbr title="EditorBase::settingsFormValidate">settingsFormValidate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/EditorBase.php.html#53"><abbr title="EditorBase::settingsFormSubmit">settingsFormSubmit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/EditorFileReference.php.html#50"><abbr title="EditorFileReference::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/EditorFileReference.php.html#58"><abbr title="EditorFileReference::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/modules/src/EditorXssFilter/Insecure.php.html#21"><abbr title="Insecure::filterXss">filterXss</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/EditorLinkDialog.php.html#36"><abbr title="EditorLinkDialog::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/modules/src/Plugin/Editor/TRexEditor.php.html#33"><abbr title="TRexEditor::getDefaultSettings">getDefaultSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/modules/src/Plugin/Editor/TRexEditor.php.html#40"><abbr title="TRexEditor::settingsForm">settingsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/modules/src/Plugin/Editor/TRexEditor.php.html#52"><abbr title="TRexEditor::getJSSettings">getJSSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/modules/src/Plugin/Editor/TRexEditor.php.html#64"><abbr title="TRexEditor::getLibraries">getLibraries</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/modules/src/Plugin/Editor/UnicornEditor.php.html#34"><abbr title="UnicornEditor::getDefaultSettings">getDefaultSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/modules/src/Plugin/Editor/UnicornEditor.php.html#41"><abbr title="UnicornEditor::settingsForm">settingsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/modules/src/Plugin/Editor/UnicornEditor.php.html#53"><abbr title="UnicornEditor::getJSSettings">getJSSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/EditorLinkDialog.php.html#76"><abbr title="EditorLinkDialog::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/EditorLinkDialog.php.html#26"><abbr title="EditorLinkDialog::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Ajax/EditorDialogSave.php.html#40"><abbr title="EditorDialogSave::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EditorController.php.html#68"><abbr title="EditorController::filterXss">filterXss</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Ajax/GetUntransformedTextCommand.php.html#24"><abbr title="GetUntransformedTextCommand::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/InPlaceEditor/Editor.php.html#28"><abbr title="Editor::isCompatible">isCompatible</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/InPlaceEditor/Editor.php.html#53"><abbr title="Editor::getMetadata">getMetadata</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/InPlaceEditor/Editor.php.html#68"><abbr title="Editor::textFormatHasTransformationFilters">textFormatHasTransformationFilters</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/InPlaceEditor/Editor.php.html#76"><abbr title="Editor::getAttachments">getAttachments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EditorController.php.html#41"><abbr title="EditorController::getUntransformedText">getUntransformedText</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/modules/src/Plugin/Editor/UnicornEditor.php.html#65"><abbr title="UnicornEditor::getLibraries">getLibraries</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/EditorImageDialog.php.html#207"><abbr title="EditorImageDialog::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Element.php.html#33"><abbr title="Element::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Element.php.html#40"><abbr title="Element::preRenderTextFormat">preRenderTextFormat</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/EditorImageDialog.php.html#39"><abbr title="EditorImageDialog::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/EditorImageDialog.php.html#46"><abbr title="EditorImageDialog::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/EditorImageDialog.php.html#55"><abbr title="EditorImageDialog::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/EditorImageDialog.php.html#65"><abbr title="EditorImageDialog::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EditorXssFilter/Standard.php.html#160"><abbr title="Standard::getForbiddenTags">getForbiddenTags</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="src/EditorXssFilter/Standard.php.html#23"><abbr title="Standard::filterXss">filterXss</abbr></a></td><td class="text-right">78%</td></tr>
+       <tr><td><a href="src/EditorXssFilter/Standard.php.html#136"><abbr title="Standard::getAllowedTags">getAllowedTags</abbr></a></td><td class="text-right">80%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Form/EditorImageDialog.php.html#65"><abbr title="EditorImageDialog::buildForm">buildForm</abbr></a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="src/Element.php.html#40"><abbr title="Element::preRenderTextFormat">preRenderTextFormat</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="src/Plugin/InPlaceEditor/Editor.php.html#28"><abbr title="Editor::isCompatible">isCompatible</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/Plugin/InPlaceEditor/Editor.php.html#76"><abbr title="Editor::getAttachments">getAttachments</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/Plugin/Filter/EditorFileReference.php.html#70"><abbr title="EditorFileReference::process">process</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/Form/EditorImageDialog.php.html#207"><abbr title="EditorImageDialog::submitForm">submitForm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/EditorController.php.html#68"><abbr title="EditorController::filterXss">filterXss</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Form/EditorLinkDialog.php.html#36"><abbr title="EditorLinkDialog::buildForm">buildForm</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Form/EditorLinkDialog.php.html#76"><abbr title="EditorLinkDialog::submitForm">submitForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="tests/modules/src/Plugin/Editor/TRexEditor.php.html#52"><abbr title="TRexEditor::getJSSettings">getJSSettings</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="tests/modules/src/Plugin/Editor/UnicornEditor.php.html#53"><abbr title="UnicornEditor::getJSSettings">getJSSettings</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/EditorXssFilter/Standard.php.html#23"><abbr title="Standard::filterXss">filterXss</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="src/EditorXssFilter/Standard.php.html#160"><abbr title="Standard::getForbiddenTags">getForbiddenTags</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="src/EditorXssFilter/Standard.php.html#136"><abbr title="Standard::getAllowedTags">getAllowedTags</abbr></a></td><td class="text-right">3</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 2.2.4</a> using <a href="http://php.net/" target="_top">PHP 7.0.3</a> and <a href="http://phpunit.de/">PHPUnit 4.8.11</a> at Sat Feb 27 11:34:46 AEDT 2016.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../../../js/holder.min.js" type="text/javascript"></script>
+  <script src="../../../js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([12,0,0,0,0,0,0,0,0,1,0,1], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([35,0,0,0,0,0,0,1,1,1,0,5], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,2,"<a href=\"src\/Ajax\/EditorDialogSave.php.html#18\">EditorDialogSave<\/a>"],[0,1,"<a href=\"src\/Ajax\/GetUntransformedTextCommand.php.html#16\">GetUntransformedTextCommand<\/a>"],[0,12,"<a href=\"src\/Plugin\/InPlaceEditor\/Editor.php.html#23\">Editor<\/a>"],[0,4,"<a href=\"src\/EditorController.php.html#23\">EditorController<\/a>"],[83.870967741935,14,"<a href=\"src\/EditorXssFilter\/Standard.php.html#18\">Standard<\/a>"],[0,13,"<a href=\"src\/Element.php.html#18\">Element<\/a>"],[0,24,"<a href=\"src\/Form\/EditorImageDialog.php.html#24\">EditorImageDialog<\/a>"],[0,6,"<a href=\"src\/Form\/EditorLinkDialog.php.html#21\">EditorLinkDialog<\/a>"],[0,4,"<a href=\"src\/Plugin\/EditorBase.php.html#28\">EditorBase<\/a>"],[100,8,"<a href=\"src\/Plugin\/EditorManager.php.html#22\">EditorManager<\/a>"],[0,7,"<a href=\"src\/Plugin\/Filter\/EditorFileReference.php.html#29\">EditorFileReference<\/a>"],[0,1,"<a href=\"tests\/modules\/src\/EditorXssFilter\/Insecure.php.html#16\">Insecure<\/a>"],[0,5,"<a href=\"tests\/modules\/src\/Plugin\/Editor\/TRexEditor.php.html#28\">TRexEditor<\/a>"],[0,5,"<a href=\"tests\/modules\/src\/Plugin\/Editor\/UnicornEditor.php.html#29\">UnicornEditor<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"src\/Ajax\/EditorDialogSave.php.html#33\">EditorDialogSave::__construct<\/a>"],[0,1,"<a href=\"src\/Ajax\/EditorDialogSave.php.html#40\">EditorDialogSave::render<\/a>"],[0,1,"<a href=\"src\/Ajax\/GetUntransformedTextCommand.php.html#24\">GetUntransformedTextCommand::__construct<\/a>"],[0,5,"<a href=\"src\/Plugin\/InPlaceEditor\/Editor.php.html#28\">Editor::isCompatible<\/a>"],[0,1,"<a href=\"src\/Plugin\/InPlaceEditor\/Editor.php.html#53\">Editor::getMetadata<\/a>"],[0,1,"<a href=\"src\/Plugin\/InPlaceEditor\/Editor.php.html#68\">Editor::textFormatHasTransformationFilters<\/a>"],[0,5,"<a href=\"src\/Plugin\/InPlaceEditor\/Editor.php.html#76\">Editor::getAttachments<\/a>"],[0,1,"<a href=\"src\/EditorController.php.html#41\">EditorController::getUntransformedText<\/a>"],[0,3,"<a href=\"src\/EditorController.php.html#68\">EditorController::filterXss<\/a>"],[78.571428571429,4,"<a href=\"src\/EditorXssFilter\/Standard.php.html#23\">Standard::filterXss<\/a>"],[100,3,"<a href=\"src\/EditorXssFilter\/Standard.php.html#106\">Standard::filterXssDataAttributes<\/a>"],[80,3,"<a href=\"src\/EditorXssFilter\/Standard.php.html#136\">Standard::getAllowedTags<\/a>"],[66.666666666667,3,"<a href=\"src\/EditorXssFilter\/Standard.php.html#160\">Standard::getForbiddenTags<\/a>"],[100,1,"<a href=\"src\/EditorXssFilter\/Standard.php.html#172\">Standard::needsRemoval<\/a>"],[0,1,"<a href=\"src\/Element.php.html#33\">Element::__construct<\/a>"],[0,12,"<a href=\"src\/Element.php.html#40\">Element::preRenderTextFormat<\/a>"],[0,1,"<a href=\"src\/Form\/EditorImageDialog.php.html#39\">EditorImageDialog::__construct<\/a>"],[0,1,"<a href=\"src\/Form\/EditorImageDialog.php.html#46\">EditorImageDialog::create<\/a>"],[0,1,"<a href=\"src\/Form\/EditorImageDialog.php.html#55\">EditorImageDialog::getFormId<\/a>"],[0,17,"<a href=\"src\/Form\/EditorImageDialog.php.html#65\">EditorImageDialog::buildForm<\/a>"],[0,4,"<a href=\"src\/Form\/EditorImageDialog.php.html#207\">EditorImageDialog::submitForm<\/a>"],[0,1,"<a href=\"src\/Form\/EditorLinkDialog.php.html#26\">EditorLinkDialog::getFormId<\/a>"],[0,3,"<a href=\"src\/Form\/EditorLinkDialog.php.html#36\">EditorLinkDialog::buildForm<\/a>"],[0,2,"<a href=\"src\/Form\/EditorLinkDialog.php.html#76\">EditorLinkDialog::submitForm<\/a>"],[0,1,"<a href=\"src\/Plugin\/EditorBase.php.html#33\">EditorBase::getDefaultSettings<\/a>"],[0,1,"<a href=\"src\/Plugin\/EditorBase.php.html#40\">EditorBase::settingsForm<\/a>"],[0,1,"<a href=\"src\/Plugin\/EditorBase.php.html#47\">EditorBase::settingsFormValidate<\/a>"],[0,1,"<a href=\"src\/Plugin\/EditorBase.php.html#53\">EditorBase::settingsFormSubmit<\/a>"],[100,1,"<a href=\"src\/Plugin\/EditorManager.php.html#35\">EditorManager::__construct<\/a>"],[100,2,"<a href=\"src\/Plugin\/EditorManager.php.html#47\">EditorManager::listOptions<\/a>"],[100,5,"<a href=\"src\/Plugin\/EditorManager.php.html#66\">EditorManager::getAttachments<\/a>"],[0,1,"<a href=\"src\/Plugin\/Filter\/EditorFileReference.php.html#50\">EditorFileReference::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/Filter\/EditorFileReference.php.html#58\">EditorFileReference::create<\/a>"],[0,5,"<a href=\"src\/Plugin\/Filter\/EditorFileReference.php.html#70\">EditorFileReference::process<\/a>"],[0,1,"<a href=\"tests\/modules\/src\/EditorXssFilter\/Insecure.php.html#21\">Insecure::filterXss<\/a>"],[0,1,"<a href=\"tests\/modules\/src\/Plugin\/Editor\/TRexEditor.php.html#33\">TRexEditor::getDefaultSettings<\/a>"],[0,1,"<a href=\"tests\/modules\/src\/Plugin\/Editor\/TRexEditor.php.html#40\">TRexEditor::settingsForm<\/a>"],[0,2,"<a href=\"tests\/modules\/src\/Plugin\/Editor\/TRexEditor.php.html#52\">TRexEditor::getJSSettings<\/a>"],[0,1,"<a href=\"tests\/modules\/src\/Plugin\/Editor\/TRexEditor.php.html#64\">TRexEditor::getLibraries<\/a>"],[0,1,"<a href=\"tests\/modules\/src\/Plugin\/Editor\/UnicornEditor.php.html#34\">UnicornEditor::getDefaultSettings<\/a>"],[0,1,"<a href=\"tests\/modules\/src\/Plugin\/Editor\/UnicornEditor.php.html#41\">UnicornEditor::settingsForm<\/a>"],[0,2,"<a href=\"tests\/modules\/src\/Plugin\/Editor\/UnicornEditor.php.html#53\">UnicornEditor::getJSSettings<\/a>"],[0,1,"<a href=\"tests\/modules\/src\/Plugin\/Editor\/UnicornEditor.php.html#65\">UnicornEditor::getLibraries<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

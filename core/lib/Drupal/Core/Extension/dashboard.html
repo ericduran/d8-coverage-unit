@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/ericduran/Sites/drupal/drupal/core/lib/Drupal/Core/Extension</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../../../../css/nv.d3.min.css" rel="stylesheet">
+  <link href="../../../../../css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="../../../../../js/html5shiv.min.js"></script>
+  <script src="../../../../../js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../../../../../index.html">/Users/ericduran/Sites/drupal/drupal</a></li>
+        <li><a href="../../../../index.html">core</a></li>
+        <li><a href="../../../index.html">lib</a></li>
+        <li><a href="../../index.html">Drupal</a></li>
+        <li><a href="../index.html">Core</a></li>
+        <li><a href="index.html">Extension</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Discovery/RecursiveExtensionFilterIterator.php.html#36">RecursiveExtensionFilterIterator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#26">ExtensionDiscovery</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleInstaller.php.html#23">ModuleInstaller</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeInstaller.php.html#22">ThemeInstaller</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Extension.php.html#13">Extension</a></td><td class="text-right">35%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#16">ThemeHandler</a></td><td class="text-right">51%</td></tr>
+       <tr><td><a href="RequiredModuleUninstallValidator.php.html#16">RequiredModuleUninstallValidator</a></td><td class="text-right">55%</td></tr>
+       <tr><td><a href="InfoParserDynamic.php.html#16">InfoParserDynamic</a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#17">ModuleHandler</a></td><td class="text-right">68%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ModuleInstaller.php.html#23">ModuleInstaller</a></td><td class="text-right">5700</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#26">ExtensionDiscovery</a></td><td class="text-right">3080</td></tr>
+       <tr><td><a href="ThemeInstaller.php.html#22">ThemeInstaller</a></td><td class="text-right">992</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#17">ModuleHandler</a></td><td class="text-right">440</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#16">ThemeHandler</a></td><td class="text-right">368</td></tr>
+       <tr><td><a href="Extension.php.html#13">Extension</a></td><td class="text-right">106</td></tr>
+       <tr><td><a href="Discovery/RecursiveExtensionFilterIterator.php.html#36">RecursiveExtensionFilterIterator</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="InfoParserDynamic.php.html#16">InfoParserDynamic</a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="RequiredModuleUninstallValidator.php.html#16">RequiredModuleUninstallValidator</a></td><td class="text-right">7</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Discovery/RecursiveExtensionFilterIterator.php.html#98"><abbr title="RecursiveExtensionFilterIterator::acceptTests">acceptTests</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#240"><abbr title="ThemeHandler::reset">reset</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleInstaller.php.html#481"><abbr title="ModuleInstaller::removeCacheBins">removeCacheBins</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleInstaller.php.html#520"><abbr title="ModuleInstaller::updateKernel">updateKernel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleInstaller.php.html#535"><abbr title="ModuleInstaller::validateUninstall">validateUninstall</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RequiredModuleUninstallValidator.php.html#26"><abbr title="RequiredModuleUninstallValidator::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RequiredModuleUninstallValidator.php.html#51"><abbr title="RequiredModuleUninstallValidator::getModuleInfoByModule">getModuleInfoByModule</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#145"><abbr title="ThemeHandler::getDefault">getDefault</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#152"><abbr title="ThemeHandler::setDefault">setDefault</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#166"><abbr title="ThemeHandler::install">install</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#175"><abbr title="ThemeHandler::uninstall">uninstall</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#184"><abbr title="ThemeHandler::listInfo">listInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#205"><abbr title="ThemeHandler::addTheme">addTheme</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#221"><abbr title="ThemeHandler::refreshInfo">refreshInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#434"><abbr title="ThemeHandler::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discovery/RecursiveExtensionFilterIterator.php.html#108"><abbr title="RecursiveExtensionFilterIterator::getChildren">getChildren</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#445"><abbr title="ThemeHandler::systemListReset">systemListReset</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#455"><abbr title="ThemeHandler::systemThemeList">systemThemeList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#462"><abbr title="ThemeHandler::getThemeDirectories">getThemeDirectories</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#473"><abbr title="ThemeHandler::themeExists">themeExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#481"><abbr title="ThemeHandler::getTheme">getTheme</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#492"><abbr title="ThemeHandler::hasUi">hasUi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeInstaller.php.html#90"><abbr title="ThemeInstaller::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeInstaller.php.html#105"><abbr title="ThemeInstaller::install">install</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeInstaller.php.html#142"><abbr title="ThemeInstaller::anonymous function">anonymous function</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeInstaller.php.html#219"><abbr title="ThemeInstaller::uninstall">uninstall</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeInstaller.php.html#280"><abbr title="ThemeInstaller::resetSystem">resetSystem</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeInstaller.php.html#295"><abbr title="ThemeInstaller::themeRegistryRebuild">themeRegistryRebuild</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleInstaller.php.html#307"><abbr title="ModuleInstaller::uninstall">uninstall</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleInstaller.php.html#350"><abbr title="ModuleInstaller::anonymous function">anonymous function</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleInstaller.php.html#82"><abbr title="ModuleInstaller::install">install</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleInstaller.php.html#75"><abbr title="ModuleInstaller::addUninstallValidator">addUninstallValidator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discovery/RecursiveExtensionFilterIterator.php.html#118"><abbr title="RecursiveExtensionFilterIterator::accept">accept</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Extension.php.html#77"><abbr title="Extension::getType">getType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Extension.php.html#113"><abbr title="Extension::getFilename">getFilename</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Extension.php.html#133"><abbr title="Extension::getExtensionFilename">getExtensionFilename</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Extension.php.html#143"><abbr title="Extension::load">load</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Extension.php.html#168"><abbr title="Extension::serialize">serialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Extension.php.html#190"><abbr title="Extension::unserialize">unserialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#119"><abbr title="ExtensionDiscovery::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#165"><abbr title="ExtensionDiscovery::scan">scan</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#242"><abbr title="ExtensionDiscovery::setProfileDirectoriesFromSettings">setProfileDirectoriesFromSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#269"><abbr title="ExtensionDiscovery::getProfileDirectories">getProfileDirectories</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#282"><abbr title="ExtensionDiscovery::setProfileDirectories">setProfileDirectories</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeInstaller.php.html#302"><abbr title="ThemeInstaller::systemListReset">systemListReset</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#296"><abbr title="ExtensionDiscovery::filterByProfileDirectories">filterByProfileDirectories</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#301"><abbr title="ExtensionDiscovery::anonymous function">anonymous function</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleInstaller.php.html#66"><abbr title="ModuleInstaller::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#710"><abbr title="ModuleHandler::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#603"><abbr title="ModuleHandler::verifyImplementations">verifyImplementations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#408"><abbr title="ModuleHandler::alter">alter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#220"><abbr title="ModuleHandler::buildModuleDependencies">buildModuleDependencies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#107"><abbr title="ModuleHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#512"><abbr title="ExtensionDiscovery::getInfoParser">getInfoParser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#412"><abbr title="ExtensionDiscovery::scanDirectory">scanDirectory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#386"><abbr title="ExtensionDiscovery::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#331"><abbr title="ExtensionDiscovery::sort">sort</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InfoParserDynamic.php.html#21"><abbr title="InfoParserDynamic::parse">parse</abbr></a></td><td class="text-right">63%</td></tr>
+       <tr><td><a href="Extension.php.html#122"><abbr title="Extension::getExtensionPathname">getExtensionPathname</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#424"><abbr title="ThemeHandler::getExtensionDiscovery">getExtensionDiscovery</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#554"><abbr title="ModuleHandler::buildImplementationInfo">buildImplementationInfo</abbr></a></td><td class="text-right">73%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#388"><abbr title="ThemeHandler::doGetBaseThemes">doGetBaseThemes</abbr></a></td><td class="text-right">85%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ModuleInstaller.php.html#82"><abbr title="ModuleInstaller::install">install</abbr></a></td><td class="text-right">812</td></tr>
+       <tr><td><a href="ModuleInstaller.php.html#307"><abbr title="ModuleInstaller::uninstall">uninstall</abbr></a></td><td class="text-right">650</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#412"><abbr title="ExtensionDiscovery::scanDirectory">scanDirectory</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="ThemeInstaller.php.html#105"><abbr title="ThemeInstaller::install">install</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="ModuleInstaller.php.html#481"><abbr title="ModuleInstaller::removeCacheBins">removeCacheBins</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#408"><abbr title="ModuleHandler::alter">alter</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#165"><abbr title="ExtensionDiscovery::scan">scan</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="ThemeInstaller.php.html#219"><abbr title="ThemeInstaller::uninstall">uninstall</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#220"><abbr title="ModuleHandler::buildModuleDependencies">buildModuleDependencies</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#242"><abbr title="ExtensionDiscovery::setProfileDirectoriesFromSettings">setProfileDirectoriesFromSettings</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#331"><abbr title="ExtensionDiscovery::sort">sort</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ModuleInstaller.php.html#535"><abbr title="ModuleInstaller::validateUninstall">validateUninstall</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#296"><abbr title="ExtensionDiscovery::filterByProfileDirectories">filterByProfileDirectories</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Discovery/RecursiveExtensionFilterIterator.php.html#118"><abbr title="RecursiveExtensionFilterIterator::accept">accept</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#184"><abbr title="ThemeHandler::listInfo">listInfo</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#603"><abbr title="ModuleHandler::verifyImplementations">verifyImplementations</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#301"><abbr title="ExtensionDiscovery::anonymous function">anonymous function</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#492"><abbr title="ThemeHandler::hasUi">hasUi</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#205"><abbr title="ThemeHandler::addTheme">addTheme</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#221"><abbr title="ThemeHandler::refreshInfo">refreshInfo</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Extension.php.html#190"><abbr title="Extension::unserialize">unserialize</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#554"><abbr title="ModuleHandler::buildImplementationInfo">buildImplementationInfo</abbr></a></td><td class="text-right">10</td></tr>
+       <tr><td><a href="InfoParserDynamic.php.html#21"><abbr title="InfoParserDynamic::parse">parse</abbr></a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#388"><abbr title="ThemeHandler::doGetBaseThemes">doGetBaseThemes</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#434"><abbr title="ThemeHandler::getName">getName</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#462"><abbr title="ThemeHandler::getThemeDirectories">getThemeDirectories</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#481"><abbr title="ThemeHandler::getTheme">getTheme</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Discovery/RecursiveExtensionFilterIterator.php.html#98"><abbr title="RecursiveExtensionFilterIterator::acceptTests">acceptTests</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#152"><abbr title="ThemeHandler::setDefault">setDefault</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="RequiredModuleUninstallValidator.php.html#51"><abbr title="RequiredModuleUninstallValidator::getModuleInfoByModule">getModuleInfoByModule</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#710"><abbr title="ModuleHandler::getName">getName</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#107"><abbr title="ModuleHandler::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#512"><abbr title="ExtensionDiscovery::getInfoParser">getInfoParser</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#386"><abbr title="ExtensionDiscovery::process">process</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#119"><abbr title="ExtensionDiscovery::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Extension.php.html#168"><abbr title="Extension::serialize">serialize</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Extension.php.html#143"><abbr title="Extension::load">load</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ThemeInstaller.php.html#280"><abbr title="ThemeInstaller::resetSystem">resetSystem</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#424"><abbr title="ThemeHandler::getExtensionDiscovery">getExtensionDiscovery</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Extension.php.html#122"><abbr title="Extension::getExtensionPathname">getExtensionPathname</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 2.2.4</a> using <a href="http://php.net/" target="_top">PHP 7.0.3</a> and <a href="http://phpunit.de/">PHPUnit 4.8.11</a> at Sat Feb 27 11:34:46 AEDT 2016.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../../js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../../../../../js/holder.min.js" type="text/javascript"></script>
+  <script src="../../../../../js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../../js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([4,0,0,0,1,0,2,2,0,0,0,5], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([57,0,0,0,0,0,0,3,1,1,1,34], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,8,"<a href=\"Discovery\/RecursiveExtensionFilterIterator.php.html#36\">RecursiveExtensionFilterIterator<\/a>"],[35.135135135135,18,"<a href=\"Extension.php.html#13\">Extension<\/a>"],[0,55,"<a href=\"ExtensionDiscovery.php.html#26\">ExtensionDiscovery<\/a>"],[100,0,"<a href=\"ExtensionNameLengthException.php.html#13\">ExtensionNameLengthException<\/a>"],[100,2,"<a href=\"InfoParser.php.html#13\">InfoParser<\/a>"],[66.666666666667,7,"<a href=\"InfoParserDynamic.php.html#16\">InfoParserDynamic<\/a>"],[100,0,"<a href=\"InfoParserException.php.html#12\">InfoParserException<\/a>"],[100,0,"<a href=\"MissingDependencyException.php.html#15\">MissingDependencyException<\/a>"],[68.544600938967,104,"<a href=\"ModuleHandler.php.html#17\">ModuleHandler<\/a>"],[0,75,"<a href=\"ModuleInstaller.php.html#23\">ModuleInstaller<\/a>"],[100,0,"<a href=\"ModuleUninstallValidatorException.php.html#13\">ModuleUninstallValidatorException<\/a>"],[55.555555555556,5,"<a href=\"RequiredModuleUninstallValidator.php.html#16\">RequiredModuleUninstallValidator<\/a>"],[51.079136690647,52,"<a href=\"ThemeHandler.php.html#16\">ThemeHandler<\/a>"],[0,31,"<a href=\"ThemeInstaller.php.html#22\">ThemeInstaller<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,2,"<a href=\"Discovery\/RecursiveExtensionFilterIterator.php.html#98\">RecursiveExtensionFilterIterator::acceptTests<\/a>"],[0,1,"<a href=\"Discovery\/RecursiveExtensionFilterIterator.php.html#108\">RecursiveExtensionFilterIterator::getChildren<\/a>"],[0,5,"<a href=\"Discovery\/RecursiveExtensionFilterIterator.php.html#118\">RecursiveExtensionFilterIterator::accept<\/a>"],[100,1,"<a href=\"Extension.php.html#65\">Extension::__construct<\/a>"],[0,1,"<a href=\"Extension.php.html#77\">Extension::getType<\/a>"],[100,1,"<a href=\"Extension.php.html#86\">Extension::getName<\/a>"],[100,1,"<a href=\"Extension.php.html#95\">Extension::getPath<\/a>"],[100,1,"<a href=\"Extension.php.html#104\">Extension::getPathname<\/a>"],[0,1,"<a href=\"Extension.php.html#113\">Extension::getFilename<\/a>"],[66.666666666667,2,"<a href=\"Extension.php.html#122\">Extension::getExtensionPathname<\/a>"],[0,1,"<a href=\"Extension.php.html#133\">Extension::getExtensionFilename<\/a>"],[0,2,"<a href=\"Extension.php.html#143\">Extension::load<\/a>"],[100,2,"<a href=\"Extension.php.html#156\">Extension::__call<\/a>"],[0,2,"<a href=\"Extension.php.html#168\">Extension::serialize<\/a>"],[0,3,"<a href=\"Extension.php.html#190\">Extension::unserialize<\/a>"],[0,2,"<a href=\"ExtensionDiscovery.php.html#119\">ExtensionDiscovery::__construct<\/a>"],[0,11,"<a href=\"ExtensionDiscovery.php.html#165\">ExtensionDiscovery::scan<\/a>"],[0,6,"<a href=\"ExtensionDiscovery.php.html#242\">ExtensionDiscovery::setProfileDirectoriesFromSettings<\/a>"],[0,1,"<a href=\"ExtensionDiscovery.php.html#269\">ExtensionDiscovery::getProfileDirectories<\/a>"],[0,1,"<a href=\"ExtensionDiscovery.php.html#282\">ExtensionDiscovery::setProfileDirectories<\/a>"],[0,5,"<a href=\"ExtensionDiscovery.php.html#296\">ExtensionDiscovery::filterByProfileDirectories<\/a>"],[0,4,"<a href=\"ExtensionDiscovery.php.html#301\">ExtensionDiscovery::anonymous function<\/a>"],[0,6,"<a href=\"ExtensionDiscovery.php.html#331\">ExtensionDiscovery::sort<\/a>"],[0,2,"<a href=\"ExtensionDiscovery.php.html#386\">ExtensionDiscovery::process<\/a>"],[0,15,"<a href=\"ExtensionDiscovery.php.html#412\">ExtensionDiscovery::scanDirectory<\/a>"],[0,2,"<a href=\"ExtensionDiscovery.php.html#512\">ExtensionDiscovery::getInfoParser<\/a>"],[100,2,"<a href=\"InfoParser.php.html#25\">InfoParser::parse<\/a>"],[63.636363636364,6,"<a href=\"InfoParserDynamic.php.html#21\">InfoParserDynamic::parse<\/a>"],[100,1,"<a href=\"InfoParserDynamic.php.html#49\">InfoParserDynamic::getRequiredKeys<\/a>"],[0,2,"<a href=\"ModuleHandler.php.html#107\">ModuleHandler::__construct<\/a>"],[100,3,"<a href=\"ModuleHandler.php.html#119\">ModuleHandler::load<\/a>"],[100,3,"<a href=\"ModuleHandler.php.html#135\">ModuleHandler::loadAll<\/a>"],[100,1,"<a href=\"ModuleHandler.php.html#147\">ModuleHandler::reload<\/a>"],[100,1,"<a href=\"ModuleHandler.php.html#155\">ModuleHandler::isLoaded<\/a>"],[100,1,"<a href=\"ModuleHandler.php.html#162\">ModuleHandler::getModuleList<\/a>"],[100,2,"<a href=\"ModuleHandler.php.html#169\">ModuleHandler::getModule<\/a>"],[100,1,"<a href=\"ModuleHandler.php.html#179\">ModuleHandler::setModuleList<\/a>"],[100,1,"<a href=\"ModuleHandler.php.html#189\">ModuleHandler::addModule<\/a>"],[100,1,"<a href=\"ModuleHandler.php.html#196\">ModuleHandler::addProfile<\/a>"],[100,2,"<a href=\"ModuleHandler.php.html#210\">ModuleHandler::add<\/a>"],[0,8,"<a href=\"ModuleHandler.php.html#220\">ModuleHandler::buildModuleDependencies<\/a>"],[100,1,"<a href=\"ModuleHandler.php.html#243\">ModuleHandler::moduleExists<\/a>"],[100,2,"<a href=\"ModuleHandler.php.html#250\">ModuleHandler::loadAllIncludes<\/a>"],[100,5,"<a href=\"ModuleHandler.php.html#259\">ModuleHandler::loadInclude<\/a>"],[100,3,"<a href=\"ModuleHandler.php.html#280\">ModuleHandler::getHookInfo<\/a>"],[100,5,"<a href=\"ModuleHandler.php.html#298\">ModuleHandler::buildHookInfo<\/a>"],[100,1,"<a href=\"ModuleHandler.php.html#317\">ModuleHandler::getImplementations<\/a>"],[100,2,"<a href=\"ModuleHandler.php.html#325\">ModuleHandler::writeCache<\/a>"],[100,1,"<a href=\"ModuleHandler.php.html#335\">ModuleHandler::resetImplementations<\/a>"],[100,4,"<a href=\"ModuleHandler.php.html#357\">ModuleHandler::implementsHook<\/a>"],[100,2,"<a href=\"ModuleHandler.php.html#377\">ModuleHandler::invoke<\/a>"],[90,5,"<a href=\"ModuleHandler.php.html#388\">ModuleHandler::invokeAll<\/a>"],[0,13,"<a href=\"ModuleHandler.php.html#408\">ModuleHandler::alter<\/a>"],[100,6,"<a href=\"ModuleHandler.php.html#508\">ModuleHandler::getImplementationInfo<\/a>"],[73.333333333333,9,"<a href=\"ModuleHandler.php.html#554\">ModuleHandler::buildImplementationInfo<\/a>"],[0,4,"<a href=\"ModuleHandler.php.html#603\">ModuleHandler::verifyImplementations<\/a>"],[100,11,"<a href=\"ModuleHandler.php.html#651\">ModuleHandler::parseDependency<\/a>"],[100,2,"<a href=\"ModuleHandler.php.html#699\">ModuleHandler::getModuleDirectories<\/a>"],[0,2,"<a href=\"ModuleHandler.php.html#710\">ModuleHandler::getName<\/a>"],[0,1,"<a href=\"ModuleInstaller.php.html#66\">ModuleInstaller::__construct<\/a>"],[0,1,"<a href=\"ModuleInstaller.php.html#75\">ModuleInstaller::addUninstallValidator<\/a>"],[0,28,"<a href=\"ModuleInstaller.php.html#82\">ModuleInstaller::install<\/a>"],[0,1,"<a href=\"ModuleInstaller.php.html#350\">ModuleInstaller::anonymous function<\/a>"],[0,25,"<a href=\"ModuleInstaller.php.html#307\">ModuleInstaller::uninstall<\/a>"],[0,13,"<a href=\"ModuleInstaller.php.html#481\">ModuleInstaller::removeCacheBins<\/a>"],[0,1,"<a href=\"ModuleInstaller.php.html#520\">ModuleInstaller::updateKernel<\/a>"],[0,5,"<a href=\"ModuleInstaller.php.html#535\">ModuleInstaller::validateUninstall<\/a>"],[0,1,"<a href=\"RequiredModuleUninstallValidator.php.html#26\">RequiredModuleUninstallValidator::__construct<\/a>"],[100,2,"<a href=\"RequiredModuleUninstallValidator.php.html#33\">RequiredModuleUninstallValidator::validate<\/a>"],[0,2,"<a href=\"RequiredModuleUninstallValidator.php.html#51\">RequiredModuleUninstallValidator::getModuleInfoByModule<\/a>"],[100,1,"<a href=\"ThemeHandler.php.html#133\">ThemeHandler::__construct<\/a>"],[0,1,"<a href=\"ThemeHandler.php.html#145\">ThemeHandler::getDefault<\/a>"],[0,2,"<a href=\"ThemeHandler.php.html#152\">ThemeHandler::setDefault<\/a>"],[0,1,"<a href=\"ThemeHandler.php.html#166\">ThemeHandler::install<\/a>"],[0,1,"<a href=\"ThemeHandler.php.html#175\">ThemeHandler::uninstall<\/a>"],[0,5,"<a href=\"ThemeHandler.php.html#184\">ThemeHandler::listInfo<\/a>"],[0,4,"<a href=\"ThemeHandler.php.html#205\">ThemeHandler::addTheme<\/a>"],[0,3,"<a href=\"ThemeHandler.php.html#221\">ThemeHandler::refreshInfo<\/a>"],[0,1,"<a href=\"ThemeHandler.php.html#240\">ThemeHandler::reset<\/a>"],[100,11,"<a href=\"ThemeHandler.php.html#248\">ThemeHandler::rebuildThemeData<\/a>"],[100,1,"<a href=\"ThemeHandler.php.html#370\">ThemeHandler::getBaseThemes<\/a>"],[85.714285714286,6,"<a href=\"ThemeHandler.php.html#388\">ThemeHandler::doGetBaseThemes<\/a>"],[66.666666666667,2,"<a href=\"ThemeHandler.php.html#424\">ThemeHandler::getExtensionDiscovery<\/a>"],[0,2,"<a href=\"ThemeHandler.php.html#434\">ThemeHandler::getName<\/a>"],[0,1,"<a href=\"ThemeHandler.php.html#445\">ThemeHandler::systemListReset<\/a>"],[0,1,"<a href=\"ThemeHandler.php.html#455\">ThemeHandler::systemThemeList<\/a>"],[0,2,"<a href=\"ThemeHandler.php.html#462\">ThemeHandler::getThemeDirectories<\/a>"],[0,1,"<a href=\"ThemeHandler.php.html#473\">ThemeHandler::themeExists<\/a>"],[0,2,"<a href=\"ThemeHandler.php.html#481\">ThemeHandler::getTheme<\/a>"],[0,4,"<a href=\"ThemeHandler.php.html#492\">ThemeHandler::hasUi<\/a>"],[0,1,"<a href=\"ThemeInstaller.php.html#90\">ThemeInstaller::__construct<\/a>"],[0,15,"<a href=\"ThemeInstaller.php.html#105\">ThemeInstaller::install<\/a>"],[0,1,"<a href=\"ThemeInstaller.php.html#142\">ThemeInstaller::anonymous function<\/a>"],[0,10,"<a href=\"ThemeInstaller.php.html#219\">ThemeInstaller::uninstall<\/a>"],[0,2,"<a href=\"ThemeInstaller.php.html#280\">ThemeInstaller::resetSystem<\/a>"],[0,1,"<a href=\"ThemeInstaller.php.html#295\">ThemeInstaller::themeRegistryRebuild<\/a>"],[0,1,"<a href=\"ThemeInstaller.php.html#302\">ThemeInstaller::systemListReset<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

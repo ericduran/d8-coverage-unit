@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/ericduran/Sites/drupal/drupal/core/modules/system/src</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../../../css/nv.d3.min.css" rel="stylesheet">
+  <link href="../../../../css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="../../../../js/html5shiv.min.js"></script>
+  <script src="../../../../js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../../../../index.html">/Users/ericduran/Sites/drupal/drupal</a></li>
+        <li><a href="../../../index.html">core</a></li>
+        <li><a href="../../index.html">modules</a></li>
+        <li><a href="../index.html">system</a></li>
+        <li><a href="index.html">src</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Access/CronAccessCheck.php.html#16">CronAccessCheck</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SystemConfigSubscriber.php.html#20">SystemConfigSubscriber</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Access/DbUpdateAccessCheck.php.html#18">DbUpdateAccessCheck</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpStorage/MockPhpStorage.php.html#13">MockPhpStorage</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/SystemBrandingBlock.php.html#26">SystemBrandingBlock</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/SystemBreadcrumbBlock.php.html#24">SystemBreadcrumbBlock</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/SystemMainBlock.php.html#21">SystemMainBlock</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Derivative/SystemMenuBlock.php.html#20">SystemMenuBlock</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/SystemMessagesBlock.php.html#24">SystemMessagesBlock</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/SystemPoweredByBlock.php.html#20">SystemPoweredByBlock</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Condition/CurrentThemeCondition.php.html#25">CurrentThemeCondition</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Condition/RequestPath.php.html#28">RequestPath</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/CreateNew.php.html#23">CreateNew</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/migrate/destination/EntityDateFormat.php.html#18">EntityDateFormat</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/migrate/process/d6/SystemUpdate7000.php.html#21">SystemUpdate7000</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/migrate/process/d6/TimeZone.php.html#21">TimeZone</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SystemManager.php.html#20">SystemManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ThemeSettingsForm.php.html#24">ThemeSettingsForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Routing/MockRouteProvider.php.html#18">MockRouteProvider</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Menu/AssertMenuActiveTrailTrait.php.html#15">AssertMenuActiveTrailTrait</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Menu/AssertBreadcrumbTrait.php.html#16">AssertBreadcrumbTrait</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Entity/EntityDefinitionTestTrait.php.html#16">EntityDefinitionTestTrait</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Cache/AssertPageCacheContextsAndTagsTrait.php.html#18">AssertPageCacheContextsAndTagsTrait</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Theme/DbUpdateNegotiator.php.html#18">DbUpdateNegotiator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Theme/BatchNegotiator.php.html#18">BatchNegotiator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Routing/MockMatcher.php.html#16">MockMatcher</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Bootstrap/ErrorContainer.php.html#15">ErrorContainer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Routing/MockAliasManager.php.html#15">MockAliasManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Path/UrlAliasFixtures.php.html#15">UrlAliasFixtures</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Form/StubForm.php.html#16">StubForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/FileTransfer/TestFileTransfer.php.html#16">TestFileTransfer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/FileTransfer/MockTestConnection.php.html#13">MockTestConnection</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Bootstrap/ExceptionContainer.php.html#15">ExceptionContainer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuAccessControlHandler.php.html#20">MenuAccessControlHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathProcessor/PathProcessorFiles.php.html#19">PathProcessorFiles</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ThemeAdminForm.php.html#15">ThemeAdminForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CronController.php.html#18">CronController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/DateFormatAddForm.php.html#15">DateFormatAddForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/CronForm.php.html#23">CronForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileDownloadController.php.html#19">FileDownloadController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventSubscriber/ConfigCacheTag.php.html#19">ConfigCacheTag</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventSubscriber/AdminRouteSubscriber.php.html#17">AdminRouteSubscriber</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Action.php.html#37">Action</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DateFormatListBuilder.php.html#22">DateFormatListBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DateFormatAccessControlHandler.php.html#20">DateFormatAccessControlHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/TimezoneController.php.html#15">TimezoneController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/DateFormatEditForm.php.html#15">DateFormatEditForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/ThemeController.php.html#23">ThemeController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/SystemInfoController.php.html#18">SystemInfoController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/SystemController.php.html#25">SystemController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/Http4xxController.php.html#15">Http4xxController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/EntityAutocompleteController.php.html#25">EntityAutocompleteController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/DbUpdateController.php.html#27">DbUpdateController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/BatchController.php.html#19">BatchController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/AdminController.php.html#15">AdminController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/DateFormatDeleteForm.php.html#17">DateFormatDeleteForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Update/DbUpdatesTrait.php.html#19">DbUpdatesTrait</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SiteMaintenanceModeForm.php.html#19">SiteMaintenanceModeForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesListConfirmForm.php.html#23">ModulesListConfirmForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SiteInformationForm.php.html#21">SiteInformationForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/RssFeedsForm.php.html#16">RssFeedsForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/RegionalForm.php.html#19">RegionalForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PerformanceForm.php.html#21">PerformanceForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesUninstallForm.php.html#20">ModulesUninstallForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesUninstallConfirmForm.php.html#23">ModulesUninstallConfirmForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesListForm.php.html#34">ModulesListForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/LoggingForm.php.html#16">LoggingForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ImageToolkitForm.php.html#19">ImageToolkitForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/FileSystemForm.php.html#23">FileSystemForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/DateFormatFormBase.php.html#21">DateFormatFormBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/views/field/BulkForm.php.html#32">BulkForm</a></td><td class="text-right">10%</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/Resize.php.html#21">Resize</a></td><td class="text-right">30%</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/GDToolkit.php.html#29">GDToolkit</a></td><td class="text-right">30%</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/Rotate.php.html#23">Rotate</a></td><td class="text-right">46%</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/Scale.php.html#21">Scale</a></td><td class="text-right">61%</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/Convert.php.html#21">Convert</a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/Crop.php.html#21">Crop</a></td><td class="text-right">76%</td></tr>
+       <tr><td><a href="PathBasedBreadcrumbBuilder.php.html#35">PathBasedBreadcrumbBuilder</a></td><td class="text-right">79%</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/ScaleAndCrop.php.html#21">ScaleAndCrop</a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="MachineNameController.php.html#20">MachineNameController</a></td><td class="text-right">86%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Controller/DbUpdateController.php.html#27">DbUpdateController</a></td><td class="text-right">4290</td></tr>
+       <tr><td><a href="Form/ModulesListForm.php.html#34">ModulesListForm</a></td><td class="text-right">3422</td></tr>
+       <tr><td><a href="Form/ThemeSettingsForm.php.html#24">ThemeSettingsForm</a></td><td class="text-right">3306</td></tr>
+       <tr><td><a href="Plugin/views/field/BulkForm.php.html#32">BulkForm</a></td><td class="text-right">1829</td></tr>
+       <tr><td><a href="Controller/SystemController.php.html#25">SystemController</a></td><td class="text-right">1640</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/GDToolkit.php.html#29">GDToolkit</a></td><td class="text-right">1186</td></tr>
+       <tr><td><a href="Tests/Entity/EntityDefinitionTestTrait.php.html#16">EntityDefinitionTestTrait</a></td><td class="text-right">702</td></tr>
+       <tr><td><a href="Form/SiteInformationForm.php.html#21">SiteInformationForm</a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="SystemManager.php.html#20">SystemManager</a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="Controller/ThemeController.php.html#23">ThemeController</a></td><td class="text-right">342</td></tr>
+       <tr><td><a href="Form/ModulesUninstallForm.php.html#20">ModulesUninstallForm</a></td><td class="text-right">342</td></tr>
+       <tr><td><a href="Tests/Menu/AssertBreadcrumbTrait.php.html#16">AssertBreadcrumbTrait</a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/CreateNew.php.html#23">CreateNew</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="Tests/Cache/AssertPageCacheContextsAndTagsTrait.php.html#18">AssertPageCacheContextsAndTagsTrait</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="Form/ModulesListConfirmForm.php.html#23">ModulesListConfirmForm</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="Plugin/Condition/RequestPath.php.html#28">RequestPath</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Tests/FileTransfer/TestFileTransfer.php.html#16">TestFileTransfer</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Form/ModulesUninstallConfirmForm.php.html#23">ModulesUninstallConfirmForm</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Plugin/Condition/CurrentThemeCondition.php.html#25">CurrentThemeCondition</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Form/ImageToolkitForm.php.html#19">ImageToolkitForm</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Form/DateFormatFormBase.php.html#21">DateFormatFormBase</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Entity/Action.php.html#37">Action</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Plugin/Block/SystemBrandingBlock.php.html#26">SystemBrandingBlock</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Tests/Routing/MockRouteProvider.php.html#18">MockRouteProvider</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="SystemConfigSubscriber.php.html#20">SystemConfigSubscriber</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Form/FileSystemForm.php.html#23">FileSystemForm</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Form/PerformanceForm.php.html#21">PerformanceForm</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Tests/Routing/MockAliasManager.php.html#15">MockAliasManager</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Controller/BatchController.php.html#19">BatchController</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="EventSubscriber/ConfigCacheTag.php.html#19">ConfigCacheTag</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Form/RegionalForm.php.html#19">RegionalForm</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Form/CronForm.php.html#23">CronForm</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Theme/BatchNegotiator.php.html#18">BatchNegotiator</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Tests/Path/UrlAliasFixtures.php.html#15">UrlAliasFixtures</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Controller/EntityAutocompleteController.php.html#25">EntityAutocompleteController</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="FileDownloadController.php.html#19">FileDownloadController</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/Scale.php.html#21">Scale</a></td><td class="text-right">34</td></tr>
+       <tr><td><a href="CronController.php.html#18">CronController</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Controller/AdminController.php.html#15">AdminController</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="EventSubscriber/AdminRouteSubscriber.php.html#17">AdminRouteSubscriber</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Controller/SystemInfoController.php.html#18">SystemInfoController</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Tests/Menu/AssertMenuActiveTrailTrait.php.html#15">AssertMenuActiveTrailTrait</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/Rotate.php.html#23">Rotate</a></td><td class="text-right">29</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/Resize.php.html#21">Resize</a></td><td class="text-right">23</td></tr>
+       <tr><td><a href="Plugin/Derivative/SystemMenuBlock.php.html#20">SystemMenuBlock</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="DateFormatAccessControlHandler.php.html#20">DateFormatAccessControlHandler</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Theme/DbUpdateNegotiator.php.html#18">DbUpdateNegotiator</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PhpStorage/MockPhpStorage.php.html#13">MockPhpStorage</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="MenuAccessControlHandler.php.html#20">MenuAccessControlHandler</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Tests/Update/DbUpdatesTrait.php.html#19">DbUpdatesTrait</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PathBasedBreadcrumbBuilder.php.html#35">PathBasedBreadcrumbBuilder</a></td><td class="text-right">19</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/Crop.php.html#21">Crop</a></td><td class="text-right">13</td></tr>
+       <tr><td><a href="Access/CronAccessCheck.php.html#16">CronAccessCheck</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Access/DbUpdateAccessCheck.php.html#18">DbUpdateAccessCheck</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Tests/Bootstrap/ErrorContainer.php.html#15">ErrorContainer</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PathProcessor/PathProcessorFiles.php.html#19">PathProcessorFiles</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/Convert.php.html#21">Convert</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/ScaleAndCrop.php.html#21">ScaleAndCrop</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MachineNameController.php.html#20">MachineNameController</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Tests/Bootstrap/ExceptionContainer.php.html#15">ExceptionContainer</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/migrate/process/d6/TimeZone.php.html#21">TimeZone</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/migrate/destination/EntityDateFormat.php.html#18">EntityDateFormat</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controller/TimezoneController.php.html#15">TimezoneController</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Access/CronAccessCheck.php.html#27"><abbr title="CronAccessCheck::access">access</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/Scale.php.html#86"><abbr title="Scale::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/views/field/BulkForm.php.html#133"><abbr title="BulkForm::getCacheTags">getCacheTags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/views/field/BulkForm.php.html#126"><abbr title="BulkForm::getCacheContexts">getCacheContexts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/views/field/BulkForm.php.html#117"><abbr title="BulkForm::getCacheMaxAge">getCacheMaxAge</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/views/field/BulkForm.php.html#91"><abbr title="BulkForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/migrate/process/d6/TimeZone.php.html#25"><abbr title="TimeZone::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/migrate/process/d6/SystemUpdate7000.php.html#28"><abbr title="SystemUpdate7000::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/migrate/destination/EntityDateFormat.php.html#26"><abbr title="EntityDateFormat::updateEntityProperty">updateEntityProperty</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/Resize.php.html#59"><abbr title="Resize::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/views/field/BulkForm.php.html#147"><abbr title="BulkForm::getEntityManager">getEntityManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/CreateNew.php.html#86"><abbr title="CreateNew::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/CreateNew.php.html#57"><abbr title="CreateNew::validateArguments">validateArguments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/CreateNew.php.html#28"><abbr title="CreateNew::arguments">arguments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/GDToolkit.php.html#420"><abbr title="GDToolkit::extensionToImageType">extensionToImageType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/GDToolkit.php.html#390"><abbr title="GDToolkit::isAvailable">isAvailable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/GDToolkit.php.html#369"><abbr title="GDToolkit::getRequirements">getRequirements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/GDToolkit.php.html#276"><abbr title="GDToolkit::getTransparentColor">getTransparentColor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/GDToolkit.php.html#221"><abbr title="GDToolkit::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/views/field/BulkForm.php.html#140"><abbr title="BulkForm::getEntityTypeId">getEntityTypeId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/views/field/BulkForm.php.html#154"><abbr title="BulkForm::getLanguageManager">getLanguageManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/GDToolkit.php.html#150"><abbr title="GDToolkit::buildConfigurationForm">buildConfigurationForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/views/field/BulkForm.php.html#421"><abbr title="BulkForm::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SystemConfigSubscriber.php.html#79"><abbr title="SystemConfigSubscriber::onConfigImporterValidateSiteUUID">onConfigImporterValidateSiteUUID</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SystemConfigSubscriber.php.html#62"><abbr title="SystemConfigSubscriber::onConfigImporterValidateNotEmpty">onConfigImporterValidateNotEmpty</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SystemConfigSubscriber.php.html#45"><abbr title="SystemConfigSubscriber::onConfigSave">onConfigSave</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SystemConfigSubscriber.php.html#36"><abbr title="SystemConfigSubscriber::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/views/field/BulkForm.php.html#485"><abbr title="BulkForm::loadEntityFromBulkFormKey">loadEntityFromBulkFormKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/views/field/BulkForm.php.html#460"><abbr title="BulkForm::calculateEntityBulkFormKey">calculateEntityBulkFormKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/views/field/BulkForm.php.html#437"><abbr title="BulkForm::drupalSetMessage">drupalSetMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/views/field/BulkForm.php.html#430"><abbr title="BulkForm::clickSortable">clickSortable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/views/field/BulkForm.php.html#411"><abbr title="BulkForm::viewsFormValidate">viewsFormValidate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/views/field/BulkForm.php.html#161"><abbr title="BulkForm::getView">getView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/views/field/BulkForm.php.html#404"><abbr title="BulkForm::emptySelectedMessage">emptySelectedMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/views/field/BulkForm.php.html#350"><abbr title="BulkForm::viewsFormSubmit">viewsFormSubmit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/views/field/BulkForm.php.html#315"><abbr title="BulkForm::getBulkOptions">getBulkOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/views/field/BulkForm.php.html#251"><abbr title="BulkForm::viewsForm">viewsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/views/field/BulkForm.php.html#239"><abbr title="BulkForm::getValue">getValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/views/field/BulkForm.php.html#223"><abbr title="BulkForm::preRender">preRender</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/views/field/BulkForm.php.html#213"><abbr title="BulkForm::validateOptionsForm">validateOptionsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/views/field/BulkForm.php.html#183"><abbr title="BulkForm::buildOptionsForm">buildOptionsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/GDToolkit.php.html#166"><abbr title="GDToolkit::submitConfigurationForm">submitConfigurationForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/GDToolkit.php.html#104"><abbr title="GDToolkit::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SystemManager.php.html#86"><abbr title="SystemManager::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/SystemBrandingBlock.php.html#157"><abbr title="SystemBrandingBlock::build">build</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Derivative/SystemMenuBlock.php.html#42"><abbr title="SystemMenuBlock::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Derivative/SystemMenuBlock.php.html#35"><abbr title="SystemMenuBlock::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/SystemMainBlock.php.html#40"><abbr title="SystemMainBlock::build">build</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/SystemMainBlock.php.html#33"><abbr title="SystemMainBlock::setMainContent">setMainContent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/SystemBreadcrumbBlock.php.html#76"><abbr title="SystemBreadcrumbBlock::build">build</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/SystemBreadcrumbBlock.php.html#63"><abbr title="SystemBreadcrumbBlock::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/SystemBreadcrumbBlock.php.html#54"><abbr title="SystemBreadcrumbBlock::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/SystemBrandingBlock.php.html#184"><abbr title="SystemBrandingBlock::getCacheTags">getCacheTags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/SystemBrandingBlock.php.html#147"><abbr title="SystemBrandingBlock::blockSubmit">blockSubmit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/SystemMessagesBlock.php.html#29"><abbr title="SystemMessagesBlock::defaultConfiguration">defaultConfiguration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/SystemBrandingBlock.php.html#79"><abbr title="SystemBrandingBlock::blockForm">blockForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/SystemBrandingBlock.php.html#67"><abbr title="SystemBrandingBlock::defaultConfiguration">defaultConfiguration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/SystemBrandingBlock.php.html#55"><abbr title="SystemBrandingBlock::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/SystemBrandingBlock.php.html#47"><abbr title="SystemBrandingBlock::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpStorage/MockPhpStorage.php.html#41"><abbr title="MockPhpStorage::getConfigurationValue">getConfigurationValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Access/DbUpdateAccessCheck.php.html#29"><abbr title="DbUpdateAccessCheck::access">access</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpStorage/MockPhpStorage.php.html#27"><abbr title="MockPhpStorage::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathProcessor/PathProcessorFiles.php.html#24"><abbr title="PathProcessorFiles::processInbound">processInbound</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Derivative/SystemMenuBlock.php.html#51"><abbr title="SystemMenuBlock::getDerivativeDefinitions">getDerivativeDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/SystemMessagesBlock.php.html#38"><abbr title="SystemMessagesBlock::build">build</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/GDToolkit.php.html#85"><abbr title="GDToolkit::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Condition/CurrentThemeCondition.php.html#129"><abbr title="CurrentThemeCondition::getCacheContexts">getCacheContexts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Condition/RequestPath.php.html#164"><abbr title="RequestPath::getCacheContexts">getCacheContexts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Condition/RequestPath.php.html#145"><abbr title="RequestPath::evaluate">evaluate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Condition/RequestPath.php.html#133"><abbr title="RequestPath::summary">summary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Condition/RequestPath.php.html#125"><abbr title="RequestPath::submitConfigurationForm">submitConfigurationForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Condition/RequestPath.php.html#108"><abbr title="RequestPath::buildConfigurationForm">buildConfigurationForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Condition/RequestPath.php.html#101"><abbr title="RequestPath::defaultConfiguration">defaultConfiguration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Condition/RequestPath.php.html#87"><abbr title="RequestPath::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Condition/RequestPath.php.html#76"><abbr title="RequestPath::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Condition/CurrentThemeCondition.php.html#118"><abbr title="CurrentThemeCondition::summary">summary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/SystemMessagesBlock.php.html#45"><abbr title="SystemMessagesBlock::getCacheMaxAge">getCacheMaxAge</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Condition/CurrentThemeCondition.php.html#107"><abbr title="CurrentThemeCondition::evaluate">evaluate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Condition/CurrentThemeCondition.php.html#99"><abbr title="CurrentThemeCondition::submitConfigurationForm">submitConfigurationForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Condition/CurrentThemeCondition.php.html#89"><abbr title="CurrentThemeCondition::anonymous function">anonymous function</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Condition/CurrentThemeCondition.php.html#84"><abbr title="CurrentThemeCondition::buildConfigurationForm">buildConfigurationForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Condition/CurrentThemeCondition.php.html#77"><abbr title="CurrentThemeCondition::defaultConfiguration">defaultConfiguration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Condition/CurrentThemeCondition.php.html#64"><abbr title="CurrentThemeCondition::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Condition/CurrentThemeCondition.php.html#55"><abbr title="CurrentThemeCondition::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/SystemPoweredByBlock.php.html#25"><abbr title="SystemPoweredByBlock::build">build</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SystemConfigSubscriber.php.html#88"><abbr title="SystemConfigSubscriber::getSubscribedEvents">getSubscribedEvents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SystemManager.php.html#99"><abbr title="SystemManager::checkRequirements">checkRequirements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuAccessControlHandler.php.html#25"><abbr title="MenuAccessControlHandler::checkAccess">checkAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Cache/AssertPageCacheContextsAndTagsTrait.php.html#158"><abbr title="AssertPageCacheContextsAndTagsTrait::assertCacheMaxAge">assertCacheMaxAge</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Entity/EntityDefinitionTestTrait.php.html#110"><abbr title="EntityDefinitionTestTrait::addLongNameBaseField">addLongNameBaseField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Entity/EntityDefinitionTestTrait.php.html#100"><abbr title="EntityDefinitionTestTrait::addBaseField">addBaseField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Entity/EntityDefinitionTestTrait.php.html#81"><abbr title="EntityDefinitionTestTrait::updateEntityTypeToNotTranslatable">updateEntityTypeToNotTranslatable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Entity/EntityDefinitionTestTrait.php.html#65"><abbr title="EntityDefinitionTestTrait::updateEntityTypeToTranslatable">updateEntityTypeToTranslatable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Entity/EntityDefinitionTestTrait.php.html#52"><abbr title="EntityDefinitionTestTrait::updateEntityTypeToNotRevisionable">updateEntityTypeToNotRevisionable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Entity/EntityDefinitionTestTrait.php.html#39"><abbr title="EntityDefinitionTestTrait::updateEntityTypeToRevisionable">updateEntityTypeToRevisionable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Entity/EntityDefinitionTestTrait.php.html#30"><abbr title="EntityDefinitionTestTrait::resetEntityType">resetEntityType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Entity/EntityDefinitionTestTrait.php.html#21"><abbr title="EntityDefinitionTestTrait::enableNewEntityType">enableNewEntityType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Cache/AssertPageCacheContextsAndTagsTrait.php.html#131"><abbr title="AssertPageCacheContextsAndTagsTrait::assertCacheContexts">assertCacheContexts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Entity/EntityDefinitionTestTrait.php.html#138"><abbr title="EntityDefinitionTestTrait::modifyBaseField">modifyBaseField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Cache/AssertPageCacheContextsAndTagsTrait.php.html#106"><abbr title="AssertPageCacheContextsAndTagsTrait::assertCacheTags">assertCacheTags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Cache/AssertPageCacheContextsAndTagsTrait.php.html#91"><abbr title="AssertPageCacheContextsAndTagsTrait::debugCacheTags">debugCacheTags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Cache/AssertPageCacheContextsAndTagsTrait.php.html#58"><abbr title="AssertPageCacheContextsAndTagsTrait::assertPageCacheContextsAndTags">assertPageCacheContextsAndTags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Cache/AssertPageCacheContextsAndTagsTrait.php.html#38"><abbr title="AssertPageCacheContextsAndTagsTrait::getCacheHeaderValues">getCacheHeaderValues</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Cache/AssertPageCacheContextsAndTagsTrait.php.html#23"><abbr title="AssertPageCacheContextsAndTagsTrait::enablePageCaching">enablePageCaching</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Theme/DbUpdateNegotiator.php.html#47"><abbr title="DbUpdateNegotiator::determineActiveTheme">determineActiveTheme</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Theme/DbUpdateNegotiator.php.html#40"><abbr title="DbUpdateNegotiator::applies">applies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Theme/DbUpdateNegotiator.php.html#33"><abbr title="DbUpdateNegotiator::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Entity/EntityDefinitionTestTrait.php.html#127"><abbr title="EntityDefinitionTestTrait::addRevisionableBaseField">addRevisionableBaseField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Entity/EntityDefinitionTestTrait.php.html#145"><abbr title="EntityDefinitionTestTrait::makeBaseFieldEntityKey">makeBaseFieldEntityKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Theme/BatchNegotiator.php.html#50"><abbr title="BatchNegotiator::applies">applies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Entity/EntityDefinitionTestTrait.php.html#248"><abbr title="EntityDefinitionTestTrait::renameRevisionBaseTable">renameRevisionBaseTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Update/DbUpdatesTrait.php.html#40"><abbr title="DbUpdatesTrait::applyUpdates">applyUpdates</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Update/DbUpdatesTrait.php.html#33"><abbr title="DbUpdatesTrait::enableUpdates">enableUpdates</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Menu/AssertMenuActiveTrailTrait.php.html#28"><abbr title="AssertMenuActiveTrailTrait::assertMenuActiveTrail">assertMenuActiveTrail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Menu/AssertBreadcrumbTrait.php.html#101"><abbr title="AssertBreadcrumbTrait::getBreadcrumbParts">getBreadcrumbParts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Menu/AssertBreadcrumbTrait.php.html#64"><abbr title="AssertBreadcrumbTrait::assertBreadcrumbParts">assertBreadcrumbParts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Menu/AssertBreadcrumbTrait.php.html#40"><abbr title="AssertBreadcrumbTrait::assertBreadcrumb">assertBreadcrumb</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Entity/EntityDefinitionTestTrait.php.html#270"><abbr title="EntityDefinitionTestTrait::deleteEntityType">deleteEntityType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Entity/EntityDefinitionTestTrait.php.html#259"><abbr title="EntityDefinitionTestTrait::renameRevisionDataTable">renameRevisionDataTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Entity/EntityDefinitionTestTrait.php.html#237"><abbr title="EntityDefinitionTestTrait::renameDataTable">renameDataTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Entity/EntityDefinitionTestTrait.php.html#156"><abbr title="EntityDefinitionTestTrait::removeBaseField">removeBaseField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Entity/EntityDefinitionTestTrait.php.html#226"><abbr title="EntityDefinitionTestTrait::renameBaseTable">renameBaseTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Entity/EntityDefinitionTestTrait.php.html#219"><abbr title="EntityDefinitionTestTrait::removeEntityIndex">removeEntityIndex</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Entity/EntityDefinitionTestTrait.php.html#209"><abbr title="EntityDefinitionTestTrait::addEntityIndex">addEntityIndex</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Entity/EntityDefinitionTestTrait.php.html#199"><abbr title="EntityDefinitionTestTrait::removeBundleField">removeBundleField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Entity/EntityDefinitionTestTrait.php.html#192"><abbr title="EntityDefinitionTestTrait::modifyBundleField">modifyBundleField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Entity/EntityDefinitionTestTrait.php.html#180"><abbr title="EntityDefinitionTestTrait::addBundleField">addBundleField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Entity/EntityDefinitionTestTrait.php.html#170"><abbr title="EntityDefinitionTestTrait::removeBaseFieldIndex">removeBaseFieldIndex</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Entity/EntityDefinitionTestTrait.php.html#163"><abbr title="EntityDefinitionTestTrait::addBaseFieldIndex">addBaseFieldIndex</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Theme/BatchNegotiator.php.html#57"><abbr title="BatchNegotiator::determineActiveTheme">determineActiveTheme</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Theme/BatchNegotiator.php.html#42"><abbr title="BatchNegotiator::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SystemManager.php.html#110"><abbr title="SystemManager::listRequirements">listRequirements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/FileTransfer/TestFileTransfer.php.html#27"><abbr title="TestFileTransfer::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/FileTransfer/TestFileTransfer.php.html#62"><abbr title="TestFileTransfer::isFile">isFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/FileTransfer/TestFileTransfer.php.html#58"><abbr title="TestFileTransfer::isDirectory">isDirectory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/FileTransfer/TestFileTransfer.php.html#52"><abbr title="TestFileTransfer::removeFileJailed">removeFileJailed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/FileTransfer/TestFileTransfer.php.html#48"><abbr title="TestFileTransfer::createDirectoryJailed">createDirectoryJailed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/FileTransfer/TestFileTransfer.php.html#44"><abbr title="TestFileTransfer::removeDirectoryJailed">removeDirectoryJailed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/FileTransfer/TestFileTransfer.php.html#40"><abbr title="TestFileTransfer::copyFileJailed">copyFileJailed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/FileTransfer/TestFileTransfer.php.html#35"><abbr title="TestFileTransfer::connect">connect</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/FileTransfer/TestFileTransfer.php.html#31"><abbr title="TestFileTransfer::factory">factory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/FileTransfer/MockTestConnection.php.html#22"><abbr title="MockTestConnection::flushCommands">flushCommands</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Form/StubForm.php.html#40"><abbr title="StubForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/FileTransfer/MockTestConnection.php.html#18"><abbr title="MockTestConnection::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Bootstrap/ExceptionContainer.php.html#20"><abbr title="ExceptionContainer::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Bootstrap/ErrorContainer.php.html#23"><abbr title="ErrorContainer::anonymous function">anonymous function</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Bootstrap/ErrorContainer.php.html#20"><abbr title="ErrorContainer::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SystemManager.php.html#188"><abbr title="SystemManager::getAdminBlock">getAdminBlock</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SystemManager.php.html#161"><abbr title="SystemManager::getBlockContents">getBlockContents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SystemManager.php.html#140"><abbr title="SystemManager::getMaxSeverity">getMaxSeverity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SystemManager.php.html#117"><abbr title="SystemManager::anonymous function">anonymous function</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/FileTransfer/TestFileTransfer.php.html#66"><abbr title="TestFileTransfer::chmodJailed">chmodJailed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Form/StubForm.php.html#48"><abbr title="StubForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Routing/MockRouteProvider.php.html#95"><abbr title="MockRouteProvider::reset">reset</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Routing/MockMatcher.php.html#29"><abbr title="MockMatcher::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Routing/MockRouteProvider.php.html#88"><abbr title="MockRouteProvider::getAllRoutes">getAllRoutes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Routing/MockRouteProvider.php.html#81"><abbr title="MockRouteProvider::getRoutesByPattern">getRoutesByPattern</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Routing/MockRouteProvider.php.html#69"><abbr title="MockRouteProvider::getRoutesByNames">getRoutesByNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Routing/MockRouteProvider.php.html#62"><abbr title="MockRouteProvider::preLoadRoutes">preLoadRoutes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Routing/MockRouteProvider.php.html#50"><abbr title="MockRouteProvider::getRouteByName">getRouteByName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Routing/MockRouteProvider.php.html#43"><abbr title="MockRouteProvider::getRouteCollectionForRequest">getRouteCollectionForRequest</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Routing/MockRouteProvider.php.html#33"><abbr title="MockRouteProvider::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Routing/MockMatcher.php.html#36"><abbr title="MockMatcher::matchRequest">matchRequest</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Routing/MockAliasManager.php.html#92"><abbr title="MockAliasManager::cacheClear">cacheClear</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Form/StubForm.php.html#55"><abbr title="StubForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Routing/MockAliasManager.php.html#83"><abbr title="MockAliasManager::getAliasByPath">getAliasByPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Routing/MockAliasManager.php.html#72"><abbr title="MockAliasManager::getPathByAlias">getPathByAlias</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Routing/MockAliasManager.php.html#55"><abbr title="MockAliasManager::addAlias">addAlias</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Path/UrlAliasFixtures.php.html#85"><abbr title="UrlAliasFixtures::tableDefinition">tableDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Path/UrlAliasFixtures.php.html#53"><abbr title="UrlAliasFixtures::sampleUrlAliases">sampleUrlAliases</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Path/UrlAliasFixtures.php.html#39"><abbr title="UrlAliasFixtures::dropTables">dropTables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Path/UrlAliasFixtures.php.html#23"><abbr title="UrlAliasFixtures::createTables">createTables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Form/StubForm.php.html#62"><abbr title="StubForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathBasedBreadcrumbBuilder.php.html#107"><abbr title="PathBasedBreadcrumbBuilder::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PhpStorage/MockPhpStorage.php.html#34"><abbr title="MockPhpStorage::getConfiguration">getConfiguration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MachineNameController.php.html#42"><abbr title="MachineNameController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventSubscriber/AdminRouteSubscriber.php.html#22"><abbr title="AdminRouteSubscriber::alterRoutes">alterRoutes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/CronForm.php.html#90"><abbr title="CronForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/CronForm.php.html#77"><abbr title="CronForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/CronForm.php.html#67"><abbr title="CronForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileDownloadController.php.html#46"><abbr title="FileDownloadController::download">download</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventSubscriber/ConfigCacheTag.php.html#80"><abbr title="ConfigCacheTag::getSubscribedEvents">getSubscribedEvents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventSubscriber/ConfigCacheTag.php.html#54"><abbr title="ConfigCacheTag::onSave">onSave</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventSubscriber/ConfigCacheTag.php.html#43"><abbr title="ConfigCacheTag::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventSubscriber/AdminRouteSubscriber.php.html#33"><abbr title="AdminRouteSubscriber::getSubscribedEvents">getSubscribedEvents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Action.php.html#147"><abbr title="Action::sort">sort</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/CronForm.php.html#127"><abbr title="CronForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Action.php.html#140"><abbr title="Action::getType">getType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Action.php.html#133"><abbr title="Action::isConfigurable">isConfigurable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Action.php.html#126"><abbr title="Action::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Action.php.html#119"><abbr title="Action::getPluginDefinition">getPluginDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Action.php.html#111"><abbr title="Action::setPlugin">setPlugin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Action.php.html#104"><abbr title="Action::getPlugin">getPlugin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Action.php.html#97"><abbr title="Action::getPluginCollections">getPluginCollections</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Action.php.html#87"><abbr title="Action::getPluginCollection">getPluginCollection</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DateFormatListBuilder.php.html#70"><abbr title="DateFormatListBuilder::buildRow">buildRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/CronForm.php.html#97"><abbr title="CronForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/DateFormatAddForm.php.html#20"><abbr title="DateFormatAddForm::actions">actions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DateFormatListBuilder.php.html#50"><abbr title="DateFormatListBuilder::createInstance">createInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/DateFormatFormBase.php.html#154"><abbr title="DateFormatFormBase::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ImageToolkitForm.php.html#57"><abbr title="ImageToolkitForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ImageToolkitForm.php.html#47"><abbr title="ImageToolkitForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ImageToolkitForm.php.html#36"><abbr title="ImageToolkitForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/FileSystemForm.php.html#145"><abbr title="FileSystemForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/FileSystemForm.php.html#83"><abbr title="FileSystemForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/FileSystemForm.php.html#76"><abbr title="FileSystemForm::getEditableConfigNames">getEditableConfigNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/FileSystemForm.php.html#69"><abbr title="FileSystemForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/FileSystemForm.php.html#58"><abbr title="FileSystemForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/FileSystemForm.php.html#49"><abbr title="FileSystemForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/DateFormatFormBase.php.html#146"><abbr title="DateFormatFormBase::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/DateFormatDeleteForm.php.html#32"><abbr title="DateFormatDeleteForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/DateFormatFormBase.php.html#129"><abbr title="DateFormatFormBase::validateForm">validateForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/DateFormatFormBase.php.html#83"><abbr title="DateFormatFormBase::form">form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/DateFormatFormBase.php.html#73"><abbr title="DateFormatFormBase::exists">exists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/DateFormatFormBase.php.html#55"><abbr title="DateFormatFormBase::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/DateFormatFormBase.php.html#45"><abbr title="DateFormatFormBase::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/DateFormatEditForm.php.html#33"><abbr title="DateFormatEditForm::actions">actions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/DateFormatEditForm.php.html#20"><abbr title="DateFormatEditForm::form">form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/DateFormatDeleteForm.php.html#48"><abbr title="DateFormatDeleteForm::getQuestion">getQuestion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/DateFormatDeleteForm.php.html#39"><abbr title="DateFormatDeleteForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DateFormatListBuilder.php.html#61"><abbr title="DateFormatListBuilder::buildHeader">buildHeader</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DateFormatListBuilder.php.html#41"><abbr title="DateFormatListBuilder::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ImageToolkitForm.php.html#71"><abbr title="ImageToolkitForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/DbUpdateController.php.html#397"><abbr title="DbUpdateController::results">results</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/EntityAutocompleteController.php.html#57"><abbr title="EntityAutocompleteController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/EntityAutocompleteController.php.html#49"><abbr title="EntityAutocompleteController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/DbUpdateController.php.html#699"><abbr title="DbUpdateController::getModuleUpdates">getModuleUpdates</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/DbUpdateController.php.html#677"><abbr title="DbUpdateController::helpfulLinks">helpfulLinks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/DbUpdateController.php.html#652"><abbr title="DbUpdateController::batchFinished">batchFinished</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/DbUpdateController.php.html#572"><abbr title="DbUpdateController::triggerBatch">triggerBatch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/DbUpdateController.php.html#548"><abbr title="DbUpdateController::updateTasksList">updateTasksList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/DbUpdateController.php.html#521"><abbr title="DbUpdateController::requirements">requirements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/DbUpdateController.php.html#258"><abbr title="DbUpdateController::selection">selection</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/Http4xxController.php.html#23"><abbr title="Http4xxController::on401">on401</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/DbUpdateController.php.html#213"><abbr title="DbUpdateController::info">info</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/DbUpdateController.php.html#147"><abbr title="DbUpdateController::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/DbUpdateController.php.html#119"><abbr title="DbUpdateController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/DbUpdateController.php.html#105"><abbr title="DbUpdateController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/BatchController.php.html#84"><abbr title="BatchController::batchPageTitle">batchPageTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/BatchController.php.html#58"><abbr title="BatchController::batchPage">batchPage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/BatchController.php.html#41"><abbr title="BatchController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/BatchController.php.html#34"><abbr title="BatchController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/AdminController.php.html#23"><abbr title="AdminController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/EntityAutocompleteController.php.html#84"><abbr title="EntityAutocompleteController::handleAutocomplete">handleAutocomplete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/Http4xxController.php.html#35"><abbr title="Http4xxController::on403">on403</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DateFormatAccessControlHandler.php.html#25"><abbr title="DateFormatAccessControlHandler::checkAccess">checkAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/ThemeController.php.html#40"><abbr title="ThemeController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CronController.php.html#64"><abbr title="CronController::runManually">runManually</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CronController.php.html#51"><abbr title="CronController::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CronController.php.html#40"><abbr title="CronController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CronController.php.html#33"><abbr title="CronController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/TimezoneController.php.html#35"><abbr title="TimezoneController::getTimezone">getTimezone</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/ThemeController.php.html#159"><abbr title="ThemeController::setDefaultTheme">setDefaultTheme</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/ThemeController.php.html#110"><abbr title="ThemeController::install">install</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/ThemeController.php.html#68"><abbr title="ThemeController::uninstall">uninstall</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/ThemeController.php.html#48"><abbr title="ThemeController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/SystemInfoController.php.html#63"><abbr title="SystemInfoController::php">php</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/Http4xxController.php.html#47"><abbr title="Http4xxController::on404">on404</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/SystemInfoController.php.html#52"><abbr title="SystemInfoController::status">status</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/SystemInfoController.php.html#42"><abbr title="SystemInfoController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/SystemInfoController.php.html#30"><abbr title="SystemInfoController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/SystemController.php.html#200"><abbr title="SystemController::themesPage">themesPage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/SystemController.php.html#188"><abbr title="SystemController::systemAdminMenuBlockPage">systemAdminMenuBlockPage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/SystemController.php.html#180"><abbr title="SystemController::compactPage">compactPage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/SystemController.php.html#117"><abbr title="SystemController::overview">overview</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/SystemController.php.html#97"><abbr title="SystemController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/SystemController.php.html#85"><abbr title="SystemController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ImageToolkitForm.php.html#64"><abbr title="ImageToolkitForm::getEditableConfigNames">getEditableConfigNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ImageToolkitForm.php.html#106"><abbr title="ImageToolkitForm::validateForm">validateForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ThemeSettingsForm.php.html#467"><abbr title="ThemeSettingsForm::validatePath">validatePath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/RegionalForm.php.html#54"><abbr title="RegionalForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SiteInformationForm.php.html#56"><abbr title="SiteInformationForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/RssFeedsForm.php.html#69"><abbr title="RssFeedsForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/RssFeedsForm.php.html#35"><abbr title="RssFeedsForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/RssFeedsForm.php.html#28"><abbr title="RssFeedsForm::getEditableConfigNames">getEditableConfigNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/RssFeedsForm.php.html#21"><abbr title="RssFeedsForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/RegionalForm.php.html#152"><abbr title="RegionalForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/RegionalForm.php.html#68"><abbr title="RegionalForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/RegionalForm.php.html#61"><abbr title="RegionalForm::getEditableConfigNames">getEditableConfigNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/RegionalForm.php.html#44"><abbr title="RegionalForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SiteInformationForm.php.html#79"><abbr title="SiteInformationForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/RegionalForm.php.html#36"><abbr title="RegionalForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PerformanceForm.php.html#193"><abbr title="PerformanceForm::submitCacheClear">submitCacheClear</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PerformanceForm.php.html#173"><abbr title="PerformanceForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PerformanceForm.php.html#103"><abbr title="PerformanceForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PerformanceForm.php.html#96"><abbr title="PerformanceForm::getEditableConfigNames">getEditableConfigNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PerformanceForm.php.html#89"><abbr title="PerformanceForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PerformanceForm.php.html#76"><abbr title="PerformanceForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PerformanceForm.php.html#64"><abbr title="PerformanceForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesUninstallForm.php.html#183"><abbr title="ModulesUninstallForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SiteInformationForm.php.html#67"><abbr title="SiteInformationForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SiteInformationForm.php.html#86"><abbr title="SiteInformationForm::getEditableConfigNames">getEditableConfigNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ImageToolkitForm.php.html#118"><abbr title="ImageToolkitForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ThemeAdminForm.php.html#34"><abbr title="ThemeAdminForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ThemeSettingsForm.php.html#407"><abbr title="ThemeSettingsForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ThemeSettingsForm.php.html#350"><abbr title="ThemeSettingsForm::validateForm">validateForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ThemeSettingsForm.php.html#106"><abbr title="ThemeSettingsForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ThemeSettingsForm.php.html#96"><abbr title="ThemeSettingsForm::getEditableConfigNames">getEditableConfigNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ThemeSettingsForm.php.html#89"><abbr title="ThemeSettingsForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ThemeSettingsForm.php.html#77"><abbr title="ThemeSettingsForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ThemeSettingsForm.php.html#66"><abbr title="ThemeSettingsForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ThemeAdminForm.php.html#60"><abbr title="ThemeAdminForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ThemeAdminForm.php.html#27"><abbr title="ThemeAdminForm::getEditableConfigNames">getEditableConfigNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SiteInformationForm.php.html#93"><abbr title="SiteInformationForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ThemeAdminForm.php.html#20"><abbr title="ThemeAdminForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SiteMaintenanceModeForm.php.html#87"><abbr title="SiteMaintenanceModeForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SiteMaintenanceModeForm.php.html#67"><abbr title="SiteMaintenanceModeForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SiteMaintenanceModeForm.php.html#60"><abbr title="SiteMaintenanceModeForm::getEditableConfigNames">getEditableConfigNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SiteMaintenanceModeForm.php.html#53"><abbr title="SiteMaintenanceModeForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SiteMaintenanceModeForm.php.html#44"><abbr title="SiteMaintenanceModeForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SiteMaintenanceModeForm.php.html#36"><abbr title="SiteMaintenanceModeForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SiteInformationForm.php.html#210"><abbr title="SiteInformationForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/SiteInformationForm.php.html#164"><abbr title="SiteInformationForm::validateForm">validateForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesUninstallForm.php.html#172"><abbr title="ModulesUninstallForm::validateForm">validateForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tests/Update/DbUpdatesTrait.php.html#54"><abbr title="DbUpdatesTrait::includeUpdates">includeUpdates</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesUninstallForm.php.html#86"><abbr title="ModulesUninstallForm::anonymous function">anonymous function</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesListConfirmForm.php.html#111"><abbr title="ModulesListConfirmForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesListForm.php.html#364"><abbr title="ModulesListForm::buildModuleList">buildModuleList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesListForm.php.html#206"><abbr title="ModulesListForm::buildRow">buildRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesListForm.php.html#120"><abbr title="ModulesListForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesListForm.php.html#113"><abbr title="ModulesListForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesListForm.php.html#101"><abbr title="ModulesListForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesListForm.php.html#74"><abbr title="ModulesListForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesListConfirmForm.php.html#148"><abbr title="ModulesListConfirmForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesListConfirmForm.php.html#118"><abbr title="ModulesListConfirmForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesListConfirmForm.php.html#104"><abbr title="ModulesListConfirmForm::getDescription">getDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesUninstallConfirmForm.php.html#73"><abbr title="ModulesUninstallConfirmForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesListConfirmForm.php.html#97"><abbr title="ModulesListConfirmForm::getConfirmText">getConfirmText</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesListConfirmForm.php.html#90"><abbr title="ModulesListConfirmForm::getCancelUrl">getCancelUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesListConfirmForm.php.html#83"><abbr title="ModulesListConfirmForm::getQuestion">getQuestion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesListConfirmForm.php.html#72"><abbr title="ModulesListConfirmForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesListConfirmForm.php.html#63"><abbr title="ModulesListConfirmForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/LoggingForm.php.html#56"><abbr title="LoggingForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/LoggingForm.php.html#35"><abbr title="LoggingForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/LoggingForm.php.html#28"><abbr title="LoggingForm::getEditableConfigNames">getEditableConfigNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/LoggingForm.php.html#21"><abbr title="LoggingForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesListForm.php.html#422"><abbr title="ModulesListForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesUninstallConfirmForm.php.html#83"><abbr title="ModulesUninstallConfirmForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesUninstallForm.php.html#80"><abbr title="ModulesUninstallForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesUninstallConfirmForm.php.html#116"><abbr title="ModulesUninstallConfirmForm::getDescription">getDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesUninstallForm.php.html#46"><abbr title="ModulesUninstallForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesUninstallConfirmForm.php.html#159"><abbr title="ModulesUninstallConfirmForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesUninstallConfirmForm.php.html#145"><abbr title="ModulesUninstallConfirmForm::anonymous function">anonymous function</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesUninstallConfirmForm.php.html#95"><abbr title="ModulesUninstallConfirmForm::getQuestion">getQuestion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesUninstallConfirmForm.php.html#130"><abbr title="ModulesUninstallConfirmForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesUninstallConfirmForm.php.html#123"><abbr title="ModulesUninstallConfirmForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesUninstallForm.php.html#64"><abbr title="ModulesUninstallForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesUninstallForm.php.html#73"><abbr title="ModulesUninstallForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesUninstallConfirmForm.php.html#109"><abbr title="ModulesUninstallConfirmForm::getCancelUrl">getCancelUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ModulesUninstallConfirmForm.php.html#102"><abbr title="ModulesUninstallConfirmForm::getConfirmText">getConfirmText</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/GDToolkit.php.html#178"><abbr title="GDToolkit::load">load</abbr></a></td><td class="text-right">37%</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/GDToolkit.php.html#305"><abbr title="GDToolkit::getWidth">getWidth</abbr></a></td><td class="text-right">40%</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/GDToolkit.php.html#320"><abbr title="GDToolkit::getHeight">getHeight</abbr></a></td><td class="text-right">40%</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/Rotate.php.html#44"><abbr title="Rotate::validateArguments">validateArguments</abbr></a></td><td class="text-right">42%</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/GDToolkit.php.html#95"><abbr title="GDToolkit::__destruct">__destruct</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/Convert.php.html#37"><abbr title="Convert::validateArguments">validateArguments</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/Resize.php.html#40"><abbr title="Resize::validateArguments">validateArguments</abbr></a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/Crop.php.html#50"><abbr title="Crop::validateArguments">validateArguments</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/Scale.php.html#49"><abbr title="Scale::validateArguments">validateArguments</abbr></a></td><td class="text-right">76%</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/GDToolkit.php.html#125"><abbr title="GDToolkit::setResource">setResource</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/ScaleAndCrop.php.html#40"><abbr title="ScaleAndCrop::validateArguments">validateArguments</abbr></a></td><td class="text-right">84%</td></tr>
+       <tr><td><a href="PathBasedBreadcrumbBuilder.php.html#189"><abbr title="PathBasedBreadcrumbBuilder::getRequestForPath">getRequestForPath</abbr></a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Form/ThemeSettingsForm.php.html#106"><abbr title="ThemeSettingsForm::buildForm">buildForm</abbr></a></td><td class="text-right">992</td></tr>
+       <tr><td><a href="Controller/SystemController.php.html#200"><abbr title="SystemController::themesPage">themesPage</abbr></a></td><td class="text-right">870</td></tr>
+       <tr><td><a href="Form/ModulesListForm.php.html#206"><abbr title="ModulesListForm::buildRow">buildRow</abbr></a></td><td class="text-right">812</td></tr>
+       <tr><td><a href="Controller/DbUpdateController.php.html#397"><abbr title="DbUpdateController::results">results</abbr></a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="Controller/DbUpdateController.php.html#258"><abbr title="DbUpdateController::selection">selection</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="Form/ModulesListForm.php.html#364"><abbr title="ModulesListForm::buildModuleList">buildModuleList</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="Form/SiteInformationForm.php.html#164"><abbr title="SiteInformationForm::validateForm">validateForm</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="Controller/DbUpdateController.php.html#147"><abbr title="DbUpdateController::handle">handle</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Form/ThemeSettingsForm.php.html#350"><abbr title="ThemeSettingsForm::validateForm">validateForm</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Form/ModulesUninstallForm.php.html#80"><abbr title="ModulesUninstallForm::buildForm">buildForm</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Tests/Menu/AssertBreadcrumbTrait.php.html#64"><abbr title="AssertBreadcrumbTrait::assertBreadcrumbParts">assertBreadcrumbParts</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/GDToolkit.php.html#221"><abbr title="GDToolkit::save">save</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Controller/DbUpdateController.php.html#572"><abbr title="DbUpdateController::triggerBatch">triggerBatch</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/CreateNew.php.html#86"><abbr title="CreateNew::execute">execute</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Controller/SystemController.php.html#117"><abbr title="SystemController::overview">overview</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Plugin/views/field/BulkForm.php.html#315"><abbr title="BulkForm::getBulkOptions">getBulkOptions</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Form/ThemeSettingsForm.php.html#407"><abbr title="ThemeSettingsForm::submitForm">submitForm</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Form/ModulesListForm.php.html#422"><abbr title="ModulesListForm::submitForm">submitForm</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Plugin/views/field/BulkForm.php.html#350"><abbr title="BulkForm::viewsFormSubmit">viewsFormSubmit</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/Scale.php.html#86"><abbr title="Scale::execute">execute</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="FileDownloadController.php.html#46"><abbr title="FileDownloadController::download">download</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Controller/ThemeController.php.html#159"><abbr title="ThemeController::setDefaultTheme">setDefaultTheme</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Form/ModulesListForm.php.html#120"><abbr title="ModulesListForm::buildForm">buildForm</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/GDToolkit.php.html#276"><abbr title="GDToolkit::getTransparentColor">getTransparentColor</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/CreateNew.php.html#57"><abbr title="CreateNew::validateArguments">validateArguments</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="EventSubscriber/ConfigCacheTag.php.html#54"><abbr title="ConfigCacheTag::onSave">onSave</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Form/ThemeSettingsForm.php.html#467"><abbr title="ThemeSettingsForm::validatePath">validatePath</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Controller/ThemeController.php.html#110"><abbr title="ThemeController::install">install</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Tests/Menu/AssertMenuActiveTrailTrait.php.html#28"><abbr title="AssertMenuActiveTrailTrait::assertMenuActiveTrail">assertMenuActiveTrail</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Controller/ThemeController.php.html#68"><abbr title="ThemeController::uninstall">uninstall</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Controller/AdminController.php.html#23"><abbr title="AdminController::index">index</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="SystemManager.php.html#110"><abbr title="SystemManager::listRequirements">listRequirements</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="SystemManager.php.html#117"><abbr title="SystemManager::anonymous function">anonymous function</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Plugin/views/field/BulkForm.php.html#485"><abbr title="BulkForm::loadEntityFromBulkFormKey">loadEntityFromBulkFormKey</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Plugin/Block/SystemBrandingBlock.php.html#79"><abbr title="SystemBrandingBlock::blockForm">blockForm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="MenuAccessControlHandler.php.html#25"><abbr title="MenuAccessControlHandler::checkAccess">checkAccess</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="SystemConfigSubscriber.php.html#45"><abbr title="SystemConfigSubscriber::onConfigSave">onConfigSave</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Plugin/Condition/RequestPath.php.html#145"><abbr title="RequestPath::evaluate">evaluate</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Plugin/views/field/BulkForm.php.html#251"><abbr title="BulkForm::viewsForm">viewsForm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Form/ModulesListConfirmForm.php.html#148"><abbr title="ModulesListConfirmForm::submitForm">submitForm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Tests/Menu/AssertBreadcrumbTrait.php.html#40"><abbr title="AssertBreadcrumbTrait::assertBreadcrumb">assertBreadcrumb</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="DateFormatAccessControlHandler.php.html#25"><abbr title="DateFormatAccessControlHandler::checkAccess">checkAccess</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Form/DateFormatFormBase.php.html#129"><abbr title="DateFormatFormBase::validateForm">validateForm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Theme/BatchNegotiator.php.html#57"><abbr title="BatchNegotiator::determineActiveTheme">determineActiveTheme</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Tests/Cache/AssertPageCacheContextsAndTagsTrait.php.html#131"><abbr title="AssertPageCacheContextsAndTagsTrait::assertCacheContexts">assertCacheContexts</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Controller/EntityAutocompleteController.php.html#84"><abbr title="EntityAutocompleteController::handleAutocomplete">handleAutocomplete</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="EventSubscriber/AdminRouteSubscriber.php.html#22"><abbr title="AdminRouteSubscriber::alterRoutes">alterRoutes</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Controller/BatchController.php.html#58"><abbr title="BatchController::batchPage">batchPage</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Tests/Routing/MockAliasManager.php.html#55"><abbr title="MockAliasManager::addAlias">addAlias</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/GDToolkit.php.html#178"><abbr title="GDToolkit::load">load</abbr></a></td><td class="text-right">14</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/Rotate.php.html#44"><abbr title="Rotate::validateArguments">validateArguments</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/Resize.php.html#59"><abbr title="Resize::execute">execute</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Tests/Menu/AssertBreadcrumbTrait.php.html#101"><abbr title="AssertBreadcrumbTrait::getBreadcrumbParts">getBreadcrumbParts</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SystemManager.php.html#161"><abbr title="SystemManager::getBlockContents">getBlockContents</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/GDToolkit.php.html#369"><abbr title="GDToolkit::getRequirements">getRequirements</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugin/views/field/BulkForm.php.html#460"><abbr title="BulkForm::calculateEntityBulkFormKey">calculateEntityBulkFormKey</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugin/views/field/BulkForm.php.html#223"><abbr title="BulkForm::preRender">preRender</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Tests/Cache/AssertPageCacheContextsAndTagsTrait.php.html#106"><abbr title="AssertPageCacheContextsAndTagsTrait::assertCacheTags">assertCacheTags</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Form/ModulesListConfirmForm.php.html#118"><abbr title="ModulesListConfirmForm::buildForm">buildForm</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SystemManager.php.html#140"><abbr title="SystemManager::getMaxSeverity">getMaxSeverity</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/GDToolkit.php.html#420"><abbr title="GDToolkit::extensionToImageType">extensionToImageType</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Access/DbUpdateAccessCheck.php.html#29"><abbr title="DbUpdateAccessCheck::access">access</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SystemManager.php.html#188"><abbr title="SystemManager::getAdminBlock">getAdminBlock</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Form/FileSystemForm.php.html#83"><abbr title="FileSystemForm::buildForm">buildForm</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Form/PerformanceForm.php.html#103"><abbr title="PerformanceForm::buildForm">buildForm</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Form/SiteInformationForm.php.html#93"><abbr title="SiteInformationForm::buildForm">buildForm</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Access/CronAccessCheck.php.html#27"><abbr title="CronAccessCheck::access">access</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PathProcessor/PathProcessorFiles.php.html#24"><abbr title="PathProcessorFiles::processInbound">processInbound</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/Scale.php.html#49"><abbr title="Scale::validateArguments">validateArguments</abbr></a></td><td class="text-right">11</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/Crop.php.html#50"><abbr title="Crop::validateArguments">validateArguments</abbr></a></td><td class="text-right">9</td></tr>
+       <tr><td><a href="PathBasedBreadcrumbBuilder.php.html#189"><abbr title="PathBasedBreadcrumbBuilder::getRequestForPath">getRequestForPath</abbr></a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="Tests/Routing/MockAliasManager.php.html#72"><abbr title="MockAliasManager::getPathByAlias">getPathByAlias</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Tests/Routing/MockAliasManager.php.html#83"><abbr title="MockAliasManager::getAliasByPath">getAliasByPath</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/views/field/BulkForm.php.html#411"><abbr title="BulkForm::viewsFormValidate">viewsFormValidate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/views/field/BulkForm.php.html#421"><abbr title="BulkForm::query">query</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Tests/Path/UrlAliasFixtures.php.html#39"><abbr title="UrlAliasFixtures::dropTables">dropTables</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Tests/Routing/MockRouteProvider.php.html#50"><abbr title="MockRouteProvider::getRouteByName">getRouteByName</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Tests/Path/UrlAliasFixtures.php.html#23"><abbr title="UrlAliasFixtures::createTables">createTables</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Tests/FileTransfer/TestFileTransfer.php.html#52"><abbr title="TestFileTransfer::removeFileJailed">removeFileJailed</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Tests/Cache/AssertPageCacheContextsAndTagsTrait.php.html#38"><abbr title="AssertPageCacheContextsAndTagsTrait::getCacheHeaderValues">getCacheHeaderValues</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Theme/DbUpdateNegotiator.php.html#47"><abbr title="DbUpdateNegotiator::determineActiveTheme">determineActiveTheme</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Tests/Entity/EntityDefinitionTestTrait.php.html#81"><abbr title="EntityDefinitionTestTrait::updateEntityTypeToNotTranslatable">updateEntityTypeToNotTranslatable</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Tests/Bootstrap/ErrorContainer.php.html#20"><abbr title="ErrorContainer::get">get</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Tests/Entity/EntityDefinitionTestTrait.php.html#65"><abbr title="EntityDefinitionTestTrait::updateEntityTypeToTranslatable">updateEntityTypeToTranslatable</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Tests/Cache/AssertPageCacheContextsAndTagsTrait.php.html#91"><abbr title="AssertPageCacheContextsAndTagsTrait::debugCacheTags">debugCacheTags</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Tests/Routing/MockRouteProvider.php.html#69"><abbr title="MockRouteProvider::getRoutesByNames">getRoutesByNames</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SystemConfigSubscriber.php.html#62"><abbr title="SystemConfigSubscriber::onConfigImporterValidateNotEmpty">onConfigImporterValidateNotEmpty</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SystemConfigSubscriber.php.html#79"><abbr title="SystemConfigSubscriber::onConfigImporterValidateSiteUUID">onConfigImporterValidateSiteUUID</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Tests/Cache/AssertPageCacheContextsAndTagsTrait.php.html#158"><abbr title="AssertPageCacheContextsAndTagsTrait::assertCacheMaxAge">assertCacheMaxAge</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Tests/Bootstrap/ExceptionContainer.php.html#20"><abbr title="ExceptionContainer::get">get</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/Condition/RequestPath.php.html#133"><abbr title="RequestPath::summary">summary</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/views/field/BulkForm.php.html#126"><abbr title="BulkForm::getCacheContexts">getCacheContexts</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Entity/Action.php.html#87"><abbr title="Action::getPluginCollection">getPluginCollection</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Form/ImageToolkitForm.php.html#36"><abbr title="ImageToolkitForm::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Form/FileSystemForm.php.html#145"><abbr title="FileSystemForm::submitForm">submitForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Form/DateFormatFormBase.php.html#154"><abbr title="DateFormatFormBase::save">save</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Form/CronForm.php.html#127"><abbr title="CronForm::submitForm">submitForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Form/CronForm.php.html#97"><abbr title="CronForm::buildForm">buildForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Entity/Action.php.html#147"><abbr title="Action::sort">sort</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="CronController.php.html#64"><abbr title="CronController::runManually">runManually</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Form/ImageToolkitForm.php.html#106"><abbr title="ImageToolkitForm::validateForm">validateForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controller/TimezoneController.php.html#35"><abbr title="TimezoneController::getTimezone">getTimezone</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controller/SystemInfoController.php.html#63"><abbr title="SystemInfoController::php">php</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controller/DbUpdateController.php.html#699"><abbr title="DbUpdateController::getModuleUpdates">getModuleUpdates</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controller/DbUpdateController.php.html#677"><abbr title="DbUpdateController::helpfulLinks">helpfulLinks</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controller/DbUpdateController.php.html#652"><abbr title="DbUpdateController::batchFinished">batchFinished</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controller/DbUpdateController.php.html#521"><abbr title="DbUpdateController::requirements">requirements</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controller/BatchController.php.html#84"><abbr title="BatchController::batchPageTitle">batchPageTitle</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Form/ImageToolkitForm.php.html#71"><abbr title="ImageToolkitForm::buildForm">buildForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Form/ImageToolkitForm.php.html#118"><abbr title="ImageToolkitForm::submitForm">submitForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/migrate/process/d6/TimeZone.php.html#25"><abbr title="TimeZone::transform">transform</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/Condition/CurrentThemeCondition.php.html#107"><abbr title="CurrentThemeCondition::evaluate">evaluate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/migrate/destination/EntityDateFormat.php.html#26"><abbr title="EntityDateFormat::updateEntityProperty">updateEntityProperty</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Form/ModulesUninstallConfirmForm.php.html#130"><abbr title="ModulesUninstallConfirmForm::buildForm">buildForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/Condition/CurrentThemeCondition.php.html#118"><abbr title="CurrentThemeCondition::summary">summary</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Tests/Update/DbUpdatesTrait.php.html#54"><abbr title="DbUpdatesTrait::includeUpdates">includeUpdates</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/Derivative/SystemMenuBlock.php.html#51"><abbr title="SystemMenuBlock::getDerivativeDefinitions">getDerivativeDefinitions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PhpStorage/MockPhpStorage.php.html#41"><abbr title="MockPhpStorage::getConfigurationValue">getConfigurationValue</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Form/RegionalForm.php.html#68"><abbr title="RegionalForm::buildForm">buildForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Form/ModulesUninstallForm.php.html#172"><abbr title="ModulesUninstallForm::validateForm">validateForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Form/ModulesUninstallForm.php.html#86"><abbr title="ModulesUninstallForm::anonymous function">anonymous function</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/GDToolkit.php.html#305"><abbr title="GDToolkit::getWidth">getWidth</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/GDToolkit.php.html#320"><abbr title="GDToolkit::getHeight">getHeight</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/Resize.php.html#40"><abbr title="Resize::validateArguments">validateArguments</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/GDToolkit.php.html#125"><abbr title="GDToolkit::setResource">setResource</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/ScaleAndCrop.php.html#40"><abbr title="ScaleAndCrop::validateArguments">validateArguments</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/Operation/gd/Convert.php.html#37"><abbr title="Convert::validateArguments">validateArguments</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Plugin/ImageToolkit/GDToolkit.php.html#95"><abbr title="GDToolkit::__destruct">__destruct</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 2.2.4</a> using <a href="http://php.net/" target="_top">PHP 7.0.3</a> and <a href="http://phpunit.de/">PHPUnit 4.8.11</a> at Sat Feb 27 11:34:46 AEDT 2016.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../../../../js/holder.min.js" type="text/javascript"></script>
+  <script src="../../../../js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([70,0,1,0,2,1,0,1,3,2,0,8], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([350,0,0,0,1,3,0,2,3,3,0,36], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,3,"<a href=\"Access\/CronAccessCheck.php.html#16\">CronAccessCheck<\/a>"],[0,3,"<a href=\"Access\/DbUpdateAccessCheck.php.html#18\">DbUpdateAccessCheck<\/a>"],[0,5,"<a href=\"Controller\/AdminController.php.html#15\">AdminController<\/a>"],[0,8,"<a href=\"Controller\/BatchController.php.html#19\">BatchController<\/a>"],[0,65,"<a href=\"Controller\/DbUpdateController.php.html#27\">DbUpdateController<\/a>"],[0,6,"<a href=\"Controller\/EntityAutocompleteController.php.html#25\">EntityAutocompleteController<\/a>"],[0,3,"<a href=\"Controller\/Http4xxController.php.html#15\">Http4xxController<\/a>"],[0,40,"<a href=\"Controller\/SystemController.php.html#25\">SystemController<\/a>"],[0,5,"<a href=\"Controller\/SystemInfoController.php.html#18\">SystemInfoController<\/a>"],[0,18,"<a href=\"Controller\/ThemeController.php.html#23\">ThemeController<\/a>"],[0,2,"<a href=\"Controller\/TimezoneController.php.html#15\">TimezoneController<\/a>"],[0,5,"<a href=\"CronController.php.html#18\">CronController<\/a>"],[0,4,"<a href=\"DateFormatAccessControlHandler.php.html#20\">DateFormatAccessControlHandler<\/a>"],[0,4,"<a href=\"DateFormatListBuilder.php.html#22\">DateFormatListBuilder<\/a>"],[0,11,"<a href=\"Entity\/Action.php.html#37\">Action<\/a>"],[100,3,"<a href=\"Plugin\/migrate\/source\/Menu.php.html#20\">Menu<\/a>"],[0,5,"<a href=\"EventSubscriber\/AdminRouteSubscriber.php.html#17\">AdminRouteSubscriber<\/a>"],[0,7,"<a href=\"EventSubscriber\/ConfigCacheTag.php.html#19\">ConfigCacheTag<\/a>"],[0,6,"<a href=\"FileDownloadController.php.html#19\">FileDownloadController<\/a>"],[0,7,"<a href=\"Form\/CronForm.php.html#23\">CronForm<\/a>"],[0,1,"<a href=\"Form\/DateFormatAddForm.php.html#15\">DateFormatAddForm<\/a>"],[0,3,"<a href=\"Form\/DateFormatDeleteForm.php.html#17\">DateFormatDeleteForm<\/a>"],[0,2,"<a href=\"Form\/DateFormatEditForm.php.html#15\">DateFormatEditForm<\/a>"],[0,11,"<a href=\"Form\/DateFormatFormBase.php.html#21\">DateFormatFormBase<\/a>"],[0,9,"<a href=\"Form\/FileSystemForm.php.html#23\">FileSystemForm<\/a>"],[0,11,"<a href=\"Form\/ImageToolkitForm.php.html#19\">ImageToolkitForm<\/a>"],[0,4,"<a href=\"Form\/LoggingForm.php.html#16\">LoggingForm<\/a>"],[0,14,"<a href=\"Form\/ModulesListConfirmForm.php.html#23\">ModulesListConfirmForm<\/a>"],[0,58,"<a href=\"Form\/ModulesListForm.php.html#34\">ModulesListForm<\/a>"],[0,11,"<a href=\"Form\/ModulesUninstallConfirmForm.php.html#23\">ModulesUninstallConfirmForm<\/a>"],[0,18,"<a href=\"Form\/ModulesUninstallForm.php.html#20\">ModulesUninstallForm<\/a>"],[0,9,"<a href=\"Form\/PerformanceForm.php.html#21\">PerformanceForm<\/a>"],[0,7,"<a href=\"Form\/RegionalForm.php.html#19\">RegionalForm<\/a>"],[0,4,"<a href=\"Form\/RssFeedsForm.php.html#16\">RssFeedsForm<\/a>"],[0,23,"<a href=\"Form\/SiteInformationForm.php.html#21\">SiteInformationForm<\/a>"],[0,6,"<a href=\"Form\/SiteMaintenanceModeForm.php.html#19\">SiteMaintenanceModeForm<\/a>"],[0,4,"<a href=\"Form\/ThemeAdminForm.php.html#15\">ThemeAdminForm<\/a>"],[0,57,"<a href=\"Form\/ThemeSettingsForm.php.html#24\">ThemeSettingsForm<\/a>"],[86.666666666667,6,"<a href=\"MachineNameController.php.html#20\">MachineNameController<\/a>"],[0,4,"<a href=\"MenuAccessControlHandler.php.html#20\">MenuAccessControlHandler<\/a>"],[79.245283018868,17,"<a href=\"PathBasedBreadcrumbBuilder.php.html#35\">PathBasedBreadcrumbBuilder<\/a>"],[0,3,"<a href=\"PathProcessor\/PathProcessorFiles.php.html#19\">PathProcessorFiles<\/a>"],[0,4,"<a href=\"PhpStorage\/MockPhpStorage.php.html#13\">MockPhpStorage<\/a>"],[100,0,"<a href=\"Plugin\/Archiver\/Tar.php.html#22\">Tar<\/a>"],[100,0,"<a href=\"Plugin\/Archiver\/Zip.php.html#24\">Zip<\/a>"],[0,10,"<a href=\"Plugin\/Block\/SystemBrandingBlock.php.html#26\">SystemBrandingBlock<\/a>"],[0,3,"<a href=\"Plugin\/Block\/SystemBreadcrumbBlock.php.html#24\">SystemBreadcrumbBlock<\/a>"],[0,2,"<a href=\"Plugin\/Block\/SystemMainBlock.php.html#21\">SystemMainBlock<\/a>"],[0,4,"<a href=\"Plugin\/Derivative\/SystemMenuBlock.php.html#20\">SystemMenuBlock<\/a>"],[0,3,"<a href=\"Plugin\/Block\/SystemMessagesBlock.php.html#24\">SystemMessagesBlock<\/a>"],[0,1,"<a href=\"Plugin\/Block\/SystemPoweredByBlock.php.html#20\">SystemPoweredByBlock<\/a>"],[0,11,"<a href=\"Plugin\/Condition\/CurrentThemeCondition.php.html#25\">CurrentThemeCondition<\/a>"],[0,12,"<a href=\"Plugin\/Condition\/RequestPath.php.html#28\">RequestPath<\/a>"],[100,5,"<a href=\"Plugin\/Derivative\/ThemeLocalTask.php.html#18\">ThemeLocalTask<\/a>"],[30.508474576271,58,"<a href=\"Plugin\/ImageToolkit\/GDToolkit.php.html#29\">GDToolkit<\/a>"],[75,6,"<a href=\"Plugin\/ImageToolkit\/Operation\/gd\/Convert.php.html#21\">Convert<\/a>"],[0,15,"<a href=\"Plugin\/ImageToolkit\/Operation\/gd\/CreateNew.php.html#23\">CreateNew<\/a>"],[76.923076923077,12,"<a href=\"Plugin\/ImageToolkit\/Operation\/gd\/Crop.php.html#21\">Crop<\/a>"],[100,3,"<a href=\"Plugin\/ImageToolkit\/Operation\/gd\/Desaturate.php.html#21\">Desaturate<\/a>"],[100,1,"<a href=\"Plugin\/ImageToolkit\/Operation\/gd\/GDImageToolkitOperationBase.php.html#12\">GDImageToolkitOperationBase<\/a>"],[30,7,"<a href=\"Plugin\/ImageToolkit\/Operation\/gd\/Resize.php.html#21\">Resize<\/a>"],[46.666666666667,11,"<a href=\"Plugin\/ImageToolkit\/Operation\/gd\/Rotate.php.html#23\">Rotate<\/a>"],[61.111111111111,17,"<a href=\"Plugin\/ImageToolkit\/Operation\/gd\/Scale.php.html#21\">Scale<\/a>"],[85.714285714286,6,"<a href=\"Plugin\/ImageToolkit\/Operation\/gd\/ScaleAndCrop.php.html#21\">ScaleAndCrop<\/a>"],[0,2,"<a href=\"Plugin\/migrate\/destination\/EntityDateFormat.php.html#18\">EntityDateFormat<\/a>"],[0,1,"<a href=\"Plugin\/migrate\/process\/d6\/SystemUpdate7000.php.html#21\">SystemUpdate7000<\/a>"],[0,2,"<a href=\"Plugin\/migrate\/process\/d6\/TimeZone.php.html#21\">TimeZone<\/a>"],[10.714285714286,50,"<a href=\"Plugin\/views\/field\/BulkForm.php.html#32\">BulkForm<\/a>"],[0,10,"<a href=\"SystemConfigSubscriber.php.html#20\">SystemConfigSubscriber<\/a>"],[0,19,"<a href=\"SystemManager.php.html#20\">SystemManager<\/a>"],[100,3,"<a href=\"SystemRequirements.php.html#13\">SystemRequirements<\/a>"],[0,3,"<a href=\"Tests\/Bootstrap\/ErrorContainer.php.html#15\">ErrorContainer<\/a>"],[0,2,"<a href=\"Tests\/Bootstrap\/ExceptionContainer.php.html#15\">ExceptionContainer<\/a>"],[100,0,"<a href=\"Tests\/Database\/FakeRecord.php.html#17\">FakeRecord<\/a>"],[0,2,"<a href=\"Tests\/FileTransfer\/MockTestConnection.php.html#13\">MockTestConnection<\/a>"],[0,11,"<a href=\"Tests\/FileTransfer\/TestFileTransfer.php.html#16\">TestFileTransfer<\/a>"],[0,4,"<a href=\"Tests\/Form\/StubForm.php.html#16\">StubForm<\/a>"],[0,6,"<a href=\"Tests\/Path\/UrlAliasFixtures.php.html#15\">UrlAliasFixtures<\/a>"],[0,9,"<a href=\"Tests\/Routing\/MockAliasManager.php.html#15\">MockAliasManager<\/a>"],[0,2,"<a href=\"Tests\/Routing\/MockMatcher.php.html#16\">MockMatcher<\/a>"],[0,10,"<a href=\"Tests\/Routing\/MockRouteProvider.php.html#18\">MockRouteProvider<\/a>"],[0,6,"<a href=\"Theme\/BatchNegotiator.php.html#18\">BatchNegotiator<\/a>"],[0,4,"<a href=\"Theme\/DbUpdateNegotiator.php.html#18\">DbUpdateNegotiator<\/a>"],[0,15,"<a href=\"Tests\/Cache\/AssertPageCacheContextsAndTagsTrait.php.html#18\">AssertPageCacheContextsAndTagsTrait<\/a>"],[0,26,"<a href=\"Tests\/Entity\/EntityDefinitionTestTrait.php.html#16\">EntityDefinitionTestTrait<\/a>"],[0,16,"<a href=\"Tests\/Menu\/AssertBreadcrumbTrait.php.html#16\">AssertBreadcrumbTrait<\/a>"],[0,5,"<a href=\"Tests\/Menu\/AssertMenuActiveTrailTrait.php.html#15\">AssertMenuActiveTrailTrait<\/a>"],[0,4,"<a href=\"Tests\/Update\/DbUpdatesTrait.php.html#19\">DbUpdatesTrait<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,3,"<a href=\"Access\/CronAccessCheck.php.html#27\">CronAccessCheck::access<\/a>"],[0,3,"<a href=\"Access\/DbUpdateAccessCheck.php.html#29\">DbUpdateAccessCheck::access<\/a>"],[0,5,"<a href=\"Controller\/AdminController.php.html#23\">AdminController::index<\/a>"],[0,1,"<a href=\"Controller\/BatchController.php.html#34\">BatchController::__construct<\/a>"],[0,1,"<a href=\"Controller\/BatchController.php.html#41\">BatchController::create<\/a>"],[0,4,"<a href=\"Controller\/BatchController.php.html#58\">BatchController::batchPage<\/a>"],[0,2,"<a href=\"Controller\/BatchController.php.html#84\">BatchController::batchPageTitle<\/a>"],[0,1,"<a href=\"Controller\/DbUpdateController.php.html#105\">DbUpdateController::__construct<\/a>"],[0,1,"<a href=\"Controller\/DbUpdateController.php.html#119\">DbUpdateController::create<\/a>"],[0,11,"<a href=\"Controller\/DbUpdateController.php.html#147\">DbUpdateController::handle<\/a>"],[0,1,"<a href=\"Controller\/DbUpdateController.php.html#213\">DbUpdateController::info<\/a>"],[0,16,"<a href=\"Controller\/DbUpdateController.php.html#258\">DbUpdateController::selection<\/a>"],[0,17,"<a href=\"Controller\/DbUpdateController.php.html#397\">DbUpdateController::results<\/a>"],[0,2,"<a href=\"Controller\/DbUpdateController.php.html#521\">DbUpdateController::requirements<\/a>"],[0,1,"<a href=\"Controller\/DbUpdateController.php.html#548\">DbUpdateController::updateTasksList<\/a>"],[0,9,"<a href=\"Controller\/DbUpdateController.php.html#572\">DbUpdateController::triggerBatch<\/a>"],[0,2,"<a href=\"Controller\/DbUpdateController.php.html#652\">DbUpdateController::batchFinished<\/a>"],[0,2,"<a href=\"Controller\/DbUpdateController.php.html#677\">DbUpdateController::helpfulLinks<\/a>"],[0,2,"<a href=\"Controller\/DbUpdateController.php.html#699\">DbUpdateController::getModuleUpdates<\/a>"],[0,1,"<a href=\"Controller\/EntityAutocompleteController.php.html#49\">EntityAutocompleteController::__construct<\/a>"],[0,1,"<a href=\"Controller\/EntityAutocompleteController.php.html#57\">EntityAutocompleteController::create<\/a>"],[0,4,"<a href=\"Controller\/EntityAutocompleteController.php.html#84\">EntityAutocompleteController::handleAutocomplete<\/a>"],[0,1,"<a href=\"Controller\/Http4xxController.php.html#23\">Http4xxController::on401<\/a>"],[0,1,"<a href=\"Controller\/Http4xxController.php.html#35\">Http4xxController::on403<\/a>"],[0,1,"<a href=\"Controller\/Http4xxController.php.html#47\">Http4xxController::on404<\/a>"],[0,1,"<a href=\"Controller\/SystemController.php.html#85\">SystemController::__construct<\/a>"],[0,1,"<a href=\"Controller\/SystemController.php.html#97\">SystemController::create<\/a>"],[0,7,"<a href=\"Controller\/SystemController.php.html#117\">SystemController::overview<\/a>"],[0,1,"<a href=\"Controller\/SystemController.php.html#180\">SystemController::compactPage<\/a>"],[0,1,"<a href=\"Controller\/SystemController.php.html#188\">SystemController::systemAdminMenuBlockPage<\/a>"],[0,29,"<a href=\"Controller\/SystemController.php.html#200\">SystemController::themesPage<\/a>"],[0,1,"<a href=\"Controller\/SystemInfoController.php.html#30\">SystemInfoController::create<\/a>"],[0,1,"<a href=\"Controller\/SystemInfoController.php.html#42\">SystemInfoController::__construct<\/a>"],[0,1,"<a href=\"Controller\/SystemInfoController.php.html#52\">SystemInfoController::status<\/a>"],[0,2,"<a href=\"Controller\/SystemInfoController.php.html#63\">SystemInfoController::php<\/a>"],[0,1,"<a href=\"Controller\/ThemeController.php.html#40\">ThemeController::__construct<\/a>"],[0,1,"<a href=\"Controller\/ThemeController.php.html#48\">ThemeController::create<\/a>"],[0,5,"<a href=\"Controller\/ThemeController.php.html#68\">ThemeController::uninstall<\/a>"],[0,5,"<a href=\"Controller\/ThemeController.php.html#110\">ThemeController::install<\/a>"],[0,6,"<a href=\"Controller\/ThemeController.php.html#159\">ThemeController::setDefaultTheme<\/a>"],[0,2,"<a href=\"Controller\/TimezoneController.php.html#35\">TimezoneController::getTimezone<\/a>"],[0,1,"<a href=\"CronController.php.html#33\">CronController::__construct<\/a>"],[0,1,"<a href=\"CronController.php.html#40\">CronController::create<\/a>"],[0,1,"<a href=\"CronController.php.html#51\">CronController::run<\/a>"],[0,2,"<a href=\"CronController.php.html#64\">CronController::runManually<\/a>"],[0,4,"<a href=\"DateFormatAccessControlHandler.php.html#25\">DateFormatAccessControlHandler::checkAccess<\/a>"],[0,1,"<a href=\"DateFormatListBuilder.php.html#41\">DateFormatListBuilder::__construct<\/a>"],[0,1,"<a href=\"DateFormatListBuilder.php.html#50\">DateFormatListBuilder::createInstance<\/a>"],[0,1,"<a href=\"DateFormatListBuilder.php.html#61\">DateFormatListBuilder::buildHeader<\/a>"],[0,1,"<a href=\"DateFormatListBuilder.php.html#70\">DateFormatListBuilder::buildRow<\/a>"],[0,2,"<a href=\"Entity\/Action.php.html#87\">Action::getPluginCollection<\/a>"],[0,1,"<a href=\"Entity\/Action.php.html#97\">Action::getPluginCollections<\/a>"],[0,1,"<a href=\"Entity\/Action.php.html#104\">Action::getPlugin<\/a>"],[0,1,"<a href=\"Entity\/Action.php.html#111\">Action::setPlugin<\/a>"],[0,1,"<a href=\"Entity\/Action.php.html#119\">Action::getPluginDefinition<\/a>"],[0,1,"<a href=\"Entity\/Action.php.html#126\">Action::execute<\/a>"],[0,1,"<a href=\"Entity\/Action.php.html#133\">Action::isConfigurable<\/a>"],[0,1,"<a href=\"Entity\/Action.php.html#140\">Action::getType<\/a>"],[0,2,"<a href=\"Entity\/Action.php.html#147\">Action::sort<\/a>"],[100,1,"<a href=\"Plugin\/migrate\/source\/Menu.php.html#25\">Menu::query<\/a>"],[100,1,"<a href=\"Plugin\/migrate\/source\/Menu.php.html#32\">Menu::fields<\/a>"],[100,1,"<a href=\"Plugin\/migrate\/source\/Menu.php.html#43\">Menu::getIds<\/a>"],[0,4,"<a href=\"EventSubscriber\/AdminRouteSubscriber.php.html#22\">AdminRouteSubscriber::alterRoutes<\/a>"],[0,1,"<a href=\"EventSubscriber\/AdminRouteSubscriber.php.html#33\">AdminRouteSubscriber::getSubscribedEvents<\/a>"],[0,1,"<a href=\"EventSubscriber\/ConfigCacheTag.php.html#43\">ConfigCacheTag::__construct<\/a>"],[0,5,"<a href=\"EventSubscriber\/ConfigCacheTag.php.html#54\">ConfigCacheTag::onSave<\/a>"],[0,1,"<a href=\"EventSubscriber\/ConfigCacheTag.php.html#80\">ConfigCacheTag::getSubscribedEvents<\/a>"],[0,6,"<a href=\"FileDownloadController.php.html#46\">FileDownloadController::download<\/a>"],[0,1,"<a href=\"Form\/CronForm.php.html#67\">CronForm::__construct<\/a>"],[0,1,"<a href=\"Form\/CronForm.php.html#77\">CronForm::create<\/a>"],[0,1,"<a href=\"Form\/CronForm.php.html#90\">CronForm::getFormId<\/a>"],[0,2,"<a href=\"Form\/CronForm.php.html#97\">CronForm::buildForm<\/a>"],[0,2,"<a href=\"Form\/CronForm.php.html#127\">CronForm::submitForm<\/a>"],[0,1,"<a href=\"Form\/DateFormatAddForm.php.html#20\">DateFormatAddForm::actions<\/a>"],[0,1,"<a href=\"Form\/DateFormatDeleteForm.php.html#32\">DateFormatDeleteForm::__construct<\/a>"],[0,1,"<a href=\"Form\/DateFormatDeleteForm.php.html#39\">DateFormatDeleteForm::create<\/a>"],[0,1,"<a href=\"Form\/DateFormatDeleteForm.php.html#48\">DateFormatDeleteForm::getQuestion<\/a>"],[0,1,"<a href=\"Form\/DateFormatEditForm.php.html#20\">DateFormatEditForm::form<\/a>"],[0,1,"<a href=\"Form\/DateFormatEditForm.php.html#33\">DateFormatEditForm::actions<\/a>"],[0,1,"<a href=\"Form\/DateFormatFormBase.php.html#45\">DateFormatFormBase::__construct<\/a>"],[0,1,"<a href=\"Form\/DateFormatFormBase.php.html#55\">DateFormatFormBase::create<\/a>"],[0,1,"<a href=\"Form\/DateFormatFormBase.php.html#73\">DateFormatFormBase::exists<\/a>"],[0,1,"<a href=\"Form\/DateFormatFormBase.php.html#83\">DateFormatFormBase::form<\/a>"],[0,4,"<a href=\"Form\/DateFormatFormBase.php.html#129\">DateFormatFormBase::validateForm<\/a>"],[0,1,"<a href=\"Form\/DateFormatFormBase.php.html#146\">DateFormatFormBase::submitForm<\/a>"],[0,2,"<a href=\"Form\/DateFormatFormBase.php.html#154\">DateFormatFormBase::save<\/a>"],[0,1,"<a href=\"Form\/FileSystemForm.php.html#49\">FileSystemForm::__construct<\/a>"],[0,1,"<a href=\"Form\/FileSystemForm.php.html#58\">FileSystemForm::create<\/a>"],[0,1,"<a href=\"Form\/FileSystemForm.php.html#69\">FileSystemForm::getFormId<\/a>"],[0,1,"<a href=\"Form\/FileSystemForm.php.html#76\">FileSystemForm::getEditableConfigNames<\/a>"],[0,3,"<a href=\"Form\/FileSystemForm.php.html#83\">FileSystemForm::buildForm<\/a>"],[0,2,"<a href=\"Form\/FileSystemForm.php.html#145\">FileSystemForm::submitForm<\/a>"],[0,2,"<a href=\"Form\/ImageToolkitForm.php.html#36\">ImageToolkitForm::__construct<\/a>"],[0,1,"<a href=\"Form\/ImageToolkitForm.php.html#47\">ImageToolkitForm::create<\/a>"],[0,1,"<a href=\"Form\/ImageToolkitForm.php.html#57\">ImageToolkitForm::getFormId<\/a>"],[0,1,"<a href=\"Form\/ImageToolkitForm.php.html#64\">ImageToolkitForm::getEditableConfigNames<\/a>"],[0,2,"<a href=\"Form\/ImageToolkitForm.php.html#71\">ImageToolkitForm::buildForm<\/a>"],[0,2,"<a href=\"Form\/ImageToolkitForm.php.html#106\">ImageToolkitForm::validateForm<\/a>"],[0,2,"<a href=\"Form\/ImageToolkitForm.php.html#118\">ImageToolkitForm::submitForm<\/a>"],[0,1,"<a href=\"Form\/LoggingForm.php.html#21\">LoggingForm::getFormId<\/a>"],[0,1,"<a href=\"Form\/LoggingForm.php.html#28\">LoggingForm::getEditableConfigNames<\/a>"],[0,1,"<a href=\"Form\/LoggingForm.php.html#35\">LoggingForm::buildForm<\/a>"],[0,1,"<a href=\"Form\/LoggingForm.php.html#56\">LoggingForm::submitForm<\/a>"],[0,1,"<a href=\"Form\/ModulesListConfirmForm.php.html#63\">ModulesListConfirmForm::__construct<\/a>"],[0,1,"<a href=\"Form\/ModulesListConfirmForm.php.html#72\">ModulesListConfirmForm::create<\/a>"],[0,1,"<a href=\"Form\/ModulesListConfirmForm.php.html#83\">ModulesListConfirmForm::getQuestion<\/a>"],[0,1,"<a href=\"Form\/ModulesListConfirmForm.php.html#90\">ModulesListConfirmForm::getCancelUrl<\/a>"],[0,1,"<a href=\"Form\/ModulesListConfirmForm.php.html#97\">ModulesListConfirmForm::getConfirmText<\/a>"],[0,1,"<a href=\"Form\/ModulesListConfirmForm.php.html#104\">ModulesListConfirmForm::getDescription<\/a>"],[0,1,"<a href=\"Form\/ModulesListConfirmForm.php.html#111\">ModulesListConfirmForm::getFormId<\/a>"],[0,3,"<a href=\"Form\/ModulesListConfirmForm.php.html#118\">ModulesListConfirmForm::buildForm<\/a>"],[0,4,"<a href=\"Form\/ModulesListConfirmForm.php.html#148\">ModulesListConfirmForm::submitForm<\/a>"],[0,1,"<a href=\"Form\/ModulesListForm.php.html#74\">ModulesListForm::create<\/a>"],[0,1,"<a href=\"Form\/ModulesListForm.php.html#101\">ModulesListForm::__construct<\/a>"],[0,1,"<a href=\"Form\/ModulesListForm.php.html#113\">ModulesListForm::getFormId<\/a>"],[0,6,"<a href=\"Form\/ModulesListForm.php.html#120\">ModulesListForm::buildForm<\/a>"],[0,28,"<a href=\"Form\/ModulesListForm.php.html#206\">ModulesListForm::buildRow<\/a>"],[0,15,"<a href=\"Form\/ModulesListForm.php.html#364\">ModulesListForm::buildModuleList<\/a>"],[0,6,"<a href=\"Form\/ModulesListForm.php.html#422\">ModulesListForm::submitForm<\/a>"],[0,1,"<a href=\"Form\/ModulesUninstallConfirmForm.php.html#73\">ModulesUninstallConfirmForm::__construct<\/a>"],[0,1,"<a href=\"Form\/ModulesUninstallConfirmForm.php.html#83\">ModulesUninstallConfirmForm::create<\/a>"],[0,1,"<a href=\"Form\/ModulesUninstallConfirmForm.php.html#95\">ModulesUninstallConfirmForm::getQuestion<\/a>"],[0,1,"<a href=\"Form\/ModulesUninstallConfirmForm.php.html#102\">ModulesUninstallConfirmForm::getConfirmText<\/a>"],[0,1,"<a href=\"Form\/ModulesUninstallConfirmForm.php.html#109\">ModulesUninstallConfirmForm::getCancelUrl<\/a>"],[0,1,"<a href=\"Form\/ModulesUninstallConfirmForm.php.html#116\">ModulesUninstallConfirmForm::getDescription<\/a>"],[0,1,"<a href=\"Form\/ModulesUninstallConfirmForm.php.html#123\">ModulesUninstallConfirmForm::getFormId<\/a>"],[0,2,"<a href=\"Form\/ModulesUninstallConfirmForm.php.html#130\">ModulesUninstallConfirmForm::buildForm<\/a>"],[0,1,"<a href=\"Form\/ModulesUninstallConfirmForm.php.html#145\">ModulesUninstallConfirmForm::anonymous function<\/a>"],[0,1,"<a href=\"Form\/ModulesUninstallConfirmForm.php.html#159\">ModulesUninstallConfirmForm::submitForm<\/a>"],[0,1,"<a href=\"Form\/ModulesUninstallForm.php.html#46\">ModulesUninstallForm::create<\/a>"],[0,1,"<a href=\"Form\/ModulesUninstallForm.php.html#64\">ModulesUninstallForm::__construct<\/a>"],[0,1,"<a href=\"Form\/ModulesUninstallForm.php.html#73\">ModulesUninstallForm::getFormId<\/a>"],[0,10,"<a href=\"Form\/ModulesUninstallForm.php.html#80\">ModulesUninstallForm::buildForm<\/a>"],[0,2,"<a href=\"Form\/ModulesUninstallForm.php.html#86\">ModulesUninstallForm::anonymous function<\/a>"],[0,2,"<a href=\"Form\/ModulesUninstallForm.php.html#172\">ModulesUninstallForm::validateForm<\/a>"],[0,1,"<a href=\"Form\/ModulesUninstallForm.php.html#183\">ModulesUninstallForm::submitForm<\/a>"],[0,1,"<a href=\"Form\/PerformanceForm.php.html#64\">PerformanceForm::__construct<\/a>"],[0,1,"<a href=\"Form\/PerformanceForm.php.html#76\">PerformanceForm::create<\/a>"],[0,1,"<a href=\"Form\/PerformanceForm.php.html#89\">PerformanceForm::getFormId<\/a>"],[0,1,"<a href=\"Form\/PerformanceForm.php.html#96\">PerformanceForm::getEditableConfigNames<\/a>"],[0,3,"<a href=\"Form\/PerformanceForm.php.html#103\">PerformanceForm::buildForm<\/a>"],[0,1,"<a href=\"Form\/PerformanceForm.php.html#173\">PerformanceForm::submitForm<\/a>"],[0,1,"<a href=\"Form\/PerformanceForm.php.html#193\">PerformanceForm::submitCacheClear<\/a>"],[0,1,"<a href=\"Form\/RegionalForm.php.html#36\">RegionalForm::__construct<\/a>"],[0,1,"<a href=\"Form\/RegionalForm.php.html#44\">RegionalForm::create<\/a>"],[0,1,"<a href=\"Form\/RegionalForm.php.html#54\">RegionalForm::getFormId<\/a>"],[0,1,"<a href=\"Form\/RegionalForm.php.html#61\">RegionalForm::getEditableConfigNames<\/a>"],[0,2,"<a href=\"Form\/RegionalForm.php.html#68\">RegionalForm::buildForm<\/a>"],[0,1,"<a href=\"Form\/RegionalForm.php.html#152\">RegionalForm::submitForm<\/a>"],[0,1,"<a href=\"Form\/RssFeedsForm.php.html#21\">RssFeedsForm::getFormId<\/a>"],[0,1,"<a href=\"Form\/RssFeedsForm.php.html#28\">RssFeedsForm::getEditableConfigNames<\/a>"],[0,1,"<a href=\"Form\/RssFeedsForm.php.html#35\">RssFeedsForm::buildForm<\/a>"],[0,1,"<a href=\"Form\/RssFeedsForm.php.html#69\">RssFeedsForm::submitForm<\/a>"],[0,1,"<a href=\"Form\/SiteInformationForm.php.html#56\">SiteInformationForm::__construct<\/a>"],[0,1,"<a href=\"Form\/SiteInformationForm.php.html#67\">SiteInformationForm::create<\/a>"],[0,1,"<a href=\"Form\/SiteInformationForm.php.html#79\">SiteInformationForm::getFormId<\/a>"],[0,1,"<a href=\"Form\/SiteInformationForm.php.html#86\">SiteInformationForm::getEditableConfigNames<\/a>"],[0,3,"<a href=\"Form\/SiteInformationForm.php.html#93\">SiteInformationForm::buildForm<\/a>"],[0,15,"<a href=\"Form\/SiteInformationForm.php.html#164\">SiteInformationForm::validateForm<\/a>"],[0,1,"<a href=\"Form\/SiteInformationForm.php.html#210\">SiteInformationForm::submitForm<\/a>"],[0,1,"<a href=\"Form\/SiteMaintenanceModeForm.php.html#36\">SiteMaintenanceModeForm::__construct<\/a>"],[0,1,"<a href=\"Form\/SiteMaintenanceModeForm.php.html#44\">SiteMaintenanceModeForm::create<\/a>"],[0,1,"<a href=\"Form\/SiteMaintenanceModeForm.php.html#53\">SiteMaintenanceModeForm::getFormId<\/a>"],[0,1,"<a href=\"Form\/SiteMaintenanceModeForm.php.html#60\">SiteMaintenanceModeForm::getEditableConfigNames<\/a>"],[0,1,"<a href=\"Form\/SiteMaintenanceModeForm.php.html#67\">SiteMaintenanceModeForm::buildForm<\/a>"],[0,1,"<a href=\"Form\/SiteMaintenanceModeForm.php.html#87\">SiteMaintenanceModeForm::submitForm<\/a>"],[0,1,"<a href=\"Form\/ThemeAdminForm.php.html#20\">ThemeAdminForm::getFormId<\/a>"],[0,1,"<a href=\"Form\/ThemeAdminForm.php.html#27\">ThemeAdminForm::getEditableConfigNames<\/a>"],[0,1,"<a href=\"Form\/ThemeAdminForm.php.html#34\">ThemeAdminForm::buildForm<\/a>"],[0,1,"<a href=\"Form\/ThemeAdminForm.php.html#60\">ThemeAdminForm::submitForm<\/a>"],[0,1,"<a href=\"Form\/ThemeSettingsForm.php.html#66\">ThemeSettingsForm::__construct<\/a>"],[0,1,"<a href=\"Form\/ThemeSettingsForm.php.html#77\">ThemeSettingsForm::create<\/a>"],[0,1,"<a href=\"Form\/ThemeSettingsForm.php.html#89\">ThemeSettingsForm::getFormId<\/a>"],[0,1,"<a href=\"Form\/ThemeSettingsForm.php.html#96\">ThemeSettingsForm::getEditableConfigNames<\/a>"],[0,31,"<a href=\"Form\/ThemeSettingsForm.php.html#106\">ThemeSettingsForm::buildForm<\/a>"],[0,10,"<a href=\"Form\/ThemeSettingsForm.php.html#350\">ThemeSettingsForm::validateForm<\/a>"],[0,7,"<a href=\"Form\/ThemeSettingsForm.php.html#407\">ThemeSettingsForm::submitForm<\/a>"],[0,5,"<a href=\"Form\/ThemeSettingsForm.php.html#467\">ThemeSettingsForm::validatePath<\/a>"],[100,1,"<a href=\"MachineNameController.php.html#35\">MachineNameController::__construct<\/a>"],[0,1,"<a href=\"MachineNameController.php.html#42\">MachineNameController::create<\/a>"],[100,4,"<a href=\"MachineNameController.php.html#58\">MachineNameController::transliterate<\/a>"],[0,4,"<a href=\"MenuAccessControlHandler.php.html#25\">MenuAccessControlHandler::checkAccess<\/a>"],[0,1,"<a href=\"PathBasedBreadcrumbBuilder.php.html#107\">PathBasedBreadcrumbBuilder::__construct<\/a>"],[100,1,"<a href=\"PathBasedBreadcrumbBuilder.php.html#121\">PathBasedBreadcrumbBuilder::applies<\/a>"],[100,7,"<a href=\"PathBasedBreadcrumbBuilder.php.html#128\">PathBasedBreadcrumbBuilder::build<\/a>"],[88.888888888889,8,"<a href=\"PathBasedBreadcrumbBuilder.php.html#189\">PathBasedBreadcrumbBuilder::getRequestForPath<\/a>"],[0,3,"<a href=\"PathProcessor\/PathProcessorFiles.php.html#24\">PathProcessorFiles::processInbound<\/a>"],[0,1,"<a href=\"PhpStorage\/MockPhpStorage.php.html#27\">MockPhpStorage::__construct<\/a>"],[0,1,"<a href=\"PhpStorage\/MockPhpStorage.php.html#34\">MockPhpStorage::getConfiguration<\/a>"],[0,2,"<a href=\"PhpStorage\/MockPhpStorage.php.html#41\">MockPhpStorage::getConfigurationValue<\/a>"],[0,1,"<a href=\"Plugin\/Block\/SystemBrandingBlock.php.html#47\">SystemBrandingBlock::__construct<\/a>"],[0,1,"<a href=\"Plugin\/Block\/SystemBrandingBlock.php.html#55\">SystemBrandingBlock::create<\/a>"],[0,1,"<a href=\"Plugin\/Block\/SystemBrandingBlock.php.html#67\">SystemBrandingBlock::defaultConfiguration<\/a>"],[0,4,"<a href=\"Plugin\/Block\/SystemBrandingBlock.php.html#79\">SystemBrandingBlock::blockForm<\/a>"],[0,1,"<a href=\"Plugin\/Block\/SystemBrandingBlock.php.html#147\">SystemBrandingBlock::blockSubmit<\/a>"],[0,1,"<a href=\"Plugin\/Block\/SystemBrandingBlock.php.html#157\">SystemBrandingBlock::build<\/a>"],[0,1,"<a href=\"Plugin\/Block\/SystemBrandingBlock.php.html#184\">SystemBrandingBlock::getCacheTags<\/a>"],[0,1,"<a href=\"Plugin\/Block\/SystemBreadcrumbBlock.php.html#54\">SystemBreadcrumbBlock::__construct<\/a>"],[0,1,"<a href=\"Plugin\/Block\/SystemBreadcrumbBlock.php.html#63\">SystemBreadcrumbBlock::create<\/a>"],[0,1,"<a href=\"Plugin\/Block\/SystemBreadcrumbBlock.php.html#76\">SystemBreadcrumbBlock::build<\/a>"],[0,1,"<a href=\"Plugin\/Block\/SystemMainBlock.php.html#33\">SystemMainBlock::setMainContent<\/a>"],[0,1,"<a href=\"Plugin\/Block\/SystemMainBlock.php.html#40\">SystemMainBlock::build<\/a>"],[0,1,"<a href=\"Plugin\/Derivative\/SystemMenuBlock.php.html#35\">SystemMenuBlock::__construct<\/a>"],[0,1,"<a href=\"Plugin\/Derivative\/SystemMenuBlock.php.html#42\">SystemMenuBlock::create<\/a>"],[0,2,"<a href=\"Plugin\/Derivative\/SystemMenuBlock.php.html#51\">SystemMenuBlock::getDerivativeDefinitions<\/a>"],[0,1,"<a href=\"Plugin\/Block\/SystemMessagesBlock.php.html#29\">SystemMessagesBlock::defaultConfiguration<\/a>"],[0,1,"<a href=\"Plugin\/Block\/SystemMessagesBlock.php.html#38\">SystemMessagesBlock::build<\/a>"],[0,1,"<a href=\"Plugin\/Block\/SystemMessagesBlock.php.html#45\">SystemMessagesBlock::getCacheMaxAge<\/a>"],[0,1,"<a href=\"Plugin\/Block\/SystemPoweredByBlock.php.html#25\">SystemPoweredByBlock::build<\/a>"],[0,1,"<a href=\"Plugin\/Condition\/CurrentThemeCondition.php.html#55\">CurrentThemeCondition::__construct<\/a>"],[0,1,"<a href=\"Plugin\/Condition\/CurrentThemeCondition.php.html#64\">CurrentThemeCondition::create<\/a>"],[0,1,"<a href=\"Plugin\/Condition\/CurrentThemeCondition.php.html#77\">CurrentThemeCondition::defaultConfiguration<\/a>"],[0,1,"<a href=\"Plugin\/Condition\/CurrentThemeCondition.php.html#84\">CurrentThemeCondition::buildConfigurationForm<\/a>"],[0,1,"<a href=\"Plugin\/Condition\/CurrentThemeCondition.php.html#89\">CurrentThemeCondition::anonymous function<\/a>"],[0,1,"<a href=\"Plugin\/Condition\/CurrentThemeCondition.php.html#99\">CurrentThemeCondition::submitConfigurationForm<\/a>"],[0,2,"<a href=\"Plugin\/Condition\/CurrentThemeCondition.php.html#107\">CurrentThemeCondition::evaluate<\/a>"],[0,2,"<a href=\"Plugin\/Condition\/CurrentThemeCondition.php.html#118\">CurrentThemeCondition::summary<\/a>"],[0,1,"<a href=\"Plugin\/Condition\/CurrentThemeCondition.php.html#129\">CurrentThemeCondition::getCacheContexts<\/a>"],[0,1,"<a href=\"Plugin\/Condition\/RequestPath.php.html#76\">RequestPath::__construct<\/a>"],[0,1,"<a href=\"Plugin\/Condition\/RequestPath.php.html#87\">RequestPath::create<\/a>"],[0,1,"<a href=\"Plugin\/Condition\/RequestPath.php.html#101\">RequestPath::defaultConfiguration<\/a>"],[0,1,"<a href=\"Plugin\/Condition\/RequestPath.php.html#108\">RequestPath::buildConfigurationForm<\/a>"],[0,1,"<a href=\"Plugin\/Condition\/RequestPath.php.html#125\">RequestPath::submitConfigurationForm<\/a>"],[0,2,"<a href=\"Plugin\/Condition\/RequestPath.php.html#133\">RequestPath::summary<\/a>"],[0,4,"<a href=\"Plugin\/Condition\/RequestPath.php.html#145\">RequestPath::evaluate<\/a>"],[0,1,"<a href=\"Plugin\/Condition\/RequestPath.php.html#164\">RequestPath::getCacheContexts<\/a>"],[100,1,"<a href=\"Plugin\/Derivative\/ThemeLocalTask.php.html#33\">ThemeLocalTask::__construct<\/a>"],[100,1,"<a href=\"Plugin\/Derivative\/ThemeLocalTask.php.html#40\">ThemeLocalTask::create<\/a>"],[100,3,"<a href=\"Plugin\/Derivative\/ThemeLocalTask.php.html#49\">ThemeLocalTask::getDerivativeDefinitions<\/a>"],[0,1,"<a href=\"Plugin\/ImageToolkit\/GDToolkit.php.html#85\">GDToolkit::__construct<\/a>"],[66.666666666667,2,"<a href=\"Plugin\/ImageToolkit\/GDToolkit.php.html#95\">GDToolkit::__destruct<\/a>"],[0,1,"<a href=\"Plugin\/ImageToolkit\/GDToolkit.php.html#104\">GDToolkit::create<\/a>"],[80,3,"<a href=\"Plugin\/ImageToolkit\/GDToolkit.php.html#125\">GDToolkit::setResource<\/a>"],[100,2,"<a href=\"Plugin\/ImageToolkit\/GDToolkit.php.html#140\">GDToolkit::getResource<\/a>"],[0,1,"<a href=\"Plugin\/ImageToolkit\/GDToolkit.php.html#150\">GDToolkit::buildConfigurationForm<\/a>"],[0,1,"<a href=\"Plugin\/ImageToolkit\/GDToolkit.php.html#166\">GDToolkit::submitConfigurationForm<\/a>"],[37.5,6,"<a href=\"Plugin\/ImageToolkit\/GDToolkit.php.html#178\">GDToolkit::load<\/a>"],[100,2,"<a href=\"Plugin\/ImageToolkit\/GDToolkit.php.html#214\">GDToolkit::isValid<\/a>"],[0,9,"<a href=\"Plugin\/ImageToolkit\/GDToolkit.php.html#221\">GDToolkit::save<\/a>"],[100,3,"<a href=\"Plugin\/ImageToolkit\/GDToolkit.php.html#260\">GDToolkit::parseFile<\/a>"],[0,6,"<a href=\"Plugin\/ImageToolkit\/GDToolkit.php.html#276\">GDToolkit::getTransparentColor<\/a>"],[40,3,"<a href=\"Plugin\/ImageToolkit\/GDToolkit.php.html#305\">GDToolkit::getWidth<\/a>"],[40,3,"<a href=\"Plugin\/ImageToolkit\/GDToolkit.php.html#320\">GDToolkit::getHeight<\/a>"],[100,1,"<a href=\"Plugin\/ImageToolkit\/GDToolkit.php.html#339\">GDToolkit::getType<\/a>"],[100,2,"<a href=\"Plugin\/ImageToolkit\/GDToolkit.php.html#352\">GDToolkit::setType<\/a>"],[100,2,"<a href=\"Plugin\/ImageToolkit\/GDToolkit.php.html#362\">GDToolkit::getMimeType<\/a>"],[0,3,"<a href=\"Plugin\/ImageToolkit\/GDToolkit.php.html#369\">GDToolkit::getRequirements<\/a>"],[0,1,"<a href=\"Plugin\/ImageToolkit\/GDToolkit.php.html#390\">GDToolkit::isAvailable<\/a>"],[100,2,"<a href=\"Plugin\/ImageToolkit\/GDToolkit.php.html#398\">GDToolkit::getSupportedExtensions<\/a>"],[0,3,"<a href=\"Plugin\/ImageToolkit\/GDToolkit.php.html#420\">GDToolkit::extensionToImageType<\/a>"],[100,1,"<a href=\"Plugin\/ImageToolkit\/GDToolkit.php.html#436\">GDToolkit::supportedTypes<\/a>"],[100,1,"<a href=\"Plugin\/ImageToolkit\/Operation\/gd\/Convert.php.html#26\">Convert::arguments<\/a>"],[66.666666666667,2,"<a href=\"Plugin\/ImageToolkit\/Operation\/gd\/Convert.php.html#37\">Convert::validateArguments<\/a>"],[100,3,"<a href=\"Plugin\/ImageToolkit\/Operation\/gd\/Convert.php.html#47\">Convert::execute<\/a>"],[0,1,"<a href=\"Plugin\/ImageToolkit\/Operation\/gd\/CreateNew.php.html#28\">CreateNew::arguments<\/a>"],[0,6,"<a href=\"Plugin\/ImageToolkit\/Operation\/gd\/CreateNew.php.html#57\">CreateNew::validateArguments<\/a>"],[0,8,"<a href=\"Plugin\/ImageToolkit\/Operation\/gd\/CreateNew.php.html#86\">CreateNew::execute<\/a>"],[100,1,"<a href=\"Plugin\/ImageToolkit\/Operation\/gd\/Crop.php.html#26\">Crop::arguments<\/a>"],[75,8,"<a href=\"Plugin\/ImageToolkit\/Operation\/gd\/Crop.php.html#50\">Crop::validateArguments<\/a>"],[100,3,"<a href=\"Plugin\/ImageToolkit\/Operation\/gd\/Crop.php.html#80\">Crop::execute<\/a>"],[100,1,"<a href=\"Plugin\/ImageToolkit\/Operation\/gd\/Desaturate.php.html#26\">Desaturate::arguments<\/a>"],[100,2,"<a href=\"Plugin\/ImageToolkit\/Operation\/gd\/Desaturate.php.html#34\">Desaturate::execute<\/a>"],[100,1,"<a href=\"Plugin\/ImageToolkit\/Operation\/gd\/GDImageToolkitOperationBase.php.html#19\">GDImageToolkitOperationBase::getToolkit<\/a>"],[100,1,"<a href=\"Plugin\/ImageToolkit\/Operation\/gd\/Resize.php.html#26\">Resize::arguments<\/a>"],[71.428571428571,3,"<a href=\"Plugin\/ImageToolkit\/Operation\/gd\/Resize.php.html#40\">Resize::validateArguments<\/a>"],[0,3,"<a href=\"Plugin\/ImageToolkit\/Operation\/gd\/Resize.php.html#59\">Resize::execute<\/a>"],[100,1,"<a href=\"Plugin\/ImageToolkit\/Operation\/gd\/Rotate.php.html#28\">Rotate::arguments<\/a>"],[42.857142857143,6,"<a href=\"Plugin\/ImageToolkit\/Operation\/gd\/Rotate.php.html#44\">Rotate::validateArguments<\/a>"],[100,4,"<a href=\"Plugin\/ImageToolkit\/Operation\/gd\/Rotate.php.html#94\">Rotate::execute<\/a>"],[100,1,"<a href=\"Plugin\/ImageToolkit\/Operation\/gd\/Scale.php.html#26\">Scale::arguments<\/a>"],[76.923076923077,10,"<a href=\"Plugin\/ImageToolkit\/Operation\/gd\/Scale.php.html#49\">Scale::validateArguments<\/a>"],[0,6,"<a href=\"Plugin\/ImageToolkit\/Operation\/gd\/Scale.php.html#86\">Scale::execute<\/a>"],[100,1,"<a href=\"Plugin\/ImageToolkit\/Operation\/gd\/ScaleAndCrop.php.html#26\">ScaleAndCrop::arguments<\/a>"],[84.615384615385,3,"<a href=\"Plugin\/ImageToolkit\/Operation\/gd\/ScaleAndCrop.php.html#40\">ScaleAndCrop::validateArguments<\/a>"],[100,2,"<a href=\"Plugin\/ImageToolkit\/Operation\/gd\/ScaleAndCrop.php.html#67\">ScaleAndCrop::execute<\/a>"],[0,2,"<a href=\"Plugin\/migrate\/destination\/EntityDateFormat.php.html#26\">EntityDateFormat::updateEntityProperty<\/a>"],[0,1,"<a href=\"Plugin\/migrate\/process\/d6\/SystemUpdate7000.php.html#28\">SystemUpdate7000::transform<\/a>"],[0,2,"<a href=\"Plugin\/migrate\/process\/d6\/TimeZone.php.html#25\">TimeZone::transform<\/a>"],[100,1,"<a href=\"Plugin\/views\/field\/BulkForm.php.html#80\">BulkForm::__construct<\/a>"],[0,1,"<a href=\"Plugin\/views\/field\/BulkForm.php.html#91\">BulkForm::create<\/a>"],[100,1,"<a href=\"Plugin\/views\/field\/BulkForm.php.html#104\">BulkForm::init<\/a>"],[100,1,"<a href=\"Plugin\/views\/field\/BulkForm.php.html#109\">BulkForm::anonymous function<\/a>"],[0,1,"<a href=\"Plugin\/views\/field\/BulkForm.php.html#117\">BulkForm::getCacheMaxAge<\/a>"],[0,2,"<a href=\"Plugin\/views\/field\/BulkForm.php.html#126\">BulkForm::getCacheContexts<\/a>"],[0,1,"<a href=\"Plugin\/views\/field\/BulkForm.php.html#133\">BulkForm::getCacheTags<\/a>"],[0,1,"<a href=\"Plugin\/views\/field\/BulkForm.php.html#140\">BulkForm::getEntityTypeId<\/a>"],[0,1,"<a href=\"Plugin\/views\/field\/BulkForm.php.html#147\">BulkForm::getEntityManager<\/a>"],[0,1,"<a href=\"Plugin\/views\/field\/BulkForm.php.html#154\">BulkForm::getLanguageManager<\/a>"],[0,1,"<a href=\"Plugin\/views\/field\/BulkForm.php.html#161\">BulkForm::getView<\/a>"],[100,1,"<a href=\"Plugin\/views\/field\/BulkForm.php.html#168\">BulkForm::defineOptions<\/a>"],[0,1,"<a href=\"Plugin\/views\/field\/BulkForm.php.html#183\">BulkForm::buildOptionsForm<\/a>"],[0,1,"<a href=\"Plugin\/views\/field\/BulkForm.php.html#213\">BulkForm::validateOptionsForm<\/a>"],[0,3,"<a href=\"Plugin\/views\/field\/BulkForm.php.html#223\">BulkForm::preRender<\/a>"],[0,1,"<a href=\"Plugin\/views\/field\/BulkForm.php.html#239\">BulkForm::getValue<\/a>"],[0,4,"<a href=\"Plugin\/views\/field\/BulkForm.php.html#251\">BulkForm::viewsForm<\/a>"],[0,7,"<a href=\"Plugin\/views\/field\/BulkForm.php.html#315\">BulkForm::getBulkOptions<\/a>"],[0,6,"<a href=\"Plugin\/views\/field\/BulkForm.php.html#350\">BulkForm::viewsFormSubmit<\/a>"],[0,1,"<a href=\"Plugin\/views\/field\/BulkForm.php.html#404\">BulkForm::emptySelectedMessage<\/a>"],[0,2,"<a href=\"Plugin\/views\/field\/BulkForm.php.html#411\">BulkForm::viewsFormValidate<\/a>"],[0,2,"<a href=\"Plugin\/views\/field\/BulkForm.php.html#421\">BulkForm::query<\/a>"],[0,1,"<a href=\"Plugin\/views\/field\/BulkForm.php.html#430\">BulkForm::clickSortable<\/a>"],[0,1,"<a href=\"Plugin\/views\/field\/BulkForm.php.html#437\">BulkForm::drupalSetMessage<\/a>"],[0,3,"<a href=\"Plugin\/views\/field\/BulkForm.php.html#460\">BulkForm::calculateEntityBulkFormKey<\/a>"],[0,4,"<a href=\"Plugin\/views\/field\/BulkForm.php.html#485\">BulkForm::loadEntityFromBulkFormKey<\/a>"],[0,1,"<a href=\"SystemConfigSubscriber.php.html#36\">SystemConfigSubscriber::__construct<\/a>"],[0,4,"<a href=\"SystemConfigSubscriber.php.html#45\">SystemConfigSubscriber::onConfigSave<\/a>"],[0,2,"<a href=\"SystemConfigSubscriber.php.html#62\">SystemConfigSubscriber::onConfigImporterValidateNotEmpty<\/a>"],[0,2,"<a href=\"SystemConfigSubscriber.php.html#79\">SystemConfigSubscriber::onConfigImporterValidateSiteUUID<\/a>"],[0,1,"<a href=\"SystemConfigSubscriber.php.html#88\">SystemConfigSubscriber::getSubscribedEvents<\/a>"],[0,1,"<a href=\"SystemManager.php.html#86\">SystemManager::__construct<\/a>"],[0,1,"<a href=\"SystemManager.php.html#99\">SystemManager::checkRequirements<\/a>"],[0,4,"<a href=\"SystemManager.php.html#110\">SystemManager::listRequirements<\/a>"],[0,4,"<a href=\"SystemManager.php.html#117\">SystemManager::anonymous function<\/a>"],[0,3,"<a href=\"SystemManager.php.html#140\">SystemManager::getMaxSeverity<\/a>"],[0,3,"<a href=\"SystemManager.php.html#161\">SystemManager::getBlockContents<\/a>"],[0,3,"<a href=\"SystemManager.php.html#188\">SystemManager::getAdminBlock<\/a>"],[100,3,"<a href=\"SystemRequirements.php.html#22\">SystemRequirements::phpVersionWithPdoDisallowMultipleStatements<\/a>"],[0,2,"<a href=\"Tests\/Bootstrap\/ErrorContainer.php.html#20\">ErrorContainer::get<\/a>"],[0,1,"<a href=\"Tests\/Bootstrap\/ErrorContainer.php.html#23\">ErrorContainer::anonymous function<\/a>"],[0,2,"<a href=\"Tests\/Bootstrap\/ExceptionContainer.php.html#20\">ExceptionContainer::get<\/a>"],[0,1,"<a href=\"Tests\/FileTransfer\/MockTestConnection.php.html#18\">MockTestConnection::run<\/a>"],[0,1,"<a href=\"Tests\/FileTransfer\/MockTestConnection.php.html#22\">MockTestConnection::flushCommands<\/a>"],[0,1,"<a href=\"Tests\/FileTransfer\/TestFileTransfer.php.html#27\">TestFileTransfer::__construct<\/a>"],[0,1,"<a href=\"Tests\/FileTransfer\/TestFileTransfer.php.html#31\">TestFileTransfer::factory<\/a>"],[0,1,"<a href=\"Tests\/FileTransfer\/TestFileTransfer.php.html#35\">TestFileTransfer::connect<\/a>"],[0,1,"<a href=\"Tests\/FileTransfer\/TestFileTransfer.php.html#40\">TestFileTransfer::copyFileJailed<\/a>"],[0,1,"<a href=\"Tests\/FileTransfer\/TestFileTransfer.php.html#44\">TestFileTransfer::removeDirectoryJailed<\/a>"],[0,1,"<a href=\"Tests\/FileTransfer\/TestFileTransfer.php.html#48\">TestFileTransfer::createDirectoryJailed<\/a>"],[0,2,"<a href=\"Tests\/FileTransfer\/TestFileTransfer.php.html#52\">TestFileTransfer::removeFileJailed<\/a>"],[0,1,"<a href=\"Tests\/FileTransfer\/TestFileTransfer.php.html#58\">TestFileTransfer::isDirectory<\/a>"],[0,1,"<a href=\"Tests\/FileTransfer\/TestFileTransfer.php.html#62\">TestFileTransfer::isFile<\/a>"],[0,1,"<a href=\"Tests\/FileTransfer\/TestFileTransfer.php.html#66\">TestFileTransfer::chmodJailed<\/a>"],[0,1,"<a href=\"Tests\/Form\/StubForm.php.html#40\">StubForm::__construct<\/a>"],[0,1,"<a href=\"Tests\/Form\/StubForm.php.html#48\">StubForm::getFormId<\/a>"],[0,1,"<a href=\"Tests\/Form\/StubForm.php.html#55\">StubForm::buildForm<\/a>"],[0,1,"<a href=\"Tests\/Form\/StubForm.php.html#62\">StubForm::submitForm<\/a>"],[0,2,"<a href=\"Tests\/Path\/UrlAliasFixtures.php.html#23\">UrlAliasFixtures::createTables<\/a>"],[0,2,"<a href=\"Tests\/Path\/UrlAliasFixtures.php.html#39\">UrlAliasFixtures::dropTables<\/a>"],[0,1,"<a href=\"Tests\/Path\/UrlAliasFixtures.php.html#53\">UrlAliasFixtures::sampleUrlAliases<\/a>"],[0,1,"<a href=\"Tests\/Path\/UrlAliasFixtures.php.html#85\">UrlAliasFixtures::tableDefinition<\/a>"],[0,4,"<a href=\"Tests\/Routing\/MockAliasManager.php.html#55\">MockAliasManager::addAlias<\/a>"],[0,2,"<a href=\"Tests\/Routing\/MockAliasManager.php.html#72\">MockAliasManager::getPathByAlias<\/a>"],[0,2,"<a href=\"Tests\/Routing\/MockAliasManager.php.html#83\">MockAliasManager::getAliasByPath<\/a>"],[0,1,"<a href=\"Tests\/Routing\/MockAliasManager.php.html#92\">MockAliasManager::cacheClear<\/a>"],[0,1,"<a href=\"Tests\/Routing\/MockMatcher.php.html#29\">MockMatcher::__construct<\/a>"],[0,1,"<a href=\"Tests\/Routing\/MockMatcher.php.html#36\">MockMatcher::matchRequest<\/a>"],[0,1,"<a href=\"Tests\/Routing\/MockRouteProvider.php.html#33\">MockRouteProvider::__construct<\/a>"],[0,1,"<a href=\"Tests\/Routing\/MockRouteProvider.php.html#43\">MockRouteProvider::getRouteCollectionForRequest<\/a>"],[0,2,"<a href=\"Tests\/Routing\/MockRouteProvider.php.html#50\">MockRouteProvider::getRouteByName<\/a>"],[0,1,"<a href=\"Tests\/Routing\/MockRouteProvider.php.html#62\">MockRouteProvider::preLoadRoutes<\/a>"],[0,2,"<a href=\"Tests\/Routing\/MockRouteProvider.php.html#69\">MockRouteProvider::getRoutesByNames<\/a>"],[0,1,"<a href=\"Tests\/Routing\/MockRouteProvider.php.html#81\">MockRouteProvider::getRoutesByPattern<\/a>"],[0,1,"<a href=\"Tests\/Routing\/MockRouteProvider.php.html#88\">MockRouteProvider::getAllRoutes<\/a>"],[0,1,"<a href=\"Tests\/Routing\/MockRouteProvider.php.html#95\">MockRouteProvider::reset<\/a>"],[0,1,"<a href=\"Theme\/BatchNegotiator.php.html#42\">BatchNegotiator::__construct<\/a>"],[0,1,"<a href=\"Theme\/BatchNegotiator.php.html#50\">BatchNegotiator::applies<\/a>"],[0,4,"<a href=\"Theme\/BatchNegotiator.php.html#57\">BatchNegotiator::determineActiveTheme<\/a>"],[0,1,"<a href=\"Theme\/DbUpdateNegotiator.php.html#33\">DbUpdateNegotiator::__construct<\/a>"],[0,1,"<a href=\"Theme\/DbUpdateNegotiator.php.html#40\">DbUpdateNegotiator::applies<\/a>"],[0,2,"<a href=\"Theme\/DbUpdateNegotiator.php.html#47\">DbUpdateNegotiator::determineActiveTheme<\/a>"],[0,1,"<a href=\"Tests\/Cache\/AssertPageCacheContextsAndTagsTrait.php.html#23\">AssertPageCacheContextsAndTagsTrait::enablePageCaching<\/a>"],[0,2,"<a href=\"Tests\/Cache\/AssertPageCacheContextsAndTagsTrait.php.html#38\">AssertPageCacheContextsAndTagsTrait::getCacheHeaderValues<\/a>"],[0,1,"<a href=\"Tests\/Cache\/AssertPageCacheContextsAndTagsTrait.php.html#58\">AssertPageCacheContextsAndTagsTrait::assertPageCacheContextsAndTags<\/a>"],[0,2,"<a href=\"Tests\/Cache\/AssertPageCacheContextsAndTagsTrait.php.html#91\">AssertPageCacheContextsAndTagsTrait::debugCacheTags<\/a>"],[0,3,"<a href=\"Tests\/Cache\/AssertPageCacheContextsAndTagsTrait.php.html#106\">AssertPageCacheContextsAndTagsTrait::assertCacheTags<\/a>"],[0,4,"<a href=\"Tests\/Cache\/AssertPageCacheContextsAndTagsTrait.php.html#131\">AssertPageCacheContextsAndTagsTrait::assertCacheContexts<\/a>"],[0,2,"<a href=\"Tests\/Cache\/AssertPageCacheContextsAndTagsTrait.php.html#158\">AssertPageCacheContextsAndTagsTrait::assertCacheMaxAge<\/a>"],[0,1,"<a href=\"Tests\/Entity\/EntityDefinitionTestTrait.php.html#21\">EntityDefinitionTestTrait::enableNewEntityType<\/a>"],[0,1,"<a href=\"Tests\/Entity\/EntityDefinitionTestTrait.php.html#30\">EntityDefinitionTestTrait::resetEntityType<\/a>"],[0,1,"<a href=\"Tests\/Entity\/EntityDefinitionTestTrait.php.html#39\">EntityDefinitionTestTrait::updateEntityTypeToRevisionable<\/a>"],[0,1,"<a href=\"Tests\/Entity\/EntityDefinitionTestTrait.php.html#52\">EntityDefinitionTestTrait::updateEntityTypeToNotRevisionable<\/a>"],[0,2,"<a href=\"Tests\/Entity\/EntityDefinitionTestTrait.php.html#65\">EntityDefinitionTestTrait::updateEntityTypeToTranslatable<\/a>"],[0,2,"<a href=\"Tests\/Entity\/EntityDefinitionTestTrait.php.html#81\">EntityDefinitionTestTrait::updateEntityTypeToNotTranslatable<\/a>"],[0,1,"<a href=\"Tests\/Entity\/EntityDefinitionTestTrait.php.html#100\">EntityDefinitionTestTrait::addBaseField<\/a>"],[0,1,"<a href=\"Tests\/Entity\/EntityDefinitionTestTrait.php.html#110\">EntityDefinitionTestTrait::addLongNameBaseField<\/a>"],[0,1,"<a href=\"Tests\/Entity\/EntityDefinitionTestTrait.php.html#127\">EntityDefinitionTestTrait::addRevisionableBaseField<\/a>"],[0,1,"<a href=\"Tests\/Entity\/EntityDefinitionTestTrait.php.html#138\">EntityDefinitionTestTrait::modifyBaseField<\/a>"],[0,1,"<a href=\"Tests\/Entity\/EntityDefinitionTestTrait.php.html#145\">EntityDefinitionTestTrait::makeBaseFieldEntityKey<\/a>"],[0,1,"<a href=\"Tests\/Entity\/EntityDefinitionTestTrait.php.html#156\">EntityDefinitionTestTrait::removeBaseField<\/a>"],[0,1,"<a href=\"Tests\/Entity\/EntityDefinitionTestTrait.php.html#163\">EntityDefinitionTestTrait::addBaseFieldIndex<\/a>"],[0,1,"<a href=\"Tests\/Entity\/EntityDefinitionTestTrait.php.html#170\">EntityDefinitionTestTrait::removeBaseFieldIndex<\/a>"],[0,1,"<a href=\"Tests\/Entity\/EntityDefinitionTestTrait.php.html#180\">EntityDefinitionTestTrait::addBundleField<\/a>"],[0,1,"<a href=\"Tests\/Entity\/EntityDefinitionTestTrait.php.html#192\">EntityDefinitionTestTrait::modifyBundleField<\/a>"],[0,1,"<a href=\"Tests\/Entity\/EntityDefinitionTestTrait.php.html#199\">EntityDefinitionTestTrait::removeBundleField<\/a>"],[0,1,"<a href=\"Tests\/Entity\/EntityDefinitionTestTrait.php.html#209\">EntityDefinitionTestTrait::addEntityIndex<\/a>"],[0,1,"<a href=\"Tests\/Entity\/EntityDefinitionTestTrait.php.html#219\">EntityDefinitionTestTrait::removeEntityIndex<\/a>"],[0,1,"<a href=\"Tests\/Entity\/EntityDefinitionTestTrait.php.html#226\">EntityDefinitionTestTrait::renameBaseTable<\/a>"],[0,1,"<a href=\"Tests\/Entity\/EntityDefinitionTestTrait.php.html#237\">EntityDefinitionTestTrait::renameDataTable<\/a>"],[0,1,"<a href=\"Tests\/Entity\/EntityDefinitionTestTrait.php.html#248\">EntityDefinitionTestTrait::renameRevisionBaseTable<\/a>"],[0,1,"<a href=\"Tests\/Entity\/EntityDefinitionTestTrait.php.html#259\">EntityDefinitionTestTrait::renameRevisionDataTable<\/a>"],[0,1,"<a href=\"Tests\/Entity\/EntityDefinitionTestTrait.php.html#270\">EntityDefinitionTestTrait::deleteEntityType<\/a>"],[0,4,"<a href=\"Tests\/Menu\/AssertBreadcrumbTrait.php.html#40\">AssertBreadcrumbTrait::assertBreadcrumb<\/a>"],[0,9,"<a href=\"Tests\/Menu\/AssertBreadcrumbTrait.php.html#64\">AssertBreadcrumbTrait::assertBreadcrumbParts<\/a>"],[0,3,"<a href=\"Tests\/Menu\/AssertBreadcrumbTrait.php.html#101\">AssertBreadcrumbTrait::getBreadcrumbParts<\/a>"],[0,5,"<a href=\"Tests\/Menu\/AssertMenuActiveTrailTrait.php.html#28\">AssertMenuActiveTrailTrait::assertMenuActiveTrail<\/a>"],[0,1,"<a href=\"Tests\/Update\/DbUpdatesTrait.php.html#33\">DbUpdatesTrait::enableUpdates<\/a>"],[0,1,"<a href=\"Tests\/Update\/DbUpdatesTrait.php.html#40\">DbUpdatesTrait::applyUpdates<\/a>"],[0,2,"<a href=\"Tests\/Update\/DbUpdatesTrait.php.html#54\">DbUpdatesTrait::includeUpdates<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

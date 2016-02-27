@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/ericduran/Sites/drupal/drupal/core/lib/Drupal/Core/Menu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../../../../css/nv.d3.min.css" rel="stylesheet">
+  <link href="../../../../../css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="../../../../../js/html5shiv.min.js"></script>
+  <script src="../../../../../js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../../../../../index.html">/Users/ericduran/Sites/drupal/drupal</a></li>
+        <li><a href="../../../../index.html">core</a></li>
+        <li><a href="../../../index.html">lib</a></li>
+        <li><a href="../../index.html">Drupal</a></li>
+        <li><a href="../index.html">Core</a></li>
+        <li><a href="index.html">Menu</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Form/MenuLinkDefaultForm.php.html#25">MenuLinkDefaultForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InaccessibleMenuLink.php.html#17">InaccessibleMenuLink</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkBase.php.html#18">MenuLinkBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#24">MenuLinkManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuParentFormSelector.php.html#21">MenuParentFormSelector</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#23">MenuTreeStorage</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/LocalActionsBlock.php.html#24">LocalActionsBlock</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/LocalTasksBlock.php.html#27">LocalTasksBlock</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LocalActionDefault.php.html#21">LocalActionDefault</a></td><td class="text-right">19%</td></tr>
+       <tr><td><a href="MenuLinkTree.php.html#20">MenuLinkTree</a></td><td class="text-right">19%</td></tr>
+       <tr><td><a href="MenuLinkDefault.php.html#16">MenuLinkDefault</a></td><td class="text-right">42%</td></tr>
+       <tr><td><a href="MenuActiveTrail.php.html#21">MenuActiveTrail</a></td><td class="text-right">48%</td></tr>
+       <tr><td><a href="LocalActionManager.php.html#31">LocalActionManager</a></td><td class="text-right">65%</td></tr>
+       <tr><td><a href="ContextualLinkManager.php.html#28">ContextualLinkManager</a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="LocalTaskManager.php.html#32">LocalTaskManager</a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="LocalTaskDefault.php.html#20">LocalTaskDefault</a></td><td class="text-right">79%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="MenuTreeStorage.php.html#23">MenuTreeStorage</a></td><td class="text-right">26732</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#24">MenuLinkManager</a></td><td class="text-right">2256</td></tr>
+       <tr><td><a href="MenuLinkBase.php.html#18">MenuLinkBase</a></td><td class="text-right">930</td></tr>
+       <tr><td><a href="MenuLinkTree.php.html#20">MenuLinkTree</a></td><td class="text-right">443</td></tr>
+       <tr><td><a href="MenuParentFormSelector.php.html#21">MenuParentFormSelector</a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="Plugin/Block/LocalTasksBlock.php.html#27">LocalTasksBlock</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Form/MenuLinkDefaultForm.php.html#25">MenuLinkDefaultForm</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="LocalActionDefault.php.html#21">LocalActionDefault</a></td><td class="text-right">102</td></tr>
+       <tr><td><a href="LocalTaskManager.php.html#32">LocalTaskManager</a></td><td class="text-right">76</td></tr>
+       <tr><td><a href="LocalTaskDefault.php.html#20">LocalTaskDefault</a></td><td class="text-right">31</td></tr>
+       <tr><td><a href="MenuActiveTrail.php.html#21">MenuActiveTrail</a></td><td class="text-right">27</td></tr>
+       <tr><td><a href="ContextualLinkManager.php.html#28">ContextualLinkManager</a></td><td class="text-right">17</td></tr>
+       <tr><td><a href="MenuLinkDefault.php.html#16">MenuLinkDefault</a></td><td class="text-right">16</td></tr>
+       <tr><td><a href="LocalActionManager.php.html#31">LocalActionManager</a></td><td class="text-right">16</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ContextualLinkManager.php.html#105"><abbr title="ContextualLinkManager::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#289"><abbr title="MenuTreeStorage::doSave">doSave</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#135"><abbr title="MenuTreeStorage::maxDepth">maxDepth</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#142"><abbr title="MenuTreeStorage::resetDefinitions">resetDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#149"><abbr title="MenuTreeStorage::rebuild">rebuild</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#218"><abbr title="MenuTreeStorage::purgeMultiple">purgeMultiple</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#245"><abbr title="MenuTreeStorage::safeExecuteSelect">safeExecuteSelect</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#262"><abbr title="MenuTreeStorage::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#343"><abbr title="MenuTreeStorage::preSave">preSave</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuParentFormSelector.php.html#189"><abbr title="MenuParentFormSelector::getMenuOptions">getMenuOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#403"><abbr title="MenuTreeStorage::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#427"><abbr title="MenuTreeStorage::getSubtreeHeight">getSubtreeHeight</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#441"><abbr title="MenuTreeStorage::doFindChildrenRelativeDepth">doFindChildrenRelativeDepth</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#467"><abbr title="MenuTreeStorage::setParents">setParents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#517"><abbr title="MenuTreeStorage::moveChildren">moveChildren</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#568"><abbr title="MenuTreeStorage::findParent">findParent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#601"><abbr title="MenuTreeStorage::updateParentalStatus">updateParentalStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#124"><abbr title="MenuTreeStorage::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuParentFormSelector.php.html#146"><abbr title="MenuParentFormSelector::parentSelectOptionsTreeWalk">parentSelectOptionsTreeWalk</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#648"><abbr title="MenuTreeStorage::loadByProperties">loadByProperties</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkTree.php.html#114"><abbr title="MenuLinkTree::createInstances">createInstances</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#383"><abbr title="MenuLinkManager::resetLink">resetLink</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#401"><abbr title="MenuLinkManager::resetInstance">resetInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#418"><abbr title="MenuLinkManager::resetDefinitions">resetDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkTree.php.html#64"><abbr title="MenuLinkTree::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkTree.php.html#75"><abbr title="MenuLinkTree::getCurrentRouteMenuTreeParameters">getCurrentRouteMenuTreeParameters</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkTree.php.html#93"><abbr title="MenuLinkTree::load">load</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkTree.php.html#135"><abbr title="MenuLinkTree::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuParentFormSelector.php.html#118"><abbr title="MenuParentFormSelector::getParentDepthLimit">getParentDepthLimit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkTree.php.html#209"><abbr title="MenuLinkTree::buildItems">buildItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkTree.php.html#285"><abbr title="MenuLinkTree::maxDepth">maxDepth</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkTree.php.html#292"><abbr title="MenuLinkTree::getSubtreeHeight">getSubtreeHeight</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkTree.php.html#299"><abbr title="MenuLinkTree::getExpanded">getExpanded</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuParentFormSelector.php.html#48"><abbr title="MenuParentFormSelector::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuParentFormSelector.php.html#57"><abbr title="MenuParentFormSelector::getParentSelectOptions">getParentSelectOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuParentFormSelector.php.html#84"><abbr title="MenuParentFormSelector::parentSelectElement">parentSelectElement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#632"><abbr title="MenuTreeStorage::prepareLink">prepareLink</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#668"><abbr title="MenuTreeStorage::loadByRoute">loadByRoute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#353"><abbr title="MenuLinkManager::addDefinition">addDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/LocalActionsBlock.php.html#63"><abbr title="LocalActionsBlock::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#1182"><abbr title="MenuTreeStorage::serializedFields">serializedFields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#1200"><abbr title="MenuTreeStorage::definitionFields">definitionFields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#1210"><abbr title="MenuTreeStorage::schemaDefinition">schemaDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#1456"><abbr title="MenuTreeStorage::findNoLongerExistingLinks">findNoLongerExistingLinks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#1479"><abbr title="MenuTreeStorage::doDeleteMultiple">doDeleteMultiple</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/LocalActionsBlock.php.html#54"><abbr title="LocalActionsBlock::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/LocalActionsBlock.php.html#76"><abbr title="LocalActionsBlock::defaultConfiguration">defaultConfiguration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#1117"><abbr title="MenuTreeStorage::treeDataRecursive">treeDataRecursive</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/LocalActionsBlock.php.html#83"><abbr title="LocalActionsBlock::build">build</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/LocalTasksBlock.php.html#57"><abbr title="LocalTasksBlock::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/LocalTasksBlock.php.html#66"><abbr title="LocalTasksBlock::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/LocalTasksBlock.php.html#79"><abbr title="LocalTasksBlock::defaultConfiguration">defaultConfiguration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/LocalTasksBlock.php.html#90"><abbr title="LocalTasksBlock::build">build</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/LocalTasksBlock.php.html#127"><abbr title="LocalTasksBlock::blockForm">blockForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/LocalTasksBlock.php.html#155"><abbr title="LocalTasksBlock::blockSubmit">blockSubmit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#1157"><abbr title="MenuTreeStorage::ensureTableExists">ensureTableExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#1088"><abbr title="MenuTreeStorage::doBuildTreeData">doBuildTreeData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#697"><abbr title="MenuTreeStorage::loadMultiple">loadMultiple</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#835"><abbr title="MenuTreeStorage::loadTreeData">loadTreeData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#715"><abbr title="MenuTreeStorage::load">load</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#732"><abbr title="MenuTreeStorage::loadFull">loadFull</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#746"><abbr title="MenuTreeStorage::loadFullMultiple">loadFullMultiple</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#764"><abbr title="MenuTreeStorage::getRootPathIds">getRootPathIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#788"><abbr title="MenuTreeStorage::getExpanded">getExpanded</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#816"><abbr title="MenuTreeStorage::saveRecursive">saveRecursive</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#877"><abbr title="MenuTreeStorage::loadLinks">loadLinks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#1075"><abbr title="MenuTreeStorage::loadAllChildren">loadAllChildren</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#978"><abbr title="MenuTreeStorage::collectRoutesAndDefinitions">collectRoutesAndDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#993"><abbr title="MenuTreeStorage::doCollectRoutesAndDefinitions">doCollectRoutesAndDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#1010"><abbr title="MenuTreeStorage::loadSubtreeData">loadSubtreeData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#1024"><abbr title="MenuTreeStorage::menuNameInUse">menuNameInUse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#1035"><abbr title="MenuTreeStorage::getMenuNames">getMenuNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#1045"><abbr title="MenuTreeStorage::countMenuLinks">countMenuLinks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#1056"><abbr title="MenuTreeStorage::getAllChildIds">getAllChildIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#370"><abbr title="MenuLinkManager::updateDefinition">updateDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#341"><abbr title="MenuLinkManager::loadLinksByRoute">loadLinksByRoute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StaticMenuLinkOverrides.php.html#163"><abbr title="StaticMenuLinkOverrides::getCacheTags">getCacheTags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LocalTaskDefault.php.html#41"><abbr title="LocalTaskDefault::getRouteName">getRouteName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#331"><abbr title="MenuLinkManager::getChildIds">getChildIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkBase.php.html#78"><abbr title="MenuLinkBase::isResettable">isResettable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkBase.php.html#71"><abbr title="MenuLinkBase::isExpanded">isExpanded</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkBase.php.html#64"><abbr title="MenuLinkBase::isEnabled">isEnabled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkBase.php.html#57"><abbr title="MenuLinkBase::getParent">getParent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkBase.php.html#50"><abbr title="MenuLinkBase::getProvider">getProvider</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkBase.php.html#43"><abbr title="MenuLinkBase::getMenuName">getMenuName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkBase.php.html#32"><abbr title="MenuLinkBase::getWeight">getWeight</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuActiveTrail.php.html#103"><abbr title="MenuActiveTrail::doGetActiveTrailIds">doGetActiveTrailIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuActiveTrail.php.html#75"><abbr title="MenuActiveTrail::resolveCacheMiss">resolveCacheMiss</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuActiveTrail.php.html#49"><abbr title="MenuActiveTrail::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LocalTaskManager.php.html#402"><abbr title="LocalTaskManager::isRouteActive">isRouteActive</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LocalTaskManager.php.html#350"><abbr title="LocalTaskManager::getLocalTasks">getLocalTasks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LocalTaskDefault.php.html#141"><abbr title="LocalTaskDefault::routeProvider">routeProvider</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LocalActionManager.php.html#146"><abbr title="LocalActionManager::getDiscovery">getDiscovery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkBase.php.html#99"><abbr title="MenuLinkBase::getOptions">getOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/MenuLinkDefaultForm.php.html#178"><abbr title="MenuLinkDefaultForm::validateConfigurationForm">validateConfigurationForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DefaultMenuLinkTreeManipulators.php.html#57"><abbr title="DefaultMenuLinkTreeManipulators::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/MenuLinkDefaultForm.php.html#76"><abbr title="MenuLinkDefaultForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/MenuLinkDefaultForm.php.html#86"><abbr title="MenuLinkDefaultForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/MenuLinkDefaultForm.php.html#98"><abbr title="MenuLinkDefaultForm::setMenuLinkInstance">setMenuLinkInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/MenuLinkDefaultForm.php.html#105"><abbr title="MenuLinkDefaultForm::buildConfigurationForm">buildConfigurationForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/MenuLinkDefaultForm.php.html#160"><abbr title="MenuLinkDefaultForm::extractFormValues">extractFormValues</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/MenuLinkDefaultForm.php.html#184"><abbr title="MenuLinkDefaultForm::submitConfigurationForm">submitConfigurationForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LocalActionManager.php.html#128"><abbr title="LocalActionManager::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InaccessibleMenuLink.php.html#32"><abbr title="InaccessibleMenuLink::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LocalActionDefault.php.html#53"><abbr title="LocalActionDefault::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LocalActionDefault.php.html#65"><abbr title="LocalActionDefault::getRouteName">getRouteName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LocalActionDefault.php.html#81"><abbr title="LocalActionDefault::getWeight">getWeight</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LocalActionDefault.php.html#88"><abbr title="LocalActionDefault::getRouteParameters">getRouteParameters</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LocalActionDefault.php.html#121"><abbr title="LocalActionDefault::getOptions">getOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkBase.php.html#92"><abbr title="MenuLinkBase::isDeletable">isDeletable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkBase.php.html#85"><abbr title="MenuLinkBase::isTranslatable">isTranslatable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkBase.php.html#106"><abbr title="MenuLinkBase::getMetaData">getMetaData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#307"><abbr title="MenuLinkManager::menuNameInUse">menuNameInUse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#239"><abbr title="MenuLinkManager::createInstance">createInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#221"><abbr title="MenuLinkManager::hasDefinition">hasDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#210"><abbr title="MenuLinkManager::getDefinition">getDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#195"><abbr title="MenuLinkManager::rebuild">rebuild</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#169"><abbr title="MenuLinkManager::getDefinitions">getDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#159"><abbr title="MenuLinkManager::getFactory">getFactory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#144"><abbr title="MenuLinkManager::getDiscovery">getDiscovery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#131"><abbr title="MenuLinkManager::processDefinition">processDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#113"><abbr title="MenuLinkManager::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkDefault.php.html#83"><abbr title="MenuLinkDefault::isResettable">isResettable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkDefault.php.html#76"><abbr title="MenuLinkDefault::getDescription">getDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkBase.php.html#113"><abbr title="MenuLinkBase::getRouteName">getRouteName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#279"><abbr title="MenuLinkManager::deleteInstance">deleteInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#295"><abbr title="MenuLinkManager::removeDefinition">removeDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#314"><abbr title="MenuLinkManager::countMenuLinks">countMenuLinks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#255"><abbr title="MenuLinkManager::deleteLinksInMenu">deleteLinksInMenu</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkDefault.php.html#69"><abbr title="MenuLinkDefault::getTitle">getTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkDefault.php.html#57"><abbr title="MenuLinkDefault::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkDefault.php.html#48"><abbr title="MenuLinkDefault::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#321"><abbr title="MenuLinkManager::getParentIds">getParentIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkBase.php.html#192"><abbr title="MenuLinkBase::getCacheTags">getCacheTags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkBase.php.html#185"><abbr title="MenuLinkBase::getCacheContexts">getCacheContexts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkBase.php.html#178"><abbr title="MenuLinkBase::getCacheMaxAge">getCacheMaxAge</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkBase.php.html#171"><abbr title="MenuLinkBase::deleteLink">deleteLink</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkBase.php.html#164"><abbr title="MenuLinkBase::getTranslateRoute">getTranslateRoute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkBase.php.html#157"><abbr title="MenuLinkBase::getEditRoute">getEditRoute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkBase.php.html#150"><abbr title="MenuLinkBase::getDeleteRoute">getDeleteRoute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkBase.php.html#143"><abbr title="MenuLinkBase::getFormClass">getFormClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkBase.php.html#127"><abbr title="MenuLinkBase::getUrlObject">getUrlObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkBase.php.html#120"><abbr title="MenuLinkBase::getRouteParameters">getRouteParameters</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#246"><abbr title="MenuLinkManager::getInstance">getInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ContextualLinkManager.php.html#119"><abbr title="ContextualLinkManager::getDiscovery">getDiscovery</abbr></a></td><td class="text-right">40%</td></tr>
+       <tr><td><a href="LocalTaskManager.php.html#152"><abbr title="LocalTaskManager::getDiscovery">getDiscovery</abbr></a></td><td class="text-right">40%</td></tr>
+       <tr><td><a href="LocalTaskDefault.php.html#161"><abbr title="LocalTaskDefault::getCacheContexts">getCacheContexts</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="LocalTaskDefault.php.html#171"><abbr title="LocalTaskDefault::getCacheMaxAge">getCacheMaxAge</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="LocalTaskDefault.php.html#151"><abbr title="LocalTaskDefault::getCacheTags">getCacheTags</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="LocalTaskManager.php.html#164"><abbr title="LocalTaskManager::processDefinition">processDefinition</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="MenuActiveTrail.php.html#60"><abbr title="MenuActiveTrail::getCid">getCid</abbr></a></td><td class="text-right">80%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="MenuTreeStorage.php.html#877"><abbr title="MenuTreeStorage::loadLinks">loadLinks</abbr></a></td><td class="text-right">342</td></tr>
+       <tr><td><a href="MenuLinkTree.php.html#209"><abbr title="MenuLinkTree::buildItems">buildItems</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#343"><abbr title="MenuTreeStorage::preSave">preSave</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#517"><abbr title="MenuTreeStorage::moveChildren">moveChildren</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#149"><abbr title="MenuTreeStorage::rebuild">rebuild</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#568"><abbr title="MenuTreeStorage::findParent">findParent</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="MenuParentFormSelector.php.html#146"><abbr title="MenuParentFormSelector::parentSelectOptionsTreeWalk">parentSelectOptionsTreeWalk</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="LocalActionDefault.php.html#88"><abbr title="LocalActionDefault::getRouteParameters">getRouteParameters</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Plugin/Block/LocalTasksBlock.php.html#90"><abbr title="LocalTasksBlock::build">build</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#467"><abbr title="MenuTreeStorage::setParents">setParents</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#1117"><abbr title="MenuTreeStorage::treeDataRecursive">treeDataRecursive</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="LocalTaskManager.php.html#350"><abbr title="LocalTaskManager::getLocalTasks">getLocalTasks</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#816"><abbr title="MenuTreeStorage::saveRecursive">saveRecursive</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#169"><abbr title="MenuLinkManager::getDefinitions">getDefinitions</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Form/MenuLinkDefaultForm.php.html#160"><abbr title="MenuLinkDefaultForm::extractFormValues">extractFormValues</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#746"><abbr title="MenuTreeStorage::loadFullMultiple">loadFullMultiple</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#255"><abbr title="MenuLinkManager::deleteLinksInMenu">deleteLinksInMenu</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#632"><abbr title="MenuTreeStorage::prepareLink">prepareLink</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#441"><abbr title="MenuTreeStorage::doFindChildrenRelativeDepth">doFindChildrenRelativeDepth</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#993"><abbr title="MenuTreeStorage::doCollectRoutesAndDefinitions">doCollectRoutesAndDefinitions</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="MenuParentFormSelector.php.html#84"><abbr title="MenuParentFormSelector::parentSelectElement">parentSelectElement</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="MenuLinkBase.php.html#127"><abbr title="MenuLinkBase::getUrlObject">getUrlObject</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#668"><abbr title="MenuTreeStorage::loadByRoute">loadByRoute</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#218"><abbr title="MenuTreeStorage::purgeMultiple">purgeMultiple</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#289"><abbr title="MenuTreeStorage::doSave">doSave</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#1157"><abbr title="MenuTreeStorage::ensureTableExists">ensureTableExists</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#1182"><abbr title="MenuTreeStorage::serializedFields">serializedFields</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#648"><abbr title="MenuTreeStorage::loadByProperties">loadByProperties</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="MenuLinkTree.php.html#135"><abbr title="MenuLinkTree::transform">transform</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#245"><abbr title="MenuTreeStorage::safeExecuteSelect">safeExecuteSelect</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#601"><abbr title="MenuTreeStorage::updateParentalStatus">updateParentalStatus</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="MenuParentFormSelector.php.html#57"><abbr title="MenuParentFormSelector::getParentSelectOptions">getParentSelectOptions</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#353"><abbr title="MenuLinkManager::addDefinition">addDefinition</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#697"><abbr title="MenuTreeStorage::loadMultiple">loadMultiple</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#1056"><abbr title="MenuTreeStorage::getAllChildIds">getAllChildIds</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="LocalTaskManager.php.html#402"><abbr title="LocalTaskManager::isRouteActive">isRouteActive</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="MenuActiveTrail.php.html#103"><abbr title="MenuActiveTrail::doGetActiveTrailIds">doGetActiveTrailIds</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#835"><abbr title="MenuTreeStorage::loadTreeData">loadTreeData</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#195"><abbr title="MenuLinkManager::rebuild">rebuild</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#210"><abbr title="MenuLinkManager::getDefinition">getDefinition</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#279"><abbr title="MenuLinkManager::deleteInstance">deleteInstance</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#715"><abbr title="MenuTreeStorage::load">load</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#403"><abbr title="MenuTreeStorage::delete">delete</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#764"><abbr title="MenuTreeStorage::getRootPathIds">getRootPathIds</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#788"><abbr title="MenuTreeStorage::getExpanded">getExpanded</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#1010"><abbr title="MenuTreeStorage::loadSubtreeData">loadSubtreeData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#1045"><abbr title="MenuTreeStorage::countMenuLinks">countMenuLinks</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#732"><abbr title="MenuTreeStorage::loadFull">loadFull</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#1075"><abbr title="MenuTreeStorage::loadAllChildren">loadAllChildren</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#1456"><abbr title="MenuTreeStorage::findNoLongerExistingLinks">findNoLongerExistingLinks</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/Block/LocalTasksBlock.php.html#127"><abbr title="LocalTasksBlock::blockForm">blockForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MenuTreeStorage.php.html#427"><abbr title="MenuTreeStorage::getSubtreeHeight">getSubtreeHeight</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#159"><abbr title="MenuLinkManager::getFactory">getFactory</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="LocalActionManager.php.html#146"><abbr title="LocalActionManager::getDiscovery">getDiscovery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="LocalTaskDefault.php.html#141"><abbr title="LocalTaskDefault::routeProvider">routeProvider</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MenuLinkBase.php.html#32"><abbr title="MenuLinkBase::getWeight">getWeight</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MenuLinkBase.php.html#99"><abbr title="MenuLinkBase::getOptions">getOptions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MenuLinkBase.php.html#106"><abbr title="MenuLinkBase::getMetaData">getMetaData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MenuLinkBase.php.html#113"><abbr title="MenuLinkBase::getRouteName">getRouteName</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MenuParentFormSelector.php.html#189"><abbr title="MenuParentFormSelector::getMenuOptions">getMenuOptions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#144"><abbr title="MenuLinkManager::getDiscovery">getDiscovery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MenuLinkBase.php.html#120"><abbr title="MenuLinkBase::getRouteParameters">getRouteParameters</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#246"><abbr title="MenuLinkManager::getInstance">getInstance</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MenuLinkTree.php.html#114"><abbr title="MenuLinkTree::createInstances">createInstances</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#321"><abbr title="MenuLinkManager::getParentIds">getParentIds</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#331"><abbr title="MenuLinkManager::getChildIds">getChildIds</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#341"><abbr title="MenuLinkManager::loadLinksByRoute">loadLinksByRoute</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#370"><abbr title="MenuLinkManager::updateDefinition">updateDefinition</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#401"><abbr title="MenuLinkManager::resetInstance">resetInstance</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MenuLinkTree.php.html#93"><abbr title="MenuLinkTree::load">load</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MenuLinkManager.php.html#295"><abbr title="MenuLinkManager::removeDefinition">removeDefinition</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MenuParentFormSelector.php.html#118"><abbr title="MenuParentFormSelector::getParentDepthLimit">getParentDepthLimit</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ContextualLinkManager.php.html#119"><abbr title="ContextualLinkManager::getDiscovery">getDiscovery</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="LocalTaskManager.php.html#152"><abbr title="LocalTaskManager::getDiscovery">getDiscovery</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="LocalTaskDefault.php.html#171"><abbr title="LocalTaskDefault::getCacheMaxAge">getCacheMaxAge</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="LocalTaskDefault.php.html#161"><abbr title="LocalTaskDefault::getCacheContexts">getCacheContexts</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="LocalTaskDefault.php.html#151"><abbr title="LocalTaskDefault::getCacheTags">getCacheTags</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="LocalTaskManager.php.html#164"><abbr title="LocalTaskManager::processDefinition">processDefinition</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="MenuActiveTrail.php.html#60"><abbr title="MenuActiveTrail::getCid">getCid</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 2.2.4</a> using <a href="http://php.net/" target="_top">PHP 7.0.3</a> and <a href="http://phpunit.de/">PHPUnit 4.8.11</a> at Sat Feb 27 11:34:46 AEDT 2016.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../../js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../../../../../js/holder.min.js" type="text/javascript"></script>
+  <script src="../../../../../js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../../js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([8,0,2,0,0,2,0,1,3,0,2,3], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([144,0,0,0,0,2,0,3,1,1,3,57], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,5,"<a href=\"ContextualLinkDefault.php.html#16\">ContextualLinkDefault<\/a>"],[75,14,"<a href=\"ContextualLinkManager.php.html#28\">ContextualLinkManager<\/a>"],[91.379310344828,24,"<a href=\"DefaultMenuLinkTreeManipulators.php.html#24\">DefaultMenuLinkTreeManipulators<\/a>"],[0,11,"<a href=\"Form\/MenuLinkDefaultForm.php.html#25\">MenuLinkDefaultForm<\/a>"],[0,7,"<a href=\"InaccessibleMenuLink.php.html#17\">InaccessibleMenuLink<\/a>"],[19.047619047619,13,"<a href=\"LocalActionDefault.php.html#21\">LocalActionDefault<\/a>"],[65.30612244898,11,"<a href=\"LocalActionManager.php.html#31\">LocalActionManager<\/a>"],[79.487179487179,26,"<a href=\"LocalTaskDefault.php.html#20\">LocalTaskDefault<\/a>"],[75.78125,46,"<a href=\"LocalTaskManager.php.html#32\">LocalTaskManager<\/a>"],[48.148148148148,11,"<a href=\"MenuActiveTrail.php.html#21\">MenuActiveTrail<\/a>"],[0,30,"<a href=\"MenuLinkBase.php.html#18\">MenuLinkBase<\/a>"],[42.857142857143,7,"<a href=\"MenuLinkDefault.php.html#16\">MenuLinkDefault<\/a>"],[0,47,"<a href=\"MenuLinkManager.php.html#24\">MenuLinkManager<\/a>"],[19.047619047619,28,"<a href=\"MenuLinkTree.php.html#20\">MenuLinkTree<\/a>"],[100,3,"<a href=\"MenuLinkTreeElement.php.html#30\">MenuLinkTreeElement<\/a>"],[0,20,"<a href=\"MenuParentFormSelector.php.html#21\">MenuParentFormSelector<\/a>"],[100,10,"<a href=\"MenuTreeParameters.php.html#20\">MenuTreeParameters<\/a>"],[0,163,"<a href=\"MenuTreeStorage.php.html#23\">MenuTreeStorage<\/a>"],[0,4,"<a href=\"Plugin\/Block\/LocalActionsBlock.php.html#24\">LocalActionsBlock<\/a>"],[0,13,"<a href=\"Plugin\/Block\/LocalTasksBlock.php.html#27\">LocalTasksBlock<\/a>"],[97.826086956522,21,"<a href=\"StaticMenuLinkOverrides.php.html#15\">StaticMenuLinkOverrides<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"ContextualLinkDefault.php.html#21\">ContextualLinkDefault::getTitle<\/a>"],[100,1,"<a href=\"ContextualLinkDefault.php.html#29\">ContextualLinkDefault::getRouteName<\/a>"],[100,1,"<a href=\"ContextualLinkDefault.php.html#36\">ContextualLinkDefault::getGroup<\/a>"],[100,1,"<a href=\"ContextualLinkDefault.php.html#43\">ContextualLinkDefault::getOptions<\/a>"],[100,1,"<a href=\"ContextualLinkDefault.php.html#50\">ContextualLinkDefault::getWeight<\/a>"],[0,1,"<a href=\"ContextualLinkManager.php.html#105\">ContextualLinkManager::__construct<\/a>"],[40,2,"<a href=\"ContextualLinkManager.php.html#119\">ContextualLinkManager::getDiscovery<\/a>"],[100,3,"<a href=\"ContextualLinkManager.php.html#131\">ContextualLinkManager::processDefinition<\/a>"],[100,5,"<a href=\"ContextualLinkManager.php.html#147\">ContextualLinkManager::getContextualLinkPluginsByGroup<\/a>"],[100,3,"<a href=\"ContextualLinkManager.php.html#171\">ContextualLinkManager::getContextualLinksArrayByGroup<\/a>"],[0,1,"<a href=\"DefaultMenuLinkTreeManipulators.php.html#57\">DefaultMenuLinkTreeManipulators::__construct<\/a>"],[100,5,"<a href=\"DefaultMenuLinkTreeManipulators.php.html#91\">DefaultMenuLinkTreeManipulators::checkAccess<\/a>"],[93.75,5,"<a href=\"DefaultMenuLinkTreeManipulators.php.html#136\">DefaultMenuLinkTreeManipulators::checkNodeAccess<\/a>"],[100,4,"<a href=\"DefaultMenuLinkTreeManipulators.php.html#180\">DefaultMenuLinkTreeManipulators::collectNodeLinks<\/a>"],[100,3,"<a href=\"DefaultMenuLinkTreeManipulators.php.html#203\">DefaultMenuLinkTreeManipulators::menuLinkCheckAccess<\/a>"],[100,3,"<a href=\"DefaultMenuLinkTreeManipulators.php.html#231\">DefaultMenuLinkTreeManipulators::generateIndexAndSort<\/a>"],[100,3,"<a href=\"DefaultMenuLinkTreeManipulators.php.html#257\">DefaultMenuLinkTreeManipulators::flatten<\/a>"],[0,1,"<a href=\"Form\/MenuLinkDefaultForm.php.html#76\">MenuLinkDefaultForm::__construct<\/a>"],[0,1,"<a href=\"Form\/MenuLinkDefaultForm.php.html#86\">MenuLinkDefaultForm::create<\/a>"],[0,1,"<a href=\"Form\/MenuLinkDefaultForm.php.html#98\">MenuLinkDefaultForm::setMenuLinkInstance<\/a>"],[0,1,"<a href=\"Form\/MenuLinkDefaultForm.php.html#105\">MenuLinkDefaultForm::buildConfigurationForm<\/a>"],[0,5,"<a href=\"Form\/MenuLinkDefaultForm.php.html#160\">MenuLinkDefaultForm::extractFormValues<\/a>"],[0,1,"<a href=\"Form\/MenuLinkDefaultForm.php.html#178\">MenuLinkDefaultForm::validateConfigurationForm<\/a>"],[0,1,"<a href=\"Form\/MenuLinkDefaultForm.php.html#184\">MenuLinkDefaultForm::submitConfigurationForm<\/a>"],[0,1,"<a href=\"InaccessibleMenuLink.php.html#32\">InaccessibleMenuLink::__construct<\/a>"],[100,1,"<a href=\"InaccessibleMenuLink.php.html#45\">InaccessibleMenuLink::getTitle<\/a>"],[100,1,"<a href=\"InaccessibleMenuLink.php.html#52\">InaccessibleMenuLink::getDescription<\/a>"],[100,1,"<a href=\"InaccessibleMenuLink.php.html#59\">InaccessibleMenuLink::getCacheContexts<\/a>"],[100,1,"<a href=\"InaccessibleMenuLink.php.html#66\">InaccessibleMenuLink::getCacheTags<\/a>"],[100,1,"<a href=\"InaccessibleMenuLink.php.html#73\">InaccessibleMenuLink::getCacheMaxAge<\/a>"],[100,1,"<a href=\"InaccessibleMenuLink.php.html#81\">InaccessibleMenuLink::updateLink<\/a>"],[100,1,"<a href=\"LocalActionDefault.php.html#44\">LocalActionDefault::__construct<\/a>"],[0,1,"<a href=\"LocalActionDefault.php.html#53\">LocalActionDefault::create<\/a>"],[0,1,"<a href=\"LocalActionDefault.php.html#65\">LocalActionDefault::getRouteName<\/a>"],[100,1,"<a href=\"LocalActionDefault.php.html#72\">LocalActionDefault::getTitle<\/a>"],[0,1,"<a href=\"LocalActionDefault.php.html#81\">LocalActionDefault::getWeight<\/a>"],[0,7,"<a href=\"LocalActionDefault.php.html#88\">LocalActionDefault::getRouteParameters<\/a>"],[0,1,"<a href=\"LocalActionDefault.php.html#121\">LocalActionDefault::getOptions<\/a>"],[0,1,"<a href=\"LocalActionManager.php.html#128\">LocalActionManager::__construct<\/a>"],[0,2,"<a href=\"LocalActionManager.php.html#146\">LocalActionManager::getDiscovery<\/a>"],[100,1,"<a href=\"LocalActionManager.php.html#158\">LocalActionManager::getTitle<\/a>"],[96.666666666667,7,"<a href=\"LocalActionManager.php.html#167\">LocalActionManager::getActionsForRoute<\/a>"],[0,1,"<a href=\"LocalTaskDefault.php.html#41\">LocalTaskDefault::getRouteName<\/a>"],[91.666666666667,7,"<a href=\"LocalTaskDefault.php.html#48\">LocalTaskDefault::getRouteParameters<\/a>"],[100,1,"<a href=\"LocalTaskDefault.php.html#82\">LocalTaskDefault::getTitle<\/a>"],[100,3,"<a href=\"LocalTaskDefault.php.html#94\">LocalTaskDefault::getWeight<\/a>"],[100,4,"<a href=\"LocalTaskDefault.php.html#110\">LocalTaskDefault::getOptions<\/a>"],[100,1,"<a href=\"LocalTaskDefault.php.html#123\">LocalTaskDefault::setActive<\/a>"],[100,1,"<a href=\"LocalTaskDefault.php.html#131\">LocalTaskDefault::getActive<\/a>"],[0,2,"<a href=\"LocalTaskDefault.php.html#141\">LocalTaskDefault::routeProvider<\/a>"],[66.666666666667,2,"<a href=\"LocalTaskDefault.php.html#151\">LocalTaskDefault::getCacheTags<\/a>"],[66.666666666667,2,"<a href=\"LocalTaskDefault.php.html#161\">LocalTaskDefault::getCacheContexts<\/a>"],[66.666666666667,2,"<a href=\"LocalTaskDefault.php.html#171\">LocalTaskDefault::getCacheMaxAge<\/a>"],[100,1,"<a href=\"LocalTaskManager.php.html#136\">LocalTaskManager::__construct<\/a>"],[40,2,"<a href=\"LocalTaskManager.php.html#152\">LocalTaskManager::getDiscovery<\/a>"],[75,2,"<a href=\"LocalTaskManager.php.html#164\">LocalTaskManager::processDefinition<\/a>"],[100,1,"<a href=\"LocalTaskManager.php.html#175\">LocalTaskManager::getTitle<\/a>"],[100,3,"<a href=\"LocalTaskManager.php.html#185\">LocalTaskManager::getDefinitions<\/a>"],[100,21,"<a href=\"LocalTaskManager.php.html#202\">LocalTaskManager::getLocalTasksForRoute<\/a>"],[100,7,"<a href=\"LocalTaskManager.php.html#294\">LocalTaskManager::getTasksBuild<\/a>"],[0,6,"<a href=\"LocalTaskManager.php.html#350\">LocalTaskManager::getLocalTasks<\/a>"],[0,3,"<a href=\"LocalTaskManager.php.html#402\">LocalTaskManager::isRouteActive<\/a>"],[0,1,"<a href=\"MenuActiveTrail.php.html#49\">MenuActiveTrail::__construct<\/a>"],[80,2,"<a href=\"MenuActiveTrail.php.html#60\">MenuActiveTrail::getCid<\/a>"],[0,1,"<a href=\"MenuActiveTrail.php.html#75\">MenuActiveTrail::resolveCacheMiss<\/a>"],[100,1,"<a href=\"MenuActiveTrail.php.html#96\">MenuActiveTrail::getActiveTrailIds<\/a>"],[0,3,"<a href=\"MenuActiveTrail.php.html#103\">MenuActiveTrail::doGetActiveTrailIds<\/a>"],[100,3,"<a href=\"MenuActiveTrail.php.html#122\">MenuActiveTrail::getActiveLink<\/a>"],[0,2,"<a href=\"MenuLinkBase.php.html#32\">MenuLinkBase::getWeight<\/a>"],[0,1,"<a href=\"MenuLinkBase.php.html#43\">MenuLinkBase::getMenuName<\/a>"],[0,1,"<a href=\"MenuLinkBase.php.html#50\">MenuLinkBase::getProvider<\/a>"],[0,1,"<a href=\"MenuLinkBase.php.html#57\">MenuLinkBase::getParent<\/a>"],[0,1,"<a href=\"MenuLinkBase.php.html#64\">MenuLinkBase::isEnabled<\/a>"],[0,1,"<a href=\"MenuLinkBase.php.html#71\">MenuLinkBase::isExpanded<\/a>"],[0,1,"<a href=\"MenuLinkBase.php.html#78\">MenuLinkBase::isResettable<\/a>"],[0,1,"<a href=\"MenuLinkBase.php.html#85\">MenuLinkBase::isTranslatable<\/a>"],[0,1,"<a href=\"MenuLinkBase.php.html#92\">MenuLinkBase::isDeletable<\/a>"],[0,2,"<a href=\"MenuLinkBase.php.html#99\">MenuLinkBase::getOptions<\/a>"],[0,2,"<a href=\"MenuLinkBase.php.html#106\">MenuLinkBase::getMetaData<\/a>"],[0,2,"<a href=\"MenuLinkBase.php.html#113\">MenuLinkBase::getRouteName<\/a>"],[0,2,"<a href=\"MenuLinkBase.php.html#120\">MenuLinkBase::getRouteParameters<\/a>"],[0,4,"<a href=\"MenuLinkBase.php.html#127\">MenuLinkBase::getUrlObject<\/a>"],[0,1,"<a href=\"MenuLinkBase.php.html#143\">MenuLinkBase::getFormClass<\/a>"],[0,1,"<a href=\"MenuLinkBase.php.html#150\">MenuLinkBase::getDeleteRoute<\/a>"],[0,1,"<a href=\"MenuLinkBase.php.html#157\">MenuLinkBase::getEditRoute<\/a>"],[0,1,"<a href=\"MenuLinkBase.php.html#164\">MenuLinkBase::getTranslateRoute<\/a>"],[0,1,"<a href=\"MenuLinkBase.php.html#171\">MenuLinkBase::deleteLink<\/a>"],[0,1,"<a href=\"MenuLinkBase.php.html#178\">MenuLinkBase::getCacheMaxAge<\/a>"],[0,1,"<a href=\"MenuLinkBase.php.html#185\">MenuLinkBase::getCacheContexts<\/a>"],[0,1,"<a href=\"MenuLinkBase.php.html#192\">MenuLinkBase::getCacheTags<\/a>"],[0,1,"<a href=\"MenuLinkDefault.php.html#48\">MenuLinkDefault::__construct<\/a>"],[0,1,"<a href=\"MenuLinkDefault.php.html#57\">MenuLinkDefault::create<\/a>"],[0,1,"<a href=\"MenuLinkDefault.php.html#69\">MenuLinkDefault::getTitle<\/a>"],[0,1,"<a href=\"MenuLinkDefault.php.html#76\">MenuLinkDefault::getDescription<\/a>"],[0,1,"<a href=\"MenuLinkDefault.php.html#83\">MenuLinkDefault::isResettable<\/a>"],[100,2,"<a href=\"MenuLinkDefault.php.html#91\">MenuLinkDefault::updateLink<\/a>"],[0,1,"<a href=\"MenuLinkManager.php.html#113\">MenuLinkManager::__construct<\/a>"],[0,1,"<a href=\"MenuLinkManager.php.html#131\">MenuLinkManager::processDefinition<\/a>"],[0,2,"<a href=\"MenuLinkManager.php.html#144\">MenuLinkManager::getDiscovery<\/a>"],[0,2,"<a href=\"MenuLinkManager.php.html#159\">MenuLinkManager::getFactory<\/a>"],[0,5,"<a href=\"MenuLinkManager.php.html#169\">MenuLinkManager::getDefinitions<\/a>"],[0,3,"<a href=\"MenuLinkManager.php.html#195\">MenuLinkManager::rebuild<\/a>"],[0,3,"<a href=\"MenuLinkManager.php.html#210\">MenuLinkManager::getDefinition<\/a>"],[0,1,"<a href=\"MenuLinkManager.php.html#221\">MenuLinkManager::hasDefinition<\/a>"],[0,1,"<a href=\"MenuLinkManager.php.html#239\">MenuLinkManager::createInstance<\/a>"],[0,2,"<a href=\"MenuLinkManager.php.html#246\">MenuLinkManager::getInstance<\/a>"],[0,4,"<a href=\"MenuLinkManager.php.html#255\">MenuLinkManager::deleteLinksInMenu<\/a>"],[0,3,"<a href=\"MenuLinkManager.php.html#279\">MenuLinkManager::deleteInstance<\/a>"],[0,2,"<a href=\"MenuLinkManager.php.html#295\">MenuLinkManager::removeDefinition<\/a>"],[0,1,"<a href=\"MenuLinkManager.php.html#307\">MenuLinkManager::menuNameInUse<\/a>"],[0,1,"<a href=\"MenuLinkManager.php.html#314\">MenuLinkManager::countMenuLinks<\/a>"],[0,2,"<a href=\"MenuLinkManager.php.html#321\">MenuLinkManager::getParentIds<\/a>"],[0,2,"<a href=\"MenuLinkManager.php.html#331\">MenuLinkManager::getChildIds<\/a>"],[0,2,"<a href=\"MenuLinkManager.php.html#341\">MenuLinkManager::loadLinksByRoute<\/a>"],[0,3,"<a href=\"MenuLinkManager.php.html#353\">MenuLinkManager::addDefinition<\/a>"],[0,2,"<a href=\"MenuLinkManager.php.html#370\">MenuLinkManager::updateDefinition<\/a>"],[0,1,"<a href=\"MenuLinkManager.php.html#383\">MenuLinkManager::resetLink<\/a>"],[0,2,"<a href=\"MenuLinkManager.php.html#401\">MenuLinkManager::resetInstance<\/a>"],[0,1,"<a href=\"MenuLinkManager.php.html#418\">MenuLinkManager::resetDefinitions<\/a>"],[0,1,"<a href=\"MenuLinkTree.php.html#64\">MenuLinkTree::__construct<\/a>"],[0,1,"<a href=\"MenuLinkTree.php.html#75\">MenuLinkTree::getCurrentRouteMenuTreeParameters<\/a>"],[0,2,"<a href=\"MenuLinkTree.php.html#93\">MenuLinkTree::load<\/a>"],[0,2,"<a href=\"MenuLinkTree.php.html#114\">MenuLinkTree::createInstances<\/a>"],[0,3,"<a href=\"MenuLinkTree.php.html#135\">MenuLinkTree::transform<\/a>"],[100,2,"<a href=\"MenuLinkTree.php.html#155\">MenuLinkTree::build<\/a>"],[0,14,"<a href=\"MenuLinkTree.php.html#209\">MenuLinkTree::buildItems<\/a>"],[0,1,"<a href=\"MenuLinkTree.php.html#285\">MenuLinkTree::maxDepth<\/a>"],[0,1,"<a href=\"MenuLinkTree.php.html#292\">MenuLinkTree::getSubtreeHeight<\/a>"],[0,1,"<a href=\"MenuLinkTree.php.html#299\">MenuLinkTree::getExpanded<\/a>"],[100,1,"<a href=\"MenuLinkTreeElement.php.html#105\">MenuLinkTreeElement::__construct<\/a>"],[100,1,"<a href=\"MenuLinkTreeElement.php.html#121\">MenuLinkTreeElement::count<\/a>"],[100,1,"<a href=\"MenuLinkTreeElement.php.html#122\">MenuLinkTreeElement::anonymous function<\/a>"],[0,1,"<a href=\"MenuParentFormSelector.php.html#48\">MenuParentFormSelector::__construct<\/a>"],[0,3,"<a href=\"MenuParentFormSelector.php.html#57\">MenuParentFormSelector::getParentSelectOptions<\/a>"],[0,4,"<a href=\"MenuParentFormSelector.php.html#84\">MenuParentFormSelector::parentSelectElement<\/a>"],[0,2,"<a href=\"MenuParentFormSelector.php.html#118\">MenuParentFormSelector::getParentDepthLimit<\/a>"],[0,8,"<a href=\"MenuParentFormSelector.php.html#146\">MenuParentFormSelector::parentSelectOptionsTreeWalk<\/a>"],[0,2,"<a href=\"MenuParentFormSelector.php.html#189\">MenuParentFormSelector::getMenuOptions<\/a>"],[100,1,"<a href=\"MenuTreeParameters.php.html#92\">MenuTreeParameters::setRoot<\/a>"],[100,1,"<a href=\"MenuTreeParameters.php.html#105\">MenuTreeParameters::setMinDepth<\/a>"],[100,1,"<a href=\"MenuTreeParameters.php.html#120\">MenuTreeParameters::setMaxDepth<\/a>"],[100,1,"<a href=\"MenuTreeParameters.php.html#134\">MenuTreeParameters::addExpandedParents<\/a>"],[100,1,"<a href=\"MenuTreeParameters.php.html#152\">MenuTreeParameters::setActiveTrail<\/a>"],[100,2,"<a href=\"MenuTreeParameters.php.html#173\">MenuTreeParameters::addCondition<\/a>"],[100,1,"<a href=\"MenuTreeParameters.php.html#188\">MenuTreeParameters::onlyEnabledLinks<\/a>"],[100,1,"<a href=\"MenuTreeParameters.php.html#198\">MenuTreeParameters::setTopLevelOnly<\/a>"],[100,1,"<a href=\"MenuTreeParameters.php.html#214\">MenuTreeParameters::excludeRoot<\/a>"],[0,1,"<a href=\"MenuTreeStorage.php.html#124\">MenuTreeStorage::__construct<\/a>"],[0,1,"<a href=\"MenuTreeStorage.php.html#135\">MenuTreeStorage::maxDepth<\/a>"],[0,1,"<a href=\"MenuTreeStorage.php.html#142\">MenuTreeStorage::resetDefinitions<\/a>"],[0,9,"<a href=\"MenuTreeStorage.php.html#149\">MenuTreeStorage::rebuild<\/a>"],[0,4,"<a href=\"MenuTreeStorage.php.html#218\">MenuTreeStorage::purgeMultiple<\/a>"],[0,3,"<a href=\"MenuTreeStorage.php.html#245\">MenuTreeStorage::safeExecuteSelect<\/a>"],[0,1,"<a href=\"MenuTreeStorage.php.html#262\">MenuTreeStorage::save<\/a>"],[0,4,"<a href=\"MenuTreeStorage.php.html#289\">MenuTreeStorage::doSave<\/a>"],[0,13,"<a href=\"MenuTreeStorage.php.html#343\">MenuTreeStorage::preSave<\/a>"],[0,3,"<a href=\"MenuTreeStorage.php.html#403\">MenuTreeStorage::delete<\/a>"],[0,2,"<a href=\"MenuTreeStorage.php.html#427\">MenuTreeStorage::getSubtreeHeight<\/a>"],[0,4,"<a href=\"MenuTreeStorage.php.html#441\">MenuTreeStorage::doFindChildrenRelativeDepth<\/a>"],[0,7,"<a href=\"MenuTreeStorage.php.html#467\">MenuTreeStorage::setParents<\/a>"],[0,9,"<a href=\"MenuTreeStorage.php.html#517\">MenuTreeStorage::moveChildren<\/a>"],[0,8,"<a href=\"MenuTreeStorage.php.html#568\">MenuTreeStorage::findParent<\/a>"],[0,3,"<a href=\"MenuTreeStorage.php.html#601\">MenuTreeStorage::updateParentalStatus<\/a>"],[0,4,"<a href=\"MenuTreeStorage.php.html#632\">MenuTreeStorage::prepareLink<\/a>"],[0,4,"<a href=\"MenuTreeStorage.php.html#648\">MenuTreeStorage::loadByProperties<\/a>"],[0,4,"<a href=\"MenuTreeStorage.php.html#668\">MenuTreeStorage::loadByRoute<\/a>"],[0,3,"<a href=\"MenuTreeStorage.php.html#697\">MenuTreeStorage::loadMultiple<\/a>"],[0,3,"<a href=\"MenuTreeStorage.php.html#715\">MenuTreeStorage::load<\/a>"],[0,2,"<a href=\"MenuTreeStorage.php.html#732\">MenuTreeStorage::loadFull<\/a>"],[0,4,"<a href=\"MenuTreeStorage.php.html#746\">MenuTreeStorage::loadFullMultiple<\/a>"],[0,2,"<a href=\"MenuTreeStorage.php.html#764\">MenuTreeStorage::getRootPathIds<\/a>"],[0,2,"<a href=\"MenuTreeStorage.php.html#788\">MenuTreeStorage::getExpanded<\/a>"],[0,5,"<a href=\"MenuTreeStorage.php.html#816\">MenuTreeStorage::saveRecursive<\/a>"],[0,3,"<a href=\"MenuTreeStorage.php.html#835\">MenuTreeStorage::loadTreeData<\/a>"],[0,18,"<a href=\"MenuTreeStorage.php.html#877\">MenuTreeStorage::loadLinks<\/a>"],[0,1,"<a href=\"MenuTreeStorage.php.html#978\">MenuTreeStorage::collectRoutesAndDefinitions<\/a>"],[0,4,"<a href=\"MenuTreeStorage.php.html#993\">MenuTreeStorage::doCollectRoutesAndDefinitions<\/a>"],[0,2,"<a href=\"MenuTreeStorage.php.html#1010\">MenuTreeStorage::loadSubtreeData<\/a>"],[0,1,"<a href=\"MenuTreeStorage.php.html#1024\">MenuTreeStorage::menuNameInUse<\/a>"],[0,1,"<a href=\"MenuTreeStorage.php.html#1035\">MenuTreeStorage::getMenuNames<\/a>"],[0,2,"<a href=\"MenuTreeStorage.php.html#1045\">MenuTreeStorage::countMenuLinks<\/a>"],[0,3,"<a href=\"MenuTreeStorage.php.html#1056\">MenuTreeStorage::getAllChildIds<\/a>"],[0,2,"<a href=\"MenuTreeStorage.php.html#1075\">MenuTreeStorage::loadAllChildren<\/a>"],[0,1,"<a href=\"MenuTreeStorage.php.html#1088\">MenuTreeStorage::doBuildTreeData<\/a>"],[0,6,"<a href=\"MenuTreeStorage.php.html#1117\">MenuTreeStorage::treeDataRecursive<\/a>"],[0,4,"<a href=\"MenuTreeStorage.php.html#1157\">MenuTreeStorage::ensureTableExists<\/a>"],[0,4,"<a href=\"MenuTreeStorage.php.html#1182\">MenuTreeStorage::serializedFields<\/a>"],[0,1,"<a href=\"MenuTreeStorage.php.html#1200\">MenuTreeStorage::definitionFields<\/a>"],[0,1,"<a href=\"MenuTreeStorage.php.html#1210\">MenuTreeStorage::schemaDefinition<\/a>"],[0,2,"<a href=\"MenuTreeStorage.php.html#1456\">MenuTreeStorage::findNoLongerExistingLinks<\/a>"],[0,1,"<a href=\"MenuTreeStorage.php.html#1479\">MenuTreeStorage::doDeleteMultiple<\/a>"],[0,1,"<a href=\"Plugin\/Block\/LocalActionsBlock.php.html#54\">LocalActionsBlock::__construct<\/a>"],[0,1,"<a href=\"Plugin\/Block\/LocalActionsBlock.php.html#63\">LocalActionsBlock::create<\/a>"],[0,1,"<a href=\"Plugin\/Block\/LocalActionsBlock.php.html#76\">LocalActionsBlock::defaultConfiguration<\/a>"],[0,1,"<a href=\"Plugin\/Block\/LocalActionsBlock.php.html#83\">LocalActionsBlock::build<\/a>"],[0,1,"<a href=\"Plugin\/Block\/LocalTasksBlock.php.html#57\">LocalTasksBlock::__construct<\/a>"],[0,1,"<a href=\"Plugin\/Block\/LocalTasksBlock.php.html#66\">LocalTasksBlock::create<\/a>"],[0,1,"<a href=\"Plugin\/Block\/LocalTasksBlock.php.html#79\">LocalTasksBlock::defaultConfiguration<\/a>"],[0,7,"<a href=\"Plugin\/Block\/LocalTasksBlock.php.html#90\">LocalTasksBlock::build<\/a>"],[0,2,"<a href=\"Plugin\/Block\/LocalTasksBlock.php.html#127\">LocalTasksBlock::blockForm<\/a>"],[0,1,"<a href=\"Plugin\/Block\/LocalTasksBlock.php.html#155\">LocalTasksBlock::blockSubmit<\/a>"],[100,1,"<a href=\"StaticMenuLinkOverrides.php.html#48\">StaticMenuLinkOverrides::__construct<\/a>"],[100,2,"<a href=\"StaticMenuLinkOverrides.php.html#59\">StaticMenuLinkOverrides::getConfig<\/a>"],[100,1,"<a href=\"StaticMenuLinkOverrides.php.html#70\">StaticMenuLinkOverrides::reload<\/a>"],[100,3,"<a href=\"StaticMenuLinkOverrides.php.html#78\">StaticMenuLinkOverrides::loadOverride<\/a>"],[100,4,"<a href=\"StaticMenuLinkOverrides.php.html#87\">StaticMenuLinkOverrides::deleteMultipleOverrides<\/a>"],[100,1,"<a href=\"StaticMenuLinkOverrides.php.html#106\">StaticMenuLinkOverrides::deleteOverride<\/a>"],[100,5,"<a href=\"StaticMenuLinkOverrides.php.html#113\">StaticMenuLinkOverrides::loadMultipleOverrides<\/a>"],[100,2,"<a href=\"StaticMenuLinkOverrides.php.html#130\">StaticMenuLinkOverrides::saveOverride<\/a>"],[0,1,"<a href=\"StaticMenuLinkOverrides.php.html#163\">StaticMenuLinkOverrides::getCacheTags<\/a>"],[100,1,"<a href=\"StaticMenuLinkOverrides.php.html#180\">StaticMenuLinkOverrides::encodeId<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
